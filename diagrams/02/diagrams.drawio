@@ -1,11 +1,11 @@
-<mxfile host="www.draw.io" modified="2020-03-17T17:20:54.074Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="oWg8vayDa7rhL_rXXVsX" version="12.8.6" type="github" pages="2">
+<mxfile host="www.draw.io" modified="2020-03-17T17:21:45.686Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="wCEaS2-fgDqfXSMKsvEe" version="12.8.6" type="github" pages="2">
   <diagram id="cpesi-2cl9PMHLiWMdVF" name="02 - disclaimer">
     <mxGraphModel dx="751" dy="370" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="iyuQr_05ihZRbdnl_HAH-0" />
         <mxCell id="iyuQr_05ihZRbdnl_HAH-1" parent="iyuQr_05ihZRbdnl_HAH-0" />
         <mxCell id="iyuQr_05ihZRbdnl_HAH-2" value="Few Notes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=28;fontStyle=1" vertex="1" parent="iyuQr_05ihZRbdnl_HAH-1">
-          <mxGeometry x="660" y="90" width="210" height="30" as="geometry" />
+          <mxGeometry x="660" y="96" width="210" height="30" as="geometry" />
         </mxCell>
         <mxCell id="iyuQr_05ihZRbdnl_HAH-4" value="Goal #1 - Get a &lt;i style=&quot;font-size: 18px;&quot;&gt;taste&lt;/i&gt; of a microservices architecture" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;" vertex="1" parent="iyuQr_05ihZRbdnl_HAH-1">
           <mxGeometry x="520" y="130" width="490" height="60" as="geometry" />
@@ -15,6 +15,9 @@
         </mxCell>
         <mxCell id="iyuQr_05ihZRbdnl_HAH-6" value="Goal #3 - See some &lt;i style=&quot;font-size: 18px;&quot;&gt;really big issues&lt;/i&gt;&amp;nbsp;that come up with microservices almost immediately!" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;" vertex="1" parent="iyuQr_05ihZRbdnl_HAH-1">
           <mxGeometry x="520" y="270" width="490" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kvJM5hAZ0lfLLkKw4oHE-0" value="Do not use this project as a template for future microservices stuff" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;align=center;fillColor=#f8cecc;strokeColor=#b85450;shadow=1;" vertex="1" parent="iyuQr_05ihZRbdnl_HAH-1">
+          <mxGeometry x="520" y="340" width="490" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
