@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-03-17T22:18:28.328Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="V1HiU1tgssM8wEsI9NT-" version="12.8.5" type="github" pages="8">
+<mxfile host="www.draw.io" modified="2020-03-18T17:30:04.500Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="xrCEsNaBBaC65vIPdTAI" version="12.8.5" type="github" pages="9">
   <diagram id="qlwX-9r8trYWYWGOXYbg" name="01 - comm">
     <mxGraphModel dx="858" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -7,8 +7,37 @@
         <mxCell id="OYluc0RHpQjr6Qsa2xlA-1" value="Microservices" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;fontSize=46;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="490" y="260" width="380" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="OYluc0RHpQjr6Qsa2xlA-3" value="Whirlwind tour!" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=21;fontStyle=2" parent="1" vertex="1">
-          <mxGeometry x="540" y="390" width="280" height="20" as="geometry" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ZG7r1-JiVY4ey5eP-Hb_" name="02 - monolith">
+    <mxGraphModel dx="834" dy="411" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="xye6KC70nXtExCSX0FXc-0" />
+        <mxCell id="xye6KC70nXtExCSX0FXc-1" parent="xye6KC70nXtExCSX0FXc-0" />
+        <mxCell id="Bf2nj2rD702PwhLQeON8-0" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=28;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="xye6KC70nXtExCSX0FXc-1">
+          <mxGeometry x="780" y="280" width="300" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="Bf2nj2rD702PwhLQeON8-1" value="Monolithic Server" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=28;fontStyle=1" vertex="1" parent="xye6KC70nXtExCSX0FXc-1">
+          <mxGeometry x="787.5" y="250" width="285" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Bf2nj2rD702PwhLQeON8-2" value="Authentication feature" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=21;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="xye6KC70nXtExCSX0FXc-1">
+          <mxGeometry x="793.75" y="300" width="272.5" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="Bf2nj2rD702PwhLQeON8-3" value="Feature A" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=21;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="xye6KC70nXtExCSX0FXc-1">
+          <mxGeometry x="793.75" y="370" width="272.5" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="Bf2nj2rD702PwhLQeON8-4" value="Feature B" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=21;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="xye6KC70nXtExCSX0FXc-1">
+          <mxGeometry x="793.75" y="440" width="272.5" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="Bf2nj2rD702PwhLQeON8-5" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=26;rotation=-180;" vertex="1" parent="xye6KC70nXtExCSX0FXc-1">
+          <mxGeometry x="1090" y="280" width="50" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="Bf2nj2rD702PwhLQeON8-6" value="One codebase that contains all of our apps code" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontStyle=2" vertex="1" parent="xye6KC70nXtExCSX0FXc-1">
+          <mxGeometry x="1140" y="420" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Bf2nj2rD702PwhLQeON8-7" value="Feature C" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=21;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="xye6KC70nXtExCSX0FXc-1">
+          <mxGeometry x="793.75" y="510" width="272.5" height="55" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
