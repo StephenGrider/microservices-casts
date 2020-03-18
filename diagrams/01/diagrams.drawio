@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-03-18T20:50:23.106Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="ch3QdiKYX2vISjStsgpe" version="12.8.5" type="github" pages="17">
+<mxfile host="www.draw.io" modified="2020-03-18T20:56:51.275Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="hE75-AC4DL1ct3qxpdns" version="12.8.5" type="github" pages="18">
   <diagram id="qlwX-9r8trYWYWGOXYbg" name="01 - comm">
     <mxGraphModel dx="858" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -339,7 +339,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="J3LhfaN-9BE_QN8ElxHa" name="10 - split">
-    <mxGraphModel dx="884" dy="435" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="1073" dy="528" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="xrOdD8gB9KOqQPI7HjBx-0" />
         <mxCell id="xrOdD8gB9KOqQPI7HjBx-1" parent="xrOdD8gB9KOqQPI7HjBx-0" />
@@ -420,6 +420,68 @@
         </mxCell>
         <mxCell id="wzqOBnOqpUkVijqx0Qvf-31" value="Service C" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" vertex="1" parent="xrOdD8gB9KOqQPI7HjBx-1">
           <mxGeometry x="1080" y="655" width="100" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="FkFZWL5BX10ussHLj7OJ" name="11 - change">
+    <mxGraphModel dx="1036" dy="510" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="MlaDgyQaZOa-bRNhhl4r-0" />
+        <mxCell id="MlaDgyQaZOa-bRNhhl4r-1" parent="MlaDgyQaZOa-bRNhhl4r-0" />
+        <mxCell id="WN7sxmz9o03mzJxQCD1P-0" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=28;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="MlaDgyQaZOa-bRNhhl4r-1">
+          <mxGeometry x="770" y="430" width="300" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="WN7sxmz9o03mzJxQCD1P-1" value="Authentication feature" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=21;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="MlaDgyQaZOa-bRNhhl4r-1">
+          <mxGeometry x="783.75" y="447.5" width="272.5" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="WN7sxmz9o03mzJxQCD1P-2" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=28;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="MlaDgyQaZOa-bRNhhl4r-1">
+          <mxGeometry x="770" y="540" width="300" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="WN7sxmz9o03mzJxQCD1P-3" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=28;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="MlaDgyQaZOa-bRNhhl4r-1">
+          <mxGeometry x="770" y="655" width="300" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="WN7sxmz9o03mzJxQCD1P-4" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=28;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="MlaDgyQaZOa-bRNhhl4r-1">
+          <mxGeometry x="770" y="770" width="300" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="WN7sxmz9o03mzJxQCD1P-5" value="Feature A" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=21;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="MlaDgyQaZOa-bRNhhl4r-1">
+          <mxGeometry x="783.75" y="557.5" width="272.5" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="WN7sxmz9o03mzJxQCD1P-6" value="Feature B" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=21;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="MlaDgyQaZOa-bRNhhl4r-1">
+          <mxGeometry x="787.5" y="672.5" width="272.5" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="WN7sxmz9o03mzJxQCD1P-7" value="Feature C" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=21;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="MlaDgyQaZOa-bRNhhl4r-1">
+          <mxGeometry x="787.5" y="787.5" width="272.5" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="WN7sxmz9o03mzJxQCD1P-8" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;strokeWidth=1;fontSize=15;align=center;rotation=-180;" vertex="1" parent="MlaDgyQaZOa-bRNhhl4r-1">
+          <mxGeometry x="1081.25" y="430" width="20" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="WN7sxmz9o03mzJxQCD1P-9" value="Auth Service" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" vertex="1" parent="MlaDgyQaZOa-bRNhhl4r-1">
+          <mxGeometry x="1101.25" y="465" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WN7sxmz9o03mzJxQCD1P-10" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;strokeWidth=1;fontSize=15;align=center;rotation=-180;" vertex="1" parent="MlaDgyQaZOa-bRNhhl4r-1">
+          <mxGeometry x="1081.25" y="540" width="20" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="WN7sxmz9o03mzJxQCD1P-11" value="Service A" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" vertex="1" parent="MlaDgyQaZOa-bRNhhl4r-1">
+          <mxGeometry x="1101.25" y="575" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WN7sxmz9o03mzJxQCD1P-12" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;strokeWidth=1;fontSize=15;align=center;rotation=-180;" vertex="1" parent="MlaDgyQaZOa-bRNhhl4r-1">
+          <mxGeometry x="1081.25" y="655" width="20" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="WN7sxmz9o03mzJxQCD1P-13" value="Service B" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" vertex="1" parent="MlaDgyQaZOa-bRNhhl4r-1">
+          <mxGeometry x="1101.25" y="690" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WN7sxmz9o03mzJxQCD1P-14" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;strokeWidth=1;fontSize=15;align=center;rotation=-180;" vertex="1" parent="MlaDgyQaZOa-bRNhhl4r-1">
+          <mxGeometry x="1081.25" y="770" width="20" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="WN7sxmz9o03mzJxQCD1P-15" value="Service C" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" vertex="1" parent="MlaDgyQaZOa-bRNhhl4r-1">
+          <mxGeometry x="1101.25" y="805" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WN7sxmz9o03mzJxQCD1P-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=19;" edge="1" parent="MlaDgyQaZOa-bRNhhl4r-1" source="WN7sxmz9o03mzJxQCD1P-16" target="WN7sxmz9o03mzJxQCD1P-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WN7sxmz9o03mzJxQCD1P-16" value="Need to make a change to Feature B?&amp;nbsp; We know exactly where to go!" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=20;align=center;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=0" vertex="1" parent="MlaDgyQaZOa-bRNhhl4r-1">
+          <mxGeometry x="380" y="641.5" width="310" height="117" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
