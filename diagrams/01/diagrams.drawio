@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-03-18T20:59:24.837Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="Fr2wz5v9CO3UL7uD85s0" version="12.8.5" type="github" pages="20">
+<mxfile host="www.draw.io" modified="2020-03-18T21:08:45.685Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="5mgqnHRVvLeqTJ7R3u6h" version="12.8.5" type="github" pages="21">
   <diagram id="qlwX-9r8trYWYWGOXYbg" name="01 - comm">
     <mxGraphModel dx="858" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -615,6 +615,23 @@
         </mxCell>
         <mxCell id="9VzyOKimcr9Y8fL1YdO3-29" value="DB for storing info related to Feature C" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=21;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" vertex="1" parent="9VzyOKimcr9Y8fL1YdO3-1">
           <mxGeometry x="1167.5" y="787.5" width="272.5" height="55" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="14 - great" id="tWqcz_xzzm9BsM2Cb4Wt">
+    <mxGraphModel dx="715" dy="352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="dtvWlgF5m2yhUgFIP8Qn-0" />
+        <mxCell id="dtvWlgF5m2yhUgFIP8Qn-1" parent="dtvWlgF5m2yhUgFIP8Qn-0" />
+        <mxCell id="dtvWlgF5m2yhUgFIP8Qn-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=24;" edge="1" parent="dtvWlgF5m2yhUgFIP8Qn-1" source="dtvWlgF5m2yhUgFIP8Qn-24" target="dtvWlgF5m2yhUgFIP8Qn-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dtvWlgF5m2yhUgFIP8Qn-24" value="Microservices sound great!" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=24;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="dtvWlgF5m2yhUgFIP8Qn-1">
+          <mxGeometry x="550" y="230" width="470" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dtvWlgF5m2yhUgFIP8Qn-25" value="Turns out there are some &lt;span&gt;huge&lt;/span&gt;&amp;nbsp;downsides" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=24;align=center;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=2;fontColor=#333333;" vertex="1" parent="dtvWlgF5m2yhUgFIP8Qn-1">
+          <mxGeometry x="550" y="420" width="470" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
