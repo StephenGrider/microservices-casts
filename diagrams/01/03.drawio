@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-03-19T19:53:31.807Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="VO9uGRAOQ6uOWjFb9PIM" version="12.8.8" type="github" pages="6">
+<mxfile host="www.draw.io" modified="2020-03-19T19:56:58.804Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="pOAjUBO7qs_2z22xNhhB" version="12.8.8" type="github" pages="6">
   <diagram id="SAB5RLbgBeinYvYWTNnw" name="01 - data">
     <mxGraphModel dx="1202" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -73,7 +73,7 @@
         <mxCell id="syNZuq3yUs3upV41UyCj-23" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=28;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="400" y="730" width="330" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="syNZuq3yUs3upV41UyCj-24" value="Code to show orders made by a particular user" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=21;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="syNZuq3yUs3upV41UyCj-24" value="Code to show products ordered by a particular user" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=21;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="411.88" y="742.5" width="306.25" height="55" as="geometry" />
         </mxCell>
       </root>
@@ -204,14 +204,14 @@
         <mxCell id="jauTIBoaidXwxlyKD5cE-22" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=28;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="XTeXH1QCQ5wnCGdvQkbY-1">
           <mxGeometry x="440" y="427" width="330" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="jauTIBoaidXwxlyKD5cE-23" value="Code to show orders made by a particular user" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=21;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="XTeXH1QCQ5wnCGdvQkbY-1">
+        <mxCell id="jauTIBoaidXwxlyKD5cE-23" value="Code to show products ordered by a particular user" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=21;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="XTeXH1QCQ5wnCGdvQkbY-1">
           <mxGeometry x="451.88" y="439.5" width="306.25" height="55" as="geometry" />
         </mxCell>
         <mxCell id="ouTa0O_qKbhBWfejH-LJ-1" value="Example of Sync communication" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=26;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1" vertex="1" parent="XTeXH1QCQ5wnCGdvQkbY-1">
           <mxGeometry x="470" y="210" width="270" height="110" as="geometry" />
         </mxCell>
         <mxCell id="cP33A7Up8a1ShUC4oLds-0" value="Request" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=21;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" parent="XTeXH1QCQ5wnCGdvQkbY-1">
-          <mxGeometry x="280" y="452" width="110" height="30" as="geometry" />
+          <mxGeometry x="330" y="447.5" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
