@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-03-19T20:36:07.642Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="V8loam8UYOf8-_fL6uYn" version="12.8.8" type="github" pages="14">
+<mxfile host="www.draw.io" modified="2020-03-19T20:36:30.469Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="Pj56HvA6SQzpHdwWUG8P" version="12.8.8" type="github" pages="14">
   <diagram id="SAB5RLbgBeinYvYWTNnw" name="01 - data">
     <mxGraphModel dx="1202" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -679,7 +679,7 @@
         <mxCell id="w5tw_gEa3C0tQUE6ixjM-2" value="Notes on Async Communication" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=27;fontStyle=1" vertex="1" parent="3NWKwxdKWd4whgM6kPKz-1">
           <mxGeometry x="710" y="320" width="660" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="w5tw_gEa3C0tQUE6ixjM-3" value="Data duplication!" style="rounded=0;whiteSpace=wrap;html=1;fontSize=26;shadow=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="3NWKwxdKWd4whgM6kPKz-1">
+        <mxCell id="w5tw_gEa3C0tQUE6ixjM-3" value="Data duplication.&amp;nbsp; Paying for extra storage + extra DB" style="rounded=0;whiteSpace=wrap;html=1;fontSize=26;shadow=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="3NWKwxdKWd4whgM6kPKz-1">
           <mxGeometry x="630" y="530" width="820" height="70" as="geometry" />
         </mxCell>
         <mxCell id="w5tw_gEa3C0tQUE6ixjM-4" value="Harder to understand" style="rounded=0;whiteSpace=wrap;html=1;fontSize=26;shadow=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="3NWKwxdKWd4whgM6kPKz-1">
