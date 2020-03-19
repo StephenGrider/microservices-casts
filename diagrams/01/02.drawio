@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-03-19T18:00:26.124Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="3v_ijKGXFpDzAO77CJV-" version="12.8.8" type="github" pages="12">
+<mxfile host="www.draw.io" modified="2020-03-19T18:15:41.340Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="WeWYtHDEXPoUSc2RZudj" version="12.8.8" type="github" pages="13">
   <diagram id="cFMJLOZsdsgE2AM0zsal" name="01 - in">
     <mxGraphModel dx="715" dy="400" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -87,7 +87,7 @@
           <mxGeometry x="690" y="310" width="80" height="270" as="geometry" />
         </mxCell>
         <mxCell id="aPYvhslZm25v0UadTvk3-0" value="Request" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;strokeWidth=1;fillColor=#f8cecc;fontSize=25;strokeColor=#b85450;fontStyle=1" vertex="1" parent="qdju0d5hHkHI_rLqjAG6-1">
-          <mxGeometry x="510" y="434" width="110" height="40" as="geometry" />
+          <mxGeometry x="500" y="434" width="110" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -309,6 +309,17 @@
         </mxCell>
         <mxCell id="m30rUQEuo7cbkMfXi5F8-7" value="DB for D" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=20;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1" vertex="1" parent="m30rUQEuo7cbkMfXi5F8-11">
           <mxGeometry x="600" y="3" width="150" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ajQ94Jh65FhJu5qLcw_o" name="13 - db">
+    <mxGraphModel dx="699" dy="391" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="qeQzkfOJKVjpWELYHPdR-0" />
+        <mxCell id="qeQzkfOJKVjpWELYHPdR-1" parent="qeQzkfOJKVjpWELYHPdR-0" />
+        <mxCell id="leqQFRwkTNgnZnrmqSU7-0" value="So....what&#39;s the big challenge with microservices?" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;fontSize=37;fontStyle=1" vertex="1" parent="qeQzkfOJKVjpWELYHPdR-1">
+          <mxGeometry x="540" y="300" width="540" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
