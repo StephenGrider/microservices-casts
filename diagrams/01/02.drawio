@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-03-19T18:15:41.340Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="WeWYtHDEXPoUSc2RZudj" version="12.8.8" type="github" pages="13">
+<mxfile host="www.draw.io" modified="2020-03-19T18:17:40.431Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="LdKl1RSQYsYn-P-3czRT" version="12.8.8" type="github" pages="14">
   <diagram id="cFMJLOZsdsgE2AM0zsal" name="01 - in">
     <mxGraphModel dx="715" dy="400" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -320,6 +320,20 @@
         <mxCell id="qeQzkfOJKVjpWELYHPdR-1" parent="qeQzkfOJKVjpWELYHPdR-0" />
         <mxCell id="leqQFRwkTNgnZnrmqSU7-0" value="So....what&#39;s the big challenge with microservices?" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;fontSize=37;fontStyle=1" vertex="1" parent="qeQzkfOJKVjpWELYHPdR-1">
           <mxGeometry x="540" y="300" width="540" height="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="iU4MekDki_OAaNicJXhC" name="14 - db">
+    <mxGraphModel dx="791" dy="443" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="lQv_UoUR4c6bcYdqb19b-0" />
+        <mxCell id="lQv_UoUR4c6bcYdqb19b-1" parent="lQv_UoUR4c6bcYdqb19b-0" />
+        <mxCell id="BA8Of9RyKJxBswVEySpq-0" value="Data management between services" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;shadow=1;fontSize=37;fontStyle=1" vertex="1" parent="lQv_UoUR4c6bcYdqb19b-1">
+          <mxGeometry x="480" y="390" width="680" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="BA8Of9RyKJxBswVEySpq-4" value="This is the &lt;i&gt;big problem&lt;/i&gt;&amp;nbsp;of microservices, and what 90% of this course focuses on" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=20;fontStyle=1" vertex="1" parent="lQv_UoUR4c6bcYdqb19b-1">
+          <mxGeometry x="655" y="540" width="330" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
