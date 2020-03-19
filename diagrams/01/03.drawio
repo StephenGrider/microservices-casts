@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-03-19T20:36:30.469Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="Pj56HvA6SQzpHdwWUG8P" version="12.8.8" type="github" pages="14">
+<mxfile host="www.draw.io" modified="2020-03-19T20:54:39.651Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="a_Nxh0sobocX6-__wTDS" version="12.8.8" type="github" pages="15">
   <diagram id="SAB5RLbgBeinYvYWTNnw" name="01 - data">
     <mxGraphModel dx="1202" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -684,6 +684,49 @@
         </mxCell>
         <mxCell id="w5tw_gEa3C0tQUE6ixjM-4" value="Harder to understand" style="rounded=0;whiteSpace=wrap;html=1;fontSize=26;shadow=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="3NWKwxdKWd4whgM6kPKz-1">
           <mxGeometry x="630" y="620" width="820" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="yt-IiJEgP5LsC9TY2mqM" name="14 - pricing">
+    <mxGraphModel dx="715" dy="352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="fpb4YNKrg8h5RDbGPulD-0" />
+        <mxCell id="fpb4YNKrg8h5RDbGPulD-1" parent="fpb4YNKrg8h5RDbGPulD-0" />
+        <mxCell id="fpb4YNKrg8h5RDbGPulD-2" value="$.115" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=21;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="fpb4YNKrg8h5RDbGPulD-1">
+          <mxGeometry x="670" y="310" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fpb4YNKrg8h5RDbGPulD-3" value="$.17" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=21;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="fpb4YNKrg8h5RDbGPulD-1">
+          <mxGeometry x="902.5" y="310" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fpb4YNKrg8h5RDbGPulD-4" value="&lt;b&gt;Azure&lt;/b&gt; MySQL $/GB/Month" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=21;" vertex="1" parent="fpb4YNKrg8h5RDbGPulD-1">
+          <mxGeometry x="657.5" y="270" width="195" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fpb4YNKrg8h5RDbGPulD-7" value="&lt;b&gt;Google&lt;/b&gt; Cloud MySQL $/GB/Month" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=21;" vertex="1" parent="fpb4YNKrg8h5RDbGPulD-1">
+          <mxGeometry x="890" y="270" width="195" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fpb4YNKrg8h5RDbGPulD-8" value="$.115" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=21;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="fpb4YNKrg8h5RDbGPulD-1">
+          <mxGeometry x="1142.5" y="310" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fpb4YNKrg8h5RDbGPulD-9" value="&lt;b&gt;AWS&lt;/b&gt; MySQL $/GB/Month" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=21;" vertex="1" parent="fpb4YNKrg8h5RDbGPulD-1">
+          <mxGeometry x="1130" y="270" width="195" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fpb4YNKrg8h5RDbGPulD-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=7;" edge="1" parent="fpb4YNKrg8h5RDbGPulD-1" source="fpb4YNKrg8h5RDbGPulD-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="987.3809523809523" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fpb4YNKrg8h5RDbGPulD-10" value="&lt;div style=&quot;font-size: 3px;&quot;&gt;{&quot;GetMatchingProductResult&quot;: {&quot;@ASIN&quot;: &quot;B002KT3XRQ&quot;,&quot;@status&quot;: &quot;Success&quot;,&quot;Product&quot;: {&quot;Identifiers&quot;: {&quot;MarketplaceASIN&quot;: {&quot;MarketplaceId&quot;: &quot;ATVPDKIKX0DER&quot;,&quot;ASIN&quot;: &quot;B002KT3XRQ&quot;}},&quot;AttributeSets&quot;: {&quot;ItemAttributes&quot;: {&quot;@lang&quot;: &quot;en-US&quot;,&quot;Binding&quot;: &quot;Apparel&quot;,&quot;Brand&quot;: &quot;Pearl iZUMi&quot;,&quot;Department&quot;: &quot;mens&quot;,&quot;Feature&quot;: [&quot;Select transfer fabric sets the benchmark for moisture transfer and\nfour-way performance stretch&quot;,&quot;6-Panel anatomic design for superior, chafe-free comfort, UPF 50+ sun\nprotection&quot;,&quot;Comfortable silicone leg grippers keep shorts in place,\nmoisture-wicking, antimicrobial properties&quot;,&quot;Tour 3D Chamois is male-specific and non-chafing with padding in\nkey areas&quot;,&quot;86 percent nylon, 14% spandex, 9-Inch inseam&quot;],&quot;ItemDimensions&quot;: {&quot;Height&quot;: {&quot;@Units&quot;: &quot;inches&quot;,&quot;#text&quot;: &quot;2.00&quot;},&quot;Length&quot;: {&quot;@Units&quot;: &quot;inches&quot;,&quot;#text&quot;: &quot;9.00&quot;},&quot;Width&quot;: {&quot;@Units&quot;: &quot;inches&quot;,&quot;#text&quot;: &quot;9.00&quot;}},&quot;Label&quot;: &quot;Pearl iZUMi&quot;,&quot;ListPrice&quot;: {&quot;Amount&quot;: &quot;50.00&quot;,&quot;CurrencyCode&quot;: &quot;USD&quot;},&quot;Manufacturer&quot;: &quot;Pearl iZUMi&quot;,&quot;Model&quot;: &quot;0275&quot;,&quot;PackageDimensions&quot;: {&quot;Height&quot;: {&quot;@Units&quot;: &quot;inches&quot;,&quot;#text&quot;: &quot;2.80&quot;},&quot;Length&quot;: {&quot;@Units&quot;: &quot;inches&quot;,&quot;#text&quot;: &quot;9.75&quot;},&quot;Width&quot;: {&quot;@Units&quot;: &quot;inches&quot;,&quot;#text&quot;: &quot;8.40&quot;},&quot;Weight&quot;: {&quot;@Units&quot;: &quot;pounds&quot;,&quot;#text&quot;: &quot;0.40&quot;}},&quot;PackageQuantity&quot;: &quot;1&quot;,&quot;PartNumber&quot;: &quot;0275&quot;,&quot;ProductGroup&quot;: &quot;Apparel&quot;,&quot;ProductTypeName&quot;: &quot;SHORTS&quot;,&quot;Publisher&quot;: &quot;Pearl iZUMi&quot;,&quot;SmallImage&quot;: {&quot;URL&quot;: &quot;http://ecx.images-amazon.com/images/I/41ty3Sn%2BU8L._SL75_.jpg&quot;,&quot;Height&quot;: {&quot;@Units&quot;: &quot;pixels&quot;,&quot;#text&quot;: &quot;75&quot;},&quot;Width&quot;: {&quot;@Units&quot;: &quot;pixels&quot;,&quot;#text&quot;: &quot;58&quot;}},&quot;Studio&quot;: &quot;Pearl iZUMi&quot;,&quot;Title&quot;: &quot;Pearl iZUMi Men&#39;s Quest Cycling Short&quot;}},&quot;Relationships&quot;: {&quot;VariationChild&quot;: [{&quot;Identifiers&quot;: {&quot;MarketplaceASIN&quot;: {&quot;MarketplaceId&quot;: &quot;ATVPDKIKX0DER&quot;,&quot;ASIN&quot;: &quot;B002KT3XQC&quot;}},&quot;Color&quot;: &quot;Black&quot;,&quot;Size&quot;: &quot;Small&quot;},{&quot;Identifiers&quot;: {&quot;MarketplaceASIN&quot;: {&quot;MarketplaceId&quot;: &quot;ATVPDKIKX0DER&quot;,&quot;ASIN&quot;: &quot;B002KT3XQW&quot;}},&quot;Color&quot;: &quot;Black&quot;,&quot;Size&quot;: &quot;Medium&quot;},{&quot;Identifiers&quot;: {&quot;MarketplaceASIN&quot;: {&quot;MarketplaceId&quot;: &quot;ATVPDKIKX0DER&quot;,&quot;ASIN&quot;: &quot;B002KT3XQM&quot;}},&quot;Color&quot;: &quot;Black&quot;,&quot;Size&quot;: &quot;Large&quot;},{&quot;Identifiers&quot;: {&quot;MarketplaceASIN&quot;: {&quot;MarketplaceId&quot;: &quot;ATVPDKIKX0DER&quot;,&quot;ASIN&quot;: &quot;B002KT3XR6&quot;}},&quot;Color&quot;: &quot;Black&quot;,&quot;Size&quot;: &quot;X-Large&quot;},{&quot;Identifiers&quot;: {&quot;MarketplaceASIN&quot;: {&quot;MarketplaceId&quot;: &quot;ATVPDKIKX0DER&quot;,&quot;ASIN&quot;: &quot;B002KT3XRG&quot;}},&quot;Color&quot;: &quot;Black&quot;,&quot;Size&quot;: &quot;XX-Large&quot;}]},&quot;SalesRankings&quot;: {&quot;SalesRank&quot;: [{&quot;ProductCategoryId&quot;: &quot;apparel_display_on_website&quot;,&quot;Rank&quot;: &quot;159&quot;},{&quot;ProductCategoryId&quot;: &quot;2420095011&quot;,&quot;Rank&quot;: &quot;1&quot;},{&quot;ProductCategoryId&quot;: &quot;2611189011&quot;,&quot;Rank&quot;: &quot;4&quot;}]}}},&quot;ResponseMetadata&quot;: {&quot;RequestId&quot;: &quot;b12caada-d330-4d87-a789-EXAMPLE35872&quot;}}&lt;br style=&quot;font-size: 3px;&quot;&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=3;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="fpb4YNKrg8h5RDbGPulD-1">
+          <mxGeometry x="801.25" y="410" width="372.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fpb4YNKrg8h5RDbGPulD-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=15;" edge="1" parent="fpb4YNKrg8h5RDbGPulD-1" source="fpb4YNKrg8h5RDbGPulD-12" target="fpb4YNKrg8h5RDbGPulD-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fpb4YNKrg8h5RDbGPulD-12" value="1,250 bytes" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=15;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="fpb4YNKrg8h5RDbGPulD-1">
+          <mxGeometry x="801.25" y="470" width="372.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fpb4YNKrg8h5RDbGPulD-13" value="(1.25e-6 GB) * $.115 * 100,000,000 = $14.375" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=15;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="fpb4YNKrg8h5RDbGPulD-1">
+          <mxGeometry x="801.25" y="530" width="372.5" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
