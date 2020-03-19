@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-03-19T16:18:22.766Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="wN8WGk73cdJkjo0-4ThT" version="12.8.5" type="github" pages="22">
+<mxfile host="www.draw.io" modified="2020-03-19T16:29:01.675Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="ZyiqxmgGm5mXbcEUnQNA" version="12.8.5" type="github" pages="23">
   <diagram id="qlwX-9r8trYWYWGOXYbg" name="01 - comm">
     <mxGraphModel dx="858" dy="481" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -583,7 +583,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="HIcLxp-yMy2wKbBB_MXp" name="04 - ecomm">
-    <mxGraphModel dx="834" dy="411" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="834" dy="467" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="EENZRoe98XywxA6RO5QJ-0" />
         <mxCell id="EENZRoe98XywxA6RO5QJ-1" parent="EENZRoe98XywxA6RO5QJ-0" />
@@ -701,7 +701,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="06 - actions" id="4GWW8mk2E7pW01saAX6o">
-    <mxGraphModel dx="834" dy="411" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="834" dy="467" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="ihw_ObhXBEuUxiGYZIXc-0" />
         <mxCell id="ihw_ObhXBEuUxiGYZIXc-1" parent="ihw_ObhXBEuUxiGYZIXc-0" />
@@ -763,7 +763,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="05 - calls" id="WX_nASDsboLt0VR7WL7D">
-    <mxGraphModel dx="834" dy="411" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="834" dy="467" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="yQOnjJa_b_2H6rog7AGt-0" />
         <mxCell id="yQOnjJa_b_2H6rog7AGt-1" parent="yQOnjJa_b_2H6rog7AGt-0" />
@@ -819,7 +819,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="06 - data" id="4hEO0YAvVr_MSnrpk5bk">
-    <mxGraphModel dx="1073" dy="528" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="1073" dy="601" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="34CDX3qxQ3a9gqitiGeS-0" />
         <mxCell id="34CDX3qxQ3a9gqitiGeS-1" parent="34CDX3qxQ3a9gqitiGeS-0" />
@@ -899,7 +899,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="06 - calls" id="_GHnH0ByaVwZcwJQCA-o">
-    <mxGraphModel dx="884" dy="435" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="884" dy="495" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="U0_dbDxtD2uQU1srbbpt-0" />
         <mxCell id="U0_dbDxtD2uQU1srbbpt-1" parent="U0_dbDxtD2uQU1srbbpt-0" />
@@ -967,7 +967,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="BTQ-JIem5EseildOGPtw" name="02 - ecomm">
-    <mxGraphModel dx="639" dy="314" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="639" dy="358" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="7WUI-5wfocPxUuXPmlUI-0" />
         <mxCell id="7WUI-5wfocPxUuXPmlUI-1" parent="7WUI-5wfocPxUuXPmlUI-0" />
@@ -1014,7 +1014,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="03 - ecomm" id="_F4aMO0APWg8X3gfZKjl">
-    <mxGraphModel dx="639" dy="314" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="639" dy="358" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="Z5KhY8FX11t6L0uIZoOr-0" />
         <mxCell id="Z5KhY8FX11t6L0uIZoOr-1" parent="Z5KhY8FX11t6L0uIZoOr-0" />
@@ -1069,6 +1069,14 @@
         <mxCell id="Z5KhY8FX11t6L0uIZoOr-18" value="Hat" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=14;fillColor=#fff2cc;strokeColor=#d6b656;" parent="Z5KhY8FX11t6L0uIZoOr-1" vertex="1">
           <mxGeometry x="645" y="355" width="110" height="20" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="n3LitKp91zUPJwD_PLak" name="23 - downsides">
+    <mxGraphModel dx="1502" dy="739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="2H5j4rAZAw-KTOf1V6rU-0" />
+        <mxCell id="2H5j4rAZAw-KTOf1V6rU-1" parent="2H5j4rAZAw-KTOf1V6rU-0" />
       </root>
     </mxGraphModel>
   </diagram>
