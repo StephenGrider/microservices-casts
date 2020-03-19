@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-03-18T21:08:45.685Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="5mgqnHRVvLeqTJ7R3u6h" version="12.8.5" type="github" pages="21">
+<mxfile host="www.draw.io" modified="2020-03-19T16:01:17.609Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="dAy1L35-jiPn-IeQvako" version="12.8.5" type="github" pages="22">
   <diagram id="qlwX-9r8trYWYWGOXYbg" name="01 - comm">
     <mxGraphModel dx="858" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -159,6 +159,17 @@
         </mxCell>
         <mxCell id="xrypegMZ59cbk6kuWVrz-23" value="Scale by running multiple instances" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=35;" vertex="1" parent="xrypegMZ59cbk6kuWVrz-1">
           <mxGeometry x="1560" y="620" width="290" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="6NGZzcHJa36wiLtYWc0b" name="22 - problems">
+    <mxGraphModel dx="1036" dy="510" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="UIFs2uw0ewRbmA2shndt-0" />
+        <mxCell id="UIFs2uw0ewRbmA2shndt-1" parent="UIFs2uw0ewRbmA2shndt-0" />
+        <mxCell id="VWBc_9Fn0ylTkmGcrLIH-0" value="Monolithic servers can have problems" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;fontSize=46;fontStyle=1" vertex="1" parent="UIFs2uw0ewRbmA2shndt-1">
+          <mxGeometry x="460" y="270" width="770" height="270" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
