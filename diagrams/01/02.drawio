@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-03-19T16:56:58.498Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="VaEpuPyhSUoLfRE78jDb" version="12.8.8" type="github" pages="7">
+<mxfile host="www.draw.io" modified="2020-03-19T16:59:22.492Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="8E73Rz7JUd3l-Ugh0Sb5" version="12.8.8" type="github" pages="7">
   <diagram id="cFMJLOZsdsgE2AM0zsal" name="01 - in">
     <mxGraphModel dx="715" dy="352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -94,6 +94,18 @@
       <root>
         <mxCell id="EgdvyRDpH2ENFZy5iqBf-0" />
         <mxCell id="EgdvyRDpH2ENFZy5iqBf-1" parent="EgdvyRDpH2ENFZy5iqBf-0" />
+        <mxCell id="X-0SaHX0QUMAPCzd0TlN-1" value="Monoliths" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=25;shadow=1;fontStyle=1" vertex="1" parent="EgdvyRDpH2ENFZy5iqBf-1">
+          <mxGeometry x="560" y="260" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="X-0SaHX0QUMAPCzd0TlN-2" value="Microservices" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=25;shadow=1;fontStyle=1" vertex="1" parent="EgdvyRDpH2ENFZy5iqBf-1">
+          <mxGeometry x="560" y="400" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="RZPt1rm9-uT7TEeB4Wgz-0" value="Contain routing, business logic, middlewares, database access for &lt;b&gt;few request paths&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#dae8fc;fontSize=25;strokeColor=#6c8ebf;shadow=1;" vertex="1" parent="EgdvyRDpH2ENFZy5iqBf-1">
+          <mxGeometry x="740" y="400" width="540" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="X-0SaHX0QUMAPCzd0TlN-0" value="Contain routing, business logic, middlewares, database access for &lt;b&gt;many request paths&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#dae8fc;fontSize=25;strokeColor=#6c8ebf;shadow=1;" vertex="1" parent="EgdvyRDpH2ENFZy5iqBf-1">
+          <mxGeometry x="740" y="260" width="540" height="100" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
