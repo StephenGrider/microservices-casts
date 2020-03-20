@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-03-20T20:41:05.377Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="zPCH9e5e-iDnSIkJntoF" version="12.8.6" type="github" pages="15">
+<mxfile host="www.draw.io" modified="2020-03-20T20:46:31.712Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="tkq_OyN8Z-iWq6MCu_UA" version="12.8.6" type="github" pages="17">
   <diagram id="cpesi-2cl9PMHLiWMdVF" name="02 - disclaimer">
     <mxGraphModel dx="626" dy="308" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -918,6 +918,88 @@
         </mxCell>
         <mxCell id="qxnbl_VsSM2lnrzA3ZRZ-0" value="&lt;i style=&quot;font-size: 27px&quot;&gt;How to solve with microservices?&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=27;fontStyle=1" vertex="1" parent="_JFLtVyQIZX3coB8CAJt-1">
           <mxGeometry x="610" y="120" width="320" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Dj9zYox5I0AwlN76HWpv" name="16 - sync">
+    <mxGraphModel dx="1073" dy="528" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="LZniHMzaFk9bndRYjWA2-0" />
+        <mxCell id="LZniHMzaFk9bndRYjWA2-1" parent="LZniHMzaFk9bndRYjWA2-0" />
+        <mxCell id="jrjBwA3U9exgp5r-nHJ4-0" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=17;align=left;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="LZniHMzaFk9bndRYjWA2-1">
+          <mxGeometry x="945" y="140" width="395" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="jrjBwA3U9exgp5r-nHJ4-1" value="Posts Service" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=21;align=center;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1" vertex="1" parent="LZniHMzaFk9bndRYjWA2-1">
+          <mxGeometry x="980" y="160" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jrjBwA3U9exgp5r-nHJ4-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fontSize=27;" edge="1" parent="LZniHMzaFk9bndRYjWA2-1" source="jrjBwA3U9exgp5r-nHJ4-2" target="jrjBwA3U9exgp5r-nHJ4-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jrjBwA3U9exgp5r-nHJ4-2" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=17;align=left;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="LZniHMzaFk9bndRYjWA2-1">
+          <mxGeometry x="980" y="200" width="230" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="jrjBwA3U9exgp5r-nHJ4-3" value="Posts Feature" style="whiteSpace=wrap;html=1;rounded=0;shadow=1;fontSize=25;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" vertex="1" parent="LZniHMzaFk9bndRYjWA2-1">
+          <mxGeometry x="1000" y="215" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jrjBwA3U9exgp5r-nHJ4-4" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.browserWindow;rSize=0;strokeColor=#666666;strokeColor2=#008cff;strokeColor3=#c4c4c4;mainText=,;recursiveResize=0;rounded=0;fontSize=17;" vertex="1" parent="LZniHMzaFk9bndRYjWA2-1">
+          <mxGeometry x="305" y="180" width="300" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="jrjBwA3U9exgp5r-nHJ4-5" value="Page 1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="jrjBwA3U9exgp5r-nHJ4-4">
+          <mxGeometry x="60" y="12" width="110" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="jrjBwA3U9exgp5r-nHJ4-6" value="localhost" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;rSize=0;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="jrjBwA3U9exgp5r-nHJ4-4">
+          <mxGeometry x="130" y="60" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="jrjBwA3U9exgp5r-nHJ4-7" value="Comments Service" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=21;align=center;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1" vertex="1" parent="LZniHMzaFk9bndRYjWA2-1">
+          <mxGeometry x="980" y="430" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jrjBwA3U9exgp5r-nHJ4-8" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=17;align=left;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="LZniHMzaFk9bndRYjWA2-1">
+          <mxGeometry x="980" y="470" width="230" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="jrjBwA3U9exgp5r-nHJ4-9" value="Comments Feature" style="whiteSpace=wrap;html=1;rounded=0;shadow=1;fontSize=25;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" vertex="1" parent="LZniHMzaFk9bndRYjWA2-1">
+          <mxGeometry x="995" y="485" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jrjBwA3U9exgp5r-nHJ4-10" value="GET &lt;br&gt;/posts?comments=true" style="whiteSpace=wrap;html=1;rounded=0;shadow=1;fontSize=18;align=center;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" parent="LZniHMzaFk9bndRYjWA2-1">
+          <mxGeometry x="668" y="204" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jrjBwA3U9exgp5r-nHJ4-11" value="" style="endArrow=classic;html=1;fontSize=27;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="LZniHMzaFk9bndRYjWA2-1" target="jrjBwA3U9exgp5r-nHJ4-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="605" y="254.69" as="sourcePoint" />
+            <mxPoint x="945" y="254.69" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jrjBwA3U9exgp5r-nHJ4-15" value="Solution #1 - Sync communication" style="whiteSpace=wrap;html=1;rounded=0;shadow=1;fontSize=18;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="LZniHMzaFk9bndRYjWA2-1">
+          <mxGeometry x="540" y="80" width="350" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jrjBwA3U9exgp5r-nHJ4-17" value="Hey, give me all comments for posts with ID&#39;s 37, 5, 72, 95, 50" style="whiteSpace=wrap;html=1;rounded=0;shadow=1;fontSize=18;align=center;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" parent="LZniHMzaFk9bndRYjWA2-1">
+          <mxGeometry x="1040" y="345" width="280" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="1aK3uOvb6PF3l7tdV6yl" name="17 - sync">
+    <mxGraphModel dx="1155" dy="568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="OQfbxfgW4QDkjd73SBPw-0" />
+        <mxCell id="OQfbxfgW4QDkjd73SBPw-1" parent="OQfbxfgW4QDkjd73SBPw-0" />
+        <mxCell id="OQfbxfgW4QDkjd73SBPw-2" value="Conceptually easy to understand!" style="rounded=0;whiteSpace=wrap;html=1;fontSize=26;shadow=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="OQfbxfgW4QDkjd73SBPw-1">
+          <mxGeometry x="630" y="355" width="820" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="OQfbxfgW4QDkjd73SBPw-4" value="Notes on Sync Communication" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=27;fontStyle=1" vertex="1" parent="OQfbxfgW4QDkjd73SBPw-1">
+          <mxGeometry x="710" y="320" width="660" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="OQfbxfgW4QDkjd73SBPw-5" value="Introduces a dependency between services" style="rounded=0;whiteSpace=wrap;html=1;fontSize=26;shadow=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="OQfbxfgW4QDkjd73SBPw-1">
+          <mxGeometry x="630" y="440" width="820" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="OQfbxfgW4QDkjd73SBPw-6" value="If any inter-service request fails, the overall request fails" style="rounded=0;whiteSpace=wrap;html=1;fontSize=26;shadow=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="OQfbxfgW4QDkjd73SBPw-1">
+          <mxGeometry x="630" y="530" width="820" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="OQfbxfgW4QDkjd73SBPw-7" value="The entire request is only as fast as the slowest request" style="rounded=0;whiteSpace=wrap;html=1;fontSize=26;shadow=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="OQfbxfgW4QDkjd73SBPw-1">
+          <mxGeometry x="630" y="620" width="820" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="OQfbxfgW4QDkjd73SBPw-8" value="Can easily introduce webs of requests" style="rounded=0;whiteSpace=wrap;html=1;fontSize=26;shadow=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="OQfbxfgW4QDkjd73SBPw-1">
+          <mxGeometry x="630" y="710" width="820" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
