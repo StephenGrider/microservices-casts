@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-03-20T20:32:10.190Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="6PdrrwmTGTfuEZ6r4K7F" version="12.8.6" type="github" pages="13">
+<mxfile host="www.draw.io" modified="2020-03-20T20:37:17.173Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="Jlt_GhAXBjXtTQPKJKJJ" version="12.8.6" type="github" pages="14">
   <diagram id="cpesi-2cl9PMHLiWMdVF" name="02 - disclaimer">
     <mxGraphModel dx="626" dy="308" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -809,6 +809,56 @@
         </mxCell>
         <mxCell id="kj4PZy4xUojEkYDKaot1-20" value="GET /posts/:id/comments" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=22;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" vertex="1" parent="fCKlBjt7gSySCiA7m5yZ-1">
           <mxGeometry x="860" y="550" width="300" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="nugDdlcuZeJ7CaKLGbUW" name="14 - solutions">
+    <mxGraphModel dx="1036" dy="510" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="azp1xojfba5QtHumGdVJ-0" />
+        <mxCell id="azp1xojfba5QtHumGdVJ-1" parent="azp1xojfba5QtHumGdVJ-0" />
+        <mxCell id="l2dlZWB9mxtDtZFE7wLC-0" value="Monolith!" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=21;align=center;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1" vertex="1" parent="azp1xojfba5QtHumGdVJ-1">
+          <mxGeometry x="970" y="190" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="l2dlZWB9mxtDtZFE7wLC-1" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=17;align=left;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="azp1xojfba5QtHumGdVJ-1">
+          <mxGeometry x="970" y="230" width="300" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="l2dlZWB9mxtDtZFE7wLC-2" value="Posts Feature" style="whiteSpace=wrap;html=1;rounded=0;shadow=1;fontSize=25;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" vertex="1" parent="azp1xojfba5QtHumGdVJ-1">
+          <mxGeometry x="985" y="245" width="265" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="l2dlZWB9mxtDtZFE7wLC-10" value="Comments Feature" style="whiteSpace=wrap;html=1;rounded=0;shadow=1;fontSize=25;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" vertex="1" parent="azp1xojfba5QtHumGdVJ-1">
+          <mxGeometry x="985" y="340" width="265" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="l2dlZWB9mxtDtZFE7wLC-11" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.browserWindow;rSize=0;strokeColor=#666666;strokeColor2=#008cff;strokeColor3=#c4c4c4;mainText=,;recursiveResize=0;rounded=0;fontSize=22;" vertex="1" parent="azp1xojfba5QtHumGdVJ-1">
+          <mxGeometry x="270" y="200" width="280" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="l2dlZWB9mxtDtZFE7wLC-12" value="Page 1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="l2dlZWB9mxtDtZFE7wLC-11">
+          <mxGeometry x="60" y="12" width="110" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="l2dlZWB9mxtDtZFE7wLC-13" value="localhost" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;rSize=0;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="l2dlZWB9mxtDtZFE7wLC-11">
+          <mxGeometry x="130" y="60" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="l2dlZWB9mxtDtZFE7wLC-14" value="" style="endArrow=classic;html=1;fontSize=22;" edge="1" parent="azp1xojfba5QtHumGdVJ-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="320" as="sourcePoint" />
+            <mxPoint x="970" y="319.65999999999997" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l2dlZWB9mxtDtZFE7wLC-15" value="GET &lt;br&gt;/posts?comments=true" style="whiteSpace=wrap;html=1;rounded=0;shadow=1;fontSize=18;align=center;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" parent="azp1xojfba5QtHumGdVJ-1">
+          <mxGeometry x="650" y="270" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="l2dlZWB9mxtDtZFE7wLC-17" value="posts with embedded comments" style="whiteSpace=wrap;html=1;rounded=0;shadow=1;fontSize=18;align=center;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" parent="azp1xojfba5QtHumGdVJ-1">
+          <mxGeometry x="650" y="390" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="l2dlZWB9mxtDtZFE7wLC-19" value="" style="endArrow=classic;html=1;fontSize=22;" edge="1" parent="azp1xojfba5QtHumGdVJ-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="970" y="389.9999999999999" as="sourcePoint" />
+            <mxPoint x="550" y="390.34000000000003" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l2dlZWB9mxtDtZFE7wLC-20" value="&lt;i style=&quot;font-size: 27px;&quot;&gt;Easily solved with monoliths!&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=27;fontStyle=1" vertex="1" parent="azp1xojfba5QtHumGdVJ-1">
+          <mxGeometry x="610" y="120" width="320" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
