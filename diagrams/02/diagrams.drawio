@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2020-03-20T16:35:00.244Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="maEt-SMPGUn4PawKqwXR" version="12.8.6" type="github" pages="5">
+<mxfile host="www.draw.io" modified="2020-03-20T16:45:03.359Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="nfVfIgeymnW8VLjOvRov" version="12.8.6" type="github" pages="5">
   <diagram id="cpesi-2cl9PMHLiWMdVF" name="02 - disclaimer">
-    <mxGraphModel dx="626" dy="308" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="626" dy="350" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="iyuQr_05ihZRbdnl_HAH-0" />
         <mxCell id="iyuQr_05ihZRbdnl_HAH-1" parent="iyuQr_05ihZRbdnl_HAH-0" />
@@ -20,7 +20,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="99ZDeaYZXDU0Qbmv9xaT" name="01 - mockup">
-    <mxGraphModel dx="1001" dy="493" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="1001" dy="561" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -36,7 +36,7 @@
         <mxCell id="adwG-QhJT13sP28Hk7h6-16" value="Create Post" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=28;" vertex="1" parent="adwG-QhJT13sP28Hk7h6-1">
           <mxGeometry x="15" y="120" width="200" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="adwG-QhJT13sP28Hk7h6-17" value="" style="whiteSpace=wrap;html=1;fontSize=28;align=left;" vertex="1" parent="adwG-QhJT13sP28Hk7h6-1">
+        <mxCell id="adwG-QhJT13sP28Hk7h6-17" value="My POST" style="whiteSpace=wrap;html=1;fontSize=28;align=left;" vertex="1" parent="adwG-QhJT13sP28Hk7h6-1">
           <mxGeometry x="35" y="175" width="180" height="25" as="geometry" />
         </mxCell>
         <mxCell id="adwG-QhJT13sP28Hk7h6-18" value="Submit" style="whiteSpace=wrap;html=1;fontSize=16;align=center;rounded=1;" vertex="1" parent="adwG-QhJT13sP28Hk7h6-1">
@@ -81,7 +81,7 @@
         <mxCell id="adwG-QhJT13sP28Hk7h6-23" value="&lt;i&gt;0 comments&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="adwG-QhJT13sP28Hk7h6-8">
           <mxGeometry x="30" y="300" width="100" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="adwG-QhJT13sP28Hk7h6-28" value="" style="whiteSpace=wrap;html=1;fontSize=28;align=left;" vertex="1" parent="adwG-QhJT13sP28Hk7h6-8">
+        <mxCell id="adwG-QhJT13sP28Hk7h6-28" value="Im a comment" style="whiteSpace=wrap;html=1;fontSize=28;align=left;" vertex="1" parent="adwG-QhJT13sP28Hk7h6-8">
           <mxGeometry x="40" y="361" width="180" height="25" as="geometry" />
         </mxCell>
         <mxCell id="adwG-QhJT13sP28Hk7h6-29" value="Comment" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="adwG-QhJT13sP28Hk7h6-8">
@@ -211,7 +211,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Sla0MyDP4kXtcwXa5FFh" name="03 - design">
-    <mxGraphModel dx="626" dy="308" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="626" dy="350" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="MPRrhoq_KwCkbzCw6KRM-0" />
         <mxCell id="MPRrhoq_KwCkbzCw6KRM-1" parent="MPRrhoq_KwCkbzCw6KRM-0" />
@@ -230,7 +230,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="04 - design" id="WXaU1U2Sa_QuLUP8IehY">
-    <mxGraphModel dx="884" dy="435" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="884" dy="495" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="U1OQqhAELoA_2gi_HB3H-0" />
         <mxCell id="U1OQqhAELoA_2gi_HB3H-1" parent="U1OQqhAELoA_2gi_HB3H-0" />
@@ -322,7 +322,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="A5hKxWNW-DElpA2pRo46" name="05 - do">
-    <mxGraphModel dx="858" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="858" dy="481" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="uhU3a67ZhyW_BlOrAEtE-0" />
         <mxCell id="uhU3a67ZhyW_BlOrAEtE-1" parent="uhU3a67ZhyW_BlOrAEtE-0" />
