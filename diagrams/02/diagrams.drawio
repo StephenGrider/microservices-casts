@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-03-20T16:50:15.192Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="_yrUVC6nyAeyvGpwQhJH" version="12.8.6" type="github" pages="6">
+<mxfile host="www.draw.io" modified="2020-03-20T16:51:17.909Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="WdqIT0lYukrAkbPUM_u5" version="12.8.6" type="github" pages="7">
   <diagram id="cpesi-2cl9PMHLiWMdVF" name="02 - disclaimer">
     <mxGraphModel dx="626" dy="350" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -413,6 +413,26 @@
         </mxCell>
         <mxCell id="3LpYTyU1MKDTDnTtLDbJ-14" value="Router" style="whiteSpace=wrap;html=1;rounded=0;shadow=1;fontSize=25;align=center;fontStyle=1" vertex="1" parent="0LpbzwrgRu5vXMNV-YC1-1">
           <mxGeometry x="740" y="395" width="130" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="qMQby4PcXDA7YpjeASCr" name="07 - steps">
+    <mxGraphModel dx="791" dy="389" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="Qr00MzdxH0v1BvLKcdbR-0" />
+        <mxCell id="Qr00MzdxH0v1BvLKcdbR-1" parent="Qr00MzdxH0v1BvLKcdbR-0" />
+        <mxCell id="Qr00MzdxH0v1BvLKcdbR-2" value="Generate a new React App using Create-React-App" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=21;align=center;" vertex="1" parent="Qr00MzdxH0v1BvLKcdbR-1">
+          <mxGeometry x="580" y="200" width="540" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qr00MzdxH0v1BvLKcdbR-3" value="Initial App Setup" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=21;fontStyle=1" vertex="1" parent="Qr00MzdxH0v1BvLKcdbR-1">
+          <mxGeometry x="690" y="170" width="320" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Qr00MzdxH0v1BvLKcdbR-4" value="Create an Express-based project for the &lt;b&gt;Posts&lt;/b&gt; Service" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=21;align=center;" vertex="1" parent="Qr00MzdxH0v1BvLKcdbR-1">
+          <mxGeometry x="580" y="270" width="540" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qr00MzdxH0v1BvLKcdbR-5" value="Create an Express-based project for the &lt;b&gt;Comments&lt;/b&gt; Service" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=21;align=center;" vertex="1" parent="Qr00MzdxH0v1BvLKcdbR-1">
+          <mxGeometry x="580" y="340" width="540" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
