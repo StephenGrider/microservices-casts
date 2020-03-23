@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-03-23T18:26:17.986Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="-iFbNzdlkwOEMGTT8NSW" version="12.8.8" type="github" pages="13">
+<mxfile host="www.draw.io" modified="2020-03-23T18:30:09.082Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="zl75L8aFiRWKe6l024FD" version="12.8.8" type="github" pages="14">
   <diagram id="Exqp0YedXQySDimMVRkW" name="01 - bus">
     <mxGraphModel dx="884" dy="435" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -315,13 +315,80 @@
       </root>
     </mxGraphModel>
   </diagram>
+  <diagram id="ar0VM24unDqg_7PGBCrO" name="13 - rules">
+    <mxGraphModel dx="858" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="QnDTnUCph62o1Z85k9UU-0" />
+        <mxCell id="QnDTnUCph62o1Z85k9UU-1" parent="QnDTnUCph62o1Z85k9UU-0" />
+        <mxCell id="KqGW2GoElMg24cjn7uxA-0" value="What are the exact rules around this new feature?" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="QnDTnUCph62o1Z85k9UU-1">
+          <mxGeometry x="460" y="300" width="590" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bg5YulNnowDrPbp0Gty0-0" value="How do we add new features?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=27;fontStyle=1" vertex="1" parent="QnDTnUCph62o1Z85k9UU-1">
+          <mxGeometry x="555" y="270" width="400" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bg5YulNnowDrPbp0Gty0-1" value="What services will this impact?" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="QnDTnUCph62o1Z85k9UU-1">
+          <mxGeometry x="460" y="370" width="590" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bg5YulNnowDrPbp0Gty0-2" value="What events will we introduce or change?" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="QnDTnUCph62o1Z85k9UU-1">
+          <mxGeometry x="460" y="440" width="590" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="14 - rules" id="fVlJVRoh45Z7aMVvq7TT">
+    <mxGraphModel dx="858" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="Sd689NQM3iXpyvBZzZDY-0" />
+        <mxCell id="Sd689NQM3iXpyvBZzZDY-1" parent="Sd689NQM3iXpyvBZzZDY-0" />
+        <mxCell id="Sd689NQM3iXpyvBZzZDY-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=19;" edge="1" parent="Sd689NQM3iXpyvBZzZDY-1" source="Sd689NQM3iXpyvBZzZDY-2" target="Sd689NQM3iXpyvBZzZDY-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sd689NQM3iXpyvBZzZDY-2" value="How does a comment get approved?" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Sd689NQM3iXpyvBZzZDY-1">
+          <mxGeometry x="460" y="300" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sd689NQM3iXpyvBZzZDY-3" value="Clarify goal of feature" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=27;fontStyle=1" vertex="1" parent="Sd689NQM3iXpyvBZzZDY-1">
+          <mxGeometry x="690" y="260" width="400" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Sd689NQM3iXpyvBZzZDY-6" value="Well, maybe the comment can only be rejected" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;align=center;" vertex="1" parent="Sd689NQM3iXpyvBZzZDY-1">
+          <mxGeometry x="810" y="300" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sd689NQM3iXpyvBZzZDY-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=19;" edge="1" parent="Sd689NQM3iXpyvBZzZDY-1" source="Sd689NQM3iXpyvBZzZDY-8" target="Sd689NQM3iXpyvBZzZDY-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sd689NQM3iXpyvBZzZDY-8" value="How does a comment get rejected?" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Sd689NQM3iXpyvBZzZDY-1">
+          <mxGeometry x="460" y="380" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sd689NQM3iXpyvBZzZDY-9" value="Reject the comment automatically if it has the word &#39;orange&#39; in it" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;align=center;" vertex="1" parent="Sd689NQM3iXpyvBZzZDY-1">
+          <mxGeometry x="810" y="380" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sd689NQM3iXpyvBZzZDY-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=19;" edge="1" parent="Sd689NQM3iXpyvBZzZDY-1" source="Sd689NQM3iXpyvBZzZDY-11" target="Sd689NQM3iXpyvBZzZDY-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sd689NQM3iXpyvBZzZDY-11" value="What to show in the app when the comment is awaiting approval?" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Sd689NQM3iXpyvBZzZDY-1">
+          <mxGeometry x="460" y="460" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sd689NQM3iXpyvBZzZDY-12" value="Show the text &#39;this comment is awaiting approval&#39;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;align=center;" vertex="1" parent="Sd689NQM3iXpyvBZzZDY-1">
+          <mxGeometry x="810" y="460" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sd689NQM3iXpyvBZzZDY-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=19;" edge="1" parent="Sd689NQM3iXpyvBZzZDY-1" source="Sd689NQM3iXpyvBZzZDY-14" target="Sd689NQM3iXpyvBZzZDY-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sd689NQM3iXpyvBZzZDY-14" value="What to show in the app when the comment is rejected?" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Sd689NQM3iXpyvBZzZDY-1">
+          <mxGeometry x="460" y="540" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sd689NQM3iXpyvBZzZDY-15" value="Show the text &#39;this comment was rejected&#39;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;align=center;" vertex="1" parent="Sd689NQM3iXpyvBZzZDY-1">
+          <mxGeometry x="810" y="540" width="460" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
   <diagram id="u-nuYAkOn9ul3RvS-5sx" name="12 - mock">
     <mxGraphModel dx="884" dy="435" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="O22Qx82IqUB0U3Zq166E-0" />
         <mxCell id="O22Qx82IqUB0U3Zq166E-1" parent="O22Qx82IqUB0U3Zq166E-0" />
         <mxCell id="O22Qx82IqUB0U3Zq166E-2" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.browserWindow;rSize=0;strokeColor=#666666;strokeColor2=#008cff;strokeColor3=#c4c4c4;mainText=,;recursiveResize=0;" vertex="1" parent="O22Qx82IqUB0U3Zq166E-1">
-          <mxGeometry x="360" y="300" width="480" height="430" as="geometry" />
+          <mxGeometry x="360" y="300" width="770" height="430" as="geometry" />
         </mxCell>
         <mxCell id="O22Qx82IqUB0U3Zq166E-3" value="Page 1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="O22Qx82IqUB0U3Zq166E-2">
           <mxGeometry x="60" y="12" width="110" height="26" as="geometry" />
@@ -353,7 +420,7 @@
         <mxCell id="O22Qx82IqUB0U3Zq166E-11" value="My Post" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=28;" vertex="1" parent="O22Qx82IqUB0U3Zq166E-2">
           <mxGeometry x="30" y="260" width="200" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="O22Qx82IqUB0U3Zq166E-13" value="&lt;ul style=&quot;font-size: 16px;&quot;&gt;&lt;li style=&quot;font-size: 16px;&quot;&gt;&lt;i style=&quot;font-size: 16px;&quot;&gt;Comments awaiting moderation&lt;/i&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="O22Qx82IqUB0U3Zq166E-2">
+        <mxCell id="O22Qx82IqUB0U3Zq166E-13" value="&lt;ul style=&quot;font-size: 16px&quot;&gt;&lt;li style=&quot;font-size: 16px&quot;&gt;&lt;i style=&quot;font-size: 16px&quot;&gt;This comment awaiting moderation&lt;/i&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="O22Qx82IqUB0U3Zq166E-2">
           <mxGeometry x="40" y="300" width="200" height="20" as="geometry" />
         </mxCell>
         <mxCell id="O22Qx82IqUB0U3Zq166E-14" value="" style="whiteSpace=wrap;html=1;fontSize=28;align=left;" vertex="1" parent="O22Qx82IqUB0U3Zq166E-2">
@@ -383,22 +450,23 @@
         <mxCell id="O22Qx82IqUB0U3Zq166E-23" value="Submit" style="whiteSpace=wrap;html=1;fontSize=16;align=center;rounded=1;" vertex="1" parent="O22Qx82IqUB0U3Zq166E-2">
           <mxGeometry x="257.5" y="388" width="80" height="25" as="geometry" />
         </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="ar0VM24unDqg_7PGBCrO" name="13 - rules">
-    <mxGraphModel dx="858" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
-      <root>
-        <mxCell id="QnDTnUCph62o1Z85k9UU-0" />
-        <mxCell id="QnDTnUCph62o1Z85k9UU-1" parent="QnDTnUCph62o1Z85k9UU-0" />
-        <mxCell id="KqGW2GoElMg24cjn7uxA-0" value="What are the exact rules around this new feature?" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="QnDTnUCph62o1Z85k9UU-1">
-          <mxGeometry x="460" y="300" width="590" height="60" as="geometry" />
+        <mxCell id="8fXioL6i95YofjJt7NS--0" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="O22Qx82IqUB0U3Zq166E-2">
+          <mxGeometry x="480" y="250" width="215" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="bg5YulNnowDrPbp0Gty0-0" value="How do we add new features?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=27;fontStyle=1" vertex="1" parent="QnDTnUCph62o1Z85k9UU-1">
-          <mxGeometry x="555" y="270" width="400" height="20" as="geometry" />
+        <mxCell id="8fXioL6i95YofjJt7NS--1" value="Post #3" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=28;" vertex="1" parent="O22Qx82IqUB0U3Zq166E-2">
+          <mxGeometry x="485" y="260" width="200" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="bg5YulNnowDrPbp0Gty0-1" value="What services will this impact?" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="QnDTnUCph62o1Z85k9UU-1">
-          <mxGeometry x="460" y="370" width="590" height="60" as="geometry" />
+        <mxCell id="8fXioL6i95YofjJt7NS--2" value="&lt;ul&gt;&lt;li&gt;&lt;i&gt;This comment was rejected&lt;/i&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="O22Qx82IqUB0U3Zq166E-2">
+          <mxGeometry x="495" y="300" width="165" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="8fXioL6i95YofjJt7NS--3" value="" style="whiteSpace=wrap;html=1;fontSize=28;align=left;" vertex="1" parent="O22Qx82IqUB0U3Zq166E-2">
+          <mxGeometry x="487.5" y="359" width="180" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="8fXioL6i95YofjJt7NS--4" value="Comment" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="O22Qx82IqUB0U3Zq166E-2">
+          <mxGeometry x="487.5" y="340" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="8fXioL6i95YofjJt7NS--5" value="Submit" style="whiteSpace=wrap;html=1;fontSize=16;align=center;rounded=1;" vertex="1" parent="O22Qx82IqUB0U3Zq166E-2">
+          <mxGeometry x="487.5" y="388" width="80" height="25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
