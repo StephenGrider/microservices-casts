@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-03-23T18:24:36.985Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="5ueV1HL7sNWfWicpkFgX" version="12.8.8" type="github" pages="12">
+<mxfile host="www.draw.io" modified="2020-03-23T18:26:17.986Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="-iFbNzdlkwOEMGTT8NSW" version="12.8.8" type="github" pages="13">
   <diagram id="Exqp0YedXQySDimMVRkW" name="01 - bus">
     <mxGraphModel dx="884" dy="435" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -382,6 +382,23 @@
         </mxCell>
         <mxCell id="O22Qx82IqUB0U3Zq166E-23" value="Submit" style="whiteSpace=wrap;html=1;fontSize=16;align=center;rounded=1;" vertex="1" parent="O22Qx82IqUB0U3Zq166E-2">
           <mxGeometry x="257.5" y="388" width="80" height="25" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ar0VM24unDqg_7PGBCrO" name="13 - rules">
+    <mxGraphModel dx="858" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="QnDTnUCph62o1Z85k9UU-0" />
+        <mxCell id="QnDTnUCph62o1Z85k9UU-1" parent="QnDTnUCph62o1Z85k9UU-0" />
+        <mxCell id="KqGW2GoElMg24cjn7uxA-0" value="What are the exact rules around this new feature?" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="QnDTnUCph62o1Z85k9UU-1">
+          <mxGeometry x="460" y="300" width="590" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bg5YulNnowDrPbp0Gty0-0" value="How do we add new features?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=27;fontStyle=1" vertex="1" parent="QnDTnUCph62o1Z85k9UU-1">
+          <mxGeometry x="555" y="270" width="400" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bg5YulNnowDrPbp0Gty0-1" value="What services will this impact?" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="QnDTnUCph62o1Z85k9UU-1">
+          <mxGeometry x="460" y="370" width="590" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
