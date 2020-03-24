@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-03-24T21:18:09.374Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="0QGzeB3ZCI9XGlct09iy" version="12.9.2" type="github" pages="9">
+<mxfile host="www.draw.io" modified="2020-03-24T21:18:43.627Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="8akHGFWGlKZtaa_dcQfZ" version="12.9.2" type="github" pages="9">
   <diagram id="uGPLxnoArwS2gYUfzntL" name="01 - docker">
     <mxGraphModel dx="715" dy="352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -229,10 +229,10 @@
         <mxCell id="yxXRN-H7yoIBGOv3e-nw-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=33;" edge="1" parent="yxXRN-H7yoIBGOv3e-nw-1" source="yxXRN-H7yoIBGOv3e-nw-2" target="yxXRN-H7yoIBGOv3e-nw-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="yxXRN-H7yoIBGOv3e-nw-2" value="Docker Client &lt;br&gt;-or-&lt;br&gt;&amp;nbsp;Docker CLI" style="rounded=0;whiteSpace=wrap;html=1;fontSize=27;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="yxXRN-H7yoIBGOv3e-nw-1">
+        <mxCell id="yxXRN-H7yoIBGOv3e-nw-2" value="Docker Client" style="rounded=0;whiteSpace=wrap;html=1;fontSize=27;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="yxXRN-H7yoIBGOv3e-nw-1">
           <mxGeometry x="380" y="520" width="290" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="yxXRN-H7yoIBGOv3e-nw-3" value="Docker Daemon&lt;br&gt;-or-&lt;br&gt;Docker Server" style="rounded=0;whiteSpace=wrap;html=1;fontSize=27;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="yxXRN-H7yoIBGOv3e-nw-1">
+        <mxCell id="yxXRN-H7yoIBGOv3e-nw-3" value="Docker Daemon" style="rounded=0;whiteSpace=wrap;html=1;fontSize=27;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="yxXRN-H7yoIBGOv3e-nw-1">
           <mxGeometry x="875" y="520" width="290" height="110" as="geometry" />
         </mxCell>
         <mxCell id="yxXRN-H7yoIBGOv3e-nw-5" value="Your Computer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=33;fontStyle=1" vertex="1" parent="yxXRN-H7yoIBGOv3e-nw-1">
@@ -258,10 +258,10 @@
         <mxCell id="PONJvY7SQaLr81d_Gsmx-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=33;" edge="1" parent="PONJvY7SQaLr81d_Gsmx-1" source="PONJvY7SQaLr81d_Gsmx-5" target="PONJvY7SQaLr81d_Gsmx-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PONJvY7SQaLr81d_Gsmx-5" value="Docker Client &lt;br&gt;-or-&lt;br&gt;&amp;nbsp;Docker CLI" style="rounded=0;whiteSpace=wrap;html=1;fontSize=27;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="PONJvY7SQaLr81d_Gsmx-1">
+        <mxCell id="PONJvY7SQaLr81d_Gsmx-5" value="Docker Client" style="rounded=0;whiteSpace=wrap;html=1;fontSize=27;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="PONJvY7SQaLr81d_Gsmx-1">
           <mxGeometry x="380" y="520" width="290" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="PONJvY7SQaLr81d_Gsmx-6" value="Docker Daemon&lt;br&gt;-or-&lt;br&gt;Docker Server" style="rounded=0;whiteSpace=wrap;html=1;fontSize=27;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="PONJvY7SQaLr81d_Gsmx-1">
+        <mxCell id="PONJvY7SQaLr81d_Gsmx-6" value="Docker Daemon" style="rounded=0;whiteSpace=wrap;html=1;fontSize=27;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="PONJvY7SQaLr81d_Gsmx-1">
           <mxGeometry x="875" y="520" width="290" height="110" as="geometry" />
         </mxCell>
         <mxCell id="PONJvY7SQaLr81d_Gsmx-7" value="Your Computer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=33;fontStyle=1" vertex="1" parent="PONJvY7SQaLr81d_Gsmx-1">
