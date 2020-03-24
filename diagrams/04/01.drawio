@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-03-24T20:26:36.851Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="A6IXSZJ4vq8uBatdefcx" version="12.9.2" type="github" pages="3">
+<mxfile host="www.draw.io" modified="2020-03-24T20:30:40.021Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="VEKmiDimUanXi1ZU5YJJ" version="12.9.2" type="github" pages="4">
   <diagram id="uGPLxnoArwS2gYUfzntL" name="01 - docker">
     <mxGraphModel dx="715" dy="352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -106,6 +106,23 @@
         </mxCell>
         <mxCell id="OMzkanlq8Y191vcATbM0-6" value="Much easier to implement logging/debugging" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="OMzkanlq8Y191vcATbM0-1">
           <mxGeometry x="505" y="340" width="635" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="YVCAH3EXZc3DehuYH1u1" name="04 - note">
+    <mxGraphModel dx="715" dy="352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="TNOyOTzoj3xBKnb3hx0Y-0" />
+        <mxCell id="TNOyOTzoj3xBKnb3hx0Y-1" parent="TNOyOTzoj3xBKnb3hx0Y-0" />
+        <mxCell id="TNOyOTzoj3xBKnb3hx0Y-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=18;" edge="1" parent="TNOyOTzoj3xBKnb3hx0Y-1" source="TNOyOTzoj3xBKnb3hx0Y-2" target="TNOyOTzoj3xBKnb3hx0Y-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TNOyOTzoj3xBKnb3hx0Y-2" value="Don&#39;t know anything about Docker?" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="TNOyOTzoj3xBKnb3hx0Y-1">
+          <mxGeometry x="500" y="260" width="480" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="TNOyOTzoj3xBKnb3hx0Y-3" value="&lt;b&gt;No problem.&lt;/b&gt;&amp;nbsp;I&#39;ll teach you everything you need to know in the next few videos" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="TNOyOTzoj3xBKnb3hx0Y-1">
+          <mxGeometry x="500" y="400" width="480" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
