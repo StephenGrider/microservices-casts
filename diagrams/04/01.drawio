@@ -1,1 +1,31 @@
-<mxfile host="www.draw.io" modified="2020-03-24T19:01:56.434Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" version="12.9.2" etag="OC9hSGu3mNbA5dDMud-h" type="github"><diagram id="uGPLxnoArwS2gYUfzntL">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2020-03-24T20:22:48.725Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="oRHtKILvB6-VHcCyesV0" version="12.9.2" type="github">
+  <diagram id="uGPLxnoArwS2gYUfzntL" name="01 - docker">
+    <mxGraphModel dx="715" dy="352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="EtBarYNKzg1M3KnECaB2-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="580" y="230" width="450" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="EtBarYNKzg1M3KnECaB2-2" value="Your Computer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=21;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="686.25" y="200" width="237.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EtBarYNKzg1M3KnECaB2-3" value="Event Bus" style="rounded=0;whiteSpace=wrap;html=1;fontSize=21;" vertex="1" parent="1">
+          <mxGeometry x="610" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EtBarYNKzg1M3KnECaB2-4" value="Posts" style="rounded=0;whiteSpace=wrap;html=1;fontSize=21;" vertex="1" parent="1">
+          <mxGeometry x="745" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EtBarYNKzg1M3KnECaB2-5" value="Comments" style="rounded=0;whiteSpace=wrap;html=1;fontSize=21;" vertex="1" parent="1">
+          <mxGeometry x="877.5" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EtBarYNKzg1M3KnECaB2-6" value="Moderation" style="rounded=0;whiteSpace=wrap;html=1;fontSize=21;" vertex="1" parent="1">
+          <mxGeometry x="610" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EtBarYNKzg1M3KnECaB2-7" value="Query" style="rounded=0;whiteSpace=wrap;html=1;fontSize=21;" vertex="1" parent="1">
+          <mxGeometry x="745" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
