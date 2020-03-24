@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-03-24T21:18:43.627Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="8akHGFWGlKZtaa_dcQfZ" version="12.9.2" type="github" pages="9">
+<mxfile host="www.draw.io" modified="2020-03-24T21:34:46.036Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="g2YMNx8QYCZrCzzVVNC5" version="12.9.2" type="github" pages="9">
   <diagram id="uGPLxnoArwS2gYUfzntL" name="01 - docker">
     <mxGraphModel dx="715" dy="352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -187,30 +187,28 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="XObZPPqiJzpiILM1oH-i" name="07 - note">
+  <diagram id="M8j3uUUsm0DaBdc06Vrw" name="10 - ic">
     <mxGraphModel dx="715" dy="352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
-        <mxCell id="ZmJqGx0PlWWyrtcj5DUi-0" />
-        <mxCell id="ZmJqGx0PlWWyrtcj5DUi-1" parent="ZmJqGx0PlWWyrtcj5DUi-0" />
-        <mxCell id="otvDZCq3OCqjceXDUj1l-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=27;" edge="1" parent="ZmJqGx0PlWWyrtcj5DUi-1" source="otvDZCq3OCqjceXDUj1l-0">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="745" y="390" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="otvDZCq3OCqjceXDUj1l-0" value="Running MacOS version earlier than 10.13?" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="ZmJqGx0PlWWyrtcj5DUi-1">
-          <mxGeometry x="470" y="290" width="550" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="otvDZCq3OCqjceXDUj1l-1" value="Note" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=27;fontStyle=1" vertex="1" parent="ZmJqGx0PlWWyrtcj5DUi-1">
-          <mxGeometry x="712.5" y="250" width="65" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="otvDZCq3OCqjceXDUj1l-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=27;" edge="1" parent="ZmJqGx0PlWWyrtcj5DUi-1" source="otvDZCq3OCqjceXDUj1l-3" target="otvDZCq3OCqjceXDUj1l-4">
+        <mxCell id="A27rKTNN8p0hFtHscR5g-0" />
+        <mxCell id="A27rKTNN8p0hFtHscR5g-1" parent="A27rKTNN8p0hFtHscR5g-0" />
+        <mxCell id="GPGRc3cqtqzh2XopeF0q-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=22;" edge="1" parent="A27rKTNN8p0hFtHscR5g-1" source="GPGRc3cqtqzh2XopeF0q-1" target="GPGRc3cqtqzh2XopeF0q-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="otvDZCq3OCqjceXDUj1l-3" value="You need to install &#39;Docker-Toolbox&#39; instead." style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="ZmJqGx0PlWWyrtcj5DUi-1">
-          <mxGeometry x="470" y="390" width="550" height="70" as="geometry" />
+        <mxCell id="GPGRc3cqtqzh2XopeF0q-1" value="Image" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fontStyle=1" vertex="1" parent="A27rKTNN8p0hFtHscR5g-1">
+          <mxGeometry x="730" y="350" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="otvDZCq3OCqjceXDUj1l-4" value="I can&#39;t provide support for Docker-Toolbox. Apologies." style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="ZmJqGx0PlWWyrtcj5DUi-1">
-          <mxGeometry x="470" y="490" width="550" height="70" as="geometry" />
+        <mxCell id="GPGRc3cqtqzh2XopeF0q-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=22;" edge="1" parent="A27rKTNN8p0hFtHscR5g-1" source="GPGRc3cqtqzh2XopeF0q-4" target="GPGRc3cqtqzh2XopeF0q-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GPGRc3cqtqzh2XopeF0q-4" value="Container" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fontStyle=1" vertex="1" parent="A27rKTNN8p0hFtHscR5g-1">
+          <mxGeometry x="730" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GPGRc3cqtqzh2XopeF0q-5" value="&lt;i&gt;Like &lt;/i&gt;an isolated computer running on your machine" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="A27rKTNN8p0hFtHscR5g-1">
+          <mxGeometry x="880" y="260" width="430" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GPGRc3cqtqzh2XopeF0q-7" value="Blueprint for a container" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="A27rKTNN8p0hFtHscR5g-1">
+          <mxGeometry x="880" y="350" width="430" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
