@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-03-25T16:28:33.084Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="y5MRi3rnDwZWaQ2Sahhc" version="12.9.2" type="github" pages="5">
+<mxfile host="www.draw.io" modified="2020-03-25T17:08:31.944Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="ohP4JxQ59E0JqI6QjHbz" version="12.9.2" type="github" pages="6">
   <diagram id="uGPLxnoArwS2gYUfzntL" name="01 - docker">
     <mxGraphModel dx="715" dy="352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -109,6 +109,62 @@
         </mxCell>
         <mxCell id="kGUeqkLpHL_VvSy9vvvt-0" value="There are many blog posts online to tell you &lt;i&gt;why&lt;/i&gt;&amp;nbsp;to use Docker" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="OMzkanlq8Y191vcATbM0-1">
           <mxGeometry x="505" y="460" width="635" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="7ZKmT3M0O2ODhJMnzZQQ" name="06 - docker">
+    <mxGraphModel dx="715" dy="352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="CoNd-OH8eL4AtUQJQWi3-0" />
+        <mxCell id="CoNd-OH8eL4AtUQJQWi3-1" parent="CoNd-OH8eL4AtUQJQWi3-0" />
+        <mxCell id="ELNGCTeDSalSp-0Ckl_U-0" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="CoNd-OH8eL4AtUQJQWi3-1">
+          <mxGeometry x="735" y="240" width="540" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="ELNGCTeDSalSp-0Ckl_U-1" value="Your Computer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=21;fontStyle=1" vertex="1" parent="CoNd-OH8eL4AtUQJQWi3-1">
+          <mxGeometry x="886.25" y="210" width="237.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ELNGCTeDSalSp-0Ckl_U-2" value="Event Bus" style="rounded=0;whiteSpace=wrap;html=1;fontSize=21;" vertex="1" parent="CoNd-OH8eL4AtUQJQWi3-1">
+          <mxGeometry x="877.5" y="430" width="255" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ELNGCTeDSalSp-0Ckl_U-3" value="Posts" style="rounded=0;whiteSpace=wrap;html=1;fontSize=21;" vertex="1" parent="CoNd-OH8eL4AtUQJQWi3-1">
+          <mxGeometry x="745" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ELNGCTeDSalSp-0Ckl_U-4" value="Comments" style="rounded=0;whiteSpace=wrap;html=1;fontSize=21;" vertex="1" parent="CoNd-OH8eL4AtUQJQWi3-1">
+          <mxGeometry x="877.5" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ELNGCTeDSalSp-0Ckl_U-5" value="Moderation" style="rounded=0;whiteSpace=wrap;html=1;fontSize=21;" vertex="1" parent="CoNd-OH8eL4AtUQJQWi3-1">
+          <mxGeometry x="1140" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ELNGCTeDSalSp-0Ckl_U-6" value="Query" style="rounded=0;whiteSpace=wrap;html=1;fontSize=21;" vertex="1" parent="CoNd-OH8eL4AtUQJQWi3-1">
+          <mxGeometry x="1010" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ELNGCTeDSalSp-0Ckl_U-7" value="Port 4005" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;fontStyle=1" vertex="1" parent="CoNd-OH8eL4AtUQJQWi3-1">
+          <mxGeometry x="877.5" y="400" width="255" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ELNGCTeDSalSp-0Ckl_U-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=17;" edge="1" parent="CoNd-OH8eL4AtUQJQWi3-1" source="ELNGCTeDSalSp-0Ckl_U-9" target="ELNGCTeDSalSp-0Ckl_U-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ELNGCTeDSalSp-0Ckl_U-9" value="Port 4000" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;fontStyle=1" vertex="1" parent="CoNd-OH8eL4AtUQJQWi3-1">
+          <mxGeometry x="745" y="310" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ELNGCTeDSalSp-0Ckl_U-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=17;" edge="1" parent="CoNd-OH8eL4AtUQJQWi3-1" source="ELNGCTeDSalSp-0Ckl_U-11" target="ELNGCTeDSalSp-0Ckl_U-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ELNGCTeDSalSp-0Ckl_U-11" value="Port 4001" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;fontStyle=1" vertex="1" parent="CoNd-OH8eL4AtUQJQWi3-1">
+          <mxGeometry x="877.5" y="310" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ELNGCTeDSalSp-0Ckl_U-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=17;" edge="1" parent="CoNd-OH8eL4AtUQJQWi3-1" source="ELNGCTeDSalSp-0Ckl_U-12" target="ELNGCTeDSalSp-0Ckl_U-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ELNGCTeDSalSp-0Ckl_U-12" value="Port 4002" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;fontStyle=1" vertex="1" parent="CoNd-OH8eL4AtUQJQWi3-1">
+          <mxGeometry x="1010" y="310" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ELNGCTeDSalSp-0Ckl_U-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=17;" edge="1" parent="CoNd-OH8eL4AtUQJQWi3-1" source="ELNGCTeDSalSp-0Ckl_U-13" target="ELNGCTeDSalSp-0Ckl_U-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ELNGCTeDSalSp-0Ckl_U-13" value="Port 4003" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;fontStyle=1" vertex="1" parent="CoNd-OH8eL4AtUQJQWi3-1">
+          <mxGeometry x="1140" y="310" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
