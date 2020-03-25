@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-03-25T15:45:19.394Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="RB63D0_giQksSDVvLopy" version="12.9.2" type="github" pages="4">
+<mxfile host="www.draw.io" modified="2020-03-25T16:03:40.318Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="HhH4TPNIImV_ugS8BSJ4" version="12.9.2" type="github" pages="4">
   <diagram id="uGPLxnoArwS2gYUfzntL" name="01 - docker">
     <mxGraphModel dx="715" dy="352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -98,7 +98,7 @@
         <mxCell id="OMzkanlq8Y191vcATbM0-3" value="Many times easier to deploy" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="OMzkanlq8Y191vcATbM0-1">
           <mxGeometry x="505" y="220" width="635" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="OMzkanlq8Y191vcATbM0-4" value="Allows us to use Kubernetes, which is a life-saver with microservices" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="OMzkanlq8Y191vcATbM0-1">
+        <mxCell id="OMzkanlq8Y191vcATbM0-4" value="Allows us to use Kubernetes, which is a life-saver with microservices" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fontStyle=1" vertex="1" parent="OMzkanlq8Y191vcATbM0-1">
           <mxGeometry x="505" y="400" width="635" height="50" as="geometry" />
         </mxCell>
         <mxCell id="OMzkanlq8Y191vcATbM0-5" value="Solves a ton of cross-platform (windows vs macos vs linux) issues" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="OMzkanlq8Y191vcATbM0-1">
