@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-03-25T16:03:40.318Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="HhH4TPNIImV_ugS8BSJ4" version="12.9.2" type="github" pages="4">
+<mxfile host="www.draw.io" modified="2020-03-25T16:10:19.531Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="GTlQS4H_lWT64Es4cNib" version="12.9.2" type="github" pages="5">
   <diagram id="uGPLxnoArwS2gYUfzntL" name="01 - docker">
     <mxGraphModel dx="715" dy="352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -126,6 +126,86 @@
         </mxCell>
         <mxCell id="TNOyOTzoj3xBKnb3hx0Y-3" value="&lt;b&gt;No problem.&lt;/b&gt;&amp;nbsp;There&#39;s an appendix section towards the end of the course that will give you a background in Docker" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="TNOyOTzoj3xBKnb3hx0Y-1">
           <mxGeometry x="500" y="400" width="480" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="WYamEJ_uFW-Ez7pgZ_n6" name="05 - docker">
+    <mxGraphModel dx="884" dy="435" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="kuvzvy3GPNXzr5ZJeTDZ-0" />
+        <mxCell id="kuvzvy3GPNXzr5ZJeTDZ-1" parent="kuvzvy3GPNXzr5ZJeTDZ-0" />
+        <mxCell id="kuvzvy3GPNXzr5ZJeTDZ-2" value="FROM&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="kuvzvy3GPNXzr5ZJeTDZ-1">
+          <mxGeometry x="560" y="240" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kuvzvy3GPNXzr5ZJeTDZ-3" value="&amp;nbsp; node:alpine" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" vertex="1" parent="kuvzvy3GPNXzr5ZJeTDZ-1">
+          <mxGeometry x="710" y="240" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kuvzvy3GPNXzr5ZJeTDZ-4" value="WORKDIR" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="kuvzvy3GPNXzr5ZJeTDZ-1">
+          <mxGeometry x="560" y="302" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kuvzvy3GPNXzr5ZJeTDZ-5" value="&amp;nbsp; /app" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" vertex="1" parent="kuvzvy3GPNXzr5ZJeTDZ-1">
+          <mxGeometry x="710" y="302" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kuvzvy3GPNXzr5ZJeTDZ-6" value="COPY&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="kuvzvy3GPNXzr5ZJeTDZ-1">
+          <mxGeometry x="560" y="364" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kuvzvy3GPNXzr5ZJeTDZ-7" value="&amp;nbsp;package.json" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" vertex="1" parent="kuvzvy3GPNXzr5ZJeTDZ-1">
+          <mxGeometry x="710" y="364" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kuvzvy3GPNXzr5ZJeTDZ-8" value="RUN" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="kuvzvy3GPNXzr5ZJeTDZ-1">
+          <mxGeometry x="560" y="426" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kuvzvy3GPNXzr5ZJeTDZ-9" value="&amp;nbsp;npm install" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" vertex="1" parent="kuvzvy3GPNXzr5ZJeTDZ-1">
+          <mxGeometry x="710" y="426" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kuvzvy3GPNXzr5ZJeTDZ-10" value="COPY&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="kuvzvy3GPNXzr5ZJeTDZ-1">
+          <mxGeometry x="560" y="488" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kuvzvy3GPNXzr5ZJeTDZ-11" value="&amp;nbsp; ./ ./" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" vertex="1" parent="kuvzvy3GPNXzr5ZJeTDZ-1">
+          <mxGeometry x="710" y="488" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kuvzvy3GPNXzr5ZJeTDZ-12" value="CMD" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="kuvzvy3GPNXzr5ZJeTDZ-1">
+          <mxGeometry x="560" y="550" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kuvzvy3GPNXzr5ZJeTDZ-13" value="&amp;nbsp;[&quot;npm&quot;, &quot;start&quot;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" vertex="1" parent="kuvzvy3GPNXzr5ZJeTDZ-1">
+          <mxGeometry x="710" y="550" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kuvzvy3GPNXzr5ZJeTDZ-14" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=22;align=left;rotation=-180;" vertex="1" parent="kuvzvy3GPNXzr5ZJeTDZ-1">
+          <mxGeometry x="920" y="240" width="30" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kuvzvy3GPNXzr5ZJeTDZ-15" value="Specify base image" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="kuvzvy3GPNXzr5ZJeTDZ-1">
+          <mxGeometry x="950" y="255" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="kuvzvy3GPNXzr5ZJeTDZ-16" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=22;align=left;rotation=-180;" vertex="1" parent="kuvzvy3GPNXzr5ZJeTDZ-1">
+          <mxGeometry x="920" y="302" width="30" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kuvzvy3GPNXzr5ZJeTDZ-17" value="Set the working directory to &#39;/app&#39; in the container.&amp;nbsp; All following commands will be issued relative to this dir" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="kuvzvy3GPNXzr5ZJeTDZ-1">
+          <mxGeometry x="950" y="317" width="290" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="kuvzvy3GPNXzr5ZJeTDZ-18" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=22;align=left;rotation=-180;" vertex="1" parent="kuvzvy3GPNXzr5ZJeTDZ-1">
+          <mxGeometry x="920" y="364" width="30" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kuvzvy3GPNXzr5ZJeTDZ-19" value="Copy over &lt;i&gt;only&lt;/i&gt;&amp;nbsp;the package.json file" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="kuvzvy3GPNXzr5ZJeTDZ-1">
+          <mxGeometry x="950" y="379" width="290" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="kuvzvy3GPNXzr5ZJeTDZ-20" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=22;align=left;rotation=-180;" vertex="1" parent="kuvzvy3GPNXzr5ZJeTDZ-1">
+          <mxGeometry x="920" y="426" width="30" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kuvzvy3GPNXzr5ZJeTDZ-21" value="Install all dependencies" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="kuvzvy3GPNXzr5ZJeTDZ-1">
+          <mxGeometry x="950" y="441" width="290" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="kuvzvy3GPNXzr5ZJeTDZ-22" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=22;align=left;rotation=-180;" vertex="1" parent="kuvzvy3GPNXzr5ZJeTDZ-1">
+          <mxGeometry x="920" y="488" width="30" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kuvzvy3GPNXzr5ZJeTDZ-23" value="Copy over all of our remaining source code" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="kuvzvy3GPNXzr5ZJeTDZ-1">
+          <mxGeometry x="950" y="503" width="290" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="kuvzvy3GPNXzr5ZJeTDZ-24" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=22;align=left;rotation=-180;" vertex="1" parent="kuvzvy3GPNXzr5ZJeTDZ-1">
+          <mxGeometry x="920" y="550" width="30" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kuvzvy3GPNXzr5ZJeTDZ-25" value="Set the command to run when the container starts up" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="kuvzvy3GPNXzr5ZJeTDZ-1">
+          <mxGeometry x="950" y="565" width="290" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
