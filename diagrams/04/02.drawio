@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-03-25T19:11:55.302Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="C310WMrWuy5xvlOficer" version="12.9.2" type="github" pages="5">
+<mxfile host="www.draw.io" modified="2020-03-25T19:58:35.775Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="0oUEvQY3KHcQKKgd77eQ" version="12.9.2" type="github" pages="7">
   <diagram id="dEJmAzNZKsH2q0hHsCmS" name="03 - setup">
     <mxGraphModel dx="858" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -122,9 +122,6 @@
         <mxCell id="wXT9SVkMKbFDbOQsicwG-23" value="Image for Posts" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1" vertex="1" parent="Kmae4lA-x9HlCP4xx7lr-1">
           <mxGeometry x="570" y="468" width="110" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="wXT9SVkMKbFDbOQsicwG-25" value="Deployment for Posts" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" vertex="1" parent="Kmae4lA-x9HlCP4xx7lr-1">
-          <mxGeometry x="1120" y="500" width="160" height="50" as="geometry" />
-        </mxCell>
         <mxCell id="wXT9SVkMKbFDbOQsicwG-26" value="Please allow copies of Posts to be accessible from network" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="Kmae4lA-x9HlCP4xx7lr-1">
           <mxGeometry x="950" y="690" width="160" height="60" as="geometry" />
         </mxCell>
@@ -136,36 +133,6 @@
         </mxCell>
         <mxCell id="wXT9SVkMKbFDbOQsicwG-29" value="Container running Posts image" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fontColor=#000000;" vertex="1" parent="Kmae4lA-x9HlCP4xx7lr-1">
           <mxGeometry x="790" y="377" width="140" height="43" as="geometry" />
-        </mxCell>
-        <mxCell id="E1mSgz0g4WY2_klbClaV-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=15;fontColor=#000000;" edge="1" parent="Kmae4lA-x9HlCP4xx7lr-1" source="wXT9SVkMKbFDbOQsicwG-30" target="wXT9SVkMKbFDbOQsicwG-28">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="E1mSgz0g4WY2_klbClaV-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=15;fontColor=#000000;" edge="1" parent="Kmae4lA-x9HlCP4xx7lr-1" source="wXT9SVkMKbFDbOQsicwG-30" target="E1mSgz0g4WY2_klbClaV-3">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="wXT9SVkMKbFDbOQsicwG-30" value="Service" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" vertex="1" parent="Kmae4lA-x9HlCP4xx7lr-1">
-          <mxGeometry x="780" y="450" width="330" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="E1mSgz0g4WY2_klbClaV-2" value="Pod" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" vertex="1" parent="Kmae4lA-x9HlCP4xx7lr-1">
-          <mxGeometry x="950" y="340" width="160" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="E1mSgz0g4WY2_klbClaV-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" vertex="1" parent="Kmae4lA-x9HlCP4xx7lr-1">
-          <mxGeometry x="950" y="370" width="160" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="E1mSgz0g4WY2_klbClaV-4" value="Container running Posts image" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fontColor=#000000;" vertex="1" parent="Kmae4lA-x9HlCP4xx7lr-1">
-          <mxGeometry x="960" y="377" width="140" height="43" as="geometry" />
-        </mxCell>
-        <mxCell id="E1mSgz0g4WY2_klbClaV-8" value="Pod" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" vertex="1" parent="Kmae4lA-x9HlCP4xx7lr-1">
-          <mxGeometry x="1120" y="340" width="160" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="E1mSgz0g4WY2_klbClaV-9" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" vertex="1" parent="Kmae4lA-x9HlCP4xx7lr-1">
-          <mxGeometry x="1120" y="370" width="160" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="E1mSgz0g4WY2_klbClaV-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=15;fontColor=#000000;" edge="1" parent="Kmae4lA-x9HlCP4xx7lr-1" source="E1mSgz0g4WY2_klbClaV-10" target="wXT9SVkMKbFDbOQsicwG-30">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="E1mSgz0g4WY2_klbClaV-10" value="EVENT BUS" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fontColor=#000000;" vertex="1" parent="Kmae4lA-x9HlCP4xx7lr-1">
-          <mxGeometry x="1130" y="377" width="140" height="43" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -262,6 +229,94 @@
         </mxCell>
         <mxCell id="vneY_Xbqw34bZq-zlZ98-8" value="Blog posts will tell you to run direct commands to create objects - &lt;i style=&quot;font-size: 13px;&quot;&gt;close the blog post!&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fontColor=#000000;align=center;" vertex="1" parent="vneY_Xbqw34bZq-zlZ98-1">
           <mxGeometry x="920" y="510" width="265" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="EAbZ50dYjEy5x5WmmcF2" name="06 - pod">
+    <mxGraphModel dx="1502" dy="739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="MRl7-ZIAIe5SOBY5Nks7-0" />
+        <mxCell id="MRl7-ZIAIe5SOBY5Nks7-1" parent="MRl7-ZIAIe5SOBY5Nks7-0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="fcoTY_PhPfk188X3Yf9R" name="07 - config">
+    <mxGraphModel dx="969" dy="477" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="JKaZywYZvAtcnTRX19av-0" />
+        <mxCell id="JKaZywYZvAtcnTRX19av-1" parent="JKaZywYZvAtcnTRX19av-0" />
+        <mxCell id="JKaZywYZvAtcnTRX19av-2" value="apiVersion: v1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" vertex="1" parent="JKaZywYZvAtcnTRX19av-1">
+          <mxGeometry x="210" y="90" width="460" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JKaZywYZvAtcnTRX19av-3" value="kind: Pod" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" vertex="1" parent="JKaZywYZvAtcnTRX19av-1">
+          <mxGeometry x="210" y="152" width="460" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JKaZywYZvAtcnTRX19av-4" value="metadata:" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" vertex="1" parent="JKaZywYZvAtcnTRX19av-1">
+          <mxGeometry x="210" y="214" width="460" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JKaZywYZvAtcnTRX19av-5" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; name: posts" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" vertex="1" parent="JKaZywYZvAtcnTRX19av-1">
+          <mxGeometry x="210" y="276" width="460" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JKaZywYZvAtcnTRX19av-6" value="spec:" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" vertex="1" parent="JKaZywYZvAtcnTRX19av-1">
+          <mxGeometry x="210" y="338" width="460" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JKaZywYZvAtcnTRX19av-7" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; containers:" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" vertex="1" parent="JKaZywYZvAtcnTRX19av-1">
+          <mxGeometry x="210" y="400" width="460" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JKaZywYZvAtcnTRX19av-8" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=22;align=left;rotation=-180;" vertex="1" parent="JKaZywYZvAtcnTRX19av-1">
+          <mxGeometry x="680" y="90" width="30" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JKaZywYZvAtcnTRX19av-9" value="K8s is extensible - we can add in our own custom objects.&amp;nbsp; This specifies the set of objects we want K8s to look at" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="JKaZywYZvAtcnTRX19av-1">
+          <mxGeometry x="710" y="105" width="320" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="JKaZywYZvAtcnTRX19av-10" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=22;align=left;rotation=-180;" vertex="1" parent="JKaZywYZvAtcnTRX19av-1">
+          <mxGeometry x="680" y="152" width="30" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JKaZywYZvAtcnTRX19av-11" value="The type of object we want to create" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="JKaZywYZvAtcnTRX19av-1">
+          <mxGeometry x="710" y="167" width="290" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="JKaZywYZvAtcnTRX19av-12" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=22;align=left;rotation=-180;" vertex="1" parent="JKaZywYZvAtcnTRX19av-1">
+          <mxGeometry x="680" y="214" width="30" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JKaZywYZvAtcnTRX19av-13" value="Config options for the object we are about to create" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="JKaZywYZvAtcnTRX19av-1">
+          <mxGeometry x="710" y="229" width="290" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="JKaZywYZvAtcnTRX19av-14" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=22;align=left;rotation=-180;" vertex="1" parent="JKaZywYZvAtcnTRX19av-1">
+          <mxGeometry x="680" y="276" width="30" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JKaZywYZvAtcnTRX19av-15" value="When the pod is created, give it a name of &#39;posts&#39;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="JKaZywYZvAtcnTRX19av-1">
+          <mxGeometry x="710" y="291" width="290" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="JKaZywYZvAtcnTRX19av-16" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=22;align=left;rotation=-180;" vertex="1" parent="JKaZywYZvAtcnTRX19av-1">
+          <mxGeometry x="680" y="338" width="30" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JKaZywYZvAtcnTRX19av-17" value="The exact attributes we want to apply to the object we are about to create" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="JKaZywYZvAtcnTRX19av-1">
+          <mxGeometry x="710" y="353" width="290" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="JKaZywYZvAtcnTRX19av-18" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=22;align=left;rotation=-180;" vertex="1" parent="JKaZywYZvAtcnTRX19av-1">
+          <mxGeometry x="680" y="400" width="30" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JKaZywYZvAtcnTRX19av-19" value="We can create many containers in a single pod" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="JKaZywYZvAtcnTRX19av-1">
+          <mxGeometry x="710" y="415" width="290" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="JKaZywYZvAtcnTRX19av-20" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; - name: posts" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" vertex="1" parent="JKaZywYZvAtcnTRX19av-1">
+          <mxGeometry x="210" y="460" width="460" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JKaZywYZvAtcnTRX19av-21" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=22;align=left;rotation=-180;" vertex="1" parent="JKaZywYZvAtcnTRX19av-1">
+          <mxGeometry x="680" y="460" width="30" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JKaZywYZvAtcnTRX19av-22" value="Make a container with a name of &#39;posts&#39;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="JKaZywYZvAtcnTRX19av-1">
+          <mxGeometry x="710" y="475" width="290" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="JKaZywYZvAtcnTRX19av-23" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; image: stephengrider/posts:0.0.1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" vertex="1" parent="JKaZywYZvAtcnTRX19av-1">
+          <mxGeometry x="210" y="520" width="460" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JKaZywYZvAtcnTRX19av-24" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=22;align=left;rotation=-180;" vertex="1" parent="JKaZywYZvAtcnTRX19av-1">
+          <mxGeometry x="680" y="520" width="30" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JKaZywYZvAtcnTRX19av-25" value="The exact image we want to use" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="JKaZywYZvAtcnTRX19av-1">
+          <mxGeometry x="710" y="535" width="290" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
