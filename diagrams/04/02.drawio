@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-03-25T16:32:37.096Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="WnHgNJ8cIQ7XWO7dPOtn" version="12.9.2" type="github" pages="2">
+<mxfile host="www.draw.io" modified="2020-03-25T16:37:30.715Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="snyCQytwEGp5aoG5F8jb" version="12.9.2" type="github" pages="3">
   <diagram id="NF23fbUoGMeVQrpFLriD" name="01 - kube">
     <mxGraphModel dx="1252" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -115,10 +115,51 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xyENlrnyxkyONZvPbuHn-2" value="Kubernetes is a tool for running a bunch of different containers" style="rounded=0;whiteSpace=wrap;html=1;fontSize=28;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="xyENlrnyxkyONZvPbuHn-1">
-          <mxGeometry x="490" y="250" width="620" height="100" as="geometry" />
+          <mxGeometry x="460" y="250" width="650" height="100" as="geometry" />
         </mxCell>
         <mxCell id="xyENlrnyxkyONZvPbuHn-3" value="We give it some configuration to describe how we want our containers to run and interact with eachother" style="rounded=0;whiteSpace=wrap;html=1;fontSize=28;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="xyENlrnyxkyONZvPbuHn-1">
-          <mxGeometry x="490" y="410" width="620" height="120" as="geometry" />
+          <mxGeometry x="460" y="410" width="650" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="dEJmAzNZKsH2q0hHsCmS" name="03 - setup">
+    <mxGraphModel dx="858" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="hSuETa5tP65BxtWYBtSg-0" />
+        <mxCell id="hSuETa5tP65BxtWYBtSg-1" parent="hSuETa5tP65BxtWYBtSg-0" />
+        <mxCell id="F0Yk79G_zVVujr2gUfNa-0" value="Kubernetes Setup" style="rounded=0;whiteSpace=wrap;html=1;fontSize=28;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="hSuETa5tP65BxtWYBtSg-1">
+          <mxGeometry x="460" y="240" width="810" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="F0Yk79G_zVVujr2gUfNa-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=28;fontColor=#000000;" edge="1" parent="hSuETa5tP65BxtWYBtSg-1" source="F0Yk79G_zVVujr2gUfNa-1" target="F0Yk79G_zVVujr2gUfNa-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F0Yk79G_zVVujr2gUfNa-1" value="Running Docker for Mac/Windows?" style="rounded=0;whiteSpace=wrap;html=1;fontSize=23;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="hSuETa5tP65BxtWYBtSg-1">
+          <mxGeometry x="460" y="380" width="320" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="F0Yk79G_zVVujr2gUfNa-5" value="Yay, so easy" style="rounded=0;whiteSpace=wrap;html=1;fontSize=28;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="hSuETa5tP65BxtWYBtSg-1">
+          <mxGeometry x="460" y="520" width="320" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="F0Yk79G_zVVujr2gUfNa-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=20;fontColor=#000000;" edge="1" parent="hSuETa5tP65BxtWYBtSg-1" source="F0Yk79G_zVVujr2gUfNa-8" target="F0Yk79G_zVVujr2gUfNa-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F0Yk79G_zVVujr2gUfNa-8" value="Running Docker-Toolbox or Linux?" style="rounded=0;whiteSpace=wrap;html=1;fontSize=23;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="hSuETa5tP65BxtWYBtSg-1">
+          <mxGeometry x="800" y="380" width="470" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="F0Yk79G_zVVujr2gUfNa-12" value="kubernetes.io/docs/tasks/tools/install-minikube/" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="hSuETa5tP65BxtWYBtSg-1">
+          <mxGeometry x="800" y="520" width="470" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="F0Yk79G_zVVujr2gUfNa-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=28;fontColor=#000000;" edge="1" parent="hSuETa5tP65BxtWYBtSg-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="619.71" y="330" as="sourcePoint" />
+            <mxPoint x="619.71" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F0Yk79G_zVVujr2gUfNa-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=28;fontColor=#000000;" edge="1" parent="hSuETa5tP65BxtWYBtSg-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1034.7100000000003" y="330" as="sourcePoint" />
+            <mxPoint x="1034.7100000000003" y="380" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
