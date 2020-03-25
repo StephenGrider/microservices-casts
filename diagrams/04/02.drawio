@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-03-25T16:31:25.833Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="fFqT2BrmRCsskkr23BLY" version="12.9.2" type="github">
+<mxfile host="www.draw.io" modified="2020-03-25T16:32:37.096Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="WnHgNJ8cIQ7XWO7dPOtn" version="12.9.2" type="github" pages="2">
   <diagram id="NF23fbUoGMeVQrpFLriD" name="01 - kube">
     <mxGraphModel dx="1252" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -102,6 +102,23 @@
         </mxCell>
         <mxCell id="4ypujVCo2vhdKT-TESnu-33" value="X" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;fontSize=45;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="810" y="340" width="85" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="XkphsDHZZhkCqNtwINjF" name="02 - kube">
+    <mxGraphModel dx="858" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="xyENlrnyxkyONZvPbuHn-0" />
+        <mxCell id="xyENlrnyxkyONZvPbuHn-1" parent="xyENlrnyxkyONZvPbuHn-0" />
+        <mxCell id="xyENlrnyxkyONZvPbuHn-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=28;fontColor=#000000;" edge="1" parent="xyENlrnyxkyONZvPbuHn-1" source="xyENlrnyxkyONZvPbuHn-2" target="xyENlrnyxkyONZvPbuHn-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xyENlrnyxkyONZvPbuHn-2" value="Kubernetes is a tool for running a bunch of different containers" style="rounded=0;whiteSpace=wrap;html=1;fontSize=28;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="xyENlrnyxkyONZvPbuHn-1">
+          <mxGeometry x="490" y="250" width="620" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="xyENlrnyxkyONZvPbuHn-3" value="We give it some configuration to describe how we want our containers to run and interact with eachother" style="rounded=0;whiteSpace=wrap;html=1;fontSize=28;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="xyENlrnyxkyONZvPbuHn-1">
+          <mxGeometry x="490" y="410" width="620" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
