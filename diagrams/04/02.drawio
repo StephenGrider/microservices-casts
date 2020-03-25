@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-03-25T19:58:35.775Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="0oUEvQY3KHcQKKgd77eQ" version="12.9.2" type="github" pages="7">
+<mxfile host="www.draw.io" modified="2020-03-25T20:06:40.217Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="oKSbqcQ8BMM-K-14w4dQ" version="12.9.2" type="github" pages="8">
   <diagram id="dEJmAzNZKsH2q0hHsCmS" name="03 - setup">
     <mxGraphModel dx="858" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -317,6 +317,65 @@
         </mxCell>
         <mxCell id="JKaZywYZvAtcnTRX19av-25" value="The exact image we want to use" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="JKaZywYZvAtcnTRX19av-1">
           <mxGeometry x="710" y="535" width="290" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="9NGc2l0cj4WgpjiVNRhm" name="08 - pods">
+    <mxGraphModel dx="1001" dy="493" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="Mw0GmDt-z7o8-dxJ0Iqh-0" />
+        <mxCell id="Mw0GmDt-z7o8-dxJ0Iqh-1" parent="Mw0GmDt-z7o8-dxJ0Iqh-0" />
+        <mxCell id="AgAlsFoBK1DxY0zz-gDz-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=13;fontColor=#000000;" edge="1" parent="Mw0GmDt-z7o8-dxJ0Iqh-1" source="AgAlsFoBK1DxY0zz-gDz-3" target="AgAlsFoBK1DxY0zz-gDz-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AgAlsFoBK1DxY0zz-gDz-3" value="docker ps" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" vertex="1" parent="Mw0GmDt-z7o8-dxJ0Iqh-1">
+          <mxGeometry x="450" y="426" width="370" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AgAlsFoBK1DxY0zz-gDz-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=13;fontColor=#000000;" edge="1" parent="Mw0GmDt-z7o8-dxJ0Iqh-1" source="AgAlsFoBK1DxY0zz-gDz-4" target="AgAlsFoBK1DxY0zz-gDz-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AgAlsFoBK1DxY0zz-gDz-4" value="docker exec -it &lt;b&gt;[container id] [cmd]&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" vertex="1" parent="Mw0GmDt-z7o8-dxJ0Iqh-1">
+          <mxGeometry x="450" y="488" width="370" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AgAlsFoBK1DxY0zz-gDz-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=13;fontColor=#000000;" edge="1" parent="Mw0GmDt-z7o8-dxJ0Iqh-1" source="AgAlsFoBK1DxY0zz-gDz-5" target="AgAlsFoBK1DxY0zz-gDz-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AgAlsFoBK1DxY0zz-gDz-5" value="docker logs &lt;b&gt;[container id]&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" vertex="1" parent="Mw0GmDt-z7o8-dxJ0Iqh-1">
+          <mxGeometry x="450" y="550" width="370" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AgAlsFoBK1DxY0zz-gDz-12" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=22;align=left;rotation=-180;" vertex="1" parent="Mw0GmDt-z7o8-dxJ0Iqh-1">
+          <mxGeometry x="1230" y="426" width="30" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AgAlsFoBK1DxY0zz-gDz-13" value="Print out information about all of the running pods" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="Mw0GmDt-z7o8-dxJ0Iqh-1">
+          <mxGeometry x="1260" y="441" width="290" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AgAlsFoBK1DxY0zz-gDz-14" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=22;align=left;rotation=-180;" vertex="1" parent="Mw0GmDt-z7o8-dxJ0Iqh-1">
+          <mxGeometry x="1230" y="488" width="30" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AgAlsFoBK1DxY0zz-gDz-15" value="Execute the given command in a running pod" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="Mw0GmDt-z7o8-dxJ0Iqh-1">
+          <mxGeometry x="1260" y="503" width="290" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AgAlsFoBK1DxY0zz-gDz-16" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=22;align=left;rotation=-180;" vertex="1" parent="Mw0GmDt-z7o8-dxJ0Iqh-1">
+          <mxGeometry x="1230" y="550" width="30" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AgAlsFoBK1DxY0zz-gDz-17" value="Print out logs from the given pod" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="Mw0GmDt-z7o8-dxJ0Iqh-1">
+          <mxGeometry x="1260" y="565" width="290" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AgAlsFoBK1DxY0zz-gDz-18" value="kubectl get pods" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" vertex="1" parent="Mw0GmDt-z7o8-dxJ0Iqh-1">
+          <mxGeometry x="850" y="426" width="370" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AgAlsFoBK1DxY0zz-gDz-19" value="kubectl exec -it &lt;b&gt;[pod_name] [cmd]&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" vertex="1" parent="Mw0GmDt-z7o8-dxJ0Iqh-1">
+          <mxGeometry x="850" y="488" width="370" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AgAlsFoBK1DxY0zz-gDz-20" value="kubectl logs &lt;b&gt;[pod_name]&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" vertex="1" parent="Mw0GmDt-z7o8-dxJ0Iqh-1">
+          <mxGeometry x="850" y="550" width="370" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AgAlsFoBK1DxY0zz-gDz-24" value="Docker World" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=23;fontColor=#000000;fontStyle=1" vertex="1" parent="Mw0GmDt-z7o8-dxJ0Iqh-1">
+          <mxGeometry x="557.5" y="400" width="155" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AgAlsFoBK1DxY0zz-gDz-25" value="K8s World" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=23;fontColor=#000000;fontStyle=1" vertex="1" parent="Mw0GmDt-z7o8-dxJ0Iqh-1">
+          <mxGeometry x="918.75" y="400" width="232.5" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
