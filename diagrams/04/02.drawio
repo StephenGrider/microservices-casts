@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-03-25T16:55:08.720Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="XFo7hd4whu9Pl8_YHNLq" version="12.9.2" type="github" pages="4">
+<mxfile host="www.draw.io" modified="2020-03-25T16:56:31.577Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="HML7kAojbi3GWdk6RKsk" version="12.9.2" type="github" pages="5">
   <diagram id="NF23fbUoGMeVQrpFLriD" name="01 - kube">
     <mxGraphModel dx="1252" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -160,6 +160,20 @@
             <mxPoint x="1034.7100000000003" y="330" as="sourcePoint" />
             <mxPoint x="1034.7100000000003" y="380" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="EDiGeqPdP6tmYO5BPK1C" name="05 - k">
+    <mxGraphModel dx="601" dy="296" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="T2SUVipx_gYPAcSgphp7-0" />
+        <mxCell id="T2SUVipx_gYPAcSgphp7-1" parent="T2SUVipx_gYPAcSgphp7-0" />
+        <mxCell id="T2SUVipx_gYPAcSgphp7-2" value="Whirlwind Tour of Kubernetes" style="rounded=0;whiteSpace=wrap;html=1;fontSize=27;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="T2SUVipx_gYPAcSgphp7-1">
+          <mxGeometry x="540" y="270" width="440" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="T2SUVipx_gYPAcSgphp7-3" value="I do not expect you to memorize all/any of this" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontColor=#000000;fontStyle=2" vertex="1" parent="T2SUVipx_gYPAcSgphp7-1">
+          <mxGeometry x="660" y="380" width="200" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
