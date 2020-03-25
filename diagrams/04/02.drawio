@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-03-25T19:08:26.720Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="8VqfaPisMVZjJYRZJuWs" version="12.9.2" type="github" pages="4">
+<mxfile host="www.draw.io" modified="2020-03-25T19:11:55.302Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="C310WMrWuy5xvlOficer" version="12.9.2" type="github" pages="5">
   <diagram id="dEJmAzNZKsH2q0hHsCmS" name="03 - setup">
     <mxGraphModel dx="858" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -219,6 +219,49 @@
         </mxCell>
         <mxCell id="u0HUMV89h1a591f8jAdc-23" value="Service" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;fontStyle=1" vertex="1" parent="u0HUMV89h1a591f8jAdc-1">
           <mxGeometry x="610" y="488" width="300" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="CFx5rIsxXB0KE388GXyt" name="05 - config">
+    <mxGraphModel dx="699" dy="344" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="vneY_Xbqw34bZq-zlZ98-0" />
+        <mxCell id="vneY_Xbqw34bZq-zlZ98-1" parent="vneY_Xbqw34bZq-zlZ98-0" />
+        <mxCell id="vneY_Xbqw34bZq-zlZ98-2" value="Tells Kubernetes about the different Deployments, Pods, and Services (referred to as &#39;Objects&#39;) that we want to create" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fontColor=#000000;align=center;" vertex="1" parent="vneY_Xbqw34bZq-zlZ98-1">
+          <mxGeometry x="625" y="250" width="560" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vneY_Xbqw34bZq-zlZ98-3" value="Kubernetes Config Files" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=23;fontColor=#000000;fontStyle=1" vertex="1" parent="vneY_Xbqw34bZq-zlZ98-1">
+          <mxGeometry x="741.25" y="220" width="327.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vneY_Xbqw34bZq-zlZ98-4" value="Written in YAML syntax" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fontColor=#000000;align=center;" vertex="1" parent="vneY_Xbqw34bZq-zlZ98-1">
+          <mxGeometry x="625" y="310" width="560" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vneY_Xbqw34bZq-zlZ98-5" value="Always store these files with our project source code - they are documentation!" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fontColor=#000000;align=center;" vertex="1" parent="vneY_Xbqw34bZq-zlZ98-1">
+          <mxGeometry x="625" y="370" width="560" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vneY_Xbqw34bZq-zlZ98-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;fontSize=13;fontColor=#000000;" edge="1" parent="vneY_Xbqw34bZq-zlZ98-1" source="vneY_Xbqw34bZq-zlZ98-6" target="vneY_Xbqw34bZq-zlZ98-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="763" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vneY_Xbqw34bZq-zlZ98-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;fontSize=13;fontColor=#000000;" edge="1" parent="vneY_Xbqw34bZq-zlZ98-1" source="vneY_Xbqw34bZq-zlZ98-6" target="vneY_Xbqw34bZq-zlZ98-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1053" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vneY_Xbqw34bZq-zlZ98-6" value="We can create Objects &lt;i&gt;without &lt;/i&gt;config files - &lt;i&gt;&lt;b&gt;do not do this&lt;/b&gt;.&amp;nbsp; &lt;/i&gt;Config files provide a precise definition of what your cluster is running." style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fontColor=#000000;align=center;" vertex="1" parent="vneY_Xbqw34bZq-zlZ98-1">
+          <mxGeometry x="625" y="430" width="560" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vneY_Xbqw34bZq-zlZ98-7" value="Kubernetes docs will tell you to run direct commands to create objects - &lt;i style=&quot;font-size: 13px;&quot;&gt;only do this for testing purposes&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fontColor=#000000;align=center;" vertex="1" parent="vneY_Xbqw34bZq-zlZ98-1">
+          <mxGeometry x="625" y="510" width="275" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vneY_Xbqw34bZq-zlZ98-8" value="Blog posts will tell you to run direct commands to create objects - &lt;i style=&quot;font-size: 13px;&quot;&gt;close the blog post!&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fontColor=#000000;align=center;" vertex="1" parent="vneY_Xbqw34bZq-zlZ98-1">
+          <mxGeometry x="920" y="510" width="265" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
