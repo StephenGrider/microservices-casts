@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-03-26T16:28:43.405Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="4NgeqIqo9Sv9qzKMxPTw" version="12.9.2" type="github" pages="11">
+<mxfile host="www.draw.io" modified="2020-03-26T16:37:47.287Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="YM_XoBfp0T2jDtsC9GnW" version="12.9.2" type="github" pages="12">
   <diagram id="dEJmAzNZKsH2q0hHsCmS" name="03 - setup">
     <mxGraphModel dx="858" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -551,6 +551,38 @@
         </mxCell>
         <mxCell id="eMPTBo1G6XJ1yFmMSxL1-2" value="Get a deployment to restart all pods.&amp;nbsp; Will use latest version of an image &lt;i&gt;if &lt;/i&gt;the pod spec has a tag of &#39;latest&#39;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="ShAsQVuCG63RUfQwQO5m-1">
           <mxGeometry x="860" y="405" width="260" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="11 - update" id="vTKKDJpYWUeg2CyCZtoO">
+    <mxGraphModel dx="751" dy="370" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="TkWoxgZDbDUVE0lcyc1h-0" />
+        <mxCell id="TkWoxgZDbDUVE0lcyc1h-1" parent="TkWoxgZDbDUVE0lcyc1h-0" />
+        <mxCell id="TkWoxgZDbDUVE0lcyc1h-2" value="In the deployment config file, update the version of the image" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fontColor=#000000;align=center;" vertex="1" parent="TkWoxgZDbDUVE0lcyc1h-1">
+          <mxGeometry x="540" y="290" width="590" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TkWoxgZDbDUVE0lcyc1h-3" value="Updating the Image Used By a Deployment - Method #1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=23;fontColor=#000000;fontStyle=1" vertex="1" parent="TkWoxgZDbDUVE0lcyc1h-1">
+          <mxGeometry x="655" y="130" width="360" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="TkWoxgZDbDUVE0lcyc1h-4" value="" style="endArrow=classic;html=1;fontSize=23;fontColor=#000000;" edge="1" parent="TkWoxgZDbDUVE0lcyc1h-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="170" as="sourcePoint" />
+            <mxPoint x="530" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TkWoxgZDbDUVE0lcyc1h-5" value="Steps" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=23;fontColor=#000000;" vertex="1" parent="TkWoxgZDbDUVE0lcyc1h-1">
+          <mxGeometry x="460" y="170" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="TkWoxgZDbDUVE0lcyc1h-6" value="Run the command&lt;br&gt;&lt;b&gt;kubectl apply -f [depl file name]&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fontColor=#000000;align=center;" vertex="1" parent="TkWoxgZDbDUVE0lcyc1h-1">
+          <mxGeometry x="540" y="350" width="590" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="54jkpZQpsRGanrF5W8Q0-0" value="Make a change to your project code" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fontColor=#000000;align=center;" vertex="1" parent="TkWoxgZDbDUVE0lcyc1h-1">
+          <mxGeometry x="540" y="170" width="590" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="54jkpZQpsRGanrF5W8Q0-1" value="Rebuild the image, specifying a new image version" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fontColor=#000000;align=center;" vertex="1" parent="TkWoxgZDbDUVE0lcyc1h-1">
+          <mxGeometry x="540" y="230" width="590" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
