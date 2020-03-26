@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-03-26T19:14:53.795Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="kr8pp-3tkw_l-ad9CFUh" version="12.9.2" type="github" pages="19">
+<mxfile host="www.draw.io" modified="2020-03-26T20:57:08.878Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="CMLaOj50FRrd0XOm-1h5" version="12.9.2" type="github" pages="20">
   <diagram id="dEJmAzNZKsH2q0hHsCmS" name="03 - setup">
     <mxGraphModel dx="858" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -1072,6 +1072,32 @@
         </mxCell>
         <mxCell id="-UaHc_afGHfqmMpzBie5-6" value="minikube ip" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="Yf2G1ybznhMOPjrI09uM-1">
           <mxGeometry x="690" y="460" width="200" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="XiB7JH7srL-z2hn8vwAz" name="20 - goals">
+    <mxGraphModel dx="668" dy="328" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="dymyToEfjSEu6zyKJlal-0" />
+        <mxCell id="dymyToEfjSEu6zyKJlal-1" parent="dymyToEfjSEu6zyKJlal-0" />
+        <mxCell id="IRUiSPLwheQ35ibdcqqp-2" value="Build an &lt;b&gt;image&lt;/b&gt; for each remaining project (client, comments, event bus, etc)" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=16;fontColor=#000000;align=center;" vertex="1" parent="dymyToEfjSEu6zyKJlal-1">
+          <mxGeometry x="740" y="340" width="400" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IRUiSPLwheQ35ibdcqqp-3" value="Goals Moving Forward" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=28;fontColor=#000000;fontStyle=1" vertex="1" parent="dymyToEfjSEu6zyKJlal-1">
+          <mxGeometry x="742.5" y="310" width="395" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IRUiSPLwheQ35ibdcqqp-6" value="&lt;b&gt;Push&lt;/b&gt; each image to Docker Hub" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=16;fontColor=#000000;align=center;" vertex="1" parent="dymyToEfjSEu6zyKJlal-1">
+          <mxGeometry x="740" y="400" width="400" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IRUiSPLwheQ35ibdcqqp-9" value="Create a &lt;b&gt;deployment&lt;/b&gt; for each project" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=16;fontColor=#000000;align=center;" vertex="1" parent="dymyToEfjSEu6zyKJlal-1">
+          <mxGeometry x="742.5" y="460" width="400" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IRUiSPLwheQ35ibdcqqp-12" value="Create a &lt;b&gt;service&lt;/b&gt; for each project" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=16;fontColor=#000000;align=center;" vertex="1" parent="dymyToEfjSEu6zyKJlal-1">
+          <mxGeometry x="740" y="520" width="400" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IRUiSPLwheQ35ibdcqqp-13" value="Wire it all up!" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=16;fontColor=#000000;align=center;" vertex="1" parent="dymyToEfjSEu6zyKJlal-1">
+          <mxGeometry x="740" y="580" width="400" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
