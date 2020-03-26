@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-03-26T16:05:00.943Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="7edgcJiK4ArL4SgGBtcl" version="12.9.2" type="github" pages="10">
+<mxfile host="www.draw.io" modified="2020-03-26T16:13:10.520Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="BiJduiuy_KvivwbjkbtO" version="12.9.2" type="github" pages="10">
   <diagram id="dEJmAzNZKsH2q0hHsCmS" name="03 - setup">
     <mxGraphModel dx="858" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -514,22 +514,22 @@
           <mxGeometry x="830" y="270" width="30" height="50" as="geometry" />
         </mxCell>
         <mxCell id="yCDDFhc1Gd_Zw_cMlnqZ-3" value="kubectl get deployments" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" vertex="1" parent="ShAsQVuCG63RUfQwQO5m-1">
-          <mxGeometry x="370" y="146" width="450" height="50" as="geometry" />
+          <mxGeometry x="350" y="146" width="470" height="50" as="geometry" />
         </mxCell>
         <mxCell id="yCDDFhc1Gd_Zw_cMlnqZ-4" value="kubectl describe deployment &lt;b&gt;[depl name]&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" vertex="1" parent="ShAsQVuCG63RUfQwQO5m-1">
-          <mxGeometry x="370" y="208" width="450" height="50" as="geometry" />
+          <mxGeometry x="350" y="208" width="470" height="50" as="geometry" />
         </mxCell>
         <mxCell id="yCDDFhc1Gd_Zw_cMlnqZ-5" value="kubectl apply -f &lt;b&gt;[config file name]&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" vertex="1" parent="ShAsQVuCG63RUfQwQO5m-1">
-          <mxGeometry x="370" y="270" width="450" height="50" as="geometry" />
+          <mxGeometry x="350" y="270" width="470" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="yCDDFhc1Gd_Zw_cMlnqZ-6" value="K8s World" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=23;fontColor=#000000;fontStyle=1" vertex="1" parent="ShAsQVuCG63RUfQwQO5m-1">
-          <mxGeometry x="518.75" y="120" width="232.5" height="20" as="geometry" />
+        <mxCell id="yCDDFhc1Gd_Zw_cMlnqZ-6" value="Deployment Commands" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=23;fontColor=#000000;fontStyle=1" vertex="1" parent="ShAsQVuCG63RUfQwQO5m-1">
+          <mxGeometry x="560" y="110" width="381.25" height="20" as="geometry" />
         </mxCell>
         <mxCell id="yCDDFhc1Gd_Zw_cMlnqZ-7" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=22;align=left;rotation=-180;" vertex="1" parent="ShAsQVuCG63RUfQwQO5m-1">
           <mxGeometry x="830" y="330" width="30" height="50" as="geometry" />
         </mxCell>
         <mxCell id="yCDDFhc1Gd_Zw_cMlnqZ-8" value="kubectl delete deployment&amp;nbsp;&lt;b&gt;[depl_name]&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" vertex="1" parent="ShAsQVuCG63RUfQwQO5m-1">
-          <mxGeometry x="370" y="330" width="450" height="50" as="geometry" />
+          <mxGeometry x="350" y="330" width="470" height="50" as="geometry" />
         </mxCell>
         <mxCell id="maND-QuyfKCeIc98Set3-0" value="List all the running deployments" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="ShAsQVuCG63RUfQwQO5m-1">
           <mxGeometry x="860" y="161" width="290" height="20" as="geometry" />
@@ -542,6 +542,15 @@
         </mxCell>
         <mxCell id="maND-QuyfKCeIc98Set3-3" value="Delete a deployment" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="ShAsQVuCG63RUfQwQO5m-1">
           <mxGeometry x="860" y="345" width="290" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="eMPTBo1G6XJ1yFmMSxL1-0" value="kubectl rollout restart deployment&amp;nbsp;&lt;b&gt;[depl_name]&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" vertex="1" parent="ShAsQVuCG63RUfQwQO5m-1">
+          <mxGeometry x="350" y="390" width="470" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="eMPTBo1G6XJ1yFmMSxL1-1" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=22;align=left;rotation=-180;" vertex="1" parent="ShAsQVuCG63RUfQwQO5m-1">
+          <mxGeometry x="830" y="390" width="30" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="eMPTBo1G6XJ1yFmMSxL1-2" value="Get a deployment to restart all pods.&amp;nbsp; Will use latest version of an image &lt;i&gt;if &lt;/i&gt;the pod spec has a tag of &#39;latest&#39;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="ShAsQVuCG63RUfQwQO5m-1">
+          <mxGeometry x="860" y="405" width="260" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
