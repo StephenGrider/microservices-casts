@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-03-25T20:18:39.214Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="9JxLvPcEOBLGxrbp50fi" version="12.9.2" type="github" pages="8">
+<mxfile host="www.draw.io" modified="2020-03-26T15:43:07.991Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="_VeXO4sXK7_kKiC_DG6C" version="12.9.2" type="github" pages="7">
   <diagram id="dEJmAzNZKsH2q0hHsCmS" name="03 - setup">
     <mxGraphModel dx="858" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -233,14 +233,6 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="EAbZ50dYjEy5x5WmmcF2" name="06 - pod">
-    <mxGraphModel dx="1502" dy="739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
-      <root>
-        <mxCell id="MRl7-ZIAIe5SOBY5Nks7-0" />
-        <mxCell id="MRl7-ZIAIe5SOBY5Nks7-1" parent="MRl7-ZIAIe5SOBY5Nks7-0" />
-      </root>
-    </mxGraphModel>
-  </diagram>
   <diagram id="fcoTY_PhPfk188X3Yf9R" name="07 - config">
     <mxGraphModel dx="969" dy="477" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -394,6 +386,15 @@
         </mxCell>
         <mxCell id="AgAlsFoBK1DxY0zz-gDz-33" value="kubectl apply -f &lt;b&gt;[config file name]&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" vertex="1" parent="Mw0GmDt-z7o8-dxJ0Iqh-1">
           <mxGeometry x="850" y="670" width="370" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="SfckxnC4OxMDOZhi1Kin-0" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=22;align=left;rotation=-180;" vertex="1" parent="Mw0GmDt-z7o8-dxJ0Iqh-1">
+          <mxGeometry x="1230" y="730" width="30" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="SfckxnC4OxMDOZhi1Kin-1" value="Print out some information about the running pod" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="Mw0GmDt-z7o8-dxJ0Iqh-1">
+          <mxGeometry x="1260" y="745" width="290" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SfckxnC4OxMDOZhi1Kin-2" value="kubectl describe pod &lt;b&gt;[pod_name]&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" vertex="1" parent="Mw0GmDt-z7o8-dxJ0Iqh-1">
+          <mxGeometry x="850" y="730" width="370" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
