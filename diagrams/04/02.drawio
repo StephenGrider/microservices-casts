@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-03-26T16:37:47.287Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="YM_XoBfp0T2jDtsC9GnW" version="12.9.2" type="github" pages="12">
+<mxfile host="www.draw.io" modified="2020-03-26T16:45:20.068Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="01dTI0ExWYz3s2KKfyVc" version="12.9.2" type="github" pages="12">
   <diagram id="dEJmAzNZKsH2q0hHsCmS" name="03 - setup">
     <mxGraphModel dx="858" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -595,8 +595,8 @@
         <mxCell id="99n0CT7uPv6d1IAQpKGf-2" value="The deployment must be using the &#39;latest&#39; tag in the pod spec section" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fontColor=#000000;align=center;" vertex="1" parent="99n0CT7uPv6d1IAQpKGf-1">
           <mxGeometry x="540" y="170" width="590" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="99n0CT7uPv6d1IAQpKGf-3" value="Updating the Image Used By a Deployment" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=23;fontColor=#000000;fontStyle=1" vertex="1" parent="99n0CT7uPv6d1IAQpKGf-1">
-          <mxGeometry x="690" y="130" width="290" height="20" as="geometry" />
+        <mxCell id="99n0CT7uPv6d1IAQpKGf-3" value="Updating the Image Used By a Deployment - Method #2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=23;fontColor=#000000;fontStyle=1" vertex="1" parent="99n0CT7uPv6d1IAQpKGf-1">
+          <mxGeometry x="650" y="130" width="370" height="20" as="geometry" />
         </mxCell>
         <mxCell id="99n0CT7uPv6d1IAQpKGf-4" value="" style="endArrow=classic;html=1;fontSize=23;fontColor=#000000;" edge="1" parent="99n0CT7uPv6d1IAQpKGf-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
