@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-03-27T19:10:24.409Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="eyCp1HXSR2J5542p-8eg" version="12.9.3" type="github" pages="4">
+<mxfile host="www.draw.io" modified="2020-03-27T19:24:46.182Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="ncXEGlh6Xb614cMSCNOd" version="12.9.3" type="github" pages="4">
   <diagram id="IzuWK-xeMtBZkyrFTz8Y" name="01 - take">
     <mxGraphModel dx="812" dy="399" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -48,7 +48,10 @@
         <mxCell id="3kecaPJ9aJ-AqYdZdx-f-3" value="&lt;i&gt;Really hard&lt;/i&gt;&amp;nbsp;to test some event flows" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="jKAvj1Oem4ilQKjG2WQH-1">
           <mxGeometry x="565" y="380" width="560" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="3kecaPJ9aJ-AqYdZdx-f-4" value="&lt;i&gt;What if someone created a comment after editing a post while balancing on a tight rope....&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="jKAvj1Oem4ilQKjG2WQH-1">
+        <mxCell id="3kecaPJ9aJ-AqYdZdx-f-4" value="&lt;i&gt;What if someone created a comment after editing 5 others after editing a post while balancing on a tight rope....&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="jKAvj1Oem4ilQKjG2WQH-1">
+          <mxGeometry x="565" y="500" width="560" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5vqymRSzoCW0SjXlnz2D-0" value="&lt;i&gt;My machine is getting laggy running kubernetes and everything else...&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="jKAvj1Oem4ilQKjG2WQH-1">
           <mxGeometry x="565" y="440" width="560" height="50" as="geometry" />
         </mxCell>
       </root>
@@ -78,7 +81,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="03 - solutions" id="ktURd54LCdvbUU8Il29G">
-    <mxGraphModel dx="791" dy="389" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="1113" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="2YoF_BMlg0ZEmEuQ7cis-0" />
         <mxCell id="2YoF_BMlg0ZEmEuQ7cis-1" parent="2YoF_BMlg0ZEmEuQ7cis-0" />
@@ -110,7 +113,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2YoF_BMlg0ZEmEuQ7cis-7" value="&lt;i&gt;What if someone created a comment after editing a post while balancing on a tight rope....&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="2YoF_BMlg0ZEmEuQ7cis-1">
-          <mxGeometry x="565" y="440" width="560" height="50" as="geometry" />
+          <mxGeometry x="565" y="500" width="560" height="50" as="geometry" />
         </mxCell>
         <mxCell id="2YoF_BMlg0ZEmEuQ7cis-8" value="Build a central library as an NPM module to share code between our different projects" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="2YoF_BMlg0ZEmEuQ7cis-1">
           <mxGeometry x="1170" y="200" width="480" height="50" as="geometry" />
@@ -133,6 +136,15 @@
           <mxGeometry x="1170" y="380" width="480" height="50" as="geometry" />
         </mxCell>
         <mxCell id="NydjDvsOkDYlIqWyVTc--9" value="Introduce a lot of code to handle concurrency issues" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="2YoF_BMlg0ZEmEuQ7cis-1">
+          <mxGeometry x="1170" y="500" width="480" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3_hthjWyBnymBsBqG8oN-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="2YoF_BMlg0ZEmEuQ7cis-1" source="3_hthjWyBnymBsBqG8oN-1" target="3_hthjWyBnymBsBqG8oN-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3_hthjWyBnymBsBqG8oN-1" value="&lt;i&gt;My machine is getting laggy running kubernetes and everything else...&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="2YoF_BMlg0ZEmEuQ7cis-1">
+          <mxGeometry x="565" y="440" width="560" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3_hthjWyBnymBsBqG8oN-2" value="Run a k8s cluster in the cloud and develop on it&lt;i&gt; almost as quickly &lt;/i&gt;as local" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="2YoF_BMlg0ZEmEuQ7cis-1">
           <mxGeometry x="1170" y="440" width="480" height="50" as="geometry" />
         </mxCell>
       </root>
