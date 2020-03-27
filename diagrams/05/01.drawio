@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-03-27T19:05:20.870Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="bCTsn4zPJoGxInQpLpgt" version="12.9.3" type="github" pages="2">
+<mxfile host="www.draw.io" modified="2020-03-27T19:07:15.607Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="5DC_Ygs0uLCyw-jtzOqV" version="12.9.3" type="github" pages="4">
   <diagram id="IzuWK-xeMtBZkyrFTz8Y" name="01 - take">
     <mxGraphModel dx="812" dy="399" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -50,6 +50,64 @@
         </mxCell>
         <mxCell id="3kecaPJ9aJ-AqYdZdx-f-4" value="&lt;i&gt;What if someone created a comment after editing a post while balancing on a tight rope....&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="jKAvj1Oem4ilQKjG2WQH-1">
           <mxGeometry x="565" y="440" width="560" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="03 - note" id="nkoMqOmhZ-IMuJQPDu57">
+    <mxGraphModel dx="601" dy="296" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="h3E_5SFvJIv5atF3kvt1-0" />
+        <mxCell id="h3E_5SFvJIv5atF3kvt1-1" parent="h3E_5SFvJIv5atF3kvt1-0" />
+        <mxCell id="h3E_5SFvJIv5atF3kvt1-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="h3E_5SFvJIv5atF3kvt1-1" source="h3E_5SFvJIv5atF3kvt1-8" target="h3E_5SFvJIv5atF3kvt1-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h3E_5SFvJIv5atF3kvt1-8" value="We are going to make some big changes to our development process for this next project" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="h3E_5SFvJIv5atF3kvt1-1">
+          <mxGeometry x="570" y="250" width="410" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="h3E_5SFvJIv5atF3kvt1-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="h3E_5SFvJIv5atF3kvt1-1" source="h3E_5SFvJIv5atF3kvt1-9" target="h3E_5SFvJIv5atF3kvt1-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h3E_5SFvJIv5atF3kvt1-9" value="You might &lt;i&gt;really dislike me&lt;/i&gt;&amp;nbsp;for some of these decisions" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="h3E_5SFvJIv5atF3kvt1-1">
+          <mxGeometry x="570" y="350" width="410" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="h3E_5SFvJIv5atF3kvt1-10" value="I wouldn&#39;t do this if I didn&#39;t think it was absolutely, positively the &lt;i&gt;right way thing&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="h3E_5SFvJIv5atF3kvt1-1">
+          <mxGeometry x="570" y="450" width="410" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="03 - solutions" id="ktURd54LCdvbUU8Il29G">
+    <mxGraphModel dx="791" dy="389" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="2YoF_BMlg0ZEmEuQ7cis-0" />
+        <mxCell id="2YoF_BMlg0ZEmEuQ7cis-1" parent="2YoF_BMlg0ZEmEuQ7cis-0" />
+        <mxCell id="2YoF_BMlg0ZEmEuQ7cis-2" value="Painful Things from App #1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=23;fontStyle=1" vertex="1" parent="2YoF_BMlg0ZEmEuQ7cis-1">
+          <mxGeometry x="660" y="160" width="370" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2YoF_BMlg0ZEmEuQ7cis-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="2YoF_BMlg0ZEmEuQ7cis-1" source="2YoF_BMlg0ZEmEuQ7cis-3" target="2YoF_BMlg0ZEmEuQ7cis-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2YoF_BMlg0ZEmEuQ7cis-3" value="Lots of duplicated code!" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="2YoF_BMlg0ZEmEuQ7cis-1">
+          <mxGeometry x="565" y="200" width="560" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2YoF_BMlg0ZEmEuQ7cis-4" value="&lt;i&gt;Really hard&lt;/i&gt;&amp;nbsp;to picture the flow of events between services" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="2YoF_BMlg0ZEmEuQ7cis-1">
+          <mxGeometry x="565" y="260" width="560" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2YoF_BMlg0ZEmEuQ7cis-5" value="&lt;i&gt;Really hard&lt;/i&gt;&amp;nbsp;to remember what properties an event should have" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="2YoF_BMlg0ZEmEuQ7cis-1">
+          <mxGeometry x="565" y="320" width="560" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2YoF_BMlg0ZEmEuQ7cis-6" value="&lt;i&gt;Really hard&lt;/i&gt;&amp;nbsp;to test some event flows" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="2YoF_BMlg0ZEmEuQ7cis-1">
+          <mxGeometry x="565" y="380" width="560" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2YoF_BMlg0ZEmEuQ7cis-7" value="&lt;i&gt;What if someone created a comment after editing a post while balancing on a tight rope....&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="2YoF_BMlg0ZEmEuQ7cis-1">
+          <mxGeometry x="565" y="440" width="560" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2YoF_BMlg0ZEmEuQ7cis-8" value="Lots of duplicated code!" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="2YoF_BMlg0ZEmEuQ7cis-1">
+          <mxGeometry x="1150" y="200" width="480" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2YoF_BMlg0ZEmEuQ7cis-9" value="Solutions!" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=23;fontStyle=1" vertex="1" parent="2YoF_BMlg0ZEmEuQ7cis-1">
+          <mxGeometry x="1205" y="160" width="370" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
