@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-03-27T18:20:24.274Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="XoySaEs8VA4y-XFh7qUC" version="12.9.3" type="github" pages="14">
+<mxfile host="www.draw.io" modified="2020-03-27T18:21:41.239Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="Tn5kBx_H09KFPMdNEThY" version="12.9.3" type="github" pages="14">
   <diagram id="kpzApZ7glF94e7MnODkk" name="01 - react">
     <mxGraphModel dx="812" dy="399" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -809,7 +809,7 @@
         <mxCell id="1NUAYry0pzQK9BvAwsn7-5" value="&lt;span style=&quot;font-weight: 400; font-size: 16px;&quot;&gt;Makes it really easy to create/delete all objects tied to a project at once&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;fontStyle=1" vertex="1" parent="1NUAYry0pzQK9BvAwsn7-1">
           <mxGeometry x="640" y="400" width="410" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="1NUAYry0pzQK9BvAwsn7-6" value="&lt;span style=&quot;font-weight: 400 ; font-size: 16px&quot;&gt;skaffold.dev&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;fontStyle=1" vertex="1" parent="1NUAYry0pzQK9BvAwsn7-1">
+        <mxCell id="1NUAYry0pzQK9BvAwsn7-6" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;skaffold.dev&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;fontStyle=1" vertex="1" parent="1NUAYry0pzQK9BvAwsn7-1">
           <mxGeometry x="640" y="460" width="410" height="50" as="geometry" />
         </mxCell>
       </root>
