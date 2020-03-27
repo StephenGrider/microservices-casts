@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-03-27T20:02:38.980Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="KrnZ7s4fCdpX7f9GkiJl" version="12.9.3" type="github" pages="6">
+<mxfile host="www.draw.io" modified="2020-03-27T20:12:53.565Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="d_khXeD7EOFHh2xvIY7L" version="12.9.3" type="github" pages="6">
   <diagram id="IzuWK-xeMtBZkyrFTz8Y" name="01 - take">
     <mxGraphModel dx="812" dy="399" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -155,32 +155,32 @@
       <root>
         <mxCell id="mbLmL4UxWHed_RtQkLUi-0" />
         <mxCell id="mbLmL4UxWHed_RtQkLUi-1" parent="mbLmL4UxWHed_RtQkLUi-0" />
-        <mxCell id="mbLmL4UxWHed_RtQkLUi-2" value="Users can list a ticket for an event (concert, sports) for sale" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;" vertex="1" parent="mbLmL4UxWHed_RtQkLUi-1">
+        <mxCell id="mbLmL4UxWHed_RtQkLUi-2" value="Users can list a ticket for an event (concert, sports) for sale" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="mbLmL4UxWHed_RtQkLUi-1">
           <mxGeometry x="640" y="190" width="470" height="40" as="geometry" />
         </mxCell>
         <mxCell id="mbLmL4UxWHed_RtQkLUi-3" value="Ticketing App" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1" vertex="1" parent="mbLmL4UxWHed_RtQkLUi-1">
           <mxGeometry x="782.5" y="160" width="185" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="mbLmL4UxWHed_RtQkLUi-4" value="Other users can purchase this ticket" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;" vertex="1" parent="mbLmL4UxWHed_RtQkLUi-1">
+        <mxCell id="mbLmL4UxWHed_RtQkLUi-4" value="Other users can purchase this ticket" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="mbLmL4UxWHed_RtQkLUi-1">
           <mxGeometry x="640" y="240" width="470" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="mbLmL4UxWHed_RtQkLUi-6" value="Any user can list tickets for sale and purchase tickets" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;" vertex="1" parent="mbLmL4UxWHed_RtQkLUi-1">
+        <mxCell id="mbLmL4UxWHed_RtQkLUi-6" value="Any user can list tickets for sale and purchase tickets" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="mbLmL4UxWHed_RtQkLUi-1">
           <mxGeometry x="640" y="290" width="470" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="mbLmL4UxWHed_RtQkLUi-7" value="When a user attempts to purchase a ticket, the ticket is &#39;locked&#39; for 15 minutes.&amp;nbsp; The user has 15 minutes to enter their payment info." style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;" vertex="1" parent="mbLmL4UxWHed_RtQkLUi-1">
+        <mxCell id="mbLmL4UxWHed_RtQkLUi-7" value="When a user attempts to purchase a ticket, the ticket is &#39;locked&#39; for 15 minutes.&amp;nbsp; The user has 15 minutes to enter their payment info." style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="mbLmL4UxWHed_RtQkLUi-1">
           <mxGeometry x="640" y="340" width="470" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="mbLmL4UxWHed_RtQkLUi-8" value="While locked, no other user can purchase the ticket. After 15 minutes, the ticket should &#39;unlock&#39;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;" vertex="1" parent="mbLmL4UxWHed_RtQkLUi-1">
+        <mxCell id="mbLmL4UxWHed_RtQkLUi-8" value="While locked, no other user can purchase the ticket. After 15 minutes, the ticket should &#39;unlock&#39;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="mbLmL4UxWHed_RtQkLUi-1">
           <mxGeometry x="640" y="390" width="470" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="mbLmL4UxWHed_RtQkLUi-9" value="Ticket prices can be edited if they are not locked" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;" vertex="1" parent="mbLmL4UxWHed_RtQkLUi-1">
+        <mxCell id="mbLmL4UxWHed_RtQkLUi-9" value="Ticket prices can be edited if they are not locked" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="mbLmL4UxWHed_RtQkLUi-1">
           <mxGeometry x="640" y="440" width="470" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="RfgnE7S0Bs9_SfeainQk" name="05 - browser">
-    <mxGraphModel dx="1036" dy="510" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="858" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="OtQBxtmrxj-VZxjGpbmn-0" />
         <mxCell id="OtQBxtmrxj-VZxjGpbmn-1" parent="OtQBxtmrxj-VZxjGpbmn-0" />
