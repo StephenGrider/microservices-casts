@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-03-27T16:32:33.273Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="f4U2mHV-lSaBa6TfkxCm" version="12.9.3" type="github" pages="10">
+<mxfile host="www.draw.io" modified="2020-03-27T16:54:26.333Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="an8wggQloLhgkaWM2zq5" version="12.9.3" type="github" pages="10">
   <diagram id="kpzApZ7glF94e7MnODkk" name="01 - react">
     <mxGraphModel dx="812" dy="399" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -593,6 +593,12 @@
         </mxCell>
         <mxCell id="G6ygZOddTMhaDp_n0CKD-16" value="Pod" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" vertex="1" parent="G6ygZOddTMhaDp_n0CKD-1">
           <mxGeometry x="780" y="500" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8xhZC5TBvIrHrCFjHUZ--1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontSize=22;" edge="1" parent="G6ygZOddTMhaDp_n0CKD-1" source="8xhZC5TBvIrHrCFjHUZ--0" target="G6ygZOddTMhaDp_n0CKD-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8xhZC5TBvIrHrCFjHUZ--0" value="Config file containing router rules" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="G6ygZOddTMhaDp_n0CKD-1">
+          <mxGeometry x="510" y="590" width="240" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
