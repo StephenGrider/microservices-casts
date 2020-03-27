@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-03-27T17:37:50.205Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="fZJUGRbCLbxEJz-byyZT" version="12.9.3" type="github" pages="13">
+<mxfile host="www.draw.io" modified="2020-03-27T18:20:24.274Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="XoySaEs8VA4y-XFh7qUC" version="12.9.3" type="github" pages="14">
   <diagram id="kpzApZ7glF94e7MnODkk" name="01 - react">
     <mxGraphModel dx="812" dy="399" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -777,17 +777,40 @@
         <mxCell id="hEGj2_szkBsT66MqO2wI-0" value="Ingress Controller" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" vertex="1" parent="1ZdcTpenl3rmmfjgzEs0-1">
           <mxGeometry x="290" y="482.5" width="120" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="hEGj2_szkBsT66MqO2wI-8" value="POST /posts" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" parent="1ZdcTpenl3rmmfjgzEs0-1">
+        <mxCell id="hEGj2_szkBsT66MqO2wI-8" value="/posts/create" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" parent="1ZdcTpenl3rmmfjgzEs0-1">
           <mxGeometry x="480" y="300" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="hEGj2_szkBsT66MqO2wI-9" value="POST /posts/:id/comments" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" parent="1ZdcTpenl3rmmfjgzEs0-1">
+        <mxCell id="hEGj2_szkBsT66MqO2wI-9" value="/posts/:id/comments" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" parent="1ZdcTpenl3rmmfjgzEs0-1">
           <mxGeometry x="480" y="395" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="hEGj2_szkBsT66MqO2wI-10" value="GET /posts" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" parent="1ZdcTpenl3rmmfjgzEs0-1">
+        <mxCell id="hEGj2_szkBsT66MqO2wI-10" value="/posts" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" parent="1ZdcTpenl3rmmfjgzEs0-1">
           <mxGeometry x="480" y="490" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="hEGj2_szkBsT66MqO2wI-11" value="/" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" parent="1ZdcTpenl3rmmfjgzEs0-1">
           <mxGeometry x="480" y="690" width="200" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="9G-ivo2edKx0hD1haGkM" name="14 - skaffold">
+    <mxGraphModel dx="589" dy="290" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="1NUAYry0pzQK9BvAwsn7-0" />
+        <mxCell id="1NUAYry0pzQK9BvAwsn7-1" parent="1NUAYry0pzQK9BvAwsn7-0" />
+        <mxCell id="1NUAYry0pzQK9BvAwsn7-2" value="&lt;span style=&quot;font-weight: normal; font-size: 16px;&quot;&gt;Automates many tasks in a Kubernetes dev environment&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;fontStyle=1" vertex="1" parent="1NUAYry0pzQK9BvAwsn7-1">
+          <mxGeometry x="640" y="280" width="410" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1NUAYry0pzQK9BvAwsn7-3" value="Skaffold" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=25;fontStyle=1" vertex="1" parent="1NUAYry0pzQK9BvAwsn7-1">
+          <mxGeometry x="825" y="250" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="1NUAYry0pzQK9BvAwsn7-4" value="&lt;span style=&quot;font-weight: normal; font-size: 16px;&quot;&gt;Makes it really easy to update code in a &lt;i style=&quot;font-size: 16px;&quot;&gt;running pod&lt;/i&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;fontStyle=1" vertex="1" parent="1NUAYry0pzQK9BvAwsn7-1">
+          <mxGeometry x="640" y="340" width="410" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1NUAYry0pzQK9BvAwsn7-5" value="&lt;span style=&quot;font-weight: 400; font-size: 16px;&quot;&gt;Makes it really easy to create/delete all objects tied to a project at once&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;fontStyle=1" vertex="1" parent="1NUAYry0pzQK9BvAwsn7-1">
+          <mxGeometry x="640" y="400" width="410" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1NUAYry0pzQK9BvAwsn7-6" value="&lt;span style=&quot;font-weight: 400 ; font-size: 16px&quot;&gt;skaffold.dev&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;fontStyle=1" vertex="1" parent="1NUAYry0pzQK9BvAwsn7-1">
+          <mxGeometry x="640" y="460" width="410" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
