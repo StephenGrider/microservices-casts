@@ -1,1 +1,57 @@
-<mxfile host="www.draw.io" modified="2020-03-27T18:57:21.306Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" version="12.9.3" etag="tU3iPSv2sM9XMCmqFb6o" type="github"><diagram id="IzuWK-xeMtBZkyrFTz8Y">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2020-03-27T19:05:20.870Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="bCTsn4zPJoGxInQpLpgt" version="12.9.3" type="github" pages="2">
+  <diagram id="IzuWK-xeMtBZkyrFTz8Y" name="01 - take">
+    <mxGraphModel dx="812" dy="399" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="6rYdvWCg-H2frPUgWhkt-1" value="Lessons from App #1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=23;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="675" y="160" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6rYdvWCg-H2frPUgWhkt-2" value="Different ways to share data between services.&amp;nbsp; We are going to focus on async communication" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="545" y="260" width="560" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6rYdvWCg-H2frPUgWhkt-4" value="Async communication focuses on communicating changes using &lt;i&gt;events&lt;/i&gt;&amp;nbsp;sent to an &lt;i&gt;event bus&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="545" y="320" width="560" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6rYdvWCg-H2frPUgWhkt-5" value="Async communication encourages each service to be 100% self-sufficient.&amp;nbsp; Relatively easy to handle temporary downtime or new service creation" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="545" y="380" width="560" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6rYdvWCg-H2frPUgWhkt-6" value="The &lt;i&gt;big challenge &lt;/i&gt;in microservices is data" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="545" y="200" width="560" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6rYdvWCg-H2frPUgWhkt-7" value="Docker makes it easier to package up services" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="545" y="440" width="560" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6rYdvWCg-H2frPUgWhkt-8" value="Kubernetes is a pain to setup, but makes it really easy to deploy + scale services" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="545" y="500" width="560" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="S5mq-x-O5kGk5gqjDkHy" name="02 - pains">
+    <mxGraphModel dx="858" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="jKAvj1Oem4ilQKjG2WQH-0" />
+        <mxCell id="jKAvj1Oem4ilQKjG2WQH-1" parent="jKAvj1Oem4ilQKjG2WQH-0" />
+        <mxCell id="kkrdSwmPaTvKg9SSRRc9-0" value="Painful Things from App #1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=23;fontStyle=1" vertex="1" parent="jKAvj1Oem4ilQKjG2WQH-1">
+          <mxGeometry x="660" y="160" width="370" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3kecaPJ9aJ-AqYdZdx-f-0" value="Lots of duplicated code!" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="jKAvj1Oem4ilQKjG2WQH-1">
+          <mxGeometry x="565" y="200" width="560" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3kecaPJ9aJ-AqYdZdx-f-1" value="&lt;i&gt;Really hard&lt;/i&gt;&amp;nbsp;to picture the flow of events between services" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="jKAvj1Oem4ilQKjG2WQH-1">
+          <mxGeometry x="565" y="260" width="560" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3kecaPJ9aJ-AqYdZdx-f-2" value="&lt;i&gt;Really hard&lt;/i&gt;&amp;nbsp;to remember what properties an event should have" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="jKAvj1Oem4ilQKjG2WQH-1">
+          <mxGeometry x="565" y="320" width="560" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3kecaPJ9aJ-AqYdZdx-f-3" value="&lt;i&gt;Really hard&lt;/i&gt;&amp;nbsp;to test some event flows" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="jKAvj1Oem4ilQKjG2WQH-1">
+          <mxGeometry x="565" y="380" width="560" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3kecaPJ9aJ-AqYdZdx-f-4" value="&lt;i&gt;What if someone created a comment after editing a post while balancing on a tight rope....&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="jKAvj1Oem4ilQKjG2WQH-1">
+          <mxGeometry x="565" y="440" width="560" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
