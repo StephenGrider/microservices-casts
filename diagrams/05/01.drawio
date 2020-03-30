@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-03-30T17:44:06.792Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="pSW4TrNOrJx7z7oNaw_T" version="12.9.3" type="github" pages="13">
+<mxfile host="www.draw.io" modified="2020-03-30T21:06:12.174Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="baWqloJ6Nt_vaxqk5Xik" version="12.9.3" type="github" pages="15">
   <diagram id="IzuWK-xeMtBZkyrFTz8Y" name="01 - take">
     <mxGraphModel dx="812" dy="399" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -932,6 +932,51 @@
         <mxCell id="4i9LGlxUA1yOE3M9cx0m-1" parent="4i9LGlxUA1yOE3M9cx0m-0" />
         <mxCell id="4i9LGlxUA1yOE3M9cx0m-2" value="kubernetes.github.io/ingress-nginx" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;align=center;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="4i9LGlxUA1yOE3M9cx0m-1">
           <mxGeometry x="550" y="270" width="410" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="14 - hosts" id="F8rR9AV7pCKbXlFWBNFH">
+    <mxGraphModel dx="699" dy="344" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="gJF0sThIJ6IgXWVHFEVw-0" />
+        <mxCell id="gJF0sThIJ6IgXWVHFEVw-1" parent="gJF0sThIJ6IgXWVHFEVw-0" />
+        <mxCell id="gJF0sThIJ6IgXWVHFEVw-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=19;" edge="1" parent="gJF0sThIJ6IgXWVHFEVw-1" source="gJF0sThIJ6IgXWVHFEVw-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="750" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gJF0sThIJ6IgXWVHFEVw-2" value="MacOs/Linux" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;align=center;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="gJF0sThIJ6IgXWVHFEVw-1">
+          <mxGeometry x="450" y="280" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gJF0sThIJ6IgXWVHFEVw-3" value="Windows" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;align=center;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="gJF0sThIJ6IgXWVHFEVw-1">
+          <mxGeometry x="450" y="360" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gJF0sThIJ6IgXWVHFEVw-5" value="/etc/hosts" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;align=center;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="gJF0sThIJ6IgXWVHFEVw-1">
+          <mxGeometry x="750" y="280" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gJF0sThIJ6IgXWVHFEVw-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=19;" edge="1" parent="gJF0sThIJ6IgXWVHFEVw-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="750" y="390" as="targetPoint" />
+            <mxPoint x="700" y="390" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gJF0sThIJ6IgXWVHFEVw-7" value="C:\Windows\System32\Drivers\etc\hosts" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;align=center;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="gJF0sThIJ6IgXWVHFEVw-1">
+          <mxGeometry x="750" y="360" width="390" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="TkeYEy_mG5c8LSAOADi5" name="14 - unsafe">
+    <mxGraphModel dx="601" dy="296" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="IPA9CJGxEUzP-rVM-qpC-0" />
+        <mxCell id="IPA9CJGxEUzP-rVM-qpC-1" parent="IPA9CJGxEUzP-rVM-qpC-0" />
+        <mxCell id="Hh_vTgLnVdOG3A5Vh1jH-0" value="thisisunsafe" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;align=center;fontStyle=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="IPA9CJGxEUzP-rVM-qpC-1">
+          <mxGeometry x="550" y="270" width="410" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hh_vTgLnVdOG3A5Vh1jH-1" value="Unskippable HTTPS warning in Chrome?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" vertex="1" parent="IPA9CJGxEUzP-rVM-qpC-1">
+          <mxGeometry x="573.75" y="240" width="362.5" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
