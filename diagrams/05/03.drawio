@@ -1,9 +1,72 @@
-<mxfile host="www.draw.io" modified="2020-03-30T21:08:01.497Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="SEpd7zjaEL2pPjcs6Td5" version="12.9.5" type="github">
+<mxfile host="www.draw.io" modified="2020-03-30T21:44:37.254Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="WxKif4aKmQoETbFkUeSY" version="12.9.5" type="github">
   <diagram id="NUfDgKDsE6OHEJt_40ZV" name="01 - ser">
-    <mxGraphModel dx="1502" dy="739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="791" dy="389" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="jXveK2bMxRPvRKgx9fGy-1" value="auth" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="330" y="240" width="660" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jXveK2bMxRPvRKgx9fGy-2" value="POST" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;align=center;" vertex="1" parent="1">
+          <mxGeometry x="500" y="297" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jXveK2bMxRPvRKgx9fGy-3" value="/api/users/signup" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;" vertex="1" parent="1">
+          <mxGeometry x="330" y="297" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jXveK2bMxRPvRKgx9fGy-4" value="{ email: string, password: string }" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;align=center;" vertex="1" parent="1">
+          <mxGeometry x="620" y="297" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jXveK2bMxRPvRKgx9fGy-5" value="Sign up for an account" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;align=center;" vertex="1" parent="1">
+          <mxGeometry x="800" y="297" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jXveK2bMxRPvRKgx9fGy-6" value="Method" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="500" y="270" width="110" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="jXveK2bMxRPvRKgx9fGy-7" value="Route" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="330" y="270" width="160" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="jXveK2bMxRPvRKgx9fGy-8" value="Body" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="620" y="270" width="170" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="jXveK2bMxRPvRKgx9fGy-9" value="Purpose" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="800" y="270" width="190" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="jXveK2bMxRPvRKgx9fGy-10" value="POST" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;align=center;" vertex="1" parent="1">
+          <mxGeometry x="500" y="347" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jXveK2bMxRPvRKgx9fGy-11" value="/api/users/signin" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;" vertex="1" parent="1">
+          <mxGeometry x="330" y="347" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jXveK2bMxRPvRKgx9fGy-12" value="{ email: string, password: string }" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;align=center;" vertex="1" parent="1">
+          <mxGeometry x="620" y="347" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jXveK2bMxRPvRKgx9fGy-13" value="Sign in to an existing account" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;align=center;" vertex="1" parent="1">
+          <mxGeometry x="800" y="347" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jXveK2bMxRPvRKgx9fGy-14" value="POST" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;align=center;" vertex="1" parent="1">
+          <mxGeometry x="500" y="397" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jXveK2bMxRPvRKgx9fGy-15" value="/api/users/signout" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;" vertex="1" parent="1">
+          <mxGeometry x="330" y="397" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jXveK2bMxRPvRKgx9fGy-16" value="{}" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;align=center;" vertex="1" parent="1">
+          <mxGeometry x="620" y="397" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jXveK2bMxRPvRKgx9fGy-17" value="Sign out" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;align=center;" vertex="1" parent="1">
+          <mxGeometry x="800" y="397" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jXveK2bMxRPvRKgx9fGy-18" value="GET" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;align=center;" vertex="1" parent="1">
+          <mxGeometry x="500" y="447" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jXveK2bMxRPvRKgx9fGy-19" value="/api/users/currentuser" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;" vertex="1" parent="1">
+          <mxGeometry x="330" y="447" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jXveK2bMxRPvRKgx9fGy-20" value="-" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;align=center;" vertex="1" parent="1">
+          <mxGeometry x="620" y="447" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jXveK2bMxRPvRKgx9fGy-21" value="Return info about the user" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;align=center;" vertex="1" parent="1">
+          <mxGeometry x="800" y="447" width="190" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
