@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-03-30T18:21:26.693Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="_J-XnQidu-fJmHtI9pNk" version="12.9.5" type="github" pages="6">
+<mxfile host="www.draw.io" modified="2020-03-30T19:34:04.021Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="c0LoSZcFw_JHml4N4MF9" version="12.9.5" type="github" pages="8">
   <diagram id="rSPzP3prDde8Dh8pEe4E" name="01 - opt">
     <mxGraphModel dx="715" dy="352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -294,6 +294,43 @@
         </mxCell>
         <mxCell id="YqLEkQDyOUB0xRZJcl1H-2" value="Update deployment" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontStyle=2" vertex="1" parent="kPib-_VaHUiRhb72PEcR-1">
           <mxGeometry x="1150" y="418.75" width="80" height="46.25" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="E-Dw4f09YWnoj9ahIBZm" name="07 - process">
+    <mxGraphModel dx="858" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="knUMs0K7B6dI4gjBaLUX-0" />
+        <mxCell id="knUMs0K7B6dI4gjBaLUX-1" parent="knUMs0K7B6dI4gjBaLUX-0" />
+        <mxCell id="knUMs0K7B6dI4gjBaLUX-2" value="Create a Kubernetes Cluster" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="knUMs0K7B6dI4gjBaLUX-1">
+          <mxGeometry x="400" y="250" width="660" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="knUMs0K7B6dI4gjBaLUX-3" value="Steps" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=27;fontStyle=1" vertex="1" parent="knUMs0K7B6dI4gjBaLUX-1">
+          <mxGeometry x="710" y="220" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="knUMs0K7B6dI4gjBaLUX-4" value="Create a service account to access + configure the Kubernetes Cluster" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="knUMs0K7B6dI4gjBaLUX-1">
+          <mxGeometry x="400" y="320" width="660" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sFVOMee7et-kVi2rENiR-0" value="Download the service accounts JSON key file" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="knUMs0K7B6dI4gjBaLUX-1">
+          <mxGeometry x="400" y="390" width="660" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sFVOMee7et-kVi2rENiR-1" value="Download the Google Cloud CLI, configure it to use our Cluster" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="knUMs0K7B6dI4gjBaLUX-1">
+          <mxGeometry x="400" y="460" width="660" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sFVOMee7et-kVi2rENiR-2" value="Configure Skaffold to use Google Cloud" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="knUMs0K7B6dI4gjBaLUX-1">
+          <mxGeometry x="400" y="530" width="660" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="LNzNd7mUTY9vff9fTNJZ" name="08 - url">
+    <mxGraphModel dx="601" dy="296" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="OORZmpLwvkgV6TnnzZwr-0" />
+        <mxCell id="OORZmpLwvkgV6TnnzZwr-1" parent="OORZmpLwvkgV6TnnzZwr-0" />
+        <mxCell id="OORZmpLwvkgV6TnnzZwr-2" value="cloud.google.com/free" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=19;fontStyle=1" vertex="1" parent="OORZmpLwvkgV6TnnzZwr-1">
+          <mxGeometry x="620" y="290" width="410" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
