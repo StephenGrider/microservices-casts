@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-03-30T15:49:33.785Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="6X6Az-PrNkG7TA4SqetX" version="12.9.3" type="github" pages="7">
+<mxfile host="www.draw.io" modified="2020-03-30T15:57:56.106Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="J1KMHV29gR-7NbwLnGsx" version="12.9.3" type="github" pages="9">
   <diagram id="IzuWK-xeMtBZkyrFTz8Y" name="01 - take">
     <mxGraphModel dx="812" dy="399" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -572,6 +572,91 @@
         </mxCell>
         <mxCell id="kZfrfqYjeIwKu4Kof5wH-51" value="string" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;fontStyle=0" vertex="1" parent="kZfrfqYjeIwKu4Kof5wH-1">
           <mxGeometry x="1235" y="675" width="115" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="NODEdREhK18WdMtFS8GH" name="08 - services">
+    <mxGraphModel dx="715" dy="352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="gLONUA1swqkA5eBxdR7R-0" />
+        <mxCell id="gLONUA1swqkA5eBxdR7R-1" parent="gLONUA1swqkA5eBxdR7R-0" />
+        <mxCell id="izWk4jQP6A408xX8MXqe-0" value="auth" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="gLONUA1swqkA5eBxdR7R-1">
+          <mxGeometry x="610" y="260" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="izWk4jQP6A408xX8MXqe-1" value="orders" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="gLONUA1swqkA5eBxdR7R-1">
+          <mxGeometry x="610" y="380" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="izWk4jQP6A408xX8MXqe-2" value="expiration" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="gLONUA1swqkA5eBxdR7R-1">
+          <mxGeometry x="610" y="440" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="izWk4jQP6A408xX8MXqe-3" value="payments" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="gLONUA1swqkA5eBxdR7R-1">
+          <mxGeometry x="610" y="500" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="izWk4jQP6A408xX8MXqe-4" value="tickets" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="gLONUA1swqkA5eBxdR7R-1">
+          <mxGeometry x="610" y="320" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kGNuWwaGJdOhiERn_xYV-0" value="Services" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=5" vertex="1" parent="gLONUA1swqkA5eBxdR7R-1">
+          <mxGeometry x="770" y="220" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kGNuWwaGJdOhiERn_xYV-1" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=24;align=center;rotation=-180;" vertex="1" parent="gLONUA1swqkA5eBxdR7R-1">
+          <mxGeometry x="760" y="260" width="30" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kGNuWwaGJdOhiERn_xYV-2" value="Everything related to user signup/signin/signout" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="gLONUA1swqkA5eBxdR7R-1">
+          <mxGeometry x="790" y="267.5" width="210" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="kGNuWwaGJdOhiERn_xYV-3" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=24;align=center;rotation=-180;" vertex="1" parent="gLONUA1swqkA5eBxdR7R-1">
+          <mxGeometry x="760" y="320" width="30" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kGNuWwaGJdOhiERn_xYV-4" value="Ticket creation/editing.&amp;nbsp; Knows whether a ticket can be updated" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="gLONUA1swqkA5eBxdR7R-1">
+          <mxGeometry x="790" y="327.5" width="300" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="kGNuWwaGJdOhiERn_xYV-5" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=24;align=center;rotation=-180;" vertex="1" parent="gLONUA1swqkA5eBxdR7R-1">
+          <mxGeometry x="760" y="380" width="30" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kGNuWwaGJdOhiERn_xYV-6" value="Order creation/editing" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="gLONUA1swqkA5eBxdR7R-1">
+          <mxGeometry x="790" y="387.5" width="210" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="kGNuWwaGJdOhiERn_xYV-7" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=24;align=center;rotation=-180;" vertex="1" parent="gLONUA1swqkA5eBxdR7R-1">
+          <mxGeometry x="760" y="440" width="30" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kGNuWwaGJdOhiERn_xYV-8" value="Watches for orders to be created, cancels them after 15 minutes" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="gLONUA1swqkA5eBxdR7R-1">
+          <mxGeometry x="790" y="447.5" width="260" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="kGNuWwaGJdOhiERn_xYV-9" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=24;align=center;rotation=-180;" vertex="1" parent="gLONUA1swqkA5eBxdR7R-1">
+          <mxGeometry x="760" y="500" width="30" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kGNuWwaGJdOhiERn_xYV-10" value="Handles credit card payments.&amp;nbsp; Cancels orders if payments fails, completes if payment succeeds" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="gLONUA1swqkA5eBxdR7R-1">
+          <mxGeometry x="790" y="507.5" width="330" height="35" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="0XFRpfJkDZ1reh_vLDTa" name="09 - note">
+    <mxGraphModel dx="613" dy="302" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="oRxVljraz34rnLPFdcmb-0" />
+        <mxCell id="oRxVljraz34rnLPFdcmb-1" parent="oRxVljraz34rnLPFdcmb-0" />
+        <mxCell id="oRxVljraz34rnLPFdcmb-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=15;" edge="1" parent="oRxVljraz34rnLPFdcmb-1" source="oRxVljraz34rnLPFdcmb-2" target="oRxVljraz34rnLPFdcmb-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oRxVljraz34rnLPFdcmb-2" value="We are creating a separate service to manage each &lt;i&gt;type of resource&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="oRxVljraz34rnLPFdcmb-1">
+          <mxGeometry x="630" y="150" width="440" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oRxVljraz34rnLPFdcmb-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=15;" edge="1" parent="oRxVljraz34rnLPFdcmb-1" source="oRxVljraz34rnLPFdcmb-3" target="oRxVljraz34rnLPFdcmb-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oRxVljraz34rnLPFdcmb-3" value="Should we do this for every microservices app?" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="oRxVljraz34rnLPFdcmb-1">
+          <mxGeometry x="630" y="230" width="440" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oRxVljraz34rnLPFdcmb-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="oRxVljraz34rnLPFdcmb-1" source="oRxVljraz34rnLPFdcmb-4" target="oRxVljraz34rnLPFdcmb-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oRxVljraz34rnLPFdcmb-4" value="Probably not? Depends on your use case, number of resources, business logic tied to each resource, etc" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="oRxVljraz34rnLPFdcmb-1">
+          <mxGeometry x="630" y="310" width="440" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oRxVljraz34rnLPFdcmb-7" value="Perhaps &#39;feature-based&#39; design would be better" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="oRxVljraz34rnLPFdcmb-1">
+          <mxGeometry x="630" y="390" width="440" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
