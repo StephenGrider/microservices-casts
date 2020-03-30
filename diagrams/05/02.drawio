@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-03-30T20:15:41.721Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="DvB_6Z3O_U03F8mSg7LH" version="12.9.5" type="github" pages="9">
+<mxfile host="www.draw.io" modified="2020-03-30T20:31:11.455Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="LEQu7Z7d9aorfPKCRxWX" version="12.9.5" type="github" pages="10">
   <diagram id="rSPzP3prDde8Dh8pEe4E" name="01 - opt">
     <mxGraphModel dx="715" dy="352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -372,6 +372,50 @@
         </mxCell>
         <mxCell id="SetetDDRCjazs4HBxA7M-10" value="Cluster #2" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="7OqKs0t-rZTkaB7sni-Q-1">
           <mxGeometry x="880" y="400" width="240" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="5bH2Fx-3rZT-1AxAOpBv" name="10 - options">
+    <mxGraphModel dx="910" dy="448" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="YTAYM9fuFXsFqT8S0XqK-0" />
+        <mxCell id="YTAYM9fuFXsFqT8S0XqK-1" parent="YTAYM9fuFXsFqT8S0XqK-0" />
+        <mxCell id="YTAYM9fuFXsFqT8S0XqK-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=20;" edge="1" parent="YTAYM9fuFXsFqT8S0XqK-1" source="YTAYM9fuFXsFqT8S0XqK-2" target="YTAYM9fuFXsFqT8S0XqK-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YTAYM9fuFXsFqT8S0XqK-2" value="Don&#39;t want to run Docker &lt;i style=&quot;font-size: 20px;&quot;&gt;at all?&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="YTAYM9fuFXsFqT8S0XqK-1">
+          <mxGeometry x="450" y="160" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YTAYM9fuFXsFqT8S0XqK-4" value="OK still running Docker?" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="YTAYM9fuFXsFqT8S0XqK-1">
+          <mxGeometry x="900" y="160" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YTAYM9fuFXsFqT8S0XqK-5" value="Close Docker Desktop" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="YTAYM9fuFXsFqT8S0XqK-1">
+          <mxGeometry x="450" y="250" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YTAYM9fuFXsFqT8S0XqK-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=20;" edge="1" parent="YTAYM9fuFXsFqT8S0XqK-1" target="YTAYM9fuFXsFqT8S0XqK-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="595" y="309.9999999999999" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YTAYM9fuFXsFqT8S0XqK-8" value="Run&lt;br style=&quot;font-size: 17px;&quot;&gt;&lt;i style=&quot;font-size: 17px;&quot;&gt;gcloud components install kubectl&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="YTAYM9fuFXsFqT8S0XqK-1">
+          <mxGeometry x="450" y="340" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YTAYM9fuFXsFqT8S0XqK-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=20;" edge="1" parent="YTAYM9fuFXsFqT8S0XqK-1" target="YTAYM9fuFXsFqT8S0XqK-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="595" y="399.9999999999999" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YTAYM9fuFXsFqT8S0XqK-10" value="Run&lt;br style=&quot;font-size: 17px&quot;&gt;&lt;i style=&quot;font-size: 17px&quot;&gt;gcloud container clusters get-credentials &amp;lt;cluster name&amp;gt;&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="YTAYM9fuFXsFqT8S0XqK-1">
+          <mxGeometry x="380" y="440" width="430" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YTAYM9fuFXsFqT8S0XqK-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=20;" edge="1" parent="YTAYM9fuFXsFqT8S0XqK-1" target="YTAYM9fuFXsFqT8S0XqK-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1045" y="219.9999999999999" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YTAYM9fuFXsFqT8S0XqK-12" value="Run&lt;br style=&quot;font-size: 17px&quot;&gt;&lt;i style=&quot;font-size: 17px&quot;&gt;gcloud container clusters get-credentials &amp;lt;cluster name&amp;gt;&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="YTAYM9fuFXsFqT8S0XqK-1">
+          <mxGeometry x="830" y="260" width="430" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
