@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-03-31T16:49:14.126Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="WKog8FisUsJ3ZxkThDXH" version="12.9.5" type="github" pages="13">
+<mxfile host="www.draw.io" modified="2020-03-31T17:10:38.861Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="cKvliJatOkVbk2rkghtQ" version="12.9.5" type="github" pages="15">
   <diagram id="NUfDgKDsE6OHEJt_40ZV" name="01 - ser">
     <mxGraphModel dx="791" dy="389" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -650,6 +650,66 @@
       </root>
     </mxGraphModel>
   </diagram>
+  <diagram id="6cjUwZnAreRZeKl64Rub" name="14 - err">
+    <mxGraphModel dx="601" dy="296" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="2gRgzdV8rEF1LZ7UKJVG-0" />
+        <mxCell id="2gRgzdV8rEF1LZ7UKJVG-1" parent="2gRgzdV8rEF1LZ7UKJVG-0" />
+        <mxCell id="cDvfWL0oXhX3NDD9i-i8-0" value="We must have a consistently structured response from &lt;i&gt;all&lt;/i&gt; servers, no matter what went wrong" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="2gRgzdV8rEF1LZ7UKJVG-1">
+          <mxGeometry x="680" y="240" width="450" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cDvfWL0oXhX3NDD9i-i8-1" value="Difficulty in Error Handling" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=23;fontColor=#000000;fontStyle=1" vertex="1" parent="2gRgzdV8rEF1LZ7UKJVG-1">
+          <mxGeometry x="730" y="210" width="320" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cDvfWL0oXhX3NDD9i-i8-2" value="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=23;fontColor=#000000;align=center;" vertex="1" parent="2gRgzdV8rEF1LZ7UKJVG-1">
+          <mxGeometry x="620" y="240" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cDvfWL0oXhX3NDD9i-i8-3" value="A billion things can go wrong, not just validation of inputs to a request handler.&amp;nbsp; Each of these need to be handled consistently" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="2gRgzdV8rEF1LZ7UKJVG-1">
+          <mxGeometry x="680" y="310" width="450" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cDvfWL0oXhX3NDD9i-i8-4" value="2" style="rounded=0;whiteSpace=wrap;html=1;fontSize=23;fontColor=#000000;align=center;" vertex="1" parent="2gRgzdV8rEF1LZ7UKJVG-1">
+          <mxGeometry x="620" y="310" width="60" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="15 - solve" id="Cl7Vg9x0mmKmvmYWFLSL">
+    <mxGraphModel dx="715" dy="352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0qEShb-rQfmL9kQa7nlj-0" />
+        <mxCell id="0qEShb-rQfmL9kQa7nlj-1" parent="0qEShb-rQfmL9kQa7nlj-0" />
+        <mxCell id="0qEShb-rQfmL9kQa7nlj-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=23;fontColor=#000000;" edge="1" parent="0qEShb-rQfmL9kQa7nlj-1" source="0qEShb-rQfmL9kQa7nlj-2" target="0qEShb-rQfmL9kQa7nlj-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0qEShb-rQfmL9kQa7nlj-2" value="We must have a consistently structured response from &lt;i&gt;all&lt;/i&gt; servers, no matter what went wrong" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="0qEShb-rQfmL9kQa7nlj-1">
+          <mxGeometry x="680" y="240" width="450" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0qEShb-rQfmL9kQa7nlj-3" value="Difficulty in Error Handling" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=23;fontColor=#000000;fontStyle=1" vertex="1" parent="0qEShb-rQfmL9kQa7nlj-1">
+          <mxGeometry x="730" y="210" width="320" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0qEShb-rQfmL9kQa7nlj-4" value="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=23;fontColor=#000000;align=center;" vertex="1" parent="0qEShb-rQfmL9kQa7nlj-1">
+          <mxGeometry x="620" y="240" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0qEShb-rQfmL9kQa7nlj-5" value="A billion things can go wrong, not just validation of inputs to a request handler.&amp;nbsp; Each of these need to be handled consistently" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="0qEShb-rQfmL9kQa7nlj-1">
+          <mxGeometry x="680" y="310" width="450" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0qEShb-rQfmL9kQa7nlj-6" value="2" style="rounded=0;whiteSpace=wrap;html=1;fontSize=23;fontColor=#000000;align=center;" vertex="1" parent="0qEShb-rQfmL9kQa7nlj-1">
+          <mxGeometry x="620" y="310" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0qEShb-rQfmL9kQa7nlj-7" value="Write an error handling middleware to process errors, give them a consistent structure, and send back to the browser" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="0qEShb-rQfmL9kQa7nlj-1">
+          <mxGeometry x="1160" y="240" width="350" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0qEShb-rQfmL9kQa7nlj-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=23;fontColor=#000000;" edge="1" parent="0qEShb-rQfmL9kQa7nlj-1" target="0qEShb-rQfmL9kQa7nlj-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1130" y="340" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0qEShb-rQfmL9kQa7nlj-10" value="Make sure we capture all possible errors using Express&#39;s error handling mechanism (call the &#39;next&#39; function!)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="0qEShb-rQfmL9kQa7nlj-1">
+          <mxGeometry x="1160" y="310" width="350" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
   <diagram id="zUn3r9I5Cwu2o2GGajmx" name="07 - ee">
     <mxGraphModel dx="715" dy="352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -727,6 +787,9 @@
         </mxCell>
         <mxCell id="4xn4rJMdnoHaNM8YS9Ev-1" value="Error Handling Strategy" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=21;fontColor=#000000;fontStyle=1" vertex="1" parent="KW6cLKmbif0Z8XQ_49ng-1">
           <mxGeometry x="540" y="190" width="390" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mdH5uWmydi_vEC07h4XZ-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=15;fontColor=#000000;" edge="1" parent="KW6cLKmbif0Z8XQ_49ng-1" source="4xn4rJMdnoHaNM8YS9Ev-2" target="4xn4rJMdnoHaNM8YS9Ev-0">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4xn4rJMdnoHaNM8YS9Ev-2" value="Create a middleware that will interpret errors of any type, then turn the error into an identically-structured response" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fontColor=#000000;" vertex="1" parent="KW6cLKmbif0Z8XQ_49ng-1">
           <mxGeometry x="485" y="280" width="500" height="50" as="geometry" />
