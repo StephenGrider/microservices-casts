@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-03-31T18:02:42.607Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="GO-Pnw_gMvinB5XGk5-R" version="12.9.5" type="github" pages="18">
+<mxfile host="www.draw.io" modified="2020-03-31T18:03:47.537Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="LFghVMcc1PzAmWtB_8jC" version="12.9.5" type="github" pages="19">
   <diagram id="NUfDgKDsE6OHEJt_40ZV" name="01 - ser">
     <mxGraphModel dx="791" dy="389" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -895,6 +895,20 @@
         </mxCell>
         <mxCell id="4c_RlxCxCpw85ozP1dT0-3" value="Need to somehow attach custom error message to the error" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#000000;" vertex="1" parent="SSAxtOBh461QsmT7kKg7-1">
           <mxGeometry x="1030" y="334.5" width="240" height="43" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="71q7p6V2s1saMESjTt4F" name="19 - issue">
+    <mxGraphModel dx="601" dy="296" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="ls_2VCDgyfVeGhZ0YgNr-0" />
+        <mxCell id="ls_2VCDgyfVeGhZ0YgNr-1" parent="ls_2VCDgyfVeGhZ0YgNr-0" />
+        <mxCell id="ls_2VCDgyfVeGhZ0YgNr-2" value="We want an object like an &#39;Error&#39;, but we want to add in some more custom properties to it" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="ls_2VCDgyfVeGhZ0YgNr-1">
+          <mxGeometry x="600" y="220" width="460" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ls_2VCDgyfVeGhZ0YgNr-3" value="&lt;i&gt;Usually a sign you want to subclass something!&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#000000;" vertex="1" parent="ls_2VCDgyfVeGhZ0YgNr-1">
+          <mxGeometry x="715" y="300" width="230" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
