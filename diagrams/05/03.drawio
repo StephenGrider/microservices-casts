@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-03-31T16:48:20.110Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="qFAemuSi3QwjlMDLf1zx" version="12.9.5" type="github" pages="12">
+<mxfile host="www.draw.io" modified="2020-03-31T16:49:14.126Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="WKog8FisUsJ3ZxkThDXH" version="12.9.5" type="github" pages="13">
   <diagram id="NUfDgKDsE6OHEJt_40ZV" name="01 - ser">
     <mxGraphModel dx="791" dy="389" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -733,6 +733,23 @@
         </mxCell>
         <mxCell id="4xn4rJMdnoHaNM8YS9Ev-3" value="Create some errors to handle many different kinds of things going wrong in our app" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fontColor=#000000;" vertex="1" parent="KW6cLKmbif0Z8XQ_49ng-1">
           <mxGeometry x="485" y="340" width="500" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="6Lcuuj4X736c1GDb-m37" name="13 - aside">
+    <mxGraphModel dx="715" dy="352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="hUEY2wOlaErhGofcnj1c-0" />
+        <mxCell id="hUEY2wOlaErhGofcnj1c-1" parent="hUEY2wOlaErhGofcnj1c-0" />
+        <mxCell id="NgLZABnQFm3DiyONMe-1-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=15;fontColor=#000000;" edge="1" parent="hUEY2wOlaErhGofcnj1c-1" source="NgLZABnQFm3DiyONMe-1-0" target="NgLZABnQFm3DiyONMe-1-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NgLZABnQFm3DiyONMe-1-0" value="Confused with where I&#39;m going with all this error handling stuff?" style="rounded=0;whiteSpace=wrap;html=1;fontSize=25;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="hUEY2wOlaErhGofcnj1c-1">
+          <mxGeometry x="400" y="260" width="560" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="NgLZABnQFm3DiyONMe-1-1" value="Please give me a bit of patience, at the end of this you are going to have one of the best error handling systems in the world of express" style="rounded=0;whiteSpace=wrap;html=1;fontSize=25;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="hUEY2wOlaErhGofcnj1c-1">
+          <mxGeometry x="400" y="430" width="560" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
