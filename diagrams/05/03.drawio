@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-03-31T16:29:42.446Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="9HDks2tLjZUqZxIUQNmE" version="12.9.5" type="github" pages="10">
+<mxfile host="www.draw.io" modified="2020-03-31T16:30:06.339Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="dMf8ZdUT_-GG2HqXeeIx" version="12.9.5" type="github" pages="11">
   <diagram id="NUfDgKDsE6OHEJt_40ZV" name="01 - ser">
     <mxGraphModel dx="791" dy="389" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -645,6 +645,56 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="QrlgRkL-8DSp4YuQDsVL-0" value="X" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=29;fontColor=#FF0000;fontStyle=1" vertex="1" parent="QrlgRkL-8DSp4YuQDsVL-3">
+          <mxGeometry x="362.5" y="25" width="55" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="11 - err mw" id="LAc1NW3rKs-llJpi3TkY">
+    <mxGraphModel dx="751" dy="370" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="U98Dx9CZUy9OOtTkSFIL-0" />
+        <mxCell id="U98Dx9CZUy9OOtTkSFIL-1" parent="U98Dx9CZUy9OOtTkSFIL-0" />
+        <mxCell id="U98Dx9CZUy9OOtTkSFIL-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fontColor=#333333;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="U98Dx9CZUy9OOtTkSFIL-1">
+          <mxGeometry x="495" y="210" width="270" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="U98Dx9CZUy9OOtTkSFIL-3" value="Error Handling Middleware" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fontColor=#000000;" vertex="1" parent="U98Dx9CZUy9OOtTkSFIL-1">
+          <mxGeometry x="520" y="220" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="U98Dx9CZUy9OOtTkSFIL-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=18;fontColor=#000000;" edge="1" parent="U98Dx9CZUy9OOtTkSFIL-1" source="U98Dx9CZUy9OOtTkSFIL-5" target="U98Dx9CZUy9OOtTkSFIL-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U98Dx9CZUy9OOtTkSFIL-5" value="Request that will result in an error" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="U98Dx9CZUy9OOtTkSFIL-1">
+          <mxGeometry x="538.75" y="130" width="182.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="U98Dx9CZUy9OOtTkSFIL-6" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=18;fontColor=#000000;rotation=-180;" vertex="1" parent="U98Dx9CZUy9OOtTkSFIL-1">
+          <mxGeometry x="770" y="210" width="30" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="U98Dx9CZUy9OOtTkSFIL-7" value="Express App" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#000000;" vertex="1" parent="U98Dx9CZUy9OOtTkSFIL-1">
+          <mxGeometry x="800" y="340" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="U98Dx9CZUy9OOtTkSFIL-8" value="Middleware" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fontColor=#000000;" vertex="1" parent="U98Dx9CZUy9OOtTkSFIL-1">
+          <mxGeometry x="520" y="270" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="U98Dx9CZUy9OOtTkSFIL-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=18;fontColor=#000000;" edge="1" parent="U98Dx9CZUy9OOtTkSFIL-1" source="U98Dx9CZUy9OOtTkSFIL-10" target="U98Dx9CZUy9OOtTkSFIL-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U98Dx9CZUy9OOtTkSFIL-10" value="Middleware" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fontColor=#000000;" vertex="1" parent="U98Dx9CZUy9OOtTkSFIL-1">
+          <mxGeometry x="520" y="320" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="U98Dx9CZUy9OOtTkSFIL-11" value="Request Handler" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fontColor=#000000;" vertex="1" parent="U98Dx9CZUy9OOtTkSFIL-1">
+          <mxGeometry x="520" y="400" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="U98Dx9CZUy9OOtTkSFIL-12" value="" style="group" vertex="1" connectable="0" parent="U98Dx9CZUy9OOtTkSFIL-1">
+          <mxGeometry x="240" y="425" width="417.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="U98Dx9CZUy9OOtTkSFIL-13" value="Correctly structured error response" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="U98Dx9CZUy9OOtTkSFIL-12">
+          <mxGeometry width="205" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="U98Dx9CZUy9OOtTkSFIL-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=29;fontColor=#000000;" edge="1" parent="U98Dx9CZUy9OOtTkSFIL-12" source="U98Dx9CZUy9OOtTkSFIL-15" target="U98Dx9CZUy9OOtTkSFIL-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U98Dx9CZUy9OOtTkSFIL-15" value="X" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=29;fontColor=#FF0000;fontStyle=1" vertex="1" parent="U98Dx9CZUy9OOtTkSFIL-12">
           <mxGeometry x="362.5" y="25" width="55" height="20" as="geometry" />
         </mxCell>
       </root>
