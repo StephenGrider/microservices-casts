@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-03-31T17:10:38.861Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="cKvliJatOkVbk2rkghtQ" version="12.9.5" type="github" pages="15">
+<mxfile host="www.draw.io" modified="2020-03-31T17:44:19.116Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="01N6ArdxbluHiVuCoZdJ" version="12.9.5" type="github" pages="16">
   <diagram id="NUfDgKDsE6OHEJt_40ZV" name="01 - ser">
     <mxGraphModel dx="791" dy="389" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -674,7 +674,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="15 - solve" id="Cl7Vg9x0mmKmvmYWFLSL">
-    <mxGraphModel dx="715" dy="352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="601" dy="296" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0qEShb-rQfmL9kQa7nlj-0" />
         <mxCell id="0qEShb-rQfmL9kQa7nlj-1" parent="0qEShb-rQfmL9kQa7nlj-0" />
@@ -813,6 +813,44 @@
         </mxCell>
         <mxCell id="NgLZABnQFm3DiyONMe-1-1" value="Please give me a bit of patience, at the end of this you are going to have one of the best error handling systems in the world of express" style="rounded=0;whiteSpace=wrap;html=1;fontSize=25;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="hUEY2wOlaErhGofcnj1c-1">
           <mxGeometry x="400" y="430" width="560" height="110" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="tLMlEkViiaC2vGRTi-Fz" name="16 - err">
+    <mxGraphModel dx="910" dy="448" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="1CTpqj0xhS1AwQVcfzc1-0" />
+        <mxCell id="1CTpqj0xhS1AwQVcfzc1-1" parent="1CTpqj0xhS1AwQVcfzc1-0" />
+        <mxCell id="H8O5_px0NxPOk7Xn18Pt-0" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fontColor=#333333;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1CTpqj0xhS1AwQVcfzc1-1">
+          <mxGeometry x="725" y="220" width="270" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="H8O5_px0NxPOk7Xn18Pt-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=18;fontColor=#000000;" edge="1" parent="1CTpqj0xhS1AwQVcfzc1-1" source="H8O5_px0NxPOk7Xn18Pt-3" target="H8O5_px0NxPOk7Xn18Pt-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H8O5_px0NxPOk7Xn18Pt-3" value="Request that will result in an error" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1CTpqj0xhS1AwQVcfzc1-1">
+          <mxGeometry x="768.75" y="140" width="182.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="H8O5_px0NxPOk7Xn18Pt-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=23;fontColor=#000000;" edge="1" parent="1CTpqj0xhS1AwQVcfzc1-1" source="H8O5_px0NxPOk7Xn18Pt-9" target="H8O5_px0NxPOk7Xn18Pt-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H8O5_px0NxPOk7Xn18Pt-9" value="Request Handler" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fontColor=#000000;" vertex="1" parent="1CTpqj0xhS1AwQVcfzc1-1">
+          <mxGeometry x="750" y="240" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="H8O5_px0NxPOk7Xn18Pt-11" value="Correctly structured error response" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1CTpqj0xhS1AwQVcfzc1-1">
+          <mxGeometry x="757.5" y="520" width="205" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="H8O5_px0NxPOk7Xn18Pt-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=23;fontColor=#000000;" edge="1" parent="1CTpqj0xhS1AwQVcfzc1-1" source="H8O5_px0NxPOk7Xn18Pt-14" target="H8O5_px0NxPOk7Xn18Pt-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H8O5_px0NxPOk7Xn18Pt-14" value="Error Handling Middleware" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fontColor=#000000;" vertex="1" parent="1CTpqj0xhS1AwQVcfzc1-1">
+          <mxGeometry x="750" y="400" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pLF6HXQXFwffxk3s34A0-0" value="X" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=29;fontColor=#FF0000;fontStyle=1" vertex="1" parent="1CTpqj0xhS1AwQVcfzc1-1">
+          <mxGeometry x="832.5" y="300" width="55" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pLF6HXQXFwffxk3s34A0-1" value="Error Object" style="rounded=0;whiteSpace=wrap;html=1;fontSize=23;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1CTpqj0xhS1AwQVcfzc1-1">
+          <mxGeometry x="860" y="340" width="170" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
