@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-03-31T16:04:57.991Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="WHzPXks8Q2uzwZNj9okl" version="12.9.5" type="github" pages="7">
+<mxfile host="www.draw.io" modified="2020-03-31T16:08:16.765Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="7dz46aIq6IbJ0KpwAjH7" version="12.9.5" type="github" pages="7">
   <diagram id="NUfDgKDsE6OHEJt_40ZV" name="01 - ser">
     <mxGraphModel dx="791" dy="389" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -476,11 +476,14 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="zUn3r9I5Cwu2o2GGajmx" name="07 - express errors">
-    <mxGraphModel dx="1502" dy="739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+  <diagram id="zUn3r9I5Cwu2o2GGajmx" name="07 - ee">
+    <mxGraphModel dx="715" dy="352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="oVvs_KUR0T4JfFlB8uQe-0" />
         <mxCell id="oVvs_KUR0T4JfFlB8uQe-1" parent="oVvs_KUR0T4JfFlB8uQe-0" />
+        <mxCell id="WOFWxEUXd8a4jIgGIt7B-0" value="Default Express error handling is kind of bad..." style="rounded=0;whiteSpace=wrap;html=1;fontSize=25;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="oVvs_KUR0T4JfFlB8uQe-1">
+          <mxGeometry x="400" y="260" width="560" height="110" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
