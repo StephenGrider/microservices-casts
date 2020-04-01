@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-04-01T20:53:32.244Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="jlcqlqc8Ox5oY71ZxMZU" version="12.9.6" type="github" pages="19">
+<mxfile host="www.draw.io" modified="2020-04-01T20:54:40.425Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="l_gqUCFg9P5NqoA0Oo9q" version="12.9.6" type="github" pages="20">
   <diagram id="unl9QKwU0Ir1PE2C9jBq" name="01 - auth">
     <mxGraphModel dx="939" dy="462" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -919,6 +919,41 @@
         </mxCell>
         <mxCell id="oVtIhrRS2RFhsBWB4PC6-7" value="Some user got banned? Darn, I just gave them the keys to my car 5 minutes ago..." style="rounded=0;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="TXqvsigzvDcrgNdg8o4w-1">
           <mxGeometry x="840" y="290" width="360" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="20 - dir" id="ggsjhv_yOn0jmFpZfiHn">
+    <mxGraphModel dx="834" dy="411" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="Cnr4wcQTuCD2ekf2ZH8g-0" />
+        <mxCell id="Cnr4wcQTuCD2ekf2ZH8g-1" parent="Cnr4wcQTuCD2ekf2ZH8g-0" />
+        <mxCell id="Cnr4wcQTuCD2ekf2ZH8g-2" value="Fundamental Option #1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=5;shadow=0;labelBorderColor=none;labelBackgroundColor=none;" vertex="1" parent="Cnr4wcQTuCD2ekf2ZH8g-1">
+          <mxGeometry x="390" y="160" width="380" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Cnr4wcQTuCD2ekf2ZH8g-3" value="Individual services rely on the auth service" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;labelBackgroundColor=none;fontSize=18;fontStyle=2" vertex="1" parent="Cnr4wcQTuCD2ekf2ZH8g-1">
+          <mxGeometry x="465" y="197" width="230" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Cnr4wcQTuCD2ekf2ZH8g-4" value="Fundamental Option #2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=5;shadow=0;labelBorderColor=none;labelBackgroundColor=none;" vertex="1" parent="Cnr4wcQTuCD2ekf2ZH8g-1">
+          <mxGeometry x="830" y="160" width="380" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Cnr4wcQTuCD2ekf2ZH8g-5" value="Individual services know how to authenticate a user" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;labelBackgroundColor=none;fontSize=18;fontStyle=2" vertex="1" parent="Cnr4wcQTuCD2ekf2ZH8g-1">
+          <mxGeometry x="905" y="197" width="230" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Cnr4wcQTuCD2ekf2ZH8g-6" value="Changes to auth state are immediately reflected" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="Cnr4wcQTuCD2ekf2ZH8g-1">
+          <mxGeometry x="400" y="240" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Cnr4wcQTuCD2ekf2ZH8g-7" value="Auth service goes down?&amp;nbsp; Entire app is broken" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="Cnr4wcQTuCD2ekf2ZH8g-1">
+          <mxGeometry x="400" y="290" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Cnr4wcQTuCD2ekf2ZH8g-8" value="Auth service is down? Who cares!" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="Cnr4wcQTuCD2ekf2ZH8g-1">
+          <mxGeometry x="840" y="240" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Cnr4wcQTuCD2ekf2ZH8g-9" value="Some user got banned? Darn, I just gave them the keys to my car 5 minutes ago..." style="rounded=0;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="Cnr4wcQTuCD2ekf2ZH8g-1">
+          <mxGeometry x="840" y="290" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Cnr4wcQTuCD2ekf2ZH8g-10" value="We are going with Option #2 to stick with the idea of independent services" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;fontSize=21;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Cnr4wcQTuCD2ekf2ZH8g-1">
+          <mxGeometry x="840" y="370" width="360" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
