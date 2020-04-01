@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-04-01T16:14:40.269Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="xUp7Dy7p6FYGkyQY8-1w" version="12.9.6" type="github" pages="4">
+<mxfile host="www.draw.io" modified="2020-04-01T16:19:17.558Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="ZEImVYg0unhKf6Z_NQHM" version="12.9.6" type="github" pages="7">
   <diagram id="unl9QKwU0Ir1PE2C9jBq" name="01 - auth">
     <mxGraphModel dx="939" dy="462" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -206,6 +206,69 @@
         </mxCell>
         <mxCell id="u9ScNwFZ7urygbcfSo5k-14" value="Represents the entire collection of users" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=2" vertex="1" parent="uOOGHx2yZ9HFkhzBKnsO-1">
           <mxGeometry x="457.5" y="377" width="97" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="24B--XxwFlk7WRy3bTVb" name="05 - m">
+    <mxGraphModel dx="601" dy="296" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="2i62QDjw80bGlP2GjIEc-0" />
+        <mxCell id="2i62QDjw80bGlP2GjIEc-1" parent="2i62QDjw80bGlP2GjIEc-0" />
+        <mxCell id="PXCfLC5JLTR5Eov9wG-h-0" value="new User({ email: &#39;test@test.com&#39;, password: &#39;lk325kj2&#39; })" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="2i62QDjw80bGlP2GjIEc-1">
+          <mxGeometry x="530" y="290" width="430" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PXCfLC5JLTR5Eov9wG-h-1" value="Creating a new User Document" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=2" vertex="1" parent="2i62QDjw80bGlP2GjIEc-1">
+          <mxGeometry x="657.5" y="260" width="175" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="duGneUoO852O0gYtUuxt-0" value="Issue #1 with TS + Mongoose" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=5" vertex="1" parent="2i62QDjw80bGlP2GjIEc-1">
+          <mxGeometry x="490" y="220" width="230" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="06 - ts" id="kTC30R4S65JpMzQZoJH7">
+    <mxGraphModel dx="601" dy="296" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="NRrTkXQd9ZWY_lhJ8x_S-0" />
+        <mxCell id="NRrTkXQd9ZWY_lhJ8x_S-1" parent="NRrTkXQd9ZWY_lhJ8x_S-0" />
+        <mxCell id="NRrTkXQd9ZWY_lhJ8x_S-2" value="new User({ email: &#39;test@test.com&#39;, password: &#39;lk325kj2&#39; })" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="NRrTkXQd9ZWY_lhJ8x_S-1">
+          <mxGeometry x="530" y="290" width="430" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NRrTkXQd9ZWY_lhJ8x_S-3" value="Creating a new User Document" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=2" vertex="1" parent="NRrTkXQd9ZWY_lhJ8x_S-1">
+          <mxGeometry x="657.5" y="260" width="175" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="NRrTkXQd9ZWY_lhJ8x_S-4" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=13;rotation=-90;" vertex="1" parent="NRrTkXQd9ZWY_lhJ8x_S-1">
+          <mxGeometry x="757.5" y="202.5" width="35" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="NRrTkXQd9ZWY_lhJ8x_S-5" value="Typescript wants to make sure we are providing the correct properties - Mongoose does not make this easy!" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=0" vertex="1" parent="NRrTkXQd9ZWY_lhJ8x_S-1">
+          <mxGeometry x="653.75" y="370" width="242.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3DifghKtDI2gipp7pktN-0" value="Issue #1 with TS + Mongoose" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=5" vertex="1" parent="NRrTkXQd9ZWY_lhJ8x_S-1">
+          <mxGeometry x="490" y="220" width="230" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="07 - ts" id="zD9yp86iYdRzvlGDVtm4">
+    <mxGraphModel dx="601" dy="296" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="6kmRMLjHm2MGL4raaBMh-0" />
+        <mxCell id="6kmRMLjHm2MGL4raaBMh-1" parent="6kmRMLjHm2MGL4raaBMh-0" />
+        <mxCell id="Sz4TFe-vi2OUuPkls2Qc-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=13;" edge="1" parent="6kmRMLjHm2MGL4raaBMh-1" source="6kmRMLjHm2MGL4raaBMh-2" target="qA2I0-mN6NvgQe7Fw1Pr-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6kmRMLjHm2MGL4raaBMh-2" value="const user = new User({ email: &#39;test@test.com&#39;, password: &#39;lk325kj2&#39; })" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="6kmRMLjHm2MGL4raaBMh-1">
+          <mxGeometry x="530" y="290" width="500" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qA2I0-mN6NvgQe7Fw1Pr-0" value="Issue #2 with TS + Mongoose" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=5" vertex="1" parent="6kmRMLjHm2MGL4raaBMh-1">
+          <mxGeometry x="470" y="250" width="230" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qA2I0-mN6NvgQe7Fw1Pr-2" value="console.log(user); // { email: &#39;..&#39;, password: &#39;..&#39;, createdAt: &#39;..&#39;, updatedAt: &#39;..&#39; }" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="6kmRMLjHm2MGL4raaBMh-1">
+          <mxGeometry x="530" y="360" width="500" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Sz4TFe-vi2OUuPkls2Qc-0" value="The properties that we pass to the User constructor don&#39;t necessarily match up with the properties available on a user" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=0" vertex="1" parent="6kmRMLjHm2MGL4raaBMh-1">
+          <mxGeometry x="658.75" y="420" width="242.5" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
