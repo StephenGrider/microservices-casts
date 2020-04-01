@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-04-01T19:24:38.196Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="60RBSyqIHKSJ-GC_0pZd" version="12.9.6" type="github" pages="8">
+<mxfile host="www.draw.io" modified="2020-04-01T19:27:20.647Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="fYGpPbmhyIwy_Jzu7Y-1" version="12.9.6" type="github" pages="10">
   <diagram id="unl9QKwU0Ir1PE2C9jBq" name="01 - auth">
     <mxGraphModel dx="939" dy="462" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -321,6 +321,141 @@
         </mxCell>
         <mxCell id="MuVdxE0BAxxXLCZmm-bu-29" value="User Collection" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="JoL5sScF6yHnG0T5Fap--1">
           <mxGeometry x="820" y="270" width="170" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="MuVdxE0BAxxXLCZmm-bu-30" value="Bad Approach" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" parent="JoL5sScF6yHnG0T5Fap--1">
+          <mxGeometry x="450" y="490" width="340" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="09 - hash" id="s_PQmoopLjpd8IoW9pmI">
+    <mxGraphModel dx="858" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="oKSwz37NwxyxK3d0_e-E-0" />
+        <mxCell id="oKSwz37NwxyxK3d0_e-E-1" parent="oKSwz37NwxyxK3d0_e-E-0" />
+        <mxCell id="oKSwz37NwxyxK3d0_e-E-2" value="Auth Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;fontSize=19;" vertex="1" parent="oKSwz37NwxyxK3d0_e-E-1">
+          <mxGeometry x="540" y="215" width="200" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="oKSwz37NwxyxK3d0_e-E-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;fontSize=19;" vertex="1" parent="oKSwz37NwxyxK3d0_e-E-1">
+          <mxGeometry x="540" y="250" width="200" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="oKSwz37NwxyxK3d0_e-E-4" value="" style="endArrow=classic;html=1;fontSize=15;" edge="1" parent="oKSwz37NwxyxK3d0_e-E-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="335" as="sourcePoint" />
+            <mxPoint x="540" y="335" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oKSwz37NwxyxK3d0_e-E-5" value="{ email: &#39;test@test.com&#39;, password: &#39;wordpass&#39;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="oKSwz37NwxyxK3d0_e-E-1">
+          <mxGeometry x="340" y="295" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oKSwz37NwxyxK3d0_e-E-6" value="&lt;b&gt;SIGNUP&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="oKSwz37NwxyxK3d0_e-E-1">
+          <mxGeometry x="340" y="270" width="180" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="oKSwz37NwxyxK3d0_e-E-7" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="oKSwz37NwxyxK3d0_e-E-1">
+          <mxGeometry x="800" y="210" width="230" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="oKSwz37NwxyxK3d0_e-E-8" value="&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-size: 19px&quot;&gt;MongoDB&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" vertex="1" parent="oKSwz37NwxyxK3d0_e-E-1">
+          <mxGeometry x="800" y="210" width="230" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="oKSwz37NwxyxK3d0_e-E-9" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="oKSwz37NwxyxK3d0_e-E-1">
+          <mxGeometry x="820" y="305" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="oKSwz37NwxyxK3d0_e-E-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=13;" edge="1" parent="oKSwz37NwxyxK3d0_e-E-1" target="oKSwz37NwxyxK3d0_e-E-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="740" y="330" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oKSwz37NwxyxK3d0_e-E-11" value="React App" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" vertex="1" parent="oKSwz37NwxyxK3d0_e-E-1">
+          <mxGeometry x="170" y="315" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oKSwz37NwxyxK3d0_e-E-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=24;" edge="1" parent="oKSwz37NwxyxK3d0_e-E-1" source="oKSwz37NwxyxK3d0_e-E-12" target="oKSwz37NwxyxK3d0_e-E-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oKSwz37NwxyxK3d0_e-E-12" value="Hash password of &#39;wordpass&#39;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="oKSwz37NwxyxK3d0_e-E-1">
+          <mxGeometry x="550" y="265" width="180" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="oKSwz37NwxyxK3d0_e-E-13" value="{ email: &#39;test@test.com&#39;, password: &#39;&lt;span style=&quot;font-size: 13px&quot;&gt;&lt;b&gt;lkjsdlkj23lk5jl2l&lt;/b&gt;&lt;/span&gt;&#39; }" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="oKSwz37NwxyxK3d0_e-E-1">
+          <mxGeometry x="835" y="325" width="175" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oKSwz37NwxyxK3d0_e-E-14" value="User Collection" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="oKSwz37NwxyxK3d0_e-E-1">
+          <mxGeometry x="820" y="270" width="200" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="ICR4WHn3XwHoxY85SvCs-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=24;" edge="1" parent="oKSwz37NwxyxK3d0_e-E-1" source="oKSwz37NwxyxK3d0_e-E-16" target="ICR4WHn3XwHoxY85SvCs-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oKSwz37NwxyxK3d0_e-E-16" value="&#39;lkjsdlkj23lk5jl2l&#39;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="oKSwz37NwxyxK3d0_e-E-1">
+          <mxGeometry x="550" y="325" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ICR4WHn3XwHoxY85SvCs-0" value="Create a new user with email of &#39;test@test.com&#39; and password &#39;&lt;b&gt;lkjsdlkj23lk5jl2l&lt;/b&gt;&#39;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="oKSwz37NwxyxK3d0_e-E-1">
+          <mxGeometry x="550" y="380" width="180" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="10 - signin" id="2b-hLI42K3JaH7kN-GIG">
+    <mxGraphModel dx="858" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="DzbCIcEiqelJBFmlbiZg-0" />
+        <mxCell id="DzbCIcEiqelJBFmlbiZg-1" parent="DzbCIcEiqelJBFmlbiZg-0" />
+        <mxCell id="DzbCIcEiqelJBFmlbiZg-2" value="Auth Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;fontSize=19;" vertex="1" parent="DzbCIcEiqelJBFmlbiZg-1">
+          <mxGeometry x="540" y="215" width="200" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="DzbCIcEiqelJBFmlbiZg-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;fontSize=19;" vertex="1" parent="DzbCIcEiqelJBFmlbiZg-1">
+          <mxGeometry x="540" y="250" width="200" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="DzbCIcEiqelJBFmlbiZg-4" value="" style="endArrow=classic;html=1;fontSize=15;" edge="1" parent="DzbCIcEiqelJBFmlbiZg-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="335" as="sourcePoint" />
+            <mxPoint x="540" y="335" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DzbCIcEiqelJBFmlbiZg-5" value="{ email: &#39;test@test.com&#39;, password: &#39;wordpass&#39;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="DzbCIcEiqelJBFmlbiZg-1">
+          <mxGeometry x="340" y="295" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DzbCIcEiqelJBFmlbiZg-6" value="&lt;b&gt;SIGNIN&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="DzbCIcEiqelJBFmlbiZg-1">
+          <mxGeometry x="340" y="270" width="180" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="DzbCIcEiqelJBFmlbiZg-7" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="DzbCIcEiqelJBFmlbiZg-1">
+          <mxGeometry x="800" y="210" width="230" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="DzbCIcEiqelJBFmlbiZg-8" value="&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-size: 19px&quot;&gt;MongoDB&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" vertex="1" parent="DzbCIcEiqelJBFmlbiZg-1">
+          <mxGeometry x="800" y="210" width="230" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="DzbCIcEiqelJBFmlbiZg-9" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="DzbCIcEiqelJBFmlbiZg-1">
+          <mxGeometry x="820" y="305" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="DzbCIcEiqelJBFmlbiZg-11" value="React App" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" vertex="1" parent="DzbCIcEiqelJBFmlbiZg-1">
+          <mxGeometry x="170" y="315" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DzbCIcEiqelJBFmlbiZg-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=24;" edge="1" parent="DzbCIcEiqelJBFmlbiZg-1" source="DzbCIcEiqelJBFmlbiZg-13" target="DzbCIcEiqelJBFmlbiZg-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DzbCIcEiqelJBFmlbiZg-13" value="Hash password of &#39;wordpass&#39;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="DzbCIcEiqelJBFmlbiZg-1">
+          <mxGeometry x="550" y="265" width="180" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="DzbCIcEiqelJBFmlbiZg-14" value="{ email: &#39;test@test.com&#39;, password: &#39;&lt;span style=&quot;font-size: 13px&quot;&gt;&lt;b&gt;lkjsdlkj23lk5jl2l&lt;/b&gt;&lt;/span&gt;&#39; }" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="DzbCIcEiqelJBFmlbiZg-1">
+          <mxGeometry x="835" y="325" width="175" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DzbCIcEiqelJBFmlbiZg-15" value="User Collection" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="DzbCIcEiqelJBFmlbiZg-1">
+          <mxGeometry x="820" y="270" width="200" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="DzbCIcEiqelJBFmlbiZg-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=24;" edge="1" parent="DzbCIcEiqelJBFmlbiZg-1" source="DzbCIcEiqelJBFmlbiZg-17" target="DzbCIcEiqelJBFmlbiZg-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DzbCIcEiqelJBFmlbiZg-17" value="&#39;lkjsdlkj23lk5jl2l&#39;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="DzbCIcEiqelJBFmlbiZg-1">
+          <mxGeometry x="550" y="325" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DzbCIcEiqelJBFmlbiZg-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=24;" edge="1" parent="DzbCIcEiqelJBFmlbiZg-1" source="DzbCIcEiqelJBFmlbiZg-20" target="DzbCIcEiqelJBFmlbiZg-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DzbCIcEiqelJBFmlbiZg-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=24;" edge="1" parent="DzbCIcEiqelJBFmlbiZg-1" source="DzbCIcEiqelJBFmlbiZg-20" target="DzbCIcEiqelJBFmlbiZg-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DzbCIcEiqelJBFmlbiZg-20" value="Find user in database with email of &#39;test@test.com&#39;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="DzbCIcEiqelJBFmlbiZg-1">
+          <mxGeometry x="550" y="380" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DzbCIcEiqelJBFmlbiZg-22" value="Is the hashed password that was just supplied equal to the on that is stored in the DB?" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="DzbCIcEiqelJBFmlbiZg-1">
+          <mxGeometry x="550" y="440" width="180" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
