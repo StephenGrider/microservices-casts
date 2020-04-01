@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-04-01T19:32:27.507Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="QU1aVmwrHFAOUYAi141E" version="12.9.6" type="github" pages="10">
+<mxfile host="www.draw.io" modified="2020-04-01T20:09:07.667Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="gRdQaWxKe3q4Lu19un4M" version="12.9.6" type="github" pages="12">
   <diagram id="unl9QKwU0Ir1PE2C9jBq" name="01 - auth">
     <mxGraphModel dx="939" dy="462" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -454,6 +454,76 @@
         </mxCell>
         <mxCell id="DzbCIcEiqelJBFmlbiZg-22" value="Is the hashed password that was just supplied equal to the on that is stored in the DB?" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="DzbCIcEiqelJBFmlbiZg-1">
           <mxGeometry x="550" y="440" width="180" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="DRfGa19pMyQ0fCZ6GRwt" name="11 - auth">
+    <mxGraphModel dx="715" dy="352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="cbB2IgddIYG2Zezy0tDo-0" />
+        <mxCell id="cbB2IgddIYG2Zezy0tDo-1" parent="cbB2IgddIYG2Zezy0tDo-0" />
+        <mxCell id="cbB2IgddIYG2Zezy0tDo-2" value="User auth with microservices is an &lt;i style=&quot;font-size: 21px;&quot;&gt;unsolved problem&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=21;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="cbB2IgddIYG2Zezy0tDo-1">
+          <mxGeometry x="730" y="250" width="560" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="cbB2IgddIYG2Zezy0tDo-4" value="There are many ways to do it, and no one way is &quot;right&quot;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=21;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="cbB2IgddIYG2Zezy0tDo-1">
+          <mxGeometry x="730" y="350" width="560" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="cbB2IgddIYG2Zezy0tDo-8" value="I am going to outline a couple solutions then propose a solution that &lt;i&gt;works, but still has downsides&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=21;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="cbB2IgddIYG2Zezy0tDo-1">
+          <mxGeometry x="730" y="460" width="560" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="cbB2IgddIYG2Zezy0tDo-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=21;" edge="1" parent="cbB2IgddIYG2Zezy0tDo-1" source="cbB2IgddIYG2Zezy0tDo-2" target="cbB2IgddIYG2Zezy0tDo-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cbB2IgddIYG2Zezy0tDo-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=21;" edge="1" parent="cbB2IgddIYG2Zezy0tDo-1" source="cbB2IgddIYG2Zezy0tDo-4" target="cbB2IgddIYG2Zezy0tDo-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="1l1tt2HGPO3kAbY2cU7q" name="12 - payments">
+    <mxGraphModel dx="858" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="n-ANQqQQHdGHf2qQmgIK-0" />
+        <mxCell id="n-ANQqQQHdGHf2qQmgIK-1" parent="n-ANQqQQHdGHf2qQmgIK-0" />
+        <mxCell id="DXVjNJ6nkupUL_VOIFBR-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;fontSize=19;" vertex="1" parent="n-ANQqQQHdGHf2qQmgIK-1">
+          <mxGeometry x="640" y="305" width="280" height="245" as="geometry" />
+        </mxCell>
+        <mxCell id="DXVjNJ6nkupUL_VOIFBR-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="n-ANQqQQHdGHf2qQmgIK-1" source="VGuSiYpST93SBDr0r3Mc-0" target="DXVjNJ6nkupUL_VOIFBR-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VGuSiYpST93SBDr0r3Mc-0" value="{ ticketId: &#39;123123&#39; }" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="n-ANQqQQHdGHf2qQmgIK-1">
+          <mxGeometry x="340" y="312.5" width="230" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="VGuSiYpST93SBDr0r3Mc-1" value="&lt;b&gt;Request to Purchase Ticket&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="n-ANQqQQHdGHf2qQmgIK-1">
+          <mxGeometry x="340" y="287.5" width="230" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="VGuSiYpST93SBDr0r3Mc-2" value="JWT, Cookie, ETC" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="n-ANQqQQHdGHf2qQmgIK-1">
+          <mxGeometry x="340" y="357.5" width="230" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="DXVjNJ6nkupUL_VOIFBR-0" value="Orders Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;fontSize=19;" vertex="1" parent="n-ANQqQQHdGHf2qQmgIK-1">
+          <mxGeometry x="640" y="270" width="280" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="DXVjNJ6nkupUL_VOIFBR-4" value="&lt;b style=&quot;font-size: 16px;&quot;&gt;Ticket Purchase Logic&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="n-ANQqQQHdGHf2qQmgIK-1">
+          <mxGeometry x="660" y="320" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DXVjNJ6nkupUL_VOIFBR-5" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="n-ANQqQQHdGHf2qQmgIK-1">
+          <mxGeometry x="660" y="350" width="240" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="DXVjNJ6nkupUL_VOIFBR-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="n-ANQqQQHdGHf2qQmgIK-1" source="DXVjNJ6nkupUL_VOIFBR-6" target="DXVjNJ6nkupUL_VOIFBR-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DXVjNJ6nkupUL_VOIFBR-6" value="Is this person logged in?" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="n-ANQqQQHdGHf2qQmgIK-1">
+          <mxGeometry x="685" y="362.5" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DXVjNJ6nkupUL_VOIFBR-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="n-ANQqQQHdGHf2qQmgIK-1" source="DXVjNJ6nkupUL_VOIFBR-7" target="DXVjNJ6nkupUL_VOIFBR-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DXVjNJ6nkupUL_VOIFBR-7" value="Yes? Ok, can they purchase this ticket?" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="n-ANQqQQHdGHf2qQmgIK-1">
+          <mxGeometry x="685" y="420" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DXVjNJ6nkupUL_VOIFBR-9" value="........" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="n-ANQqQQHdGHf2qQmgIK-1">
+          <mxGeometry x="685" y="480" width="190" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
