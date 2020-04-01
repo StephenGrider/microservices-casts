@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-04-01T19:27:20.647Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="fYGpPbmhyIwy_Jzu7Y-1" version="12.9.6" type="github" pages="10">
+<mxfile host="www.draw.io" modified="2020-04-01T19:32:27.507Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="QU1aVmwrHFAOUYAi141E" version="12.9.6" type="github" pages="10">
   <diagram id="unl9QKwU0Ir1PE2C9jBq" name="01 - auth">
     <mxGraphModel dx="939" dy="462" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -360,11 +360,6 @@
         <mxCell id="oKSwz37NwxyxK3d0_e-E-9" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="oKSwz37NwxyxK3d0_e-E-1">
           <mxGeometry x="820" y="305" width="200" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="oKSwz37NwxyxK3d0_e-E-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=13;" edge="1" parent="oKSwz37NwxyxK3d0_e-E-1" target="oKSwz37NwxyxK3d0_e-E-9">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="740" y="330" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="oKSwz37NwxyxK3d0_e-E-11" value="React App" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" vertex="1" parent="oKSwz37NwxyxK3d0_e-E-1">
           <mxGeometry x="170" y="315" width="160" height="80" as="geometry" />
         </mxCell>
@@ -385,6 +380,9 @@
         </mxCell>
         <mxCell id="oKSwz37NwxyxK3d0_e-E-16" value="&#39;lkjsdlkj23lk5jl2l&#39;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="oKSwz37NwxyxK3d0_e-E-1">
           <mxGeometry x="550" y="325" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="R-uU7ijMRgOqLlTLL_rB-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=24;" edge="1" parent="oKSwz37NwxyxK3d0_e-E-1" source="ICR4WHn3XwHoxY85SvCs-0" target="oKSwz37NwxyxK3d0_e-E-13">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ICR4WHn3XwHoxY85SvCs-0" value="Create a new user with email of &#39;test@test.com&#39; and password &#39;&lt;b&gt;lkjsdlkj23lk5jl2l&lt;/b&gt;&#39;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="oKSwz37NwxyxK3d0_e-E-1">
           <mxGeometry x="550" y="380" width="180" height="50" as="geometry" />
