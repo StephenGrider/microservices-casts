@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-04-02T15:16:23.440Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="TGaZZhvRxeSKZv4hbfDg" version="12.9.6" type="github" pages="5">
+<mxfile host="www.draw.io" modified="2020-04-02T15:21:19.888Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="Cfj_um3el4qkWBS-M5Yf" version="12.9.6" type="github" pages="7">
   <diagram id="ZEj5pQy2kHxDN9EY_gSe" name="01 - jwtcookie">
     <mxGraphModel dx="858" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -270,7 +270,149 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Texr2aXSqxgHpH79icIR-0" value="Implies that the auth mechanism will tell us &lt;i&gt;details about this person&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=21;align=center;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" parent="Mn2TlcCPqgx2h8eLBS2P-1">
-          <mxGeometry x="360" y="470" width="220" height="110" as="geometry" />
+          <mxGeometry x="320" y="470" width="260" height="110" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="2cKMZ2m2bdwQlyXMEfJ5" name="06 - exp">
+    <mxGraphModel dx="858" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="_fjzD58_JMxnYFG5KsSI-0" />
+        <mxCell id="_fjzD58_JMxnYFG5KsSI-1" parent="_fjzD58_JMxnYFG5KsSI-0" />
+        <mxCell id="_fjzD58_JMxnYFG5KsSI-2" value="Auth Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;fontSize=19;" vertex="1" parent="_fjzD58_JMxnYFG5KsSI-1">
+          <mxGeometry x="870" y="180" width="280" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="_fjzD58_JMxnYFG5KsSI-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;fontSize=19;" vertex="1" parent="_fjzD58_JMxnYFG5KsSI-1">
+          <mxGeometry x="870" y="215" width="280" height="215" as="geometry" />
+        </mxCell>
+        <mxCell id="_fjzD58_JMxnYFG5KsSI-4" value="Sign In Logic" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;fontSize=18;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" vertex="1" parent="_fjzD58_JMxnYFG5KsSI-1">
+          <mxGeometry x="885" y="225" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_fjzD58_JMxnYFG5KsSI-5" value="{ email: &#39;...&#39;, password: &#39;...&#39; }" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="_fjzD58_JMxnYFG5KsSI-1">
+          <mxGeometry x="600" y="244" width="230" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="_fjzD58_JMxnYFG5KsSI-6" value="&lt;b&gt;Request to Sign In&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="_fjzD58_JMxnYFG5KsSI-1">
+          <mxGeometry x="600" y="219" width="230" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="_fjzD58_JMxnYFG5KsSI-7" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;fontSize=18;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" vertex="1" parent="_fjzD58_JMxnYFG5KsSI-1">
+          <mxGeometry x="885" y="255" width="250" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="_fjzD58_JMxnYFG5KsSI-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;" edge="1" parent="_fjzD58_JMxnYFG5KsSI-1" source="_fjzD58_JMxnYFG5KsSI-9" target="_fjzD58_JMxnYFG5KsSI-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_fjzD58_JMxnYFG5KsSI-9" value="Email good? Password good?" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;fontSize=12;" vertex="1" parent="_fjzD58_JMxnYFG5KsSI-1">
+          <mxGeometry x="895" y="270" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_fjzD58_JMxnYFG5KsSI-10" value="Yes? Great. Here&#39;s a token to identify you.&amp;nbsp; Include it on all followup requests" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;fontSize=12;" vertex="1" parent="_fjzD58_JMxnYFG5KsSI-1">
+          <mxGeometry x="895" y="330" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_fjzD58_JMxnYFG5KsSI-11" value="User ABC" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="_fjzD58_JMxnYFG5KsSI-1">
+          <mxGeometry x="415" y="225" width="140" height="195" as="geometry" />
+        </mxCell>
+        <mxCell id="_fjzD58_JMxnYFG5KsSI-12" value="" style="endArrow=classic;html=1;fontSize=24;" edge="1" parent="_fjzD58_JMxnYFG5KsSI-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="554.9999999999998" y="289.71000000000004" as="sourcePoint" />
+            <mxPoint x="894.9999999999998" y="289.71000000000004" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_fjzD58_JMxnYFG5KsSI-13" value="" style="endArrow=classic;html=1;fontSize=24;" edge="1" parent="_fjzD58_JMxnYFG5KsSI-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="894.9999999999998" y="349.71000000000004" as="sourcePoint" />
+            <mxPoint x="554.9999999999998" y="349.71000000000004" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_fjzD58_JMxnYFG5KsSI-14" value="JWT, Cookie, Whatever &lt;b&gt;that is only good for 15 minutes&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="_fjzD58_JMxnYFG5KsSI-1">
+          <mxGeometry x="600" y="350" width="230" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="F0x3PNDcsvQzuyM5-ZAe-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontSize=21;" edge="1" parent="_fjzD58_JMxnYFG5KsSI-1" source="F0x3PNDcsvQzuyM5-ZAe-0" target="_fjzD58_JMxnYFG5KsSI-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F0x3PNDcsvQzuyM5-ZAe-0" value="Implies that the auth mechanism must have some built-in, super secure way of expiring after a period of time" style="rounded=0;whiteSpace=wrap;html=1;fontSize=21;align=center;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" parent="_fjzD58_JMxnYFG5KsSI-1">
+          <mxGeometry x="537.5" y="450" width="355" height="110" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="uo7gvLweyoqJs94GR9yZ" name="07 - gr">
+    <mxGraphModel dx="858" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="s2mz-CVyU4HwvscYZhb4-0" />
+        <mxCell id="s2mz-CVyU4HwvscYZhb4-1" parent="s2mz-CVyU4HwvscYZhb4-0" />
+        <mxCell id="F-9PNOBNDRLOLb70xgWj-0" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.browserWindow;rSize=0;strokeColor=#666666;strokeColor2=#008cff;strokeColor3=#c4c4c4;mainText=,;recursiveResize=0;fontStyle=1" vertex="1" parent="s2mz-CVyU4HwvscYZhb4-1">
+          <mxGeometry x="310" y="210" width="310" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="F-9PNOBNDRLOLb70xgWj-1" value="Page 1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="F-9PNOBNDRLOLb70xgWj-0">
+          <mxGeometry x="60" y="12" width="110" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="F-9PNOBNDRLOLb70xgWj-2" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;rSize=0;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="F-9PNOBNDRLOLb70xgWj-0">
+          <mxGeometry x="130" y="60" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="F-9PNOBNDRLOLb70xgWj-3" value="React App" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" vertex="1" parent="F-9PNOBNDRLOLb70xgWj-0">
+          <mxGeometry x="75" y="180" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="F-9PNOBNDRLOLb70xgWj-4" value="Auth Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;fontSize=19;" vertex="1" parent="s2mz-CVyU4HwvscYZhb4-1">
+          <mxGeometry x="770" y="230" width="190" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="F-9PNOBNDRLOLb70xgWj-5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;fontSize=19;" vertex="1" parent="s2mz-CVyU4HwvscYZhb4-1">
+          <mxGeometry x="770" y="265" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F-9PNOBNDRLOLb70xgWj-6" value="Express + express-validator" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="s2mz-CVyU4HwvscYZhb4-1">
+          <mxGeometry x="800" y="270" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="F-9PNOBNDRLOLb70xgWj-7" value="" style="endArrow=classic;html=1;fontSize=15;" edge="1" parent="s2mz-CVyU4HwvscYZhb4-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="280" as="sourcePoint" />
+            <mxPoint x="770" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F-9PNOBNDRLOLb70xgWj-8" value="Request" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="s2mz-CVyU4HwvscYZhb4-1">
+          <mxGeometry x="650" y="280" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="F-9PNOBNDRLOLb70xgWj-11" value="Orders Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;fontSize=19;" vertex="1" parent="s2mz-CVyU4HwvscYZhb4-1">
+          <mxGeometry x="770" y="370" width="190" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="F-9PNOBNDRLOLb70xgWj-12" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;fontSize=19;" vertex="1" parent="s2mz-CVyU4HwvscYZhb4-1">
+          <mxGeometry x="770" y="405" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F-9PNOBNDRLOLb70xgWj-13" value="Ruby on Rails" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="s2mz-CVyU4HwvscYZhb4-1">
+          <mxGeometry x="800" y="410" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="F-9PNOBNDRLOLb70xgWj-14" value="Payments Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;fontSize=19;" vertex="1" parent="s2mz-CVyU4HwvscYZhb4-1">
+          <mxGeometry x="770" y="505" width="190" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="F-9PNOBNDRLOLb70xgWj-15" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;fontSize=19;" vertex="1" parent="s2mz-CVyU4HwvscYZhb4-1">
+          <mxGeometry x="770" y="540" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F-9PNOBNDRLOLb70xgWj-16" value="Java Spring" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="s2mz-CVyU4HwvscYZhb4-1">
+          <mxGeometry x="800" y="545" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="F-9PNOBNDRLOLb70xgWj-29" value="" style="endArrow=classic;html=1;fontSize=15;" edge="1" parent="s2mz-CVyU4HwvscYZhb4-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="420" as="sourcePoint" />
+            <mxPoint x="770" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F-9PNOBNDRLOLb70xgWj-30" value="Request" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="s2mz-CVyU4HwvscYZhb4-1">
+          <mxGeometry x="650" y="420" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="F-9PNOBNDRLOLb70xgWj-31" value="" style="endArrow=classic;html=1;fontSize=15;" edge="1" parent="s2mz-CVyU4HwvscYZhb4-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="555" as="sourcePoint" />
+            <mxPoint x="770" y="555" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F-9PNOBNDRLOLb70xgWj-32" value="Request" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="s2mz-CVyU4HwvscYZhb4-1">
+          <mxGeometry x="650" y="555" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="F-9PNOBNDRLOLb70xgWj-33" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=21;align=center;rotation=-180;" vertex="1" parent="s2mz-CVyU4HwvscYZhb4-1">
+          <mxGeometry x="970" y="230" width="30" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="F-9PNOBNDRLOLb70xgWj-36" value="Implies that the auth mechanism must be easily understood by many languages" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="s2mz-CVyU4HwvscYZhb4-1">
+          <mxGeometry x="1000" y="337.5" width="290" height="77.5" as="geometry" />
+        </mxCell>
+        <mxCell id="F-9PNOBNDRLOLb70xgWj-37" value="Implies that the auth mechanism shouldn&#39;t require some kind of backing data store on the server" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="s2mz-CVyU4HwvscYZhb4-1">
+          <mxGeometry x="1000" y="415" width="290" height="77.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
