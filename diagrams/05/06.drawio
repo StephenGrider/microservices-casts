@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-04-02T19:41:21.043Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="oGU6JngQv3Ts0-TBfThf" version="12.9.6" type="github" pages="7">
+<mxfile host="www.draw.io" modified="2020-04-02T19:42:44.498Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="ifSIbFlQpumSih8fXSsV" version="12.9.6" type="github" pages="8">
   <diagram id="Vi3GzLYiI_a-JfTV4afN" name="01 - signup">
     <mxGraphModel dx="733" dy="360" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -405,6 +405,59 @@
         </mxCell>
         <mxCell id="oeAxC60XkBAMxSCq5R1t-3" value="Creating a Secret" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" vertex="1" parent="oeAxC60XkBAMxSCq5R1t-1">
           <mxGeometry x="775" y="210" width="220" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="RwT55WjqTppwb5bqv9sN" name="08 - db">
+    <mxGraphModel dx="910" dy="448" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="wbqLz4TqmwRAUy-jhO8p-0" />
+        <mxCell id="wbqLz4TqmwRAUy-jhO8p-1" parent="wbqLz4TqmwRAUy-jhO8p-0" />
+        <mxCell id="PbC2D7-2b2b06oAMhlLb-0" value="Auth Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;fontSize=19;" vertex="1" parent="wbqLz4TqmwRAUy-jhO8p-1">
+          <mxGeometry x="770" y="230" width="190" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="PbC2D7-2b2b06oAMhlLb-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=18;" edge="1" parent="wbqLz4TqmwRAUy-jhO8p-1" source="PbC2D7-2b2b06oAMhlLb-1" target="PbC2D7-2b2b06oAMhlLb-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PbC2D7-2b2b06oAMhlLb-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;fontSize=19;" vertex="1" parent="wbqLz4TqmwRAUy-jhO8p-1">
+          <mxGeometry x="770" y="265" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PbC2D7-2b2b06oAMhlLb-2" value="Express" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="wbqLz4TqmwRAUy-jhO8p-1">
+          <mxGeometry x="800" y="270" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PbC2D7-2b2b06oAMhlLb-3" value="Orders Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;fontSize=19;" vertex="1" parent="wbqLz4TqmwRAUy-jhO8p-1">
+          <mxGeometry x="770" y="370" width="190" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="PbC2D7-2b2b06oAMhlLb-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=18;" edge="1" parent="wbqLz4TqmwRAUy-jhO8p-1" source="PbC2D7-2b2b06oAMhlLb-4" target="PbC2D7-2b2b06oAMhlLb-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PbC2D7-2b2b06oAMhlLb-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;fontSize=19;" vertex="1" parent="wbqLz4TqmwRAUy-jhO8p-1">
+          <mxGeometry x="770" y="405" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PbC2D7-2b2b06oAMhlLb-5" value="Ruby on Rails" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="wbqLz4TqmwRAUy-jhO8p-1">
+          <mxGeometry x="800" y="410" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PbC2D7-2b2b06oAMhlLb-6" value="Payments Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;fontSize=19;" vertex="1" parent="wbqLz4TqmwRAUy-jhO8p-1">
+          <mxGeometry x="770" y="505" width="190" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="PbC2D7-2b2b06oAMhlLb-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=18;" edge="1" parent="wbqLz4TqmwRAUy-jhO8p-1" source="PbC2D7-2b2b06oAMhlLb-7" target="PbC2D7-2b2b06oAMhlLb-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PbC2D7-2b2b06oAMhlLb-7" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;fontSize=19;" vertex="1" parent="wbqLz4TqmwRAUy-jhO8p-1">
+          <mxGeometry x="770" y="540" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PbC2D7-2b2b06oAMhlLb-8" value="Java Spring" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="wbqLz4TqmwRAUy-jhO8p-1">
+          <mxGeometry x="800" y="545" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PbC2D7-2b2b06oAMhlLb-10" value="MongoDB" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;fontSize=19;" vertex="1" parent="wbqLz4TqmwRAUy-jhO8p-1">
+          <mxGeometry x="1010" y="277.5" width="190" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="PbC2D7-2b2b06oAMhlLb-12" value="MySQL" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;fontSize=19;" vertex="1" parent="wbqLz4TqmwRAUy-jhO8p-1">
+          <mxGeometry x="1010" y="417.5" width="190" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="PbC2D7-2b2b06oAMhlLb-13" value="Postgres" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;fontSize=19;" vertex="1" parent="wbqLz4TqmwRAUy-jhO8p-1">
+          <mxGeometry x="1010" y="552.5" width="190" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
