@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-04-02T15:05:12.681Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="5KXz-mZYRlmMqbXwX0-n" version="12.9.6" type="github" pages="4">
+<mxfile host="www.draw.io" modified="2020-04-02T15:16:23.440Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="TGaZZhvRxeSKZv4hbfDg" version="12.9.6" type="github" pages="5">
   <diagram id="ZEj5pQy2kHxDN9EY_gSe" name="01 - jwtcookie">
     <mxGraphModel dx="858" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -207,6 +207,70 @@
         </mxCell>
         <mxCell id="yMfjxAS7XsmVVbO2dRcF-10" value="Stores any data we want" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;fontStyle=0;" vertex="1" parent="yMfjxAS7XsmVVbO2dRcF-1">
           <mxGeometry x="730" y="330" width="270" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="7Q3ZwxN2TZOl2sG_LDMe" name="05 - ms">
+    <mxGraphModel dx="858" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="Mn2TlcCPqgx2h8eLBS2P-0" />
+        <mxCell id="Mn2TlcCPqgx2h8eLBS2P-1" parent="Mn2TlcCPqgx2h8eLBS2P-0" />
+        <mxCell id="oyhw2L4KZdAdGn9ml07F-0" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;fontSize=19;" vertex="1" parent="Mn2TlcCPqgx2h8eLBS2P-1">
+          <mxGeometry x="640" y="305" width="460" height="245" as="geometry" />
+        </mxCell>
+        <mxCell id="oyhw2L4KZdAdGn9ml07F-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="Mn2TlcCPqgx2h8eLBS2P-1" source="oyhw2L4KZdAdGn9ml07F-2" target="oyhw2L4KZdAdGn9ml07F-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oyhw2L4KZdAdGn9ml07F-2" value="{ ticketId: &#39;123123&#39; }" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Mn2TlcCPqgx2h8eLBS2P-1">
+          <mxGeometry x="340" y="312.5" width="230" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="oyhw2L4KZdAdGn9ml07F-3" value="&lt;b&gt;Request to Purchase Ticket&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Mn2TlcCPqgx2h8eLBS2P-1">
+          <mxGeometry x="340" y="287.5" width="230" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="oyhw2L4KZdAdGn9ml07F-4" value="JWT, Cookie, ETC" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="Mn2TlcCPqgx2h8eLBS2P-1">
+          <mxGeometry x="340" y="357.5" width="230" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="oyhw2L4KZdAdGn9ml07F-5" value="Orders Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;fontSize=19;" vertex="1" parent="Mn2TlcCPqgx2h8eLBS2P-1">
+          <mxGeometry x="640" y="270" width="460" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="oyhw2L4KZdAdGn9ml07F-6" value="&lt;b style=&quot;font-size: 16px;&quot;&gt;Ticket Purchase Logic&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="Mn2TlcCPqgx2h8eLBS2P-1">
+          <mxGeometry x="660" y="320" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oyhw2L4KZdAdGn9ml07F-7" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="Mn2TlcCPqgx2h8eLBS2P-1">
+          <mxGeometry x="660" y="350" width="240" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="oyhw2L4KZdAdGn9ml07F-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="Mn2TlcCPqgx2h8eLBS2P-1" source="oyhw2L4KZdAdGn9ml07F-10" target="oyhw2L4KZdAdGn9ml07F-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oyhw2L4KZdAdGn9ml07F-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=18;" edge="1" parent="Mn2TlcCPqgx2h8eLBS2P-1" source="oyhw2L4KZdAdGn9ml07F-10" target="oyhw2L4KZdAdGn9ml07F-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oyhw2L4KZdAdGn9ml07F-10" value="Is this person logged in?" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="Mn2TlcCPqgx2h8eLBS2P-1">
+          <mxGeometry x="685" y="362.5" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oyhw2L4KZdAdGn9ml07F-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="Mn2TlcCPqgx2h8eLBS2P-1" source="oyhw2L4KZdAdGn9ml07F-12" target="oyhw2L4KZdAdGn9ml07F-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oyhw2L4KZdAdGn9ml07F-12" value="Yes? Ok, can they purchase this ticket?" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="Mn2TlcCPqgx2h8eLBS2P-1">
+          <mxGeometry x="685" y="420" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oyhw2L4KZdAdGn9ml07F-13" value="........" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="Mn2TlcCPqgx2h8eLBS2P-1">
+          <mxGeometry x="685" y="480" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oyhw2L4KZdAdGn9ml07F-14" value="Logic to inspect JWT/Cookie and decide if user is authenticated" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;fontSize=18;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="Mn2TlcCPqgx2h8eLBS2P-1">
+          <mxGeometry x="940" y="362.5" width="150" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Texr2aXSqxgHpH79icIR-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=21;" edge="1" parent="Mn2TlcCPqgx2h8eLBS2P-1" source="Texr2aXSqxgHpH79icIR-0" target="oyhw2L4KZdAdGn9ml07F-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="620" y="525" />
+              <mxPoint x="620" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Texr2aXSqxgHpH79icIR-0" value="Implies that the auth mechanism will tell us &lt;i&gt;details about this person&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=21;align=center;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" parent="Mn2TlcCPqgx2h8eLBS2P-1">
+          <mxGeometry x="360" y="470" width="220" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
