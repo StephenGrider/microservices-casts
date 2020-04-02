@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-04-02T16:15:18.099Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="kaIqsvLCVH1GBr6-9gPx" version="12.9.6" type="github" pages="2">
+<mxfile host="www.draw.io" modified="2020-04-02T16:15:44.204Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="edPKicIbwUCZopW1nK16" version="12.9.6" type="github" pages="2">
   <diagram id="Vi3GzLYiI_a-JfTV4afN" name="01 - signup">
     <mxGraphModel dx="1073" dy="528" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -138,6 +138,14 @@
         </mxCell>
         <mxCell id="UKBn3Z9m2MnfKPzh0Fxh-32" value="&lt;b&gt;Remember, JWT&#39;s are tamper resistant&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" vertex="1" parent="UKBn3Z9m2MnfKPzh0Fxh-1">
           <mxGeometry x="1070" y="580" width="270" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UKBn3Z9m2MnfKPzh0Fxh-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="UKBn3Z9m2MnfKPzh0Fxh-1" target="UKBn3Z9m2MnfKPzh0Fxh-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1205" y="630" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UKBn3Z9m2MnfKPzh0Fxh-35" value="&lt;b&gt;You can encrypt the cookie contents if this is a big deal to you&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" vertex="1" parent="UKBn3Z9m2MnfKPzh0Fxh-1">
+          <mxGeometry x="1070" y="650" width="270" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
