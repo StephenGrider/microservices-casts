@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-04-02T17:13:31.530Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="pxrv3_z123j8mEpLlufF" version="12.9.6" type="github" pages="6">
+<mxfile host="www.draw.io" modified="2020-04-02T17:18:55.050Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="VRNiVzojMXivi3BtBo0e" version="12.9.6" type="github" pages="7">
   <diagram id="Vi3GzLYiI_a-JfTV4afN" name="01 - signup">
     <mxGraphModel dx="733" dy="360" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -391,6 +391,20 @@
         </mxCell>
         <mxCell id="3nkUwQktCzCCRrP9rt0I-18" value="Env Variables" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1;fontSize=13;" vertex="1" parent="3nkUwQktCzCCRrP9rt0I-1">
           <mxGeometry x="990" y="397.5" width="110" height="35" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="LoIuajF6e10zMnl_uP9B" name="07 - secret">
+    <mxGraphModel dx="601" dy="296" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="oeAxC60XkBAMxSCq5R1t-0" />
+        <mxCell id="oeAxC60XkBAMxSCq5R1t-1" parent="oeAxC60XkBAMxSCq5R1t-0" />
+        <mxCell id="oeAxC60XkBAMxSCq5R1t-2" value="kubectl create secret generic &lt;b&gt;jwt-secret&lt;/b&gt; --from-literal=&lt;b&gt;jwt&lt;/b&gt;=&lt;b&gt;asdf&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="oeAxC60XkBAMxSCq5R1t-1">
+          <mxGeometry x="610" y="240" width="550" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oeAxC60XkBAMxSCq5R1t-3" value="Creating a Secret" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" vertex="1" parent="oeAxC60XkBAMxSCq5R1t-1">
+          <mxGeometry x="775" y="210" width="220" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
