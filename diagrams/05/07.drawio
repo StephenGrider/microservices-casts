@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-04-03T18:59:48.388Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="DhTW2FoyT7TYSadMyQDX" version="12.9.7" type="github" pages="7">
+<mxfile host="www.draw.io" modified="2020-04-03T19:22:06.646Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="vAudzTuRBjgIPUeg1WfM" version="12.9.7" type="github" pages="6">
   <diagram id="UxQvX3HeTQNArgav00Xm" name="01 - test">
     <mxGraphModel dx="715" dy="352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -28,39 +28,7 @@
           <mxGeometry x="515" y="320" width="560" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Pn5Iu64HSaVdDVXia6dy-4" value="First set of tests for auth service will require a lot of setup code, but&amp;nbsp; all other testing will go really, really quickly" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="bMJ7O-K6fTj76AFFso0t-1">
-          <mxGeometry x="515" y="460" width="560" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Pn5Iu64HSaVdDVXia6dy-5" value="We will be running our tests &lt;i&gt;outside&lt;/i&gt;&amp;nbsp;of any docker container" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="bMJ7O-K6fTj76AFFso0t-1">
           <mxGeometry x="515" y="390" width="560" height="60" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="TV30KQ1dAGc4QPqJ_n22" name="07 - types">
-    <mxGraphModel dx="653" dy="321" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
-      <root>
-        <mxCell id="VsK_LRRf8h6dIfeiQ_jH-0" />
-        <mxCell id="VsK_LRRf8h6dIfeiQ_jH-1" parent="VsK_LRRf8h6dIfeiQ_jH-0" />
-        <mxCell id="VsK_LRRf8h6dIfeiQ_jH-2" value="End to End (E2E) Tests" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#b85450;strokeWidth=1;fillColor=#f8cecc;fontSize=24;" vertex="1" parent="VsK_LRRf8h6dIfeiQ_jH-1">
-          <mxGeometry x="420" y="470" width="260" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="VsK_LRRf8h6dIfeiQ_jH-3" value="Unit Tests" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#b85450;strokeWidth=1;fillColor=#f8cecc;fontSize=24;" vertex="1" parent="VsK_LRRf8h6dIfeiQ_jH-1">
-          <mxGeometry x="690" y="470" width="260" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="VsK_LRRf8h6dIfeiQ_jH-4" value="Integration Tests" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#b85450;strokeWidth=1;fillColor=#f8cecc;fontSize=24;" vertex="1" parent="VsK_LRRf8h6dIfeiQ_jH-1">
-          <mxGeometry x="420" y="540" width="260" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="VsK_LRRf8h6dIfeiQ_jH-5" value="Component Tests" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#b85450;strokeWidth=1;fillColor=#f8cecc;fontSize=24;" vertex="1" parent="VsK_LRRf8h6dIfeiQ_jH-1">
-          <mxGeometry x="420" y="610" width="260" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="VsK_LRRf8h6dIfeiQ_jH-6" value="Contract Tests" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#b85450;strokeWidth=1;fillColor=#f8cecc;fontSize=24;" vertex="1" parent="VsK_LRRf8h6dIfeiQ_jH-1">
-          <mxGeometry x="690" y="540" width="260" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="VsK_LRRf8h6dIfeiQ_jH-7" value="We aren&#39;t going to focus much on testing terminology" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1" vertex="1" parent="VsK_LRRf8h6dIfeiQ_jH-1">
-          <mxGeometry x="517" y="400" width="340" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="VsK_LRRf8h6dIfeiQ_jH-8" value="Smoke Testing" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#b85450;strokeWidth=1;fillColor=#f8cecc;fontSize=24;" vertex="1" parent="VsK_LRRf8h6dIfeiQ_jH-1">
-          <mxGeometry x="690" y="610" width="260" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -205,7 +173,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="04 - bound" id="pHFuwi9SYoU4Zd0sCYam">
-    <mxGraphModel dx="1878" dy="924" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="1669" dy="821" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="iVHjcG8PVR0217KYwo8R-0" />
         <mxCell id="iVHjcG8PVR0217KYwo8R-1" parent="iVHjcG8PVR0217KYwo8R-0" />
@@ -483,7 +451,7 @@
           <mxGeometry x="460" y="305" width="200" height="50" as="geometry" />
         </mxCell>
         <mxCell id="6ZzNYTJ2fpwtOPUZzSvX-43" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=33;fillColor=none;strokeColor=#FF0000;strokeWidth=4;dashed=1;dashPattern=1 1;perimeterSpacing=9;" vertex="1" parent="6ZzNYTJ2fpwtOPUZzSvX-1">
-          <mxGeometry x="865" y="396.25" width="190" height="62.5" as="geometry" />
+          <mxGeometry x="1325" y="396.25" width="190" height="62.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -625,7 +593,7 @@
           <mxGeometry x="460" y="305" width="200" height="50" as="geometry" />
         </mxCell>
         <mxCell id="zovSg4R1atP1TdKF9BWG-43" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=33;fillColor=none;strokeColor=#FF0000;strokeWidth=4;dashed=1;dashPattern=1 1;perimeterSpacing=9;" vertex="1" parent="zovSg4R1atP1TdKF9BWG-1">
-          <mxGeometry x="830" y="305" width="960" height="365" as="geometry" />
+          <mxGeometry x="830" y="305" width="1150" height="365" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
