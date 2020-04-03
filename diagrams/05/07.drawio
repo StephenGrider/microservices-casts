@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-04-03T18:59:19.619Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="16Vmxu4YD9_GitF0WVHz" version="12.9.7" type="github" pages="7">
+<mxfile host="www.draw.io" modified="2020-04-03T18:59:48.388Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="DhTW2FoyT7TYSadMyQDX" version="12.9.7" type="github" pages="7">
   <diagram id="UxQvX3HeTQNArgav00Xm" name="01 - test">
     <mxGraphModel dx="715" dy="352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -57,7 +57,7 @@
           <mxGeometry x="690" y="540" width="260" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VsK_LRRf8h6dIfeiQ_jH-7" value="We aren&#39;t going to focus much on testing terminology" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1" vertex="1" parent="VsK_LRRf8h6dIfeiQ_jH-1">
-          <mxGeometry x="510" y="400" width="340" height="60" as="geometry" />
+          <mxGeometry x="517" y="400" width="340" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VsK_LRRf8h6dIfeiQ_jH-8" value="Smoke Testing" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#b85450;strokeWidth=1;fillColor=#f8cecc;fontSize=24;" vertex="1" parent="VsK_LRRf8h6dIfeiQ_jH-1">
           <mxGeometry x="690" y="610" width="260" height="60" as="geometry" />
