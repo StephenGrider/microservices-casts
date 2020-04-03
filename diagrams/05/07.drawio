@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-04-03T19:34:29.827Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="rz339G0xGF29oPdoTDXu" version="12.9.7" type="github" pages="8">
+<mxfile host="www.draw.io" modified="2020-04-03T19:43:42.685Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="6-HHHeuzR5TtqxWBNbsj" version="12.9.7" type="github" pages="8">
   <diagram id="UxQvX3HeTQNArgav00Xm" name="01 - test">
     <mxGraphModel dx="715" dy="352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -31,7 +31,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="CBauR4w0Lt-ZCHWAu02Y" name="08 - scope">
-    <mxGraphModel dx="770" dy="379" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="639" dy="314" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0Lfw-ananQCHWXgj25-4-0" />
         <mxCell id="0Lfw-ananQCHWXgj25-4-1" parent="0Lfw-ananQCHWXgj25-4-0" />
@@ -231,13 +231,13 @@
           <mxGeometry x="460" y="305" width="200" height="50" as="geometry" />
         </mxCell>
         <mxCell id="iVHjcG8PVR0217KYwo8R-43" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=33;fillColor=none;strokeColor=#FF0000;strokeWidth=4;dashed=1;dashPattern=1 1;perimeterSpacing=9;" vertex="1" parent="iVHjcG8PVR0217KYwo8R-1">
-          <mxGeometry x="1800" y="210" width="180" height="60" as="geometry" />
+          <mxGeometry x="830" y="665" width="1160" height="215" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram name="09 - ex" id="CO83QPEUElzT8HpNQj-q">
-    <mxGraphModel dx="1113" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="791" dy="389" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="rt1jEYxeGMnqLIiX3b_W-0" />
         <mxCell id="rt1jEYxeGMnqLIiX3b_W-1" parent="rt1jEYxeGMnqLIiX3b_W-0" />
@@ -277,7 +277,7 @@
         <mxCell id="VWjufRFSSVjZtHpOnwOK-1" value="As a standalone process (or in a Docker container) on our local machine" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=15;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="rt1jEYxeGMnqLIiX3b_W-1">
           <mxGeometry x="1020" y="380" width="290" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="VWjufRFSSVjZtHpOnwOK-4" value="Test how different services work together" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=15;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="rt1jEYxeGMnqLIiX3b_W-1">
+        <mxCell id="VWjufRFSSVjZtHpOnwOK-4" value="As a set of processes inside of a Kubernetes cluster" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=15;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="rt1jEYxeGMnqLIiX3b_W-1">
           <mxGeometry x="1020" y="480" width="290" height="40" as="geometry" />
         </mxCell>
         <mxCell id="VWjufRFSSVjZtHpOnwOK-5" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;strokeWidth=1;fontSize=20;align=center;" vertex="1" parent="rt1jEYxeGMnqLIiX3b_W-1">
