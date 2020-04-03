@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-04-03T19:33:55.415Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="uz6GZYwk-cKn8GJXM-kB" version="12.9.7" type="github" pages="10">
+<mxfile host="www.draw.io" modified="2020-04-03T19:34:29.827Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="rz339G0xGF29oPdoTDXu" version="12.9.7" type="github" pages="8">
   <diagram id="UxQvX3HeTQNArgav00Xm" name="01 - test">
     <mxGraphModel dx="715" dy="352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -26,35 +26,6 @@
         </mxCell>
         <mxCell id="Pn5Iu64HSaVdDVXia6dy-4" value="First set of tests for auth service will require a lot of setup code, but&amp;nbsp; all other testing will go really, really quickly" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="bMJ7O-K6fTj76AFFso0t-1">
           <mxGeometry x="515" y="320" width="560" height="60" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="tUlL6IH-4AguQYU9bb4f" name="07 - test">
-    <mxGraphModel dx="858" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
-      <root>
-        <mxCell id="vxMQh-9gIemYNMEHwMCd-0" />
-        <mxCell id="vxMQh-9gIemYNMEHwMCd-1" parent="vxMQh-9gIemYNMEHwMCd-0" />
-        <mxCell id="8CKMi8E9w3QG7fkfflFn-0" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=20;" vertex="1" parent="vxMQh-9gIemYNMEHwMCd-1">
-          <mxGeometry x="360" y="310" width="230" height="170" as="geometry" />
-        </mxCell>
-        <mxCell id="8CKMi8E9w3QG7fkfflFn-1" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=20;" vertex="1" parent="vxMQh-9gIemYNMEHwMCd-1">
-          <mxGeometry x="1000" y="310" width="230" height="170" as="geometry" />
-        </mxCell>
-        <mxCell id="8CKMi8E9w3QG7fkfflFn-2" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=20;" vertex="1" parent="vxMQh-9gIemYNMEHwMCd-1">
-          <mxGeometry x="670" y="310" width="230" height="170" as="geometry" />
-        </mxCell>
-        <mxCell id="8CKMi8E9w3QG7fkfflFn-3" value="Your Computer" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="vxMQh-9gIemYNMEHwMCd-1">
-          <mxGeometry x="360" y="310" width="180" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="8CKMi8E9w3QG7fkfflFn-4" value="Your Computer" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="vxMQh-9gIemYNMEHwMCd-1">
-          <mxGeometry x="670" y="310" width="180" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="8CKMi8E9w3QG7fkfflFn-5" value="Your Computer" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="vxMQh-9gIemYNMEHwMCd-1">
-          <mxGeometry x="1000" y="310" width="180" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="8CKMi8E9w3QG7fkfflFn-6" value="Auth Service" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=20;align=center;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="vxMQh-9gIemYNMEHwMCd-1">
-          <mxGeometry x="407.5" y="390" width="135" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -260,7 +231,7 @@
           <mxGeometry x="460" y="305" width="200" height="50" as="geometry" />
         </mxCell>
         <mxCell id="iVHjcG8PVR0217KYwo8R-43" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=33;fillColor=none;strokeColor=#FF0000;strokeWidth=4;dashed=1;dashPattern=1 1;perimeterSpacing=9;" vertex="1" parent="iVHjcG8PVR0217KYwo8R-1">
-          <mxGeometry x="850" y="392.5" width="450" height="70" as="geometry" />
+          <mxGeometry x="1800" y="210" width="180" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -312,14 +283,6 @@
         <mxCell id="VWjufRFSSVjZtHpOnwOK-5" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;strokeWidth=1;fontSize=20;align=center;" vertex="1" parent="rt1jEYxeGMnqLIiX3b_W-1">
           <mxGeometry x="620" y="340" width="60" height="190" as="geometry" />
         </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram name="09 - ex" id="ZZoiz_IfC1IebqB8jnj5">
-    <mxGraphModel dx="639" dy="314" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
-      <root>
-        <mxCell id="VswoU_pvKtHcJlBvJWiP-0" />
-        <mxCell id="VswoU_pvKtHcJlBvJWiP-1" parent="VswoU_pvKtHcJlBvJWiP-0" />
       </root>
     </mxGraphModel>
   </diagram>
