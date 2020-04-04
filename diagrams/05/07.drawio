@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-04-04T16:02:47.011Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="JKIHLtvIk0YdoV8zyxna" version="12.9.7" type="github" pages="7">
+<mxfile host="www.draw.io" modified="2020-04-04T16:20:48.834Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="TrY-XxREw1VnzW6uY79O" version="12.9.7" type="github" pages="8">
   <diagram id="UxQvX3HeTQNArgav00Xm" name="01 - test">
     <mxGraphModel dx="715" dy="352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -211,7 +211,7 @@
           <mxGeometry x="460" y="305" width="200" height="50" as="geometry" />
         </mxCell>
         <mxCell id="iVHjcG8PVR0217KYwo8R-43" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=33;fillColor=none;strokeColor=#FF0000;strokeWidth=4;dashed=1;dashPattern=1 1;perimeterSpacing=9;" vertex="1" parent="iVHjcG8PVR0217KYwo8R-1">
-          <mxGeometry x="1600" y="200" width="160" height="85" as="geometry" />
+          <mxGeometry x="830" y="670" width="1020" height="212.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -470,6 +470,38 @@
         </mxCell>
         <mxCell id="jNv3tMuCjNAEclWrQsel-7" value="Simple enough now, but more &lt;i&gt;complex projects&lt;/i&gt;&amp;nbsp;might make this hard!" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=21;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="tH6z1bBckIfq7DfBymJQ-1">
           <mxGeometry x="550" y="450" width="470" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ElYp594jax01XPyDZBUi" name="09 - process">
+    <mxGraphModel dx="858" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="5YpiQuMTBO1HL4Fbq8aB-0" />
+        <mxCell id="5YpiQuMTBO1HL4Fbq8aB-1" parent="5YpiQuMTBO1HL4Fbq8aB-0" />
+        <mxCell id="5YpiQuMTBO1HL4Fbq8aB-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=21;" edge="1" parent="5YpiQuMTBO1HL4Fbq8aB-1" source="5YpiQuMTBO1HL4Fbq8aB-2" target="5YpiQuMTBO1HL4Fbq8aB-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5YpiQuMTBO1HL4Fbq8aB-2" value="npm run test" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=21;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="5YpiQuMTBO1HL4Fbq8aB-1">
+          <mxGeometry x="665" y="260" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5YpiQuMTBO1HL4Fbq8aB-5" value="Jest" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=21;align=center;fontStyle=1" vertex="1" parent="5YpiQuMTBO1HL4Fbq8aB-1">
+          <mxGeometry x="630" y="355" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5YpiQuMTBO1HL4Fbq8aB-8" value="Start in-memory copy of MongoDB" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=21;align=center;fontStyle=0" vertex="1" parent="5YpiQuMTBO1HL4Fbq8aB-1">
+          <mxGeometry x="940" y="250" width="420" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5YpiQuMTBO1HL4Fbq8aB-11" value="Start up our express app" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=21;align=center;fontStyle=0" vertex="1" parent="5YpiQuMTBO1HL4Fbq8aB-1">
+          <mxGeometry x="940" y="320" width="420" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5YpiQuMTBO1HL4Fbq8aB-12" value="Use supertest library to make fake requests to our express app" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=21;align=center;fontStyle=0" vertex="1" parent="5YpiQuMTBO1HL4Fbq8aB-1">
+          <mxGeometry x="940" y="390" width="420" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5YpiQuMTBO1HL4Fbq8aB-13" value="Run assertions to make sure the request did the right thing" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=21;align=center;fontStyle=0" vertex="1" parent="5YpiQuMTBO1HL4Fbq8aB-1">
+          <mxGeometry x="940" y="460" width="420" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5YpiQuMTBO1HL4Fbq8aB-14" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;strokeWidth=1;fontSize=21;align=center;" vertex="1" parent="5YpiQuMTBO1HL4Fbq8aB-1">
+          <mxGeometry x="890" y="250" width="40" height="270" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
