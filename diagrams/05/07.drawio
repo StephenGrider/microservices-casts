@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-04-04T16:32:06.841Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="69-ZZZ6reWLbgMeWZzB0" version="12.9.7" type="github" pages="11">
+<mxfile host="www.draw.io" modified="2020-04-04T16:34:43.050Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="Js2EEnDYWOgJZl57JS4D" version="12.9.7" type="github" pages="12">
   <diagram id="UxQvX3HeTQNArgav00Xm" name="01 - test">
     <mxGraphModel dx="715" dy="352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -575,11 +575,61 @@
         <mxCell id="poLtgMxy_WLLNB_bmVGx-4" value="&lt;b&gt;Test File&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=21;align=center;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="poLtgMxy_WLLNB_bmVGx-1">
           <mxGeometry x="710" y="200" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="poLtgMxy_WLLNB_bmVGx-5" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=21;align=center;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="poLtgMxy_WLLNB_bmVGx-1">
+        <mxCell id="poLtgMxy_WLLNB_bmVGx-5" value="&lt;i&gt;Code to test app with supertest&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=21;align=center;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="poLtgMxy_WLLNB_bmVGx-1">
           <mxGeometry x="710" y="230" width="250" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="poLtgMxy_WLLNB_bmVGx-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=21;" edge="1" parent="poLtgMxy_WLLNB_bmVGx-1" source="poLtgMxy_WLLNB_bmVGx-6" target="poLtgMxy_WLLNB_bmVGx-5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="poLtgMxy_WLLNB_bmVGx-6" value="Express App &lt;i&gt;already listening on port 3000&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=21;align=center;" vertex="1" parent="poLtgMxy_WLLNB_bmVGx-1">
           <mxGeometry x="395" y="250" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="poLtgMxy_WLLNB_bmVGx-8" value="&lt;span style=&quot;font-size: 28px;&quot;&gt;Our Current Setup&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=28;fontStyle=1" vertex="1" parent="poLtgMxy_WLLNB_bmVGx-1">
+          <mxGeometry x="500" y="150" width="330" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="13 - split" id="jxFfnKE5RBS_XlThrVbf">
+    <mxGraphModel dx="858" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="XWh-IJzav2C8Ti5AUg6b-0" />
+        <mxCell id="XWh-IJzav2C8Ti5AUg6b-1" parent="XWh-IJzav2C8Ti5AUg6b-0" />
+        <mxCell id="XWh-IJzav2C8Ti5AUg6b-2" value="&lt;b&gt;app.js&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=21;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="XWh-IJzav2C8Ti5AUg6b-1">
+          <mxGeometry x="380" y="200" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XWh-IJzav2C8Ti5AUg6b-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=20;" edge="1" parent="XWh-IJzav2C8Ti5AUg6b-1" source="XWh-IJzav2C8Ti5AUg6b-3" target="XWh-IJzav2C8Ti5AUg6b-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XWh-IJzav2C8Ti5AUg6b-3" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=21;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="XWh-IJzav2C8Ti5AUg6b-1">
+          <mxGeometry x="380" y="230" width="250" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="XWh-IJzav2C8Ti5AUg6b-4" value="&lt;b&gt;Test File&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=21;align=center;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="XWh-IJzav2C8Ti5AUg6b-1">
+          <mxGeometry x="680" y="200" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XWh-IJzav2C8Ti5AUg6b-5" value="&lt;i style=&quot;white-space: normal&quot;&gt;Code to test app with supertest&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=21;align=center;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="XWh-IJzav2C8Ti5AUg6b-1">
+          <mxGeometry x="680" y="230" width="250" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="XWh-IJzav2C8Ti5AUg6b-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=21;" edge="1" parent="XWh-IJzav2C8Ti5AUg6b-1" source="XWh-IJzav2C8Ti5AUg6b-7" target="XWh-IJzav2C8Ti5AUg6b-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XWh-IJzav2C8Ti5AUg6b-7" value="Express App that &lt;i style=&quot;font-size: 20px;&quot;&gt;is not listening on any port&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=20;align=center;" vertex="1" parent="XWh-IJzav2C8Ti5AUg6b-1">
+          <mxGeometry x="395" y="250" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XWh-IJzav2C8Ti5AUg6b-8" value="&lt;span style=&quot;font-size: 28px&quot;&gt;Ideal Setup&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=28;fontStyle=1" vertex="1" parent="XWh-IJzav2C8Ti5AUg6b-1">
+          <mxGeometry x="340" y="160" width="330" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XWh-IJzav2C8Ti5AUg6b-9" value="&lt;b&gt;index.js&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=21;align=center;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="XWh-IJzav2C8Ti5AUg6b-1">
+          <mxGeometry x="90" y="200" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XWh-IJzav2C8Ti5AUg6b-10" value="&lt;i&gt;Code to start up the App and listen on port 3000&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=21;align=center;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="XWh-IJzav2C8Ti5AUg6b-1">
+          <mxGeometry x="90" y="230" width="250" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="s4ITVVNT5IkKzTmlGvn6-0" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;strokeWidth=1;fontSize=20;align=center;rotation=-90;" vertex="1" parent="XWh-IJzav2C8Ti5AUg6b-1">
+          <mxGeometry x="202.5" y="247.5" width="25" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="s4ITVVNT5IkKzTmlGvn6-1" value="Executed only when we want to run our app in a dev/prod environment" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="XWh-IJzav2C8Ti5AUg6b-1">
+          <mxGeometry x="105" y="400" width="220" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
