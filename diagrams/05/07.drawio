@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-04-04T16:21:01.926Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="yPICpWLGRSuwBy7GupoN" version="12.9.7" type="github" pages="8">
+<mxfile host="www.draw.io" modified="2020-04-04T16:22:16.173Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="oByzjczqwXSG-MMhIRES" version="12.9.7" type="github" pages="9">
   <diagram id="UxQvX3HeTQNArgav00Xm" name="01 - test">
     <mxGraphModel dx="715" dy="352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -502,6 +502,49 @@
         </mxCell>
         <mxCell id="5YpiQuMTBO1HL4Fbq8aB-14" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;strokeWidth=1;fontSize=21;align=center;" vertex="1" parent="5YpiQuMTBO1HL4Fbq8aB-1">
           <mxGeometry x="890" y="250" width="40" height="270" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="10 - process" id="sswun1VFVoEXHAh7ZHu0">
+    <mxGraphModel dx="884" dy="435" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="U2vhdvzRS2iaPNRLTLZv-0" />
+        <mxCell id="U2vhdvzRS2iaPNRLTLZv-1" parent="U2vhdvzRS2iaPNRLTLZv-0" />
+        <mxCell id="U2vhdvzRS2iaPNRLTLZv-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=21;" edge="1" parent="U2vhdvzRS2iaPNRLTLZv-1" source="U2vhdvzRS2iaPNRLTLZv-3" target="U2vhdvzRS2iaPNRLTLZv-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U2vhdvzRS2iaPNRLTLZv-3" value="npm run test" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=21;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="U2vhdvzRS2iaPNRLTLZv-1">
+          <mxGeometry x="665" y="260" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U2vhdvzRS2iaPNRLTLZv-4" value="Jest" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=21;align=center;fontStyle=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="U2vhdvzRS2iaPNRLTLZv-1">
+          <mxGeometry x="630" y="355" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U2vhdvzRS2iaPNRLTLZv-5" value="Start in-memory copy of MongoDB" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=21;align=center;fontStyle=0" vertex="1" parent="U2vhdvzRS2iaPNRLTLZv-1">
+          <mxGeometry x="940" y="250" width="420" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U2vhdvzRS2iaPNRLTLZv-6" value="Start up our express app" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=21;align=center;fontStyle=0" vertex="1" parent="U2vhdvzRS2iaPNRLTLZv-1">
+          <mxGeometry x="940" y="320" width="420" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U2vhdvzRS2iaPNRLTLZv-7" value="Use supertest library to make fake requests to our express app" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=21;align=center;fontStyle=0" vertex="1" parent="U2vhdvzRS2iaPNRLTLZv-1">
+          <mxGeometry x="940" y="390" width="420" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U2vhdvzRS2iaPNRLTLZv-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=21;" edge="1" parent="U2vhdvzRS2iaPNRLTLZv-1" source="U2vhdvzRS2iaPNRLTLZv-8" target="U2vhdvzRS2iaPNRLTLZv-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1420" y="490" />
+              <mxPoint x="1420" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U2vhdvzRS2iaPNRLTLZv-8" value="Run assertions to make sure the request did the right thing" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=21;align=center;fontStyle=0" vertex="1" parent="U2vhdvzRS2iaPNRLTLZv-1">
+          <mxGeometry x="940" y="460" width="420" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U2vhdvzRS2iaPNRLTLZv-9" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;strokeWidth=1;fontSize=21;align=center;" vertex="1" parent="U2vhdvzRS2iaPNRLTLZv-1">
+          <mxGeometry x="890" y="250" width="40" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="U2vhdvzRS2iaPNRLTLZv-11" value="Repeat this process for each test" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=21;fontStyle=1" vertex="1" parent="U2vhdvzRS2iaPNRLTLZv-1">
+          <mxGeometry x="1430" y="370" width="210" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
