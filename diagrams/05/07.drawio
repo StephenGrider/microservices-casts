@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-04-04T16:00:41.990Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="bX_bcVQ4e6OBuXzKu7yu" version="12.9.7" type="github" pages="6">
+<mxfile host="www.draw.io" modified="2020-04-04T16:02:47.011Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="JKIHLtvIk0YdoV8zyxna" version="12.9.7" type="github" pages="7">
   <diagram id="UxQvX3HeTQNArgav00Xm" name="01 - test">
     <mxGraphModel dx="715" dy="352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -442,6 +442,34 @@
         </mxCell>
         <mxCell id="EQ_2cPzaSXaZqVvjVmRI-0" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=33;fillColor=none;strokeColor=#FF0000;strokeWidth=4;dashed=1;dashPattern=1 1;perimeterSpacing=9;" vertex="1" parent="R79hDYC7A3R0rNlAy6Wh-1">
           <mxGeometry x="1010" y="407.5" width="390" height="212.5" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Fgl50AeHcXkZguO-Ct59" name="08 - note">
+    <mxGraphModel dx="715" dy="352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="tH6z1bBckIfq7DfBymJQ-0" />
+        <mxCell id="tH6z1bBckIfq7DfBymJQ-1" parent="tH6z1bBckIfq7DfBymJQ-0" />
+        <mxCell id="jNv3tMuCjNAEclWrQsel-0" value="How will we run these tests?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=26;fontStyle=5" vertex="1" parent="tH6z1bBckIfq7DfBymJQ-1">
+          <mxGeometry x="590" y="220" width="390" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jNv3tMuCjNAEclWrQsel-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=21;" edge="1" parent="tH6z1bBckIfq7DfBymJQ-1" source="jNv3tMuCjNAEclWrQsel-1" target="jNv3tMuCjNAEclWrQsel-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jNv3tMuCjNAEclWrQsel-1" value="We are going to run these tests directly from our terminal without using docker" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=21;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="tH6z1bBckIfq7DfBymJQ-1">
+          <mxGeometry x="550" y="250" width="470" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jNv3tMuCjNAEclWrQsel-2" value="This implies that our &lt;i&gt;local environment&lt;/i&gt;&amp;nbsp;is capable of running each service!" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=21;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="tH6z1bBckIfq7DfBymJQ-1">
+          <mxGeometry x="550" y="350" width="470" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jNv3tMuCjNAEclWrQsel-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=21;" edge="1" parent="tH6z1bBckIfq7DfBymJQ-1" target="jNv3tMuCjNAEclWrQsel-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="785" y="430" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jNv3tMuCjNAEclWrQsel-7" value="Simple enough now, but more &lt;i&gt;complex projects&lt;/i&gt;&amp;nbsp;might make this hard!" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=21;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="tH6z1bBckIfq7DfBymJQ-1">
+          <mxGeometry x="550" y="450" width="470" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
