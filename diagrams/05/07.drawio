@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-04-04T16:20:48.834Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="TrY-XxREw1VnzW6uY79O" version="12.9.7" type="github" pages="8">
+<mxfile host="www.draw.io" modified="2020-04-04T16:21:01.926Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="yPICpWLGRSuwBy7GupoN" version="12.9.7" type="github" pages="8">
   <diagram id="UxQvX3HeTQNArgav00Xm" name="01 - test">
     <mxGraphModel dx="715" dy="352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -485,7 +485,7 @@
         <mxCell id="5YpiQuMTBO1HL4Fbq8aB-2" value="npm run test" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=21;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="5YpiQuMTBO1HL4Fbq8aB-1">
           <mxGeometry x="665" y="260" width="190" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5YpiQuMTBO1HL4Fbq8aB-5" value="Jest" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=21;align=center;fontStyle=1" vertex="1" parent="5YpiQuMTBO1HL4Fbq8aB-1">
+        <mxCell id="5YpiQuMTBO1HL4Fbq8aB-5" value="Jest" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=21;align=center;fontStyle=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="5YpiQuMTBO1HL4Fbq8aB-1">
           <mxGeometry x="630" y="355" width="260" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5YpiQuMTBO1HL4Fbq8aB-8" value="Start in-memory copy of MongoDB" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=21;align=center;fontStyle=0" vertex="1" parent="5YpiQuMTBO1HL4Fbq8aB-1">
