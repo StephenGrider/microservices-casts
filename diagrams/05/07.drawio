@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-04-04T16:00:25.606Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="i1kHL_Ef6h8r3-RLQ3JY" version="12.9.7" type="github" pages="6">
+<mxfile host="www.draw.io" modified="2020-04-04T16:00:41.990Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="bX_bcVQ4e6OBuXzKu7yu" version="12.9.7" type="github" pages="6">
   <diagram id="UxQvX3HeTQNArgav00Xm" name="01 - test">
     <mxGraphModel dx="715" dy="352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -283,6 +283,9 @@
         </mxCell>
         <mxCell id="Cog4MBiMth9xAZ8DVMUC-2" value="Request to signup" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=26;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="xxSlX4tVeZCZssJBDrvl-1">
           <mxGeometry x="110" y="387.5" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ELSe0zkx71BAbsgDyqk7-0" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=33;fillColor=none;strokeColor=#FF0000;strokeWidth=4;dashed=1;dashPattern=1 1;perimeterSpacing=9;" vertex="1" parent="xxSlX4tVeZCZssJBDrvl-1">
+          <mxGeometry x="95" y="281.25" width="1195" height="318.75" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
