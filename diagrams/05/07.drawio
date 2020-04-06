@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-04-04T16:34:43.050Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="Js2EEnDYWOgJZl57JS4D" version="12.9.7" type="github" pages="12">
+<mxfile host="www.draw.io" modified="2020-04-06T15:08:00.070Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="S7O9VpOhUKQzrbxJz7I7" version="12.9.7" type="github" pages="11">
   <diagram id="UxQvX3HeTQNArgav00Xm" name="01 - test">
     <mxGraphModel dx="715" dy="352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -506,38 +506,6 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram name="10 - process" id="sswun1VFVoEXHAh7ZHu0">
-    <mxGraphModel dx="884" dy="435" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
-      <root>
-        <mxCell id="U2vhdvzRS2iaPNRLTLZv-0" />
-        <mxCell id="U2vhdvzRS2iaPNRLTLZv-1" parent="U2vhdvzRS2iaPNRLTLZv-0" />
-        <mxCell id="U2vhdvzRS2iaPNRLTLZv-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=21;" edge="1" parent="U2vhdvzRS2iaPNRLTLZv-1" source="U2vhdvzRS2iaPNRLTLZv-3" target="U2vhdvzRS2iaPNRLTLZv-4">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="U2vhdvzRS2iaPNRLTLZv-3" value="npm run test" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=21;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="U2vhdvzRS2iaPNRLTLZv-1">
-          <mxGeometry x="665" y="260" width="190" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="U2vhdvzRS2iaPNRLTLZv-4" value="Jest" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=21;align=center;fontStyle=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="U2vhdvzRS2iaPNRLTLZv-1">
-          <mxGeometry x="630" y="355" width="260" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="U2vhdvzRS2iaPNRLTLZv-5" value="Start in-memory copy of MongoDB" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=21;align=center;fontStyle=0" vertex="1" parent="U2vhdvzRS2iaPNRLTLZv-1">
-          <mxGeometry x="940" y="250" width="420" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="U2vhdvzRS2iaPNRLTLZv-6" value="Start up our express app" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=21;align=center;fontStyle=0" vertex="1" parent="U2vhdvzRS2iaPNRLTLZv-1">
-          <mxGeometry x="940" y="320" width="420" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="U2vhdvzRS2iaPNRLTLZv-7" value="Use supertest library to make fake requests to our express app" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=21;align=center;fontStyle=0" vertex="1" parent="U2vhdvzRS2iaPNRLTLZv-1">
-          <mxGeometry x="940" y="390" width="420" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="U2vhdvzRS2iaPNRLTLZv-8" value="Run assertions to make sure the request did the right thing" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=21;align=center;fontStyle=0" vertex="1" parent="U2vhdvzRS2iaPNRLTLZv-1">
-          <mxGeometry x="940" y="460" width="420" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="U2vhdvzRS2iaPNRLTLZv-9" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;strokeWidth=1;fontSize=21;align=center;" vertex="1" parent="U2vhdvzRS2iaPNRLTLZv-1">
-          <mxGeometry x="890" y="250" width="40" height="270" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
   <diagram id="jFzVGdVuiFlQ_7RWB13M" name="11 - process">
     <mxGraphModel dx="858" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -550,10 +518,10 @@
           <mxGeometry x="594" y="310" width="50" height="170" as="geometry" />
         </mxCell>
         <mxCell id="zaTb_CQLCnu1t1TmTp-H-3" value="Code to create Express server (this is in our index.js file)" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=21;" vertex="1" parent="G9HZeOF3GLgjfPQ2mpOM-1">
-          <mxGeometry x="386" y="235" width="204" height="20" as="geometry" />
+          <mxGeometry x="386" y="215" width="204" height="20" as="geometry" />
         </mxCell>
         <mxCell id="zaTb_CQLCnu1t1TmTp-H-4" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;strokeWidth=1;fontSize=21;align=left;" vertex="1" parent="G9HZeOF3GLgjfPQ2mpOM-1">
-          <mxGeometry x="590" y="210" width="53" height="70" as="geometry" />
+          <mxGeometry x="590" y="170" width="53" height="110" as="geometry" />
         </mxCell>
         <mxCell id="zaTb_CQLCnu1t1TmTp-H-5" value="Code to test the express server (in test file)" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=21;" vertex="1" parent="G9HZeOF3GLgjfPQ2mpOM-1">
           <mxGeometry x="390" y="385" width="204" height="20" as="geometry" />
