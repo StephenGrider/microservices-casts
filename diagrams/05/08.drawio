@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-04-06T16:33:28.290Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="pBz46i59wF2kH3J6aQi4" version="12.9.8" type="github" pages="4">
+<mxfile host="www.draw.io" modified="2020-04-06T16:50:32.898Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="O9vPP9JCm4oIbcM7mJko" version="12.9.8" type="github" pages="5">
   <diagram id="edJ9AZm4-Rsh3tBSnPvG" name="01 - note">
     <mxGraphModel dx="751" dy="370" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -333,6 +333,23 @@
         </mxCell>
         <mxCell id="14vCdRyNFTfZvr1_5gJS-21" value="Express + express-validator" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="14vCdRyNFTfZvr1_5gJS-1">
           <mxGeometry x="1110" y="390" width="130" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="wPUwezyZgICScTmz4Ksl" name="05 - ts">
+    <mxGraphModel dx="715" dy="352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="O8axpoZWrFnDQ6jUxPSb-0" />
+        <mxCell id="O8axpoZWrFnDQ6jUxPSb-1" parent="O8axpoZWrFnDQ6jUxPSb-0" />
+        <mxCell id="I6bEowx0W1UGZ6hVa_tE-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=17;" edge="1" parent="O8axpoZWrFnDQ6jUxPSb-1" source="I6bEowx0W1UGZ6hVa_tE-1" target="I6bEowx0W1UGZ6hVa_tE-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I6bEowx0W1UGZ6hVa_tE-1" value="We will be writing the Next app using Javascript, not Typescript" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=17;" vertex="1" parent="O8axpoZWrFnDQ6jUxPSb-1">
+          <mxGeometry x="330" y="220" width="470" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="I6bEowx0W1UGZ6hVa_tE-2" value="It would be normally be beneficial to use TS, but this app in particular would need a lot of extra TS stuff written out for little benefit" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=17;" vertex="1" parent="O8axpoZWrFnDQ6jUxPSb-1">
+          <mxGeometry x="330" y="330" width="470" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
