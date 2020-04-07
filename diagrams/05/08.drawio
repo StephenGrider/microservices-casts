@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-04-07T17:01:48.144Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="d9M3MYg5gC3g0pkR4fwZ" version="12.9.8" type="github" pages="18">
+<mxfile host="www.draw.io" modified="2020-04-07T17:12:01.189Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="uyXBYwrBnFh9Ta4Wovm-" version="12.9.8" type="github" pages="20">
   <diagram id="edJ9AZm4-Rsh3tBSnPvG" name="01 - note">
     <mxGraphModel dx="751" dy="370" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -1395,6 +1395,73 @@
         </mxCell>
         <mxCell id="y4nPjcp0iTFK-MEPe6EF-24" value="http://ingress-nginx.ingress-nginx.svc.cluster.local" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" vertex="1" parent="y4nPjcp0iTFK-MEPe6EF-1">
           <mxGeometry x="700" y="418.75" width="170" height="67.5" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Xh2JLx8tikgwaOM7zI1f" name="19 - ref">
+    <mxGraphModel dx="601" dy="296" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="WhVzCv9j2cfRRjDxdYDW-0" />
+        <mxCell id="WhVzCv9j2cfRRjDxdYDW-1" parent="WhVzCv9j2cfRRjDxdYDW-0" />
+        <mxCell id="WhVzCv9j2cfRRjDxdYDW-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=17;" edge="1" parent="WhVzCv9j2cfRRjDxdYDW-1" source="WhVzCv9j2cfRRjDxdYDW-3" target="WhVzCv9j2cfRRjDxdYDW-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WhVzCv9j2cfRRjDxdYDW-3" value="Request from a component" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WhVzCv9j2cfRRjDxdYDW-1">
+          <mxGeometry x="610" y="250" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WhVzCv9j2cfRRjDxdYDW-5" value="Always issued from the browser, so use a domain of &#39;&#39;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WhVzCv9j2cfRRjDxdYDW-1">
+          <mxGeometry x="610" y="350" width="250" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="WhVzCv9j2cfRRjDxdYDW-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=17;" edge="1" parent="WhVzCv9j2cfRRjDxdYDW-1" source="WhVzCv9j2cfRRjDxdYDW-8" target="WhVzCv9j2cfRRjDxdYDW-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WhVzCv9j2cfRRjDxdYDW-8" value="Request from getInitialProps" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WhVzCv9j2cfRRjDxdYDW-1">
+          <mxGeometry x="880" y="250" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WhVzCv9j2cfRRjDxdYDW-9" value="Might be executed from the client or the server!&amp;nbsp; Need to figure out what our env is so we can use the correct domain" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WhVzCv9j2cfRRjDxdYDW-1">
+          <mxGeometry x="880" y="350" width="250" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="XLu7NZt27vzbNd6McMmG" name="20 - inc">
+    <mxGraphModel dx="715" dy="352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="xThlOKmyZQzOa6qBBXXM-0" />
+        <mxCell id="xThlOKmyZQzOa6qBBXXM-1" parent="xThlOKmyZQzOa6qBBXXM-0" />
+        <mxCell id="xThlOKmyZQzOa6qBBXXM-2" value="getInitialProps &lt;b&gt;executed on the server&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="xThlOKmyZQzOa6qBBXXM-1">
+          <mxGeometry x="800" y="335" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xThlOKmyZQzOa6qBBXXM-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=17;" edge="1" parent="xThlOKmyZQzOa6qBBXXM-1" source="xThlOKmyZQzOa6qBBXXM-3" target="xThlOKmyZQzOa6qBBXXM-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xThlOKmyZQzOa6qBBXXM-3" value="Hard refresh of page" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;align=center;" vertex="1" parent="xThlOKmyZQzOa6qBBXXM-1">
+          <mxGeometry x="520" y="290" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xThlOKmyZQzOa6qBBXXM-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=17;" edge="1" parent="xThlOKmyZQzOa6qBBXXM-1" source="xThlOKmyZQzOa6qBBXXM-4" target="xThlOKmyZQzOa6qBBXXM-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xThlOKmyZQzOa6qBBXXM-4" value="Navigating from one page to another &lt;b&gt;while in the app&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;align=center;" vertex="1" parent="xThlOKmyZQzOa6qBBXXM-1">
+          <mxGeometry x="520" y="500" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xThlOKmyZQzOa6qBBXXM-9" value="Request Source" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;fontStyle=1" vertex="1" parent="xThlOKmyZQzOa6qBBXXM-1">
+          <mxGeometry x="517.5" y="264" width="205" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xThlOKmyZQzOa6qBBXXM-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=17;" edge="1" parent="xThlOKmyZQzOa6qBBXXM-1" source="xThlOKmyZQzOa6qBBXXM-10" target="xThlOKmyZQzOa6qBBXXM-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xThlOKmyZQzOa6qBBXXM-10" value="Clicking link from different domain" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;align=center;" vertex="1" parent="xThlOKmyZQzOa6qBBXXM-1">
+          <mxGeometry x="520" y="350" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xThlOKmyZQzOa6qBBXXM-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=17;" edge="1" parent="xThlOKmyZQzOa6qBBXXM-1" source="xThlOKmyZQzOa6qBBXXM-11" target="xThlOKmyZQzOa6qBBXXM-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xThlOKmyZQzOa6qBBXXM-11" value="Typing URL into address bar" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;align=center;" vertex="1" parent="xThlOKmyZQzOa6qBBXXM-1">
+          <mxGeometry x="520" y="410" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xThlOKmyZQzOa6qBBXXM-12" value="getInitialProps &lt;b&gt;executed on the client&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="xThlOKmyZQzOa6qBBXXM-1">
+          <mxGeometry x="800" y="500" width="160" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
