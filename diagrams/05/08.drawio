@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-04-07T17:12:01.189Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="uyXBYwrBnFh9Ta4Wovm-" version="12.9.8" type="github" pages="20">
+<mxfile host="www.draw.io" modified="2020-04-07T17:12:11.705Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="DY870UOWTZSluywFQW3C" version="12.9.8" type="github" pages="20">
   <diagram id="edJ9AZm4-Rsh3tBSnPvG" name="01 - note">
     <mxGraphModel dx="751" dy="370" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -1437,13 +1437,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xThlOKmyZQzOa6qBBXXM-3" value="Hard refresh of page" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;align=center;" vertex="1" parent="xThlOKmyZQzOa6qBBXXM-1">
-          <mxGeometry x="520" y="290" width="200" height="50" as="geometry" />
+          <mxGeometry x="480" y="290" width="240" height="50" as="geometry" />
         </mxCell>
         <mxCell id="xThlOKmyZQzOa6qBBXXM-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=17;" edge="1" parent="xThlOKmyZQzOa6qBBXXM-1" source="xThlOKmyZQzOa6qBBXXM-4" target="xThlOKmyZQzOa6qBBXXM-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xThlOKmyZQzOa6qBBXXM-4" value="Navigating from one page to another &lt;b&gt;while in the app&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;align=center;" vertex="1" parent="xThlOKmyZQzOa6qBBXXM-1">
-          <mxGeometry x="520" y="500" width="200" height="80" as="geometry" />
+          <mxGeometry x="480" y="500" width="240" height="80" as="geometry" />
         </mxCell>
         <mxCell id="xThlOKmyZQzOa6qBBXXM-9" value="Request Source" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;fontStyle=1" vertex="1" parent="xThlOKmyZQzOa6qBBXXM-1">
           <mxGeometry x="517.5" y="264" width="205" height="20" as="geometry" />
@@ -1452,13 +1452,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xThlOKmyZQzOa6qBBXXM-10" value="Clicking link from different domain" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;align=center;" vertex="1" parent="xThlOKmyZQzOa6qBBXXM-1">
-          <mxGeometry x="520" y="350" width="200" height="50" as="geometry" />
+          <mxGeometry x="480" y="350" width="240" height="50" as="geometry" />
         </mxCell>
         <mxCell id="xThlOKmyZQzOa6qBBXXM-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=17;" edge="1" parent="xThlOKmyZQzOa6qBBXXM-1" source="xThlOKmyZQzOa6qBBXXM-11" target="xThlOKmyZQzOa6qBBXXM-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xThlOKmyZQzOa6qBBXXM-11" value="Typing URL into address bar" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;align=center;" vertex="1" parent="xThlOKmyZQzOa6qBBXXM-1">
-          <mxGeometry x="520" y="410" width="200" height="50" as="geometry" />
+          <mxGeometry x="480" y="410" width="240" height="50" as="geometry" />
         </mxCell>
         <mxCell id="xThlOKmyZQzOa6qBBXXM-12" value="getInitialProps &lt;b&gt;executed on the client&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="xThlOKmyZQzOa6qBBXXM-1">
           <mxGeometry x="800" y="500" width="160" height="80" as="geometry" />
