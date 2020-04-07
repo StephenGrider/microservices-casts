@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-04-07T15:31:52.676Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="GR0v7RpHjZJXvbCPLBID" version="12.9.8" type="github" pages="9">
+<mxfile host="www.draw.io" modified="2020-04-07T15:37:08.340Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="HMMRJoqxabtPW20tYgsi" version="12.9.8" type="github" pages="10">
   <diagram id="edJ9AZm4-Rsh3tBSnPvG" name="01 - note">
     <mxGraphModel dx="751" dy="370" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -696,6 +696,47 @@
         </mxCell>
         <mxCell id="OukPsHatwG4XzyFMmzjE-19" value="/api/users/currentuser" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="OukPsHatwG4XzyFMmzjE-1">
           <mxGeometry x="1095" y="310" width="170" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="2aJQB5NSQQSnZKYsc5Jq" name="10 - ssr">
+    <mxGraphModel dx="601" dy="296" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="kCflVxoh4AwXofS5lUOb-0" />
+        <mxCell id="kCflVxoh4AwXofS5lUOb-1" parent="kCflVxoh4AwXofS5lUOb-0" />
+        <mxCell id="kCflVxoh4AwXofS5lUOb-2" value="Client" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;fontSize=19;" vertex="1" parent="kCflVxoh4AwXofS5lUOb-1">
+          <mxGeometry x="540" y="160" width="350" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="kCflVxoh4AwXofS5lUOb-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;fontSize=19;" vertex="1" parent="kCflVxoh4AwXofS5lUOb-1">
+          <mxGeometry x="540" y="195" width="350" height="235" as="geometry" />
+        </mxCell>
+        <mxCell id="kCflVxoh4AwXofS5lUOb-4" value="Next JS" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="kCflVxoh4AwXofS5lUOb-1">
+          <mxGeometry x="552.5" y="210.26" width="327.5" height="29.74" as="geometry" />
+        </mxCell>
+        <mxCell id="kCflVxoh4AwXofS5lUOb-5" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="kCflVxoh4AwXofS5lUOb-1">
+          <mxGeometry x="552.5" y="240" width="327.5" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="kCflVxoh4AwXofS5lUOb-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="kCflVxoh4AwXofS5lUOb-1" source="kCflVxoh4AwXofS5lUOb-6" target="kCflVxoh4AwXofS5lUOb-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kCflVxoh4AwXofS5lUOb-6" value="Inspect URL of incoming request.&amp;nbsp; Determine set of components to show" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;align=center;" vertex="1" parent="kCflVxoh4AwXofS5lUOb-1">
+          <mxGeometry x="571.25" y="250" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kCflVxoh4AwXofS5lUOb-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=11;" edge="1" parent="kCflVxoh4AwXofS5lUOb-1" source="kCflVxoh4AwXofS5lUOb-7" target="kCflVxoh4AwXofS5lUOb-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kCflVxoh4AwXofS5lUOb-7" value="Call those component&#39;s &#39;getInitialProps&#39; static method" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;align=center;" vertex="1" parent="kCflVxoh4AwXofS5lUOb-1">
+          <mxGeometry x="571.25" y="293" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kCflVxoh4AwXofS5lUOb-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="kCflVxoh4AwXofS5lUOb-1" source="kCflVxoh4AwXofS5lUOb-9" target="kCflVxoh4AwXofS5lUOb-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kCflVxoh4AwXofS5lUOb-9" value="Render each component with data from &#39;getInitialProps&#39; &lt;i&gt;one time&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;align=center;" vertex="1" parent="kCflVxoh4AwXofS5lUOb-1">
+          <mxGeometry x="571.25" y="337" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kCflVxoh4AwXofS5lUOb-11" value="Assemble HTML from all components, send back response" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;align=center;" vertex="1" parent="kCflVxoh4AwXofS5lUOb-1">
+          <mxGeometry x="571.25" y="380" width="290" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
