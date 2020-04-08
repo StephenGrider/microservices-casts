@@ -1,1 +1,73 @@
-<mxfile host="www.draw.io" modified="2020-04-08T18:35:21.575Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" version="12.9.10" etag="8fUT3-LzeLvwsOfxExSy" type="github"><diagram id="AKySBRokzylHcW2O-Z-e">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2020-04-08T18:38:33.644Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="7fEt7HnNuaGugFPyqAuS" version="12.9.10" type="github">
+  <diagram id="AKySBRokzylHcW2O-Z-e" name="01 - tik">
+    <mxGraphModel dx="715" dy="352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5NZEBFaEDi9C0aIBibyY-12" value="Tickets Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="360" y="240" width="560" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5NZEBFaEDi9C0aIBibyY-13" value="Route" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="360" y="280" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5NZEBFaEDi9C0aIBibyY-14" value="Method" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="500" y="280" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5NZEBFaEDi9C0aIBibyY-15" value="Body" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="640" y="280" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5NZEBFaEDi9C0aIBibyY-16" value="Goal" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="780" y="280" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5NZEBFaEDi9C0aIBibyY-17" value="/api/tickets" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="360" y="320" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5NZEBFaEDi9C0aIBibyY-18" value="GET" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="500" y="320" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5NZEBFaEDi9C0aIBibyY-19" value="-" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="640" y="320" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5NZEBFaEDi9C0aIBibyY-20" value="Retrieve all tickets" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="780" y="320" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5NZEBFaEDi9C0aIBibyY-21" value="/api/tickets/:id" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="360" y="360" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5NZEBFaEDi9C0aIBibyY-22" value="GET" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="500" y="360" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5NZEBFaEDi9C0aIBibyY-23" value="-" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="640" y="360" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5NZEBFaEDi9C0aIBibyY-24" value="Retrieve ticket with specific ID" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="780" y="360" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5NZEBFaEDi9C0aIBibyY-25" value="/api/tickets" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="360" y="400" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5NZEBFaEDi9C0aIBibyY-26" value="POST" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="500" y="400" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5NZEBFaEDi9C0aIBibyY-27" value="{ title: string, price: string }" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="640" y="400" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5NZEBFaEDi9C0aIBibyY-28" value="Create a ticket" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="780" y="400" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5NZEBFaEDi9C0aIBibyY-29" value="/api/tickets" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="360" y="440" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5NZEBFaEDi9C0aIBibyY-30" value="PUT" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="500" y="440" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5NZEBFaEDi9C0aIBibyY-31" value="{ title: string, price: string }" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="640" y="440" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5NZEBFaEDi9C0aIBibyY-32" value="Update a ticket" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="780" y="440" width="140" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
