@@ -1,1 +1,363 @@
-<mxfile host="www.draw.io" modified="2020-04-08T15:12:59.480Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" version="12.9.10" etag="YL89DCHdtBI5MGUzx9AR" type="github"><diagram id="MEtqO5T1wNB7x8uJqcYX">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2020-04-08T15:20:29.066Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="Iv235n-i-R3zJj_bLDrA" version="12.9.10" type="github" pages="6">
+  <diagram id="MEtqO5T1wNB7x8uJqcYX" name="01 - auth">
+    <mxGraphModel dx="601" dy="296" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LOkS-SF5l0af_SDa5lAm-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="1" source="LOkS-SF5l0af_SDa5lAm-1" target="LOkS-SF5l0af_SDa5lAm-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LOkS-SF5l0af_SDa5lAm-1" value="What about event-related stuff for the auth service?" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="670" y="420" width="370" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LOkS-SF5l0af_SDa5lAm-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="1" source="LOkS-SF5l0af_SDa5lAm-2" target="LOkS-SF5l0af_SDa5lAm-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LOkS-SF5l0af_SDa5lAm-2" value="It turns out that no other services really need to know about what the auth service is doing!" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="670" y="515" width="370" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LOkS-SF5l0af_SDa5lAm-3" value="Everything the auth service does is exposed through that JWT in the cookie" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="670" y="610" width="370" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="GIx2zkYOJm_Vm7bKf9h9" name="02 - services">
+    <mxGraphModel dx="715" dy="352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="x9Ws0CI9PzTbNs31wXSM-0" />
+        <mxCell id="x9Ws0CI9PzTbNs31wXSM-1" parent="x9Ws0CI9PzTbNs31wXSM-0" />
+        <mxCell id="x9Ws0CI9PzTbNs31wXSM-4" value="Tickets Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;fontSize=19;" vertex="1" parent="x9Ws0CI9PzTbNs31wXSM-1">
+          <mxGeometry x="680" y="545" width="190" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="x9Ws0CI9PzTbNs31wXSM-5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;fontSize=19;" vertex="1" parent="x9Ws0CI9PzTbNs31wXSM-1">
+          <mxGeometry x="680" y="580" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x9Ws0CI9PzTbNs31wXSM-6" value="Express" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="x9Ws0CI9PzTbNs31wXSM-1">
+          <mxGeometry x="710" y="585" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="x9Ws0CI9PzTbNs31wXSM-7" value="Auth Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;fontSize=19;" vertex="1" parent="x9Ws0CI9PzTbNs31wXSM-1">
+          <mxGeometry x="680" y="410" width="190" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="x9Ws0CI9PzTbNs31wXSM-8" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;fontSize=19;" vertex="1" parent="x9Ws0CI9PzTbNs31wXSM-1">
+          <mxGeometry x="680" y="445" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x9Ws0CI9PzTbNs31wXSM-9" value="Express" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="x9Ws0CI9PzTbNs31wXSM-1">
+          <mxGeometry x="710" y="450" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="x9Ws0CI9PzTbNs31wXSM-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="x9Ws0CI9PzTbNs31wXSM-1" source="x9Ws0CI9PzTbNs31wXSM-10" target="x9Ws0CI9PzTbNs31wXSM-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x9Ws0CI9PzTbNs31wXSM-10" value="List all tickets" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="x9Ws0CI9PzTbNs31wXSM-1">
+          <mxGeometry x="450" y="480" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="x9Ws0CI9PzTbNs31wXSM-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="x9Ws0CI9PzTbNs31wXSM-1" source="x9Ws0CI9PzTbNs31wXSM-11" target="x9Ws0CI9PzTbNs31wXSM-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x9Ws0CI9PzTbNs31wXSM-11" value="Show a particular ticket" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="x9Ws0CI9PzTbNs31wXSM-1">
+          <mxGeometry x="450" y="545" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="x9Ws0CI9PzTbNs31wXSM-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="x9Ws0CI9PzTbNs31wXSM-1" source="x9Ws0CI9PzTbNs31wXSM-12" target="x9Ws0CI9PzTbNs31wXSM-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x9Ws0CI9PzTbNs31wXSM-12" value="Create a ticket" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="x9Ws0CI9PzTbNs31wXSM-1">
+          <mxGeometry x="450" y="605" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="x9Ws0CI9PzTbNs31wXSM-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="x9Ws0CI9PzTbNs31wXSM-1" source="x9Ws0CI9PzTbNs31wXSM-13" target="x9Ws0CI9PzTbNs31wXSM-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x9Ws0CI9PzTbNs31wXSM-13" value="Edit a ticket" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="x9Ws0CI9PzTbNs31wXSM-1">
+          <mxGeometry x="450" y="670" width="150" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="03 - auth" id="OthlHFEauCTsIoZ8g-KY">
+    <mxGraphModel dx="751" dy="370" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="NMHAjZarr4uXPhH0j6xA-0" />
+        <mxCell id="NMHAjZarr4uXPhH0j6xA-1" parent="NMHAjZarr4uXPhH0j6xA-0" />
+        <mxCell id="NMHAjZarr4uXPhH0j6xA-2" value="Tickets Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;fontSize=19;" vertex="1" parent="NMHAjZarr4uXPhH0j6xA-1">
+          <mxGeometry x="680" y="545" width="190" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="NMHAjZarr4uXPhH0j6xA-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;fontSize=19;" vertex="1" parent="NMHAjZarr4uXPhH0j6xA-1">
+          <mxGeometry x="680" y="580" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NMHAjZarr4uXPhH0j6xA-4" value="Express" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="NMHAjZarr4uXPhH0j6xA-1">
+          <mxGeometry x="710" y="585" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NMHAjZarr4uXPhH0j6xA-5" value="Auth Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;fontSize=19;" vertex="1" parent="NMHAjZarr4uXPhH0j6xA-1">
+          <mxGeometry x="680" y="410" width="190" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="NMHAjZarr4uXPhH0j6xA-6" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;fontSize=19;" vertex="1" parent="NMHAjZarr4uXPhH0j6xA-1">
+          <mxGeometry x="680" y="445" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NMHAjZarr4uXPhH0j6xA-7" value="Express" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="NMHAjZarr4uXPhH0j6xA-1">
+          <mxGeometry x="710" y="450" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NMHAjZarr4uXPhH0j6xA-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="NMHAjZarr4uXPhH0j6xA-1" source="NMHAjZarr4uXPhH0j6xA-9" target="NMHAjZarr4uXPhH0j6xA-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NMHAjZarr4uXPhH0j6xA-9" value="List all tickets" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="NMHAjZarr4uXPhH0j6xA-1">
+          <mxGeometry x="450" y="480" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NMHAjZarr4uXPhH0j6xA-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="NMHAjZarr4uXPhH0j6xA-1" source="NMHAjZarr4uXPhH0j6xA-11" target="NMHAjZarr4uXPhH0j6xA-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NMHAjZarr4uXPhH0j6xA-11" value="Show a particular ticket" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="NMHAjZarr4uXPhH0j6xA-1">
+          <mxGeometry x="450" y="545" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NMHAjZarr4uXPhH0j6xA-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="NMHAjZarr4uXPhH0j6xA-1" source="NMHAjZarr4uXPhH0j6xA-13" target="NMHAjZarr4uXPhH0j6xA-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NMHAjZarr4uXPhH0j6xA-13" value="Create a ticket" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="NMHAjZarr4uXPhH0j6xA-1">
+          <mxGeometry x="450" y="605" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NMHAjZarr4uXPhH0j6xA-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="NMHAjZarr4uXPhH0j6xA-1" source="NMHAjZarr4uXPhH0j6xA-15" target="NMHAjZarr4uXPhH0j6xA-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NMHAjZarr4uXPhH0j6xA-15" value="Edit a ticket" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="NMHAjZarr4uXPhH0j6xA-1">
+          <mxGeometry x="450" y="670" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NMHAjZarr4uXPhH0j6xA-16" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=16;" vertex="1" parent="NMHAjZarr4uXPhH0j6xA-1">
+          <mxGeometry x="420" y="605" width="20" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="NMHAjZarr4uXPhH0j6xA-17" value="Will probably require us to make sure the user is logged in" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="NMHAjZarr4uXPhH0j6xA-1">
+          <mxGeometry x="260" y="636" width="160" height="53" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="04 - auth" id="vtSQOXkLc9apBf1c_F8n">
+    <mxGraphModel dx="751" dy="370" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="2ekZCZfQycmcWMCTTEgz-0" />
+        <mxCell id="2ekZCZfQycmcWMCTTEgz-1" parent="2ekZCZfQycmcWMCTTEgz-0" />
+        <mxCell id="2ekZCZfQycmcWMCTTEgz-2" value="Tickets Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;fontSize=19;" vertex="1" parent="2ekZCZfQycmcWMCTTEgz-1">
+          <mxGeometry x="680" y="545" width="300" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="2ekZCZfQycmcWMCTTEgz-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;fontSize=19;" vertex="1" parent="2ekZCZfQycmcWMCTTEgz-1">
+          <mxGeometry x="680" y="580" width="300" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="2ekZCZfQycmcWMCTTEgz-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="2ekZCZfQycmcWMCTTEgz-1">
+          <mxGeometry x="700" y="586" width="260" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="2ekZCZfQycmcWMCTTEgz-5" value="Auth Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;fontSize=19;" vertex="1" parent="2ekZCZfQycmcWMCTTEgz-1">
+          <mxGeometry x="680" y="410" width="190" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="2ekZCZfQycmcWMCTTEgz-6" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;fontSize=19;" vertex="1" parent="2ekZCZfQycmcWMCTTEgz-1">
+          <mxGeometry x="680" y="445" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2ekZCZfQycmcWMCTTEgz-7" value="Express" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="2ekZCZfQycmcWMCTTEgz-1">
+          <mxGeometry x="710" y="450" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2ekZCZfQycmcWMCTTEgz-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="2ekZCZfQycmcWMCTTEgz-1" source="2ekZCZfQycmcWMCTTEgz-9" target="2ekZCZfQycmcWMCTTEgz-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2ekZCZfQycmcWMCTTEgz-9" value="List all tickets" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="2ekZCZfQycmcWMCTTEgz-1">
+          <mxGeometry x="450" y="480" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2ekZCZfQycmcWMCTTEgz-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="2ekZCZfQycmcWMCTTEgz-1" source="2ekZCZfQycmcWMCTTEgz-11" target="2ekZCZfQycmcWMCTTEgz-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2ekZCZfQycmcWMCTTEgz-11" value="Show a particular ticket" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="2ekZCZfQycmcWMCTTEgz-1">
+          <mxGeometry x="450" y="545" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2ekZCZfQycmcWMCTTEgz-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="2ekZCZfQycmcWMCTTEgz-1" source="2ekZCZfQycmcWMCTTEgz-13" target="2ekZCZfQycmcWMCTTEgz-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2ekZCZfQycmcWMCTTEgz-13" value="Create a ticket" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="2ekZCZfQycmcWMCTTEgz-1">
+          <mxGeometry x="450" y="605" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2ekZCZfQycmcWMCTTEgz-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="2ekZCZfQycmcWMCTTEgz-1" source="2ekZCZfQycmcWMCTTEgz-15" target="2ekZCZfQycmcWMCTTEgz-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2ekZCZfQycmcWMCTTEgz-15" value="Edit a ticket" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="2ekZCZfQycmcWMCTTEgz-1">
+          <mxGeometry x="450" y="670" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2ekZCZfQycmcWMCTTEgz-16" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=16;" vertex="1" parent="2ekZCZfQycmcWMCTTEgz-1">
+          <mxGeometry x="420" y="605" width="20" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="2ekZCZfQycmcWMCTTEgz-17" value="Will probably require us to make sure the user is logged in" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="2ekZCZfQycmcWMCTTEgz-1">
+          <mxGeometry x="260" y="636" width="160" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="2ekZCZfQycmcWMCTTEgz-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="2ekZCZfQycmcWMCTTEgz-1" source="2ekZCZfQycmcWMCTTEgz-19" target="2ekZCZfQycmcWMCTTEgz-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2ekZCZfQycmcWMCTTEgz-19" value="requireAuth Middleware" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="2ekZCZfQycmcWMCTTEgz-1">
+          <mxGeometry x="720" y="598" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2ekZCZfQycmcWMCTTEgz-20" value="Route Handler" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="2ekZCZfQycmcWMCTTEgz-1">
+          <mxGeometry x="860" y="598" width="90" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="05 - err" id="pyW13EWC2bAX3XfwHI48">
+    <mxGraphModel dx="733" dy="360" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="kL_842ywkiifpTcz1oQI-0" />
+        <mxCell id="kL_842ywkiifpTcz1oQI-1" parent="kL_842ywkiifpTcz1oQI-0" />
+        <mxCell id="kL_842ywkiifpTcz1oQI-2" value="Tickets Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;fontSize=19;" vertex="1" parent="kL_842ywkiifpTcz1oQI-1">
+          <mxGeometry x="680" y="545" width="300" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="kL_842ywkiifpTcz1oQI-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;fontSize=19;" vertex="1" parent="kL_842ywkiifpTcz1oQI-1">
+          <mxGeometry x="680" y="580" width="300" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="kL_842ywkiifpTcz1oQI-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="kL_842ywkiifpTcz1oQI-1">
+          <mxGeometry x="700" y="586" width="260" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="kL_842ywkiifpTcz1oQI-5" value="Auth Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;fontSize=19;" vertex="1" parent="kL_842ywkiifpTcz1oQI-1">
+          <mxGeometry x="680" y="410" width="190" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="kL_842ywkiifpTcz1oQI-6" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;fontSize=19;" vertex="1" parent="kL_842ywkiifpTcz1oQI-1">
+          <mxGeometry x="680" y="445" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kL_842ywkiifpTcz1oQI-7" value="Express" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="kL_842ywkiifpTcz1oQI-1">
+          <mxGeometry x="710" y="450" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kL_842ywkiifpTcz1oQI-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="kL_842ywkiifpTcz1oQI-1" source="kL_842ywkiifpTcz1oQI-9" target="kL_842ywkiifpTcz1oQI-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kL_842ywkiifpTcz1oQI-9" value="List all tickets" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="kL_842ywkiifpTcz1oQI-1">
+          <mxGeometry x="450" y="480" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kL_842ywkiifpTcz1oQI-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="kL_842ywkiifpTcz1oQI-1" source="kL_842ywkiifpTcz1oQI-11" target="kL_842ywkiifpTcz1oQI-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kL_842ywkiifpTcz1oQI-11" value="Show a particular ticket" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="kL_842ywkiifpTcz1oQI-1">
+          <mxGeometry x="450" y="545" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kL_842ywkiifpTcz1oQI-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="kL_842ywkiifpTcz1oQI-1" source="kL_842ywkiifpTcz1oQI-13" target="kL_842ywkiifpTcz1oQI-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kL_842ywkiifpTcz1oQI-13" value="Create a ticket" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="kL_842ywkiifpTcz1oQI-1">
+          <mxGeometry x="450" y="605" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kL_842ywkiifpTcz1oQI-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="kL_842ywkiifpTcz1oQI-1" source="kL_842ywkiifpTcz1oQI-15" target="kL_842ywkiifpTcz1oQI-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kL_842ywkiifpTcz1oQI-15" value="Edit a ticket" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="kL_842ywkiifpTcz1oQI-1">
+          <mxGeometry x="450" y="670" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kL_842ywkiifpTcz1oQI-16" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=16;" vertex="1" parent="kL_842ywkiifpTcz1oQI-1">
+          <mxGeometry x="420" y="605" width="20" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="kL_842ywkiifpTcz1oQI-17" value="Will probably require us to make sure the user is logged in" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="kL_842ywkiifpTcz1oQI-1">
+          <mxGeometry x="260" y="636" width="160" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="kL_842ywkiifpTcz1oQI-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="kL_842ywkiifpTcz1oQI-1" source="kL_842ywkiifpTcz1oQI-19" target="kL_842ywkiifpTcz1oQI-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kL_842ywkiifpTcz1oQI-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="kL_842ywkiifpTcz1oQI-1" source="kL_842ywkiifpTcz1oQI-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="765.0487804878051" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kL_842ywkiifpTcz1oQI-19" value="requireAuth Middleware" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="kL_842ywkiifpTcz1oQI-1">
+          <mxGeometry x="720" y="598" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kL_842ywkiifpTcz1oQI-20" value="Route Handler" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="kL_842ywkiifpTcz1oQI-1">
+          <mxGeometry x="860" y="598" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kL_842ywkiifpTcz1oQI-22" value="NotAuthorizedError" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="kL_842ywkiifpTcz1oQI-1">
+          <mxGeometry x="690" y="700" width="150" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="06 - shared" id="9Z8XCyCZZES5715QRV7a">
+    <mxGraphModel dx="858" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="TF_zpv2NqLbQXCWMxXg1-0" />
+        <mxCell id="TF_zpv2NqLbQXCWMxXg1-1" parent="TF_zpv2NqLbQXCWMxXg1-0" />
+        <mxCell id="TF_zpv2NqLbQXCWMxXg1-2" value="Tickets Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;fontSize=19;" vertex="1" parent="TF_zpv2NqLbQXCWMxXg1-1">
+          <mxGeometry x="680" y="545" width="300" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="TF_zpv2NqLbQXCWMxXg1-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;fontSize=19;" vertex="1" parent="TF_zpv2NqLbQXCWMxXg1-1">
+          <mxGeometry x="680" y="580" width="300" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="TF_zpv2NqLbQXCWMxXg1-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="TF_zpv2NqLbQXCWMxXg1-1">
+          <mxGeometry x="700" y="586" width="260" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="TF_zpv2NqLbQXCWMxXg1-5" value="Auth Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;fontSize=19;" vertex="1" parent="TF_zpv2NqLbQXCWMxXg1-1">
+          <mxGeometry x="680" y="410" width="300" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="TF_zpv2NqLbQXCWMxXg1-6" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;fontSize=19;" vertex="1" parent="TF_zpv2NqLbQXCWMxXg1-1">
+          <mxGeometry x="680" y="445" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TF_zpv2NqLbQXCWMxXg1-7" value="Express" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="TF_zpv2NqLbQXCWMxXg1-1">
+          <mxGeometry x="765" y="450" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TF_zpv2NqLbQXCWMxXg1-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="TF_zpv2NqLbQXCWMxXg1-1" source="TF_zpv2NqLbQXCWMxXg1-9" target="TF_zpv2NqLbQXCWMxXg1-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TF_zpv2NqLbQXCWMxXg1-9" value="List all tickets" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="TF_zpv2NqLbQXCWMxXg1-1">
+          <mxGeometry x="450" y="480" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TF_zpv2NqLbQXCWMxXg1-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="TF_zpv2NqLbQXCWMxXg1-1" source="TF_zpv2NqLbQXCWMxXg1-11" target="TF_zpv2NqLbQXCWMxXg1-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TF_zpv2NqLbQXCWMxXg1-11" value="Show a particular ticket" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="TF_zpv2NqLbQXCWMxXg1-1">
+          <mxGeometry x="450" y="545" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TF_zpv2NqLbQXCWMxXg1-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="TF_zpv2NqLbQXCWMxXg1-1" source="TF_zpv2NqLbQXCWMxXg1-13" target="TF_zpv2NqLbQXCWMxXg1-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TF_zpv2NqLbQXCWMxXg1-13" value="Create a ticket" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="TF_zpv2NqLbQXCWMxXg1-1">
+          <mxGeometry x="450" y="605" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TF_zpv2NqLbQXCWMxXg1-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="TF_zpv2NqLbQXCWMxXg1-1" source="TF_zpv2NqLbQXCWMxXg1-15" target="TF_zpv2NqLbQXCWMxXg1-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TF_zpv2NqLbQXCWMxXg1-15" value="Edit a ticket" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="TF_zpv2NqLbQXCWMxXg1-1">
+          <mxGeometry x="450" y="670" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TF_zpv2NqLbQXCWMxXg1-16" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=16;" vertex="1" parent="TF_zpv2NqLbQXCWMxXg1-1">
+          <mxGeometry x="420" y="605" width="20" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="TF_zpv2NqLbQXCWMxXg1-17" value="Will probably require us to make sure the user is logged in" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="TF_zpv2NqLbQXCWMxXg1-1">
+          <mxGeometry x="260" y="636" width="160" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="TF_zpv2NqLbQXCWMxXg1-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="TF_zpv2NqLbQXCWMxXg1-1" source="TF_zpv2NqLbQXCWMxXg1-20" target="TF_zpv2NqLbQXCWMxXg1-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TF_zpv2NqLbQXCWMxXg1-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="TF_zpv2NqLbQXCWMxXg1-1" source="TF_zpv2NqLbQXCWMxXg1-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="765.0487804878051" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TF_zpv2NqLbQXCWMxXg1-20" value="requireAuth Middleware" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="TF_zpv2NqLbQXCWMxXg1-1">
+          <mxGeometry x="720" y="598" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TF_zpv2NqLbQXCWMxXg1-21" value="Route Handler" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="TF_zpv2NqLbQXCWMxXg1-1">
+          <mxGeometry x="860" y="598" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TF_zpv2NqLbQXCWMxXg1-22" value="NotAuthorizedError" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="TF_zpv2NqLbQXCWMxXg1-1">
+          <mxGeometry x="690" y="700" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TF_zpv2NqLbQXCWMxXg1-23" value="Shared Lib" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;fontSize=19;" vertex="1" parent="TF_zpv2NqLbQXCWMxXg1-1">
+          <mxGeometry x="1060" y="410" width="220" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="TF_zpv2NqLbQXCWMxXg1-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.999;entryY=0.426;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=16;" edge="1" parent="TF_zpv2NqLbQXCWMxXg1-1" source="TF_zpv2NqLbQXCWMxXg1-24" target="TF_zpv2NqLbQXCWMxXg1-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TF_zpv2NqLbQXCWMxXg1-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="TF_zpv2NqLbQXCWMxXg1-1" source="TF_zpv2NqLbQXCWMxXg1-24" target="TF_zpv2NqLbQXCWMxXg1-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TF_zpv2NqLbQXCWMxXg1-24" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;fontSize=19;" vertex="1" parent="TF_zpv2NqLbQXCWMxXg1-1">
+          <mxGeometry x="1060" y="445" width="220" height="235" as="geometry" />
+        </mxCell>
+        <mxCell id="TF_zpv2NqLbQXCWMxXg1-25" value="Custom Error System" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="TF_zpv2NqLbQXCWMxXg1-1">
+          <mxGeometry x="1095" y="460" width="150" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="TF_zpv2NqLbQXCWMxXg1-26" value="Auth Middleware" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="TF_zpv2NqLbQXCWMxXg1-1">
+          <mxGeometry x="1095" y="528" width="150" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="TF_zpv2NqLbQXCWMxXg1-27" value="Request Validation Middleware" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="TF_zpv2NqLbQXCWMxXg1-1">
+          <mxGeometry x="1095" y="595" width="150" height="55" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
