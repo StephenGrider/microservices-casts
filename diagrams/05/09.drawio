@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-04-08T15:20:29.066Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="Iv235n-i-R3zJj_bLDrA" version="12.9.10" type="github" pages="6">
+<mxfile host="www.draw.io" modified="2020-04-08T15:30:01.467Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="rkyNga0zFyN97YRFauQK" version="12.9.10" type="github" pages="8">
   <diagram id="MEtqO5T1wNB7x8uJqcYX" name="01 - auth">
     <mxGraphModel dx="601" dy="296" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -356,6 +356,76 @@
         </mxCell>
         <mxCell id="TF_zpv2NqLbQXCWMxXg1-27" value="Request Validation Middleware" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="TF_zpv2NqLbQXCWMxXg1-1">
           <mxGeometry x="1095" y="595" width="150" height="55" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="oOYFnlJwZoSoCyUY03IM" name="07 - shared">
+    <mxGraphModel dx="715" dy="352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="uXII8W1oIJbbe853hTh--0" />
+        <mxCell id="uXII8W1oIJbbe853hTh--1" parent="uXII8W1oIJbbe853hTh--0" />
+        <mxCell id="GwpS6RMv80zDWEYIQTD0-3" value="Auth Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;fontSize=19;" vertex="1" parent="uXII8W1oIJbbe853hTh--1">
+          <mxGeometry x="460" y="260" width="300" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="GwpS6RMv80zDWEYIQTD0-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;fontSize=19;" vertex="1" parent="uXII8W1oIJbbe853hTh--1">
+          <mxGeometry x="460" y="295" width="300" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="GwpS6RMv80zDWEYIQTD0-5" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="uXII8W1oIJbbe853hTh--1">
+          <mxGeometry x="470" y="302.5" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GwpS6RMv80zDWEYIQTD0-6" value="Code Sharing Option #1 - Direct Copy Paste" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" parent="uXII8W1oIJbbe853hTh--1">
+          <mxGeometry x="840" y="355" width="220" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="GwpS6RMv80zDWEYIQTD0-7" value="Tickets Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;fontSize=19;" vertex="1" parent="uXII8W1oIJbbe853hTh--1">
+          <mxGeometry x="460" y="410" width="300" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="GwpS6RMv80zDWEYIQTD0-8" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;fontSize=19;" vertex="1" parent="uXII8W1oIJbbe853hTh--1">
+          <mxGeometry x="460" y="445" width="300" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="GwpS6RMv80zDWEYIQTD0-9" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="uXII8W1oIJbbe853hTh--1">
+          <mxGeometry x="470" y="452.5" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GwpS6RMv80zDWEYIQTD0-10" value="Common Code" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=2" vertex="1" parent="uXII8W1oIJbbe853hTh--1">
+          <mxGeometry x="525" y="312.5" width="170" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="08 - gs" id="cfcNp986lsaWva7m07Ca">
+    <mxGraphModel dx="858" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="o_BpKQEAkOfUlUAeIjkb-0" />
+        <mxCell id="o_BpKQEAkOfUlUAeIjkb-1" parent="o_BpKQEAkOfUlUAeIjkb-0" />
+        <mxCell id="o_BpKQEAkOfUlUAeIjkb-2" value="Auth Git Repo" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;fontSize=19;" vertex="1" parent="o_BpKQEAkOfUlUAeIjkb-1">
+          <mxGeometry x="460" y="260" width="300" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="o_BpKQEAkOfUlUAeIjkb-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;fontSize=19;" vertex="1" parent="o_BpKQEAkOfUlUAeIjkb-1">
+          <mxGeometry x="460" y="295" width="300" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="o_BpKQEAkOfUlUAeIjkb-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="o_BpKQEAkOfUlUAeIjkb-1">
+          <mxGeometry x="470" y="302.5" width="280" height="107.5" as="geometry" />
+        </mxCell>
+        <mxCell id="o_BpKQEAkOfUlUAeIjkb-5" value="Code Sharing Option #2 - Git Submodule" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" parent="o_BpKQEAkOfUlUAeIjkb-1">
+          <mxGeometry x="920" y="260" width="220" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="CHXRAecjNlxc-iR4KXv_-0" value="Tickets Git Repo" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;fontSize=19;" vertex="1" parent="o_BpKQEAkOfUlUAeIjkb-1">
+          <mxGeometry x="460" y="440" width="300" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="CHXRAecjNlxc-iR4KXv_-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;fontSize=19;" vertex="1" parent="o_BpKQEAkOfUlUAeIjkb-1">
+          <mxGeometry x="460" y="475" width="300" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="CHXRAecjNlxc-iR4KXv_-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="o_BpKQEAkOfUlUAeIjkb-1">
+          <mxGeometry x="470" y="482.5" width="280" height="107.5" as="geometry" />
+        </mxCell>
+        <mxCell id="CHXRAecjNlxc-iR4KXv_-3" value="Common Git Repo" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;fontSize=19;" vertex="1" parent="o_BpKQEAkOfUlUAeIjkb-1">
+          <mxGeometry x="830" y="402.5" width="180" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="CHXRAecjNlxc-iR4KXv_-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;fontSize=19;" vertex="1" parent="o_BpKQEAkOfUlUAeIjkb-1">
+          <mxGeometry x="830" y="427.5" width="180" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="o_BpKQEAkOfUlUAeIjkb-9" value="Common Code" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=2" vertex="1" parent="o_BpKQEAkOfUlUAeIjkb-1">
+          <mxGeometry x="850" y="440" width="140" height="32.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
