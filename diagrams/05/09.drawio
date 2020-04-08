@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-04-08T15:40:11.551Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="vvlEvw7munb08cA-7A8Q" version="12.9.10" type="github" pages="9">
+<mxfile host="www.draw.io" modified="2020-04-08T15:41:49.469Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="ChEnBAUQdl8vrPXAqksb" version="12.9.10" type="github" pages="10">
   <diagram id="MEtqO5T1wNB7x8uJqcYX" name="01 - auth">
     <mxGraphModel dx="601" dy="296" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -482,6 +482,29 @@
         </mxCell>
         <mxCell id="mL7xLuDa9em8VDp31hhO-14" value="&lt;span style=&quot;font-style: normal&quot;&gt;gittix-common @ 0.0.2&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fontStyle=2" vertex="1" parent="mL7xLuDa9em8VDp31hhO-1">
           <mxGeometry x="470" y="517.5" width="280" height="27.5" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="_Vfx5NGhy0KbX3t8dxny" name="10 - npm">
+    <mxGraphModel dx="601" dy="296" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="IPwD8OQM-tR1JvyjVk3A-0" />
+        <mxCell id="IPwD8OQM-tR1JvyjVk3A-1" parent="IPwD8OQM-tR1JvyjVk3A-0" />
+        <mxCell id="GXfBKACEbfLcOY7OlAA3-0" value="Our common library will be written as Typescript and &lt;i&gt;published&lt;/i&gt;&amp;nbsp;as Javascript" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="IPwD8OQM-tR1JvyjVk3A-1">
+          <mxGeometry x="570" y="480" width="410" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GXfBKACEbfLcOY7OlAA3-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="IPwD8OQM-tR1JvyjVk3A-1" source="GXfBKACEbfLcOY7OlAA3-1" target="GXfBKACEbfLcOY7OlAA3-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GXfBKACEbfLcOY7OlAA3-1" value="There might be differences in our TS settings between the common lib and our services - don&#39;t want to deal with that" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="IPwD8OQM-tR1JvyjVk3A-1">
+          <mxGeometry x="570" y="320" width="410" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GXfBKACEbfLcOY7OlAA3-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="IPwD8OQM-tR1JvyjVk3A-1" source="GXfBKACEbfLcOY7OlAA3-3" target="GXfBKACEbfLcOY7OlAA3-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GXfBKACEbfLcOY7OlAA3-3" value="Services might not be written with TS at all!" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="IPwD8OQM-tR1JvyjVk3A-1">
+          <mxGeometry x="570" y="400" width="410" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
