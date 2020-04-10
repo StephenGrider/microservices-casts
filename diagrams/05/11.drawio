@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-04-10T18:39:19.791Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="CULKFn2TavDkwybHW71R" version="12.9.10" type="github" pages="13">
+<mxfile host="www.draw.io" modified="2020-04-10T18:39:40.439Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="RI89IG3w1TY5MjbO_a8o" version="12.9.10" type="github" pages="13">
   <diagram id="gTkfbT7Cik_as-RmGfoY" name="01 - ev">
     <mxGraphModel dx="715" dy="352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -698,11 +698,11 @@
       <root>
         <mxCell id="pLGKcZWzMyP9hIOcCSa5-0" />
         <mxCell id="pLGKcZWzMyP9hIOcCSa5-1" parent="pLGKcZWzMyP9hIOcCSa5-0" />
-        <mxCell id="rTsj3tcfW1taFhE9-221-0" value="Install node-nats-streaming in the &#39;tickets&#39; service" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="pLGKcZWzMyP9hIOcCSa5-1">
+        <mxCell id="rTsj3tcfW1taFhE9-221-0" value="Oh, we broke our tests" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="pLGKcZWzMyP9hIOcCSa5-1">
           <mxGeometry x="650" y="230" width="400" height="40" as="geometry" />
         </mxCell>
         <mxCell id="rTsj3tcfW1taFhE9-221-1" value="A Few Issues" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" vertex="1" parent="pLGKcZWzMyP9hIOcCSa5-1">
-          <mxGeometry x="765" y="200" width="170" height="20" as="geometry" />
+          <mxGeometry x="765" y="204" width="170" height="20" as="geometry" />
         </mxCell>
         <mxCell id="rTsj3tcfW1taFhE9-221-2" value="Connect to the NATS Streaming server" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="pLGKcZWzMyP9hIOcCSa5-1">
           <mxGeometry x="650" y="280" width="400" height="40" as="geometry" />
