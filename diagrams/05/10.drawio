@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-04-08T19:49:51.092Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="4Wh-axykIUSXXo-huVc4" version="12.9.10" type="github" pages="5">
+<mxfile host="www.draw.io" modified="2020-04-10T15:08:53.412Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="DrnZU3E32I1xWP48K_kV" version="12.9.10" type="github" pages="6">
   <diagram id="AKySBRokzylHcW2O-Z-e" name="01 - tik">
     <mxGraphModel dx="715" dy="352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -55,7 +55,7 @@
         <mxCell id="5NZEBFaEDi9C0aIBibyY-28" value="Create a ticket" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="780" y="400" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="5NZEBFaEDi9C0aIBibyY-29" value="/api/tickets" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="5NZEBFaEDi9C0aIBibyY-29" value="/api/tickets/:id" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="360" y="440" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="5NZEBFaEDi9C0aIBibyY-30" value="PUT" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
@@ -236,6 +236,80 @@
         </mxCell>
         <mxCell id="l0HVTZPS2M2WKiGLxtut-0" value="Cookie containing &lt;br&gt;{ jwt: &#39;slkdf&#39; }" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="Xdf_FE_YTQU1kLrpJqin-1">
           <mxGeometry x="230" y="385.25" width="210" height="39.5" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="P8f8dSY8LKq2cX0D_jep" name="06 - t">
+    <mxGraphModel dx="791" dy="389" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="XmcnWYxKNH0oD3hRxLUI-0" />
+        <mxCell id="XmcnWYxKNH0oD3hRxLUI-1" parent="XmcnWYxKNH0oD3hRxLUI-0" />
+        <mxCell id="XmcnWYxKNH0oD3hRxLUI-2" value="TicketAttrs" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="XmcnWYxKNH0oD3hRxLUI-1">
+          <mxGeometry x="540" y="240" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XmcnWYxKNH0oD3hRxLUI-3" value="title" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;" vertex="1" parent="XmcnWYxKNH0oD3hRxLUI-1">
+          <mxGeometry x="540" y="280" width="105" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XmcnWYxKNH0oD3hRxLUI-4" value="string" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;" vertex="1" parent="XmcnWYxKNH0oD3hRxLUI-1">
+          <mxGeometry x="645" y="280" width="105" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XmcnWYxKNH0oD3hRxLUI-5" value="price" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;" vertex="1" parent="XmcnWYxKNH0oD3hRxLUI-1">
+          <mxGeometry x="540" y="320" width="105" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XmcnWYxKNH0oD3hRxLUI-6" value="number" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;" vertex="1" parent="XmcnWYxKNH0oD3hRxLUI-1">
+          <mxGeometry x="645" y="320" width="105" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XmcnWYxKNH0oD3hRxLUI-7" value="userId" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;" vertex="1" parent="XmcnWYxKNH0oD3hRxLUI-1">
+          <mxGeometry x="540" y="360" width="105" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XmcnWYxKNH0oD3hRxLUI-8" value="string" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;" vertex="1" parent="XmcnWYxKNH0oD3hRxLUI-1">
+          <mxGeometry x="645" y="360" width="105" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XmcnWYxKNH0oD3hRxLUI-9" value="TicketDoc" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="XmcnWYxKNH0oD3hRxLUI-1">
+          <mxGeometry x="770" y="240" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XmcnWYxKNH0oD3hRxLUI-10" value="title" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;" vertex="1" parent="XmcnWYxKNH0oD3hRxLUI-1">
+          <mxGeometry x="770" y="280" width="105" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XmcnWYxKNH0oD3hRxLUI-11" value="string" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;" vertex="1" parent="XmcnWYxKNH0oD3hRxLUI-1">
+          <mxGeometry x="875" y="280" width="105" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XmcnWYxKNH0oD3hRxLUI-12" value="price" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;" vertex="1" parent="XmcnWYxKNH0oD3hRxLUI-1">
+          <mxGeometry x="770" y="320" width="105" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XmcnWYxKNH0oD3hRxLUI-13" value="number" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;" vertex="1" parent="XmcnWYxKNH0oD3hRxLUI-1">
+          <mxGeometry x="875" y="320" width="105" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XmcnWYxKNH0oD3hRxLUI-14" value="userId" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;" vertex="1" parent="XmcnWYxKNH0oD3hRxLUI-1">
+          <mxGeometry x="770" y="360" width="105" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XmcnWYxKNH0oD3hRxLUI-15" value="string" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;" vertex="1" parent="XmcnWYxKNH0oD3hRxLUI-1">
+          <mxGeometry x="875" y="360" width="105" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XmcnWYxKNH0oD3hRxLUI-16" value="TicketModel" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="XmcnWYxKNH0oD3hRxLUI-1">
+          <mxGeometry x="1000" y="240" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XmcnWYxKNH0oD3hRxLUI-17" value="build" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;" vertex="1" parent="XmcnWYxKNH0oD3hRxLUI-1">
+          <mxGeometry x="1000" y="280" width="105" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XmcnWYxKNH0oD3hRxLUI-18" value="(attrs) =&amp;gt; Doc" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;" vertex="1" parent="XmcnWYxKNH0oD3hRxLUI-1">
+          <mxGeometry x="1105" y="280" width="105" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XmcnWYxKNH0oD3hRxLUI-23" value="Properties that are required to build a new Ticket" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontStyle=2" vertex="1" parent="XmcnWYxKNH0oD3hRxLUI-1">
+          <mxGeometry x="577.5" y="400" width="135" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XmcnWYxKNH0oD3hRxLUI-24" value="Properties that a Ticket has" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontStyle=2" vertex="1" parent="XmcnWYxKNH0oD3hRxLUI-1">
+          <mxGeometry x="807.5" y="400" width="135" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XmcnWYxKNH0oD3hRxLUI-25" value="Properties tied to the Model" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontStyle=2" vertex="1" parent="XmcnWYxKNH0oD3hRxLUI-1">
+          <mxGeometry x="1037.5" y="320" width="135" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XmcnWYxKNH0oD3hRxLUI-26" value="userId" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;" vertex="1" parent="XmcnWYxKNH0oD3hRxLUI-1">
+          <mxGeometry x="770" y="360" width="105" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XmcnWYxKNH0oD3hRxLUI-27" value="string" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;" vertex="1" parent="XmcnWYxKNH0oD3hRxLUI-1">
+          <mxGeometry x="875" y="360" width="105" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
