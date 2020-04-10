@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-04-10T18:39:40.439Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="RI89IG3w1TY5MjbO_a8o" version="12.9.10" type="github" pages="13">
+<mxfile host="www.draw.io" modified="2020-04-10T18:42:40.869Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="CMt87hYU0KfO7a8Hf_9U" version="12.9.10" type="github" pages="13">
   <diagram id="gTkfbT7Cik_as-RmGfoY" name="01 - ev">
     <mxGraphModel dx="715" dy="352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -704,14 +704,14 @@
         <mxCell id="rTsj3tcfW1taFhE9-221-1" value="A Few Issues" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" vertex="1" parent="pLGKcZWzMyP9hIOcCSa5-1">
           <mxGeometry x="765" y="204" width="170" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="rTsj3tcfW1taFhE9-221-2" value="Connect to the NATS Streaming server" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="pLGKcZWzMyP9hIOcCSa5-1">
+        <mxCell id="rTsj3tcfW1taFhE9-221-2" value="All services need to have an exactly accurate, common definition of what data is in each type of event" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="pLGKcZWzMyP9hIOcCSa5-1">
           <mxGeometry x="650" y="280" width="400" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="rTsj3tcfW1taFhE9-221-3" value="Emit an event when a ticket is created" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="pLGKcZWzMyP9hIOcCSa5-1">
-          <mxGeometry x="650" y="330" width="400" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="rTsj3tcfW1taFhE9-221-4" value="Listen for this event &lt;i&gt;in the same file &lt;/i&gt;(this doesn&#39;t make much sense, just for demo purposes)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="pLGKcZWzMyP9hIOcCSa5-1">
+        <mxCell id="rTsj3tcfW1taFhE9-221-3" value="We need to make it &lt;i&gt;really easy and painless&lt;/i&gt;&amp;nbsp;to send/receive events" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="pLGKcZWzMyP9hIOcCSa5-1">
           <mxGeometry x="650" y="380" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DDgYD2FIFubVwJUdKXpO-0" value="All services need to have a precise definition of the &lt;i&gt;subject&lt;/i&gt;&amp;nbsp;of each event" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="pLGKcZWzMyP9hIOcCSa5-1">
+          <mxGeometry x="650" y="330" width="400" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
