@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-04-10T15:51:03.873Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="fUFNwcmhj3FBW6f_Ld4l" version="12.9.10" type="github" pages="3">
+<mxfile host="www.draw.io" modified="2020-04-10T15:53:27.931Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="lj_2gilFwPC-tTMrzyx-" version="12.9.10" type="github" pages="4">
   <diagram id="gTkfbT7Cik_as-RmGfoY" name="01 - ev">
     <mxGraphModel dx="715" dy="352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -118,6 +118,72 @@
         </mxCell>
         <mxCell id="kb1HAGaV3f60HGRdYn8u-4" value="We are going to run the official &#39;nats-streaming&#39; docker image in kubernetes.&amp;nbsp; Need to read the image&#39;s docs" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="DoXyQaCajaIOvtAVsY2P-1">
           <mxGeometry x="530" y="370" width="470" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="xbEGXi3KLy7SvGrZ30W4" name="04 - chan">
+    <mxGraphModel dx="791" dy="389" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="Aj006r4uuJlZ9E0LWRsM-0" />
+        <mxCell id="Aj006r4uuJlZ9E0LWRsM-1" parent="Aj006r4uuJlZ9E0LWRsM-0" />
+        <mxCell id="YmGjL8dbbiFmFKMSFeb4-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="Aj006r4uuJlZ9E0LWRsM-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="740.0000000000002" y="449.8600000000001" as="targetPoint" />
+            <mxPoint x="960" y="449.76476190476194" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="910" y="449.86" />
+              <mxPoint x="910" y="449.86" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YmGjL8dbbiFmFKMSFeb4-1" value="Tickets Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;fontSize=16;" vertex="1" parent="Aj006r4uuJlZ9E0LWRsM-1">
+          <mxGeometry x="590" y="270" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YmGjL8dbbiFmFKMSFeb4-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="Aj006r4uuJlZ9E0LWRsM-1" source="YmGjL8dbbiFmFKMSFeb4-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="960" y="329.9047619047619" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YmGjL8dbbiFmFKMSFeb4-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="Aj006r4uuJlZ9E0LWRsM-1">
+          <mxGeometry x="590" y="300" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YmGjL8dbbiFmFKMSFeb4-5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="Aj006r4uuJlZ9E0LWRsM-1">
+          <mxGeometry x="960" y="300" width="150" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="YmGjL8dbbiFmFKMSFeb4-6" value="Orders Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;fontSize=16;" vertex="1" parent="Aj006r4uuJlZ9E0LWRsM-1">
+          <mxGeometry x="590" y="390" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YmGjL8dbbiFmFKMSFeb4-7" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="Aj006r4uuJlZ9E0LWRsM-1">
+          <mxGeometry x="590" y="420" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YmGjL8dbbiFmFKMSFeb4-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="Aj006r4uuJlZ9E0LWRsM-1" source="YmGjL8dbbiFmFKMSFeb4-9" target="YmGjL8dbbiFmFKMSFeb4-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YmGjL8dbbiFmFKMSFeb4-9" value="Request to Update a Ticket" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" vertex="1" parent="Aj006r4uuJlZ9E0LWRsM-1">
+          <mxGeometry x="440" y="295" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="YmGjL8dbbiFmFKMSFeb4-10" value="Ticket Updated Event" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" parent="Aj006r4uuJlZ9E0LWRsM-1">
+          <mxGeometry x="780" y="300" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YmGjL8dbbiFmFKMSFeb4-4" value="Custom Event Bus We Built" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1;fontSize=16;" vertex="1" parent="Aj006r4uuJlZ9E0LWRsM-1">
+          <mxGeometry x="960" y="270" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YmGjL8dbbiFmFKMSFeb4-14" value="Payments Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;fontSize=16;" vertex="1" parent="Aj006r4uuJlZ9E0LWRsM-1">
+          <mxGeometry x="590" y="490" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YmGjL8dbbiFmFKMSFeb4-15" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="Aj006r4uuJlZ9E0LWRsM-1">
+          <mxGeometry x="590" y="520" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YmGjL8dbbiFmFKMSFeb4-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="Aj006r4uuJlZ9E0LWRsM-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="740.0000000000002" y="549.8300000000002" as="targetPoint" />
+            <mxPoint x="960" y="549.734761904762" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="910" y="549.83" />
+              <mxPoint x="910" y="549.83" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
