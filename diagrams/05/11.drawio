@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-04-10T15:13:31.082Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="ewpcCuosUz0P7Tavys3a" version="12.9.10" type="github" pages="2">
+<mxfile host="www.draw.io" modified="2020-04-10T15:51:03.873Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="fUFNwcmhj3FBW6f_Ld4l" version="12.9.10" type="github" pages="3">
   <diagram id="gTkfbT7Cik_as-RmGfoY" name="01 - ev">
     <mxGraphModel dx="715" dy="352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -44,7 +44,7 @@
           <mxGeometry x="440" y="295" width="90" height="70" as="geometry" />
         </mxCell>
         <mxCell id="pFvFEtRMXopv4cbzXGq3-9" value="Ticket Created Event" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="780" y="300" width="150" height="30" as="geometry" />
+          <mxGeometry x="770" y="300" width="150" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -95,6 +95,29 @@
         </mxCell>
         <mxCell id="UXfegDrSkT8HTIjYpNdI-12" value="Ticket Updated Event" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" parent="UXfegDrSkT8HTIjYpNdI-1">
           <mxGeometry x="780" y="300" width="150" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ODrZPVbrJ3sV7khlV9UG" name="03 - ev">
+    <mxGraphModel dx="536" dy="264" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="DoXyQaCajaIOvtAVsY2P-0" />
+        <mxCell id="DoXyQaCajaIOvtAVsY2P-1" parent="DoXyQaCajaIOvtAVsY2P-0" />
+        <mxCell id="kb1HAGaV3f60HGRdYn8u-0" value="NATS Streaming Server" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1" vertex="1" parent="DoXyQaCajaIOvtAVsY2P-1">
+          <mxGeometry x="610" y="160" width="330" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="kb1HAGaV3f60HGRdYn8u-1" value="Docs at:&lt;br&gt;&lt;i&gt;docs.nats.io&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="DoXyQaCajaIOvtAVsY2P-1">
+          <mxGeometry x="530" y="190" width="470" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kb1HAGaV3f60HGRdYn8u-2" value="&lt;b&gt;NATS&lt;/b&gt; and &lt;b&gt;NATS Streaming Server&lt;/b&gt; are two different things" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="DoXyQaCajaIOvtAVsY2P-1">
+          <mxGeometry x="530" y="250" width="470" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kb1HAGaV3f60HGRdYn8u-3" value="NATS Streaming implements some extraordinarily important design decisions that will affect our app" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="DoXyQaCajaIOvtAVsY2P-1">
+          <mxGeometry x="530" y="310" width="470" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kb1HAGaV3f60HGRdYn8u-4" value="We are going to run the official &#39;nats-streaming&#39; docker image in kubernetes.&amp;nbsp; Need to read the image&#39;s docs" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="DoXyQaCajaIOvtAVsY2P-1">
+          <mxGeometry x="530" y="370" width="470" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
