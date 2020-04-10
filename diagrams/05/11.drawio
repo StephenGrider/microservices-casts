@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-04-10T18:06:39.183Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="tK_A7d1YDmbypWzQt4wa" version="12.9.10" type="github" pages="11">
+<mxfile host="www.draw.io" modified="2020-04-10T18:39:19.791Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="CULKFn2TavDkwybHW71R" version="12.9.10" type="github" pages="13">
   <diagram id="gTkfbT7Cik_as-RmGfoY" name="01 - ev">
     <mxGraphModel dx="715" dy="352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -660,6 +660,57 @@
           <mxGeometry x="650" y="330" width="400" height="40" as="geometry" />
         </mxCell>
         <mxCell id="g4GjaYx_cPA84nbOROXz-7" value="Listen for this event &lt;i&gt;in the same file &lt;/i&gt;(this doesn&#39;t make much sense, just for demo purposes)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="g4GjaYx_cPA84nbOROXz-1">
+          <mxGeometry x="650" y="380" width="400" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="WpFqvCCJQxPIXOLomxfy" name="13 - deal">
+    <mxGraphModel dx="501" dy="246" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="7HiXb4kMpal6MYj7fbGH-0" />
+        <mxCell id="7HiXb4kMpal6MYj7fbGH-1" parent="7HiXb4kMpal6MYj7fbGH-0" />
+        <mxCell id="zW17W3MqIw0QgLsG6dVt-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=20;" edge="1" parent="7HiXb4kMpal6MYj7fbGH-1" source="zW17W3MqIw0QgLsG6dVt-0" target="zW17W3MqIw0QgLsG6dVt-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zW17W3MqIw0QgLsG6dVt-0" value="We are going to build up some pretty solid code around node-nats-streaming" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="7HiXb4kMpal6MYj7fbGH-1">
+          <mxGeometry x="650" y="230" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zW17W3MqIw0QgLsG6dVt-1" value="Quick Note" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" vertex="1" parent="7HiXb4kMpal6MYj7fbGH-1">
+          <mxGeometry x="765" y="200" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zW17W3MqIw0QgLsG6dVt-2" value="This code will be complex, and you will wonder &#39;why are we doing this&#39; at several/many/all times" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="7HiXb4kMpal6MYj7fbGH-1">
+          <mxGeometry x="650" y="290" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zW17W3MqIw0QgLsG6dVt-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=20;" edge="1" parent="7HiXb4kMpal6MYj7fbGH-1" target="zW17W3MqIw0QgLsG6dVt-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="850" y="330" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zW17W3MqIw0QgLsG6dVt-5" value="The goal of this video is to highlight some big issues with that demo - these issues are why we are going to do this refactor" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="7HiXb4kMpal6MYj7fbGH-1">
+          <mxGeometry x="650" y="350" width="400" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="CNqqAxi9vM2u2F62T7S-" name="12 - issues">
+    <mxGraphModel dx="536" dy="264" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="pLGKcZWzMyP9hIOcCSa5-0" />
+        <mxCell id="pLGKcZWzMyP9hIOcCSa5-1" parent="pLGKcZWzMyP9hIOcCSa5-0" />
+        <mxCell id="rTsj3tcfW1taFhE9-221-0" value="Install node-nats-streaming in the &#39;tickets&#39; service" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="pLGKcZWzMyP9hIOcCSa5-1">
+          <mxGeometry x="650" y="230" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rTsj3tcfW1taFhE9-221-1" value="A Few Issues" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" vertex="1" parent="pLGKcZWzMyP9hIOcCSa5-1">
+          <mxGeometry x="765" y="200" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rTsj3tcfW1taFhE9-221-2" value="Connect to the NATS Streaming server" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="pLGKcZWzMyP9hIOcCSa5-1">
+          <mxGeometry x="650" y="280" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rTsj3tcfW1taFhE9-221-3" value="Emit an event when a ticket is created" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="pLGKcZWzMyP9hIOcCSa5-1">
+          <mxGeometry x="650" y="330" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rTsj3tcfW1taFhE9-221-4" value="Listen for this event &lt;i&gt;in the same file &lt;/i&gt;(this doesn&#39;t make much sense, just for demo purposes)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="pLGKcZWzMyP9hIOcCSa5-1">
           <mxGeometry x="650" y="380" width="400" height="40" as="geometry" />
         </mxCell>
       </root>
