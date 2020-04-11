@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-04-11T17:20:03.526Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="ZyaT6xBjQB7CcKaZyc1K" version="12.9.10" type="github" pages="16">
+<mxfile host="www.draw.io" modified="2020-04-11T17:20:30.532Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="T4cl27yw9zcEAOsmG7KW" version="12.9.10" type="github" pages="17">
   <diagram id="wyKluERmT-wKOofHdro6" name="15 - path">
     <mxGraphModel dx="812" dy="399" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -722,6 +722,17 @@
         <mxCell id="g4GjaYx_cPA84nbOROXz-6" value="We should have &lt;i&gt;two npm scripts, &lt;/i&gt;one to run code to &lt;i&gt;emit&lt;/i&gt;&amp;nbsp;events, and one to run code to &lt;i&gt;listen for&lt;/i&gt;&amp;nbsp;events" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="g4GjaYx_cPA84nbOROXz-1">
           <mxGeometry x="650" y="330" width="400" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="qKBrs99FqfihqN3CT1cL-0" value="This program will be ran &lt;i&gt;outside&lt;/i&gt;&amp;nbsp;of kubernetes!" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="g4GjaYx_cPA84nbOROXz-1">
+          <mxGeometry x="650" y="380" width="400" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="zvUNhxCPwZ3ReSDEEcQp" name="Page-17">
+    <mxGraphModel dx="1502" dy="739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="AY-Yrb5t1I2wXJvYzRJe-0" />
+        <mxCell id="AY-Yrb5t1I2wXJvYzRJe-1" parent="AY-Yrb5t1I2wXJvYzRJe-0" />
       </root>
     </mxGraphModel>
   </diagram>
