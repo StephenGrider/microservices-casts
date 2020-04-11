@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-04-11T15:59:22.437Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="whpViws8UycSjnDNt40l" version="12.9.10" type="github" pages="16">
+<mxfile host="www.draw.io" modified="2020-04-11T17:20:03.526Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="ZyaT6xBjQB7CcKaZyc1K" version="12.9.10" type="github" pages="16">
   <diagram id="wyKluERmT-wKOofHdro6" name="15 - path">
     <mxGraphModel dx="812" dy="399" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -228,7 +228,7 @@
           <mxGeometry x="590" y="450" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_U_8dabg3koetVun6vJA-11" value="Ticket Updated Event" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=0" vertex="1" parent="_U_8dabg3koetVun6vJA-1">
-          <mxGeometry x="550" y="450" width="150" height="30" as="geometry" />
+          <mxGeometry x="770" y="450" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_U_8dabg3koetVun6vJA-12" value="Custom Event Bus We Built" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1;fontSize=16;" vertex="1" parent="_U_8dabg3koetVun6vJA-1">
           <mxGeometry x="960" y="250" width="150" height="50" as="geometry" />
@@ -296,7 +296,7 @@
           <mxGeometry x="590" y="450" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_mVG2-kRF46V468mfJVi-9" value="Ticket Updated Event" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=0" vertex="1" parent="_mVG2-kRF46V468mfJVi-1">
-          <mxGeometry x="780" y="300" width="150" height="30" as="geometry" />
+          <mxGeometry x="770" y="450" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_mVG2-kRF46V468mfJVi-10" value="NATS Streaming" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=16;" vertex="1" parent="_mVG2-kRF46V468mfJVi-1">
           <mxGeometry x="960" y="250" width="150" height="50" as="geometry" />
@@ -345,6 +345,9 @@
         <mxCell id="YmGjL8dbbiFmFKMSFeb4-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="Aj006r4uuJlZ9E0LWRsM-1">
           <mxGeometry x="590" y="300" width="150" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="eAE6pZ_hVgGkzpg7UwY1-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;fontSize=21;" edge="1" parent="Aj006r4uuJlZ9E0LWRsM-1" source="YmGjL8dbbiFmFKMSFeb4-5" target="YmGjL8dbbiFmFKMSFeb4-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="YmGjL8dbbiFmFKMSFeb4-5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="Aj006r4uuJlZ9E0LWRsM-1">
           <mxGeometry x="960" y="300" width="150" height="280" as="geometry" />
         </mxCell>
@@ -355,7 +358,7 @@
           <mxGeometry x="590" y="420" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YmGjL8dbbiFmFKMSFeb4-10" value="Ticket Updated Event" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=0" vertex="1" parent="Aj006r4uuJlZ9E0LWRsM-1">
-          <mxGeometry x="790" y="520" width="150" height="30" as="geometry" />
+          <mxGeometry x="770" y="420" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YmGjL8dbbiFmFKMSFeb4-4" value="Custom Event Bus We Built" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1;fontSize=16;" vertex="1" parent="Aj006r4uuJlZ9E0LWRsM-1">
           <mxGeometry x="960" y="250" width="150" height="50" as="geometry" />
@@ -400,8 +403,11 @@
         <mxCell id="H2cnL9MfQDw3Ko9xQDNr-4" value="express" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=0" vertex="1" parent="Aj006r4uuJlZ9E0LWRsM-1">
           <mxGeometry x="660" y="535" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ZMW1pKOmrx_BcyfN9i8Y-0" value="Ticket Updated Event" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=0" vertex="1" parent="Aj006r4uuJlZ9E0LWRsM-1">
-          <mxGeometry x="790" y="420" width="150" height="30" as="geometry" />
+        <mxCell id="eAE6pZ_hVgGkzpg7UwY1-0" value="Ticket Updated Event" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=0" vertex="1" parent="Aj006r4uuJlZ9E0LWRsM-1">
+          <mxGeometry x="780" y="520" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eAE6pZ_hVgGkzpg7UwY1-2" value="Ticket Updated Event" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=0" vertex="1" parent="Aj006r4uuJlZ9E0LWRsM-1">
+          <mxGeometry x="770" y="360" width="150" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -427,7 +433,7 @@
           <mxGeometry x="590" y="420" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YY6BpgqoJna9PPJV9Zog-11" value="Ticket Updated Event" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=0" vertex="1" parent="YY6BpgqoJna9PPJV9Zog-1">
-          <mxGeometry x="780" y="375" width="150" height="30" as="geometry" />
+          <mxGeometry x="640" y="425" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YY6BpgqoJna9PPJV9Zog-12" value="NATS Streaming" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=16;" vertex="1" parent="YY6BpgqoJna9PPJV9Zog-1">
           <mxGeometry x="960" y="260" width="190" height="40" as="geometry" />
@@ -528,16 +534,13 @@
         <mxCell id="j1_USPYbZXbbOi1x52wb-8" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="j1_USPYbZXbbOi1x52wb-1">
           <mxGeometry x="590" y="420" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="j1_USPYbZXbbOi1x52wb-11" value="Ticket Updated Event" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=0" vertex="1" parent="j1_USPYbZXbbOi1x52wb-1">
-          <mxGeometry x="770" y="420" width="150" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="j1_USPYbZXbbOi1x52wb-12" value="Custom Event Bus We Built" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1;fontSize=16;" vertex="1" parent="j1_USPYbZXbbOi1x52wb-1">
           <mxGeometry x="960" y="250" width="230" height="50" as="geometry" />
         </mxCell>
         <mxCell id="j1_USPYbZXbbOi1x52wb-13" value="Payments Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=0;fontSize=16;" vertex="1" parent="j1_USPYbZXbbOi1x52wb-1">
           <mxGeometry x="590" y="490" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jnLrMj96pv6GaEI0IZN9-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.005;entryY=0.854;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=13;" edge="1" parent="j1_USPYbZXbbOi1x52wb-1" source="j1_USPYbZXbbOi1x52wb-14" target="5Y0RtAG_gYyZmtX5I1nd-1">
+        <mxCell id="nSggAsByTOEDI1ozvU9I-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.634;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=21;" edge="1" parent="j1_USPYbZXbbOi1x52wb-1" source="j1_USPYbZXbbOi1x52wb-14" target="j1_USPYbZXbbOi1x52wb-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="j1_USPYbZXbbOi1x52wb-14" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="j1_USPYbZXbbOi1x52wb-1">
@@ -549,17 +552,20 @@
         <mxCell id="5Y0RtAG_gYyZmtX5I1nd-0" value="List of All Events Ever Emitted" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="j1_USPYbZXbbOi1x52wb-1">
           <mxGeometry x="972.5" y="320" width="207.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jnLrMj96pv6GaEI0IZN9-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;fontSize=13;" edge="1" parent="j1_USPYbZXbbOi1x52wb-1" source="5Y0RtAG_gYyZmtX5I1nd-1" target="j1_USPYbZXbbOi1x52wb-14">
+        <mxCell id="nSggAsByTOEDI1ozvU9I-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;fontSize=21;" edge="1" parent="j1_USPYbZXbbOi1x52wb-1" source="5Y0RtAG_gYyZmtX5I1nd-1" target="j1_USPYbZXbbOi1x52wb-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5Y0RtAG_gYyZmtX5I1nd-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="j1_USPYbZXbbOi1x52wb-1">
           <mxGeometry x="972.5" y="350" width="207.5" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="jnLrMj96pv6GaEI0IZN9-0" value="Ticket Updated Event" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=0" vertex="1" parent="j1_USPYbZXbbOi1x52wb-1">
+        <mxCell id="j1_USPYbZXbbOi1x52wb-11" value="Ticket Updated Event" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=0" vertex="1" parent="j1_USPYbZXbbOi1x52wb-1">
           <mxGeometry x="1000" y="360" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jnLrMj96pv6GaEI0IZN9-3" value="Ticket Updated Event" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=0" vertex="1" parent="j1_USPYbZXbbOi1x52wb-1">
-          <mxGeometry x="790" y="540" width="150" height="30" as="geometry" />
+        <mxCell id="nSggAsByTOEDI1ozvU9I-0" value="Ticket Updated Event" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=0" vertex="1" parent="j1_USPYbZXbbOi1x52wb-1">
+          <mxGeometry x="780" y="425" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nSggAsByTOEDI1ozvU9I-3" value="Ticket Updated Event" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=0" vertex="1" parent="j1_USPYbZXbbOi1x52wb-1">
+          <mxGeometry x="790" y="560" width="150" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -569,16 +575,6 @@
       <root>
         <mxCell id="71IZttrUiz3Ro5oMqUv7-0" />
         <mxCell id="71IZttrUiz3Ro5oMqUv7-1" parent="71IZttrUiz3Ro5oMqUv7-0" />
-        <mxCell id="71IZttrUiz3Ro5oMqUv7-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="71IZttrUiz3Ro5oMqUv7-1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="740.0000000000002" y="449.8600000000001" as="targetPoint" />
-            <mxPoint x="960" y="449.76476190476194" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="910" y="449.86" />
-              <mxPoint x="910" y="449.86" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="71IZttrUiz3Ro5oMqUv7-3" value="Tickets Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=0;fontSize=16;" vertex="1" parent="71IZttrUiz3Ro5oMqUv7-1">
           <mxGeometry x="590" y="270" width="150" height="30" as="geometry" />
         </mxCell>
@@ -590,6 +586,9 @@
         <mxCell id="71IZttrUiz3Ro5oMqUv7-5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="71IZttrUiz3Ro5oMqUv7-1">
           <mxGeometry x="590" y="300" width="150" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="yRlNAu-SKj_ADi0vRUW--0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.998;entryY=0.319;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=21;" edge="1" parent="71IZttrUiz3Ro5oMqUv7-1" source="71IZttrUiz3Ro5oMqUv7-6" target="71IZttrUiz3Ro5oMqUv7-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="71IZttrUiz3Ro5oMqUv7-6" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="71IZttrUiz3Ro5oMqUv7-1">
           <mxGeometry x="960" y="300" width="230" height="280" as="geometry" />
         </mxCell>
@@ -599,35 +598,38 @@
         <mxCell id="71IZttrUiz3Ro5oMqUv7-8" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="71IZttrUiz3Ro5oMqUv7-1">
           <mxGeometry x="590" y="420" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="71IZttrUiz3Ro5oMqUv7-9" value="Ticket Updated Event" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=0" vertex="1" parent="71IZttrUiz3Ro5oMqUv7-1">
-          <mxGeometry x="770" y="300" width="150" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="71IZttrUiz3Ro5oMqUv7-10" value="NATS Streaming" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=16;" vertex="1" parent="71IZttrUiz3Ro5oMqUv7-1">
           <mxGeometry x="960" y="250" width="230" height="50" as="geometry" />
         </mxCell>
         <mxCell id="71IZttrUiz3Ro5oMqUv7-11" value="Payments Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=0;fontSize=16;" vertex="1" parent="71IZttrUiz3Ro5oMqUv7-1">
-          <mxGeometry x="590" y="490" width="150" height="30" as="geometry" />
+          <mxGeometry x="590" y="500" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yRlNAu-SKj_ADi0vRUW--2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.009;entryY=0.687;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=21;" edge="1" parent="71IZttrUiz3Ro5oMqUv7-1" source="71IZttrUiz3Ro5oMqUv7-12" target="71IZttrUiz3Ro5oMqUv7-6">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="71IZttrUiz3Ro5oMqUv7-12" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="71IZttrUiz3Ro5oMqUv7-1">
-          <mxGeometry x="590" y="520" width="150" height="60" as="geometry" />
+          <mxGeometry x="590" y="530" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="71IZttrUiz3Ro5oMqUv7-13" value="NATS Streaming stores all events in flat files (default) or in a MySQL/Postgres DB" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" vertex="1" parent="71IZttrUiz3Ro5oMqUv7-1">
+        <mxCell id="71IZttrUiz3Ro5oMqUv7-13" value="NATS Streaming stores all events in memory (default), flat files or in a MySQL/Postgres DB" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" vertex="1" parent="71IZttrUiz3Ro5oMqUv7-1">
           <mxGeometry x="600" y="220" width="320" height="20" as="geometry" />
         </mxCell>
         <mxCell id="71IZttrUiz3Ro5oMqUv7-14" value="List of All Events Ever Emitted" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="71IZttrUiz3Ro5oMqUv7-1">
           <mxGeometry x="970" y="320" width="210" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="wfM8eWm5P8ss3tZ6HvsY-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.998;entryY=0.386;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=13;" edge="1" parent="71IZttrUiz3Ro5oMqUv7-1" source="71IZttrUiz3Ro5oMqUv7-15" target="71IZttrUiz3Ro5oMqUv7-12">
+        <mxCell id="yRlNAu-SKj_ADi0vRUW--3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;fontSize=21;" edge="1" parent="71IZttrUiz3Ro5oMqUv7-1" source="71IZttrUiz3Ro5oMqUv7-15" target="71IZttrUiz3Ro5oMqUv7-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="71IZttrUiz3Ro5oMqUv7-15" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="71IZttrUiz3Ro5oMqUv7-1">
           <mxGeometry x="970" y="350" width="210" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="wfM8eWm5P8ss3tZ6HvsY-0" value="Ticket Updated Event" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=0" vertex="1" parent="71IZttrUiz3Ro5oMqUv7-1">
-          <mxGeometry x="790" y="510" width="150" height="30" as="geometry" />
+        <mxCell id="71IZttrUiz3Ro5oMqUv7-9" value="Ticket Updated Event" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=0" vertex="1" parent="71IZttrUiz3Ro5oMqUv7-1">
+          <mxGeometry x="1000" y="370" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="wfM8eWm5P8ss3tZ6HvsY-1" value="Ticket Updated Event" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=0" vertex="1" parent="71IZttrUiz3Ro5oMqUv7-1">
-          <mxGeometry x="780" y="420" width="150" height="30" as="geometry" />
+        <mxCell id="yRlNAu-SKj_ADi0vRUW--1" value="Ticket Updated Event" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=0" vertex="1" parent="71IZttrUiz3Ro5oMqUv7-1">
+          <mxGeometry x="780" y="440" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yRlNAu-SKj_ADi0vRUW--4" value="Ticket Updated Event" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=0" vertex="1" parent="71IZttrUiz3Ro5oMqUv7-1">
+          <mxGeometry x="790" y="570" width="150" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -671,24 +673,21 @@
           <mxGeometry x="590" y="420" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3Z8fNTOYYJW5cLiR-fgH-9" value="Ticket Updated Event" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=0" vertex="1" parent="3Z8fNTOYYJW5cLiR-fgH-1">
-          <mxGeometry x="780" y="420" width="150" height="30" as="geometry" />
+          <mxGeometry x="770" y="300" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3Z8fNTOYYJW5cLiR-fgH-10" value="NATS Streaming" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=16;" vertex="1" parent="3Z8fNTOYYJW5cLiR-fgH-1">
           <mxGeometry x="960" y="250" width="170" height="50" as="geometry" />
         </mxCell>
         <mxCell id="3Z8fNTOYYJW5cLiR-fgH-11" value="Payments Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=0;fontSize=16;" vertex="1" parent="3Z8fNTOYYJW5cLiR-fgH-1">
-          <mxGeometry x="600" y="490" width="150" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="XACmu1dtvSSF8N8iXx-t-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fontSize=13;" edge="1" parent="3Z8fNTOYYJW5cLiR-fgH-1" source="3Z8fNTOYYJW5cLiR-fgH-12" target="3Z8fNTOYYJW5cLiR-fgH-6">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="590" y="620" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3Z8fNTOYYJW5cLiR-fgH-12" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="3Z8fNTOYYJW5cLiR-fgH-1">
-          <mxGeometry x="600" y="520" width="150" height="60" as="geometry" />
+          <mxGeometry x="590" y="650" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3Z8fNTOYYJW5cLiR-fgH-13" value="NATS Streaming stores all events in flat files (default) or in a MySQL/Postgres DB" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" vertex="1" parent="3Z8fNTOYYJW5cLiR-fgH-1">
           <mxGeometry x="600" y="220" width="320" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="3Z8fNTOYYJW5cLiR-fgH-16" value="MySQL or Postgres" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=16;" vertex="1" parent="3Z8fNTOYYJW5cLiR-fgH-1">
+        <mxCell id="3Z8fNTOYYJW5cLiR-fgH-16" value="File, MySQL or Postgres" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=16;" vertex="1" parent="3Z8fNTOYYJW5cLiR-fgH-1">
           <mxGeometry x="1150" y="250" width="230" height="50" as="geometry" />
         </mxCell>
         <mxCell id="3Z8fNTOYYJW5cLiR-fgH-19" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="3Z8fNTOYYJW5cLiR-fgH-1">
@@ -697,17 +696,11 @@
         <mxCell id="3Z8fNTOYYJW5cLiR-fgH-20" value="List of All Events Ever Emitted" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="3Z8fNTOYYJW5cLiR-fgH-1">
           <mxGeometry x="1160" y="320" width="210" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="XACmu1dtvSSF8N8iXx-t-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;fontSize=13;" edge="1" parent="3Z8fNTOYYJW5cLiR-fgH-1" source="3Z8fNTOYYJW5cLiR-fgH-21" target="3Z8fNTOYYJW5cLiR-fgH-12">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="3Z8fNTOYYJW5cLiR-fgH-21" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="3Z8fNTOYYJW5cLiR-fgH-1">
           <mxGeometry x="1160" y="350" width="210" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="XACmu1dtvSSF8N8iXx-t-0" value="Ticket Updated Event" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=0" vertex="1" parent="3Z8fNTOYYJW5cLiR-fgH-1">
+        <mxCell id="SyckrT8Yig7LqP6lce9t-0" value="Ticket Updated Event" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=0" vertex="1" parent="3Z8fNTOYYJW5cLiR-fgH-1">
           <mxGeometry x="1190" y="360" width="150" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="XACmu1dtvSSF8N8iXx-t-3" value="Ticket Updated Event" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=0" vertex="1" parent="3Z8fNTOYYJW5cLiR-fgH-1">
-          <mxGeometry x="800" y="560" width="150" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -717,20 +710,17 @@
       <root>
         <mxCell id="g4GjaYx_cPA84nbOROXz-0" />
         <mxCell id="g4GjaYx_cPA84nbOROXz-1" parent="g4GjaYx_cPA84nbOROXz-0" />
-        <mxCell id="g4GjaYx_cPA84nbOROXz-2" value="Install node-nats-streaming in the &#39;tickets&#39; service" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="g4GjaYx_cPA84nbOROXz-1">
+        <mxCell id="g4GjaYx_cPA84nbOROXz-2" value="Create a new sub-project with typescript support" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="g4GjaYx_cPA84nbOROXz-1">
           <mxGeometry x="650" y="230" width="400" height="40" as="geometry" />
         </mxCell>
         <mxCell id="g4GjaYx_cPA84nbOROXz-4" value="Short Term Goal" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" vertex="1" parent="g4GjaYx_cPA84nbOROXz-1">
           <mxGeometry x="765" y="200" width="170" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="g4GjaYx_cPA84nbOROXz-5" value="Connect to the NATS Streaming server" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="g4GjaYx_cPA84nbOROXz-1">
+        <mxCell id="g4GjaYx_cPA84nbOROXz-5" value="Install node-nats-streaming library and connect to nats streaming server" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="g4GjaYx_cPA84nbOROXz-1">
           <mxGeometry x="650" y="280" width="400" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="g4GjaYx_cPA84nbOROXz-6" value="Emit an event when a ticket is created" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="g4GjaYx_cPA84nbOROXz-1">
+        <mxCell id="g4GjaYx_cPA84nbOROXz-6" value="We should have &lt;i&gt;two npm scripts, &lt;/i&gt;one to run code to &lt;i&gt;emit&lt;/i&gt;&amp;nbsp;events, and one to run code to &lt;i&gt;listen for&lt;/i&gt;&amp;nbsp;events" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="g4GjaYx_cPA84nbOROXz-1">
           <mxGeometry x="650" y="330" width="400" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="g4GjaYx_cPA84nbOROXz-7" value="Listen for this event &lt;i&gt;in the same file &lt;/i&gt;(this doesn&#39;t make much sense, just for demo purposes)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="g4GjaYx_cPA84nbOROXz-1">
-          <mxGeometry x="650" y="380" width="400" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
