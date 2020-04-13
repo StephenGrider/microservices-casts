@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-04-13T20:45:40.591Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="Vi22Rn4Zc4ZRaT_Y9Y44" version="12.9.11" type="github" pages="15">
+<mxfile host="www.draw.io" modified="2020-04-13T20:46:04.737Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="cYdnEXfHGQTacLjcnU1z" version="12.9.11" type="github" pages="15">
   <diagram id="z9oZ0_WA1rGEMEZZeZRE" name="01 - sync">
     <mxGraphModel dx="613" dy="302" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -1108,15 +1108,6 @@
         </mxCell>
         <mxCell id="rpzsWqCzuF5Hx3UOpAGn-6" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;align=center;" vertex="1" parent="A1VLMxjmai0B1Pjge9ZP-1">
           <mxGeometry x="690" y="285" width="150" height="110" as="geometry" />
-        </mxCell>
-        <mxCell id="4fNWqQ-fEpMr6sVRQyF1-1" value="Deposit 70, ID: &#39;ksjf&#39;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="A1VLMxjmai0B1Pjge9ZP-1">
-          <mxGeometry x="700" y="290" width="130" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="4fNWqQ-fEpMr6sVRQyF1-2" value="Deposit 40, ID: &#39;5j25&#39;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="A1VLMxjmai0B1Pjge9ZP-1">
-          <mxGeometry x="700" y="320" width="130" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="4fNWqQ-fEpMr6sVRQyF1-3" value="Withdraw 100, ID: &#39;1ko1&#39;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="A1VLMxjmai0B1Pjge9ZP-1">
-          <mxGeometry x="700" y="350" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
