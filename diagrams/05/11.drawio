@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-04-13T15:47:30.383Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="t2TD-C4CCF5COXMHyDsw" version="12.9.10" type="github" pages="23">
+<mxfile host="www.draw.io" modified="2020-04-13T15:57:52.656Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="0rp1ts1_JZqEAwork_dG" version="12.9.10" type="github" pages="24">
   <diagram id="wyKluERmT-wKOofHdro6" name="15 - path">
     <mxGraphModel dx="812" dy="399" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -1134,6 +1134,9 @@
         <mxCell id="A0Ws5y6koW2CuH_0L-oO-14" value="&lt;font style=&quot;font-size: 11px&quot;&gt;ticket:created&lt;br style=&quot;font-size: 11px&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;align=center;" vertex="1" parent="A0Ws5y6koW2CuH_0L-oO-1">
           <mxGeometry x="712.5" y="300" width="95" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="hOszWuGsbkeKuBKch51d-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=13;" edge="1" parent="A0Ws5y6koW2CuH_0L-oO-1" source="A0Ws5y6koW2CuH_0L-oO-15" target="A0Ws5y6koW2CuH_0L-oO-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="A0Ws5y6koW2CuH_0L-oO-15" value="subscription" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="A0Ws5y6koW2CuH_0L-oO-1">
           <mxGeometry x="635" y="450" width="160" height="40" as="geometry" />
         </mxCell>
@@ -1146,8 +1149,86 @@
         <mxCell id="A0Ws5y6koW2CuH_0L-oO-18" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="A0Ws5y6koW2CuH_0L-oO-1">
           <mxGeometry x="620" y="540" width="190" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="hOszWuGsbkeKuBKch51d-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;" edge="1" parent="A0Ws5y6koW2CuH_0L-oO-1" source="A0Ws5y6koW2CuH_0L-oO-19" target="A0Ws5y6koW2CuH_0L-oO-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="A0Ws5y6koW2CuH_0L-oO-19" value="subscription" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="A0Ws5y6koW2CuH_0L-oO-1">
           <mxGeometry x="635" y="550" width="160" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="23 - q" id="sRf6pG0cVlzOthKKxPNq">
+    <mxGraphModel dx="699" dy="344" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="yvhSUSYYWI-tBMS-SfVQ-0" />
+        <mxCell id="yvhSUSYYWI-tBMS-SfVQ-1" parent="yvhSUSYYWI-tBMS-SfVQ-0" />
+        <mxCell id="yvhSUSYYWI-tBMS-SfVQ-2" value="Publisher" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=0;fontSize=16;" vertex="1" parent="yvhSUSYYWI-tBMS-SfVQ-1">
+          <mxGeometry x="620" y="260" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yvhSUSYYWI-tBMS-SfVQ-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="yvhSUSYYWI-tBMS-SfVQ-1">
+          <mxGeometry x="620" y="290" width="190" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="yvhSUSYYWI-tBMS-SfVQ-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="yvhSUSYYWI-tBMS-SfVQ-1">
+          <mxGeometry x="950" y="300" width="190" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="yvhSUSYYWI-tBMS-SfVQ-5" value="Orders Service (Listener)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=0;fontSize=16;" vertex="1" parent="yvhSUSYYWI-tBMS-SfVQ-1">
+          <mxGeometry x="620" y="410" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yvhSUSYYWI-tBMS-SfVQ-6" value="NATS Streaming" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=16;" vertex="1" parent="yvhSUSYYWI-tBMS-SfVQ-1">
+          <mxGeometry x="950" y="260" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yvhSUSYYWI-tBMS-SfVQ-7" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="yvhSUSYYWI-tBMS-SfVQ-1">
+          <mxGeometry x="620" y="440" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yvhSUSYYWI-tBMS-SfVQ-8" value="List of Channels" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="yvhSUSYYWI-tBMS-SfVQ-1">
+          <mxGeometry x="960" y="320" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yvhSUSYYWI-tBMS-SfVQ-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="yvhSUSYYWI-tBMS-SfVQ-1" source="yvhSUSYYWI-tBMS-SfVQ-10" target="yvhSUSYYWI-tBMS-SfVQ-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="670" y="340" />
+              <mxPoint x="715" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yvhSUSYYWI-tBMS-SfVQ-10" value="data" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;" vertex="1" parent="yvhSUSYYWI-tBMS-SfVQ-1">
+          <mxGeometry x="635" y="300" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yvhSUSYYWI-tBMS-SfVQ-11" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="yvhSUSYYWI-tBMS-SfVQ-1">
+          <mxGeometry x="960" y="350" width="170" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="yvhSUSYYWI-tBMS-SfVQ-12" value="stan client" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="yvhSUSYYWI-tBMS-SfVQ-1">
+          <mxGeometry x="635" y="360" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yvhSUSYYWI-tBMS-SfVQ-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="yvhSUSYYWI-tBMS-SfVQ-1" source="yvhSUSYYWI-tBMS-SfVQ-14" target="yvhSUSYYWI-tBMS-SfVQ-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="760" y="340" />
+              <mxPoint x="715" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yvhSUSYYWI-tBMS-SfVQ-14" value="&lt;font style=&quot;font-size: 11px&quot;&gt;ticket:created&lt;br style=&quot;font-size: 11px&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;align=center;" vertex="1" parent="yvhSUSYYWI-tBMS-SfVQ-1">
+          <mxGeometry x="712.5" y="300" width="95" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yvhSUSYYWI-tBMS-SfVQ-16" value="subscription" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="yvhSUSYYWI-tBMS-SfVQ-1">
+          <mxGeometry x="635" y="450" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yvhSUSYYWI-tBMS-SfVQ-17" value="&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;b&gt;ticket:created&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br style=&quot;font-size: 11px&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;align=center;" vertex="1" parent="yvhSUSYYWI-tBMS-SfVQ-1">
+          <mxGeometry x="970" y="360" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="yvhSUSYYWI-tBMS-SfVQ-18" value="Orders Service (Listener)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=0;fontSize=16;" vertex="1" parent="yvhSUSYYWI-tBMS-SfVQ-1">
+          <mxGeometry x="620" y="510" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yvhSUSYYWI-tBMS-SfVQ-19" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="yvhSUSYYWI-tBMS-SfVQ-1">
+          <mxGeometry x="620" y="540" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yvhSUSYYWI-tBMS-SfVQ-21" value="subscription" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="yvhSUSYYWI-tBMS-SfVQ-1">
+          <mxGeometry x="635" y="550" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yvhSUSYYWI-tBMS-SfVQ-22" value="Queue Group&lt;br&gt;&#39;myQueueGroup&#39;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="yvhSUSYYWI-tBMS-SfVQ-1">
+          <mxGeometry x="985" y="400" width="120" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
