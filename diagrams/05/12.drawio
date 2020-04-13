@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-04-13T21:09:10.535Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="2DHPuv3mwoza3mGKmcQn" version="12.9.11" type="github" pages="16">
+<mxfile host="www.draw.io" modified="2020-04-13T21:10:26.473Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="CLO7EE1KjggTSrFR0T3X" version="12.9.11" type="github" pages="17">
   <diagram id="z9oZ0_WA1rGEMEZZeZRE" name="01 - sync">
     <mxGraphModel dx="613" dy="302" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -1037,6 +1037,55 @@
         </mxCell>
         <mxCell id="vT-bklj5XObpMlu5PdCN-15" value="&lt;b style=&quot;font-size: 12px&quot;&gt;Event -&amp;nbsp;CommentCreated&lt;br style=&quot;font-size: 12px&quot;&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=0;fontSize=12;" vertex="1" parent="mHGmkyqA8pxjzenZuHyi-1">
           <mxGeometry x="640" y="477.5" width="170" height="25" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="15 - simp" id="GWczHN8Hun7JhFUGJVg5">
+    <mxGraphModel dx="639" dy="314" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="tXmfEQveuYu60CD51K5z-0" />
+        <mxCell id="tXmfEQveuYu60CD51K5z-1" parent="tXmfEQveuYu60CD51K5z-0" />
+        <mxCell id="tXmfEQveuYu60CD51K5z-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=17;" edge="1" parent="tXmfEQveuYu60CD51K5z-1" source="tXmfEQveuYu60CD51K5z-3" target="tXmfEQveuYu60CD51K5z-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tXmfEQveuYu60CD51K5z-3" value="Request to create a Post" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=center;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="tXmfEQveuYu60CD51K5z-1">
+          <mxGeometry x="420" y="310" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tXmfEQveuYu60CD51K5z-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fontSize=17;" edge="1" parent="tXmfEQveuYu60CD51K5z-1" source="tXmfEQveuYu60CD51K5z-6" target="tXmfEQveuYu60CD51K5z-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tXmfEQveuYu60CD51K5z-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=15;" edge="1" parent="tXmfEQveuYu60CD51K5z-1" source="tXmfEQveuYu60CD51K5z-6" target="tXmfEQveuYu60CD51K5z-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tXmfEQveuYu60CD51K5z-6" value="Service that is 100% responsible for Posts" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="tXmfEQveuYu60CD51K5z-1">
+          <mxGeometry x="590" y="300" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tXmfEQveuYu60CD51K5z-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;fontSize=17;" edge="1" parent="tXmfEQveuYu60CD51K5z-1" source="tXmfEQveuYu60CD51K5z-8" target="tXmfEQveuYu60CD51K5z-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tXmfEQveuYu60CD51K5z-8" value="Database for storing Posts" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" vertex="1" parent="tXmfEQveuYu60CD51K5z-1">
+          <mxGeometry x="590" y="390" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tXmfEQveuYu60CD51K5z-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=15;" edge="1" parent="tXmfEQveuYu60CD51K5z-1" source="tXmfEQveuYu60CD51K5z-10" target="tXmfEQveuYu60CD51K5z-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tXmfEQveuYu60CD51K5z-10" value="Event describing a Post being created" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" parent="tXmfEQveuYu60CD51K5z-1">
+          <mxGeometry x="740" y="300" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tXmfEQveuYu60CD51K5z-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=15;" edge="1" parent="tXmfEQveuYu60CD51K5z-1" source="tXmfEQveuYu60CD51K5z-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="930.2" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tXmfEQveuYu60CD51K5z-12" value="NATS" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1" vertex="1" parent="tXmfEQveuYu60CD51K5z-1">
+          <mxGeometry x="890" y="300" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tXmfEQveuYu60CD51K5z-13" value="PostCreated" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;align=center;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" parent="tXmfEQveuYu60CD51K5z-1">
+          <mxGeometry x="930" y="380" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tXmfEQveuYu60CD51K5z-14" value="Query Service" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;align=center;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="tXmfEQveuYu60CD51K5z-1">
+          <mxGeometry x="867.5" y="430" width="125" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
