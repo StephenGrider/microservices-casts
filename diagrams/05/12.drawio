@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-04-13T20:18:59.654Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="mDsoZ5rIJrgkQLDH_7YW" version="12.9.11" type="github" pages="10">
+<mxfile host="www.draw.io" modified="2020-04-13T20:21:06.903Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="gmA8wvuH0CB_113H-9wZ" version="12.9.11" type="github" pages="11">
   <diagram id="z9oZ0_WA1rGEMEZZeZRE" name="01 - sync">
     <mxGraphModel dx="613" dy="302" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -745,6 +745,61 @@
         </mxCell>
         <mxCell id="GC5UIw_YGLh0z1cLStGo-12" value="Service that needs to update its data based upon the Event" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=center;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="sknlQlA81iqn6eDc8hch-1">
           <mxGeometry x="855" y="430" width="150" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="10 - terms" id="kjYP9-PfglUKapugs25E">
+    <mxGraphModel dx="639" dy="314" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="deiN6whQqwQvyDzH0Jo7-0" />
+        <mxCell id="deiN6whQqwQvyDzH0Jo7-1" parent="deiN6whQqwQvyDzH0Jo7-0" />
+        <mxCell id="deiN6whQqwQvyDzH0Jo7-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=17;" edge="1" parent="deiN6whQqwQvyDzH0Jo7-1" source="deiN6whQqwQvyDzH0Jo7-3" target="deiN6whQqwQvyDzH0Jo7-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="deiN6whQqwQvyDzH0Jo7-3" value="Network Request to create a Transaction" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=center;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="deiN6whQqwQvyDzH0Jo7-1">
+          <mxGeometry x="410" y="280" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="deiN6whQqwQvyDzH0Jo7-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fontSize=17;" edge="1" parent="deiN6whQqwQvyDzH0Jo7-1" source="deiN6whQqwQvyDzH0Jo7-6" target="deiN6whQqwQvyDzH0Jo7-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="deiN6whQqwQvyDzH0Jo7-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=15;" edge="1" parent="deiN6whQqwQvyDzH0Jo7-1" source="deiN6whQqwQvyDzH0Jo7-6" target="deiN6whQqwQvyDzH0Jo7-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="deiN6whQqwQvyDzH0Jo7-6" value="Service that records all transactions" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="deiN6whQqwQvyDzH0Jo7-1">
+          <mxGeometry x="590" y="300" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="deiN6whQqwQvyDzH0Jo7-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;fontSize=17;" edge="1" parent="deiN6whQqwQvyDzH0Jo7-1" source="deiN6whQqwQvyDzH0Jo7-8" target="deiN6whQqwQvyDzH0Jo7-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="deiN6whQqwQvyDzH0Jo7-8" value="Database storing all transactions" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" vertex="1" parent="deiN6whQqwQvyDzH0Jo7-1">
+          <mxGeometry x="590" y="390" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="deiN6whQqwQvyDzH0Jo7-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=15;" edge="1" parent="deiN6whQqwQvyDzH0Jo7-1" source="deiN6whQqwQvyDzH0Jo7-10" target="deiN6whQqwQvyDzH0Jo7-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="deiN6whQqwQvyDzH0Jo7-10" value="Event describing a transaction that was just created" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" parent="deiN6whQqwQvyDzH0Jo7-1">
+          <mxGeometry x="740" y="300" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="deiN6whQqwQvyDzH0Jo7-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=15;" edge="1" parent="deiN6whQqwQvyDzH0Jo7-1" source="deiN6whQqwQvyDzH0Jo7-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="930.2" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="deiN6whQqwQvyDzH0Jo7-12" value="NATS" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1" vertex="1" parent="deiN6whQqwQvyDzH0Jo7-1">
+          <mxGeometry x="890" y="300" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="deiN6whQqwQvyDzH0Jo7-13" value="account:deposit&lt;br style=&quot;font-size: 11px;&quot;&gt;account:withdraw" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;align=center;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" parent="deiN6whQqwQvyDzH0Jo7-1">
+          <mxGeometry x="930" y="380" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="deiN6whQqwQvyDzH0Jo7-14" value="Accounts Service to process the transaction and come up with a new account balance" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=center;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="deiN6whQqwQvyDzH0Jo7-1">
+          <mxGeometry x="855" y="430" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="deiN6whQqwQvyDzH0Jo7-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=15;" edge="1" parent="deiN6whQqwQvyDzH0Jo7-1" source="deiN6whQqwQvyDzH0Jo7-15" target="deiN6whQqwQvyDzH0Jo7-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="deiN6whQqwQvyDzH0Jo7-15" value="Network Request to create a transaction" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=center;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="deiN6whQqwQvyDzH0Jo7-1">
+          <mxGeometry x="410" y="340" width="140" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
