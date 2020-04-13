@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-04-13T21:10:26.473Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="CLO7EE1KjggTSrFR0T3X" version="12.9.11" type="github" pages="17">
+<mxfile host="www.draw.io" modified="2020-04-13T21:11:48.751Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="ddKPQR3N9gu3A6XMNH0c" version="12.9.11" type="github" pages="17">
   <diagram id="z9oZ0_WA1rGEMEZZeZRE" name="01 - sync">
     <mxGraphModel dx="613" dy="302" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -709,10 +709,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="tCVAUgg-0FUXosLxmg4t-0" value="We are working with a poorly designed system and relying on NATS to somehow save us" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="wtCua6XlVazUks1pK5NP-1">
-          <mxGeometry x="570" y="280" width="420" height="70" as="geometry" />
+          <mxGeometry x="570" y="300" width="420" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="GbVSsE4xyQK6YmpOw4Pz-2" value="We should revisit the &lt;i&gt;service design&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="wtCua6XlVazUks1pK5NP-1">
-          <mxGeometry x="570" y="380" width="420" height="70" as="geometry" />
+        <mxCell id="Eqii2rM0VhyPvqED_i6Y-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=17;" edge="1" parent="wtCua6XlVazUks1pK5NP-1" source="GbVSsE4xyQK6YmpOw4Pz-2" target="Eqii2rM0VhyPvqED_i6Y-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GbVSsE4xyQK6YmpOw4Pz-2" value="We should revisit the &lt;i&gt;service design.&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="wtCua6XlVazUks1pK5NP-1">
+          <mxGeometry x="570" y="380" width="420" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Eqii2rM0VhyPvqED_i6Y-0" value="If we redesign the system, a better solution to this concurrency stuff will present itself" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="wtCua6XlVazUks1pK5NP-1">
+          <mxGeometry x="570" y="460" width="420" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
