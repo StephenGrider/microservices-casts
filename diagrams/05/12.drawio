@@ -1,1 +1,25 @@
-<mxfile host="www.draw.io" modified="2020-04-13T18:16:00.902Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" version="12.9.11" etag="wNb4HACI0DIH1Qq8rJQo" type="github"><diagram id="z9oZ0_WA1rGEMEZZeZRE">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2020-04-13T18:16:15.455Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="LHtiLds5rc7YP34APwJe" version="12.9.11" type="github">
+  <diagram id="z9oZ0_WA1rGEMEZZeZRE" name="01 - sync">
+    <mxGraphModel dx="733" dy="360" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="onlovzpotWdQTETVWvEG-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=20;fontColor=#000000;" edge="1" parent="1" source="onlovzpotWdQTETVWvEG-2" target="onlovzpotWdQTETVWvEG-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="onlovzpotWdQTETVWvEG-2" value="Async (event-based) communication sounds terrible, right?!?!" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="540" y="220" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="onlovzpotWdQTETVWvEG-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=20;fontColor=#000000;" edge="1" parent="1" source="onlovzpotWdQTETVWvEG-4" target="onlovzpotWdQTETVWvEG-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="onlovzpotWdQTETVWvEG-4" value="Oh, turns out this happens with sync communications" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="540" y="310" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="onlovzpotWdQTETVWvEG-5" value="Oh, and it happens with classic monolith style apps too." style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="540" y="410" width="460" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
