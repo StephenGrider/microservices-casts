@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-04-13T19:08:07.627Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="bmnKuzwXPcEGqU6OWL00" version="12.9.11" type="github" pages="6">
+<mxfile host="www.draw.io" modified="2020-04-13T19:08:29.404Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="-rx7jLjVARzU6WQHRpPI" version="12.9.11" type="github" pages="6">
   <diagram id="z9oZ0_WA1rGEMEZZeZRE" name="01 - sync">
     <mxGraphModel dx="613" dy="302" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -241,10 +241,10 @@
           <mxGeometry x="652.5" y="430" width="155" height="40" as="geometry" />
         </mxCell>
         <mxCell id="O_6iCnbSOjK113eREBTs-39" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=16;rotation=-180;" vertex="1" parent="t_ZX-wLF87LNYLTMeZjU-1">
-          <mxGeometry x="813" y="470" width="20" height="40" as="geometry" />
+          <mxGeometry x="813" y="430" width="20" height="80" as="geometry" />
         </mxCell>
         <mxCell id="O_6iCnbSOjK113eREBTs-40" value="Really hard to guarantee events get delivered in the correct order &lt;b style=&quot;font-size: 8px;&quot;&gt;and/or&lt;/b&gt;&amp;nbsp;processed exactly once" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="t_ZX-wLF87LNYLTMeZjU-1">
-          <mxGeometry x="833" y="470" width="147" height="40" as="geometry" />
+          <mxGeometry x="833" y="450" width="147" height="40" as="geometry" />
         </mxCell>
         <mxCell id="O_6iCnbSOjK113eREBTs-41" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=16;rotation=-180;" vertex="1" parent="t_ZX-wLF87LNYLTMeZjU-1">
           <mxGeometry x="813" y="510" width="20" height="120" as="geometry" />
