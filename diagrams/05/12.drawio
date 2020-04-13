@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-04-13T20:21:06.903Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="gmA8wvuH0CB_113H-9wZ" version="12.9.11" type="github" pages="11">
+<mxfile host="www.draw.io" modified="2020-04-13T20:22:54.388Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="FqrETGof67Xl3NsvXUhg" version="12.9.11" type="github" pages="12">
   <diagram id="z9oZ0_WA1rGEMEZZeZRE" name="01 - sync">
     <mxGraphModel dx="613" dy="302" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -696,6 +696,17 @@
         </mxCell>
         <mxCell id="1ZczMF3g-odCkiAFOp3g-25" value="User Jim" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" parent="SdrO5p1OxXhhQfyEOIx9-1">
           <mxGeometry x="410" y="245" width="40" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="tGSy5iwacVPtTUsp1gBT" name="12 - conc">
+    <mxGraphModel dx="501" dy="246" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="wtCua6XlVazUks1pK5NP-0" />
+        <mxCell id="wtCua6XlVazUks1pK5NP-1" parent="wtCua6XlVazUks1pK5NP-0" />
+        <mxCell id="tCVAUgg-0FUXosLxmg4t-0" value="We were looking at the &lt;i&gt;wrong part of the app&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="wtCua6XlVazUks1pK5NP-1">
+          <mxGeometry x="570" y="340" width="420" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
