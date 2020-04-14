@@ -1,1 +1,28 @@
-<mxfile host="www.draw.io" modified="2020-04-14T22:16:14.478Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" version="12.9.12" etag="E7snXkSOK_lPDb45VEN2" type="github"><diagram id="rf5psd9XERPzHZyowU_2">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2020-04-14T22:18:45.086Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="VKUt1U5g1Uy8FtQwofVK" version="12.9.12" type="github">
+  <diagram id="rf5psd9XERPzHZyowU_2" name="01 - client">
+    <mxGraphModel dx="715" dy="352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YSGaCpb4Z-L2lh2I_nub-1" value="index.js" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0;fontSize=19;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="510" y="250" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YSGaCpb4Z-L2lh2I_nub-2" value="TicketCreated Publisher" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0;fontSize=19;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="940" y="250" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YSGaCpb4Z-L2lh2I_nub-3" value="&lt;i style=&quot;font-size: 14px;&quot;&gt;Expects to get an initialize NATS client&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="940" y="300" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="YSGaCpb4Z-L2lh2I_nub-5" value="TicketCreated Route Handler" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0;fontSize=19;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="730" y="250" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YSGaCpb4Z-L2lh2I_nub-6" value="&lt;i style=&quot;font-size: 14px;&quot;&gt;Create an instance of Publisher (requires a NATS client)&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="730" y="300" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="YSGaCpb4Z-L2lh2I_nub-8" value="&lt;i style=&quot;font-size: 14px;&quot;&gt;Code to initialize a NATS client&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="510" y="300" width="160" height="140" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
