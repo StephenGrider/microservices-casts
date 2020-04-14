@@ -1,1 +1,152 @@
-<mxfile host="www.draw.io" modified="2020-04-14T16:18:35.355Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" version="12.9.12" etag="j2ReQkpeZqz2HVkkn2B8" type="github"><diagram id="QteX8RH3kvNgPQet8G1u">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2020-04-14T16:28:28.470Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="zTZo7lCatDVKI8A941Sq" version="12.9.12" type="github" pages="3">
+  <diagram id="QteX8RH3kvNgPQet8G1u" name="01 - setup">
+    <mxGraphModel dx="699" dy="344" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7MWPKARtyb4ottqCM83R-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="1" source="7MWPKARtyb4ottqCM83R-1" target="7MWPKARtyb4ottqCM83R-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7MWPKARtyb4ottqCM83R-1" value="Wow, this is a lot of boilerplate to publish/receive a message!" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="550" y="230" width="420" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7MWPKARtyb4ottqCM83R-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="1" source="7MWPKARtyb4ottqCM83R-2" target="7MWPKARtyb4ottqCM83R-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7MWPKARtyb4ottqCM83R-2" value="Let&#39;s try to refactor this to make it much easier to publish/receive" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="550" y="320" width="420" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7MWPKARtyb4ottqCM83R-4" value="We&#39;ll write out an initial implementation in this test project, then move it to our common module" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="550" y="410" width="420" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="VsXihxTFdKHMze-ETW4r" name="02 - listener">
+    <mxGraphModel dx="858" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="lOOHaBq7GTxBkuqLtd3i-0" />
+        <mxCell id="lOOHaBq7GTxBkuqLtd3i-1" parent="lOOHaBq7GTxBkuqLtd3i-0" />
+        <mxCell id="lOOHaBq7GTxBkuqLtd3i-2" value="Class Listener" style="rounded=0;whiteSpace=wrap;html=1;fontSize=23;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="lOOHaBq7GTxBkuqLtd3i-1">
+          <mxGeometry x="550" y="190" width="600" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lOOHaBq7GTxBkuqLtd3i-3" value="Property" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fontStyle=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="lOOHaBq7GTxBkuqLtd3i-1">
+          <mxGeometry x="550" y="250" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lOOHaBq7GTxBkuqLtd3i-4" value="Type" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fontStyle=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="lOOHaBq7GTxBkuqLtd3i-1">
+          <mxGeometry x="710" y="250" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lOOHaBq7GTxBkuqLtd3i-5" value="subject" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fontStyle=1;" vertex="1" parent="lOOHaBq7GTxBkuqLtd3i-1">
+          <mxGeometry x="550" y="290" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lOOHaBq7GTxBkuqLtd3i-7" value="Goal" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fontStyle=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="lOOHaBq7GTxBkuqLtd3i-1">
+          <mxGeometry x="890" y="250" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lOOHaBq7GTxBkuqLtd3i-8" value="string" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fontStyle=0;" vertex="1" parent="lOOHaBq7GTxBkuqLtd3i-1">
+          <mxGeometry x="710" y="290" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lOOHaBq7GTxBkuqLtd3i-6" value="Name of the channel this listener is going to listen to" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fontStyle=0;" vertex="1" parent="lOOHaBq7GTxBkuqLtd3i-1">
+          <mxGeometry x="890" y="290" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lOOHaBq7GTxBkuqLtd3i-9" value="client" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fontStyle=1;" vertex="1" parent="lOOHaBq7GTxBkuqLtd3i-1">
+          <mxGeometry x="550" y="370" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lOOHaBq7GTxBkuqLtd3i-10" value="Stan" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fontStyle=0;" vertex="1" parent="lOOHaBq7GTxBkuqLtd3i-1">
+          <mxGeometry x="710" y="370" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lOOHaBq7GTxBkuqLtd3i-11" value="Pre-initialized NATS client" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fontStyle=0;" vertex="1" parent="lOOHaBq7GTxBkuqLtd3i-1">
+          <mxGeometry x="890" y="370" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lOOHaBq7GTxBkuqLtd3i-12" value="queueGroupName" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fontStyle=1;" vertex="1" parent="lOOHaBq7GTxBkuqLtd3i-1">
+          <mxGeometry x="550" y="410" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lOOHaBq7GTxBkuqLtd3i-13" value="string" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fontStyle=0;" vertex="1" parent="lOOHaBq7GTxBkuqLtd3i-1">
+          <mxGeometry x="710" y="410" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lOOHaBq7GTxBkuqLtd3i-14" value="Name of the queue group this listener will join" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fontStyle=0;" vertex="1" parent="lOOHaBq7GTxBkuqLtd3i-1">
+          <mxGeometry x="890" y="410" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lOOHaBq7GTxBkuqLtd3i-15" value="ackWait" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fontStyle=1;" vertex="1" parent="lOOHaBq7GTxBkuqLtd3i-1">
+          <mxGeometry x="550" y="450" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lOOHaBq7GTxBkuqLtd3i-16" value="number" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fontStyle=0;" vertex="1" parent="lOOHaBq7GTxBkuqLtd3i-1">
+          <mxGeometry x="710" y="450" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lOOHaBq7GTxBkuqLtd3i-17" value="Number of seconds this listener has to ack a message" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fontStyle=0;" vertex="1" parent="lOOHaBq7GTxBkuqLtd3i-1">
+          <mxGeometry x="890" y="450" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lOOHaBq7GTxBkuqLtd3i-18" value="subscriptionOptions" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fontStyle=1;" vertex="1" parent="lOOHaBq7GTxBkuqLtd3i-1">
+          <mxGeometry x="550" y="490" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lOOHaBq7GTxBkuqLtd3i-19" value="SubscriptionOptions" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fontStyle=0;" vertex="1" parent="lOOHaBq7GTxBkuqLtd3i-1">
+          <mxGeometry x="710" y="490" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lOOHaBq7GTxBkuqLtd3i-20" value="Default subscription options" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fontStyle=0;" vertex="1" parent="lOOHaBq7GTxBkuqLtd3i-1">
+          <mxGeometry x="890" y="490" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lOOHaBq7GTxBkuqLtd3i-21" value="listen" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fontStyle=1;" vertex="1" parent="lOOHaBq7GTxBkuqLtd3i-1">
+          <mxGeometry x="550" y="530" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lOOHaBq7GTxBkuqLtd3i-22" value="() =&amp;gt; void" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fontStyle=0;" vertex="1" parent="lOOHaBq7GTxBkuqLtd3i-1">
+          <mxGeometry x="710" y="530" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lOOHaBq7GTxBkuqLtd3i-23" value="Code to set up the subscription" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fontStyle=0;" vertex="1" parent="lOOHaBq7GTxBkuqLtd3i-1">
+          <mxGeometry x="890" y="530" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lOOHaBq7GTxBkuqLtd3i-24" value="parseMessage" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fontStyle=1;" vertex="1" parent="lOOHaBq7GTxBkuqLtd3i-1">
+          <mxGeometry x="550" y="570" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lOOHaBq7GTxBkuqLtd3i-25" value="(msg: Message) =&amp;gt; any" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fontStyle=0;" vertex="1" parent="lOOHaBq7GTxBkuqLtd3i-1">
+          <mxGeometry x="710" y="570" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lOOHaBq7GTxBkuqLtd3i-26" value="Helper function to parse a message" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fontStyle=0;" vertex="1" parent="lOOHaBq7GTxBkuqLtd3i-1">
+          <mxGeometry x="890" y="570" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lOOHaBq7GTxBkuqLtd3i-27" value="abstract" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="lOOHaBq7GTxBkuqLtd3i-1">
+          <mxGeometry x="480" y="295" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lOOHaBq7GTxBkuqLtd3i-28" value="abstract" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="lOOHaBq7GTxBkuqLtd3i-1">
+          <mxGeometry x="480" y="335" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lOOHaBq7GTxBkuqLtd3i-33" value="onMessage" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fontStyle=1;" vertex="1" parent="lOOHaBq7GTxBkuqLtd3i-1">
+          <mxGeometry x="550" y="330" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lOOHaBq7GTxBkuqLtd3i-34" value="(event: EventData) =&amp;gt; void" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fontStyle=0;" vertex="1" parent="lOOHaBq7GTxBkuqLtd3i-1">
+          <mxGeometry x="710" y="330" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lOOHaBq7GTxBkuqLtd3i-35" value="Function to run when a message is received" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fontStyle=0;" vertex="1" parent="lOOHaBq7GTxBkuqLtd3i-1">
+          <mxGeometry x="890" y="330" width="260" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="OTrysx6zKcfBNWvZi5ih" name="03 - listener">
+    <mxGraphModel dx="715" dy="352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="QcVjSnfPmGpWH55wYKSw-0" />
+        <mxCell id="QcVjSnfPmGpWH55wYKSw-1" parent="QcVjSnfPmGpWH55wYKSw-0" />
+        <mxCell id="MQGSZO91x9gCo9jr3GJ0-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=15;" edge="1" parent="QcVjSnfPmGpWH55wYKSw-1" source="MQGSZO91x9gCo9jr3GJ0-0" target="MQGSZO91x9gCo9jr3GJ0-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MQGSZO91x9gCo9jr3GJ0-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=15;" edge="1" parent="QcVjSnfPmGpWH55wYKSw-1" source="MQGSZO91x9gCo9jr3GJ0-0" target="MQGSZO91x9gCo9jr3GJ0-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MQGSZO91x9gCo9jr3GJ0-0" value="Class Listener" style="rounded=0;whiteSpace=wrap;html=1;fontSize=23;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="QcVjSnfPmGpWH55wYKSw-1">
+          <mxGeometry x="640" y="220" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MQGSZO91x9gCo9jr3GJ0-1" value="Class TicketCreatedListener" style="rounded=0;whiteSpace=wrap;html=1;fontSize=23;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="QcVjSnfPmGpWH55wYKSw-1">
+          <mxGeometry x="490" y="360" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MQGSZO91x9gCo9jr3GJ0-2" value="Class OrderUpdatedListener" style="rounded=0;whiteSpace=wrap;html=1;fontSize=23;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="QcVjSnfPmGpWH55wYKSw-1">
+          <mxGeometry x="790" y="360" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MQGSZO91x9gCo9jr3GJ0-5" value="Listens specifically for &#39;ticket:created&#39; events" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontStyle=2" vertex="1" parent="QcVjSnfPmGpWH55wYKSw-1">
+          <mxGeometry x="530" y="430" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MQGSZO91x9gCo9jr3GJ0-6" value="Listens specifically for &#39;order:updated&#39; events" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontStyle=2" vertex="1" parent="QcVjSnfPmGpWH55wYKSw-1">
+          <mxGeometry x="830" y="430" width="180" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
