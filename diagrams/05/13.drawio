@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-04-14T21:48:54.000Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="VbsnkdtokMrh4oVYK37f" version="12.9.12" type="github" pages="12">
+<mxfile host="www.draw.io" modified="2020-04-14T21:50:52.975Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="eExPdGtjzGXqDDptigSd" version="12.9.12" type="github" pages="13">
   <diagram id="QteX8RH3kvNgPQet8G1u" name="01 - setup">
     <mxGraphModel dx="699" dy="344" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -688,7 +688,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram name="Copy of 11 - common" id="tQWzIt2wbRErE9e6cxIu">
+  <diagram name="12 - ts" id="tQWzIt2wbRErE9e6cxIu">
     <mxGraphModel dx="715" dy="352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="V-KVFbyLXcG0aCkHT06l-0" />
@@ -737,6 +737,26 @@
         </mxCell>
         <mxCell id="V-KVFbyLXcG0aCkHT06l-16" value="&lt;b&gt;Downside&lt;/b&gt;&lt;br&gt;This only works if all of our servers are written with Typescript!" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="V-KVFbyLXcG0aCkHT06l-1">
           <mxGeometry x="550" y="170" width="260" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="13 - ts" id="v_VUOue42HW9Rtr4-2mJ">
+    <mxGraphModel dx="715" dy="352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="vhQGs35oaSMSYyq2gn-T-0" />
+        <mxCell id="vhQGs35oaSMSYyq2gn-T-1" parent="vhQGs35oaSMSYyq2gn-T-0" />
+        <mxCell id="vhQGs35oaSMSYyq2gn-T-2" value="Apache Avro" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="vhQGs35oaSMSYyq2gn-T-1">
+          <mxGeometry x="685" y="260" width="405" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vhQGs35oaSMSYyq2gn-T-15" value="Alternatives with Cross Language Support" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;fontStyle=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="vhQGs35oaSMSYyq2gn-T-1">
+          <mxGeometry x="685" y="200" width="405" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vhQGs35oaSMSYyq2gn-T-17" value="Protobuf" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="vhQGs35oaSMSYyq2gn-T-1">
+          <mxGeometry x="685" y="330" width="405" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vhQGs35oaSMSYyq2gn-T-18" value="JSON Schema" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="vhQGs35oaSMSYyq2gn-T-1">
+          <mxGeometry x="685" y="400" width="405" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
