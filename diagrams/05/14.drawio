@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-04-15T16:40:45.226Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="aqghVgpF-u8IyO0e-Ocs" version="12.9.12" type="github" pages="3">
+<mxfile host="www.draw.io" modified="2020-04-15T16:49:22.610Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="fnYTwcRYIMGKHNA5PlEY" version="12.9.12" type="github" pages="4">
   <diagram id="rf5psd9XERPzHZyowU_2" name="01 - client">
     <mxGraphModel dx="715" dy="352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -95,6 +95,59 @@
         </mxCell>
         <mxCell id="dTMRWMxEFpwLgm_hx8jc-15" value="client" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0;fontSize=19;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="dTMRWMxEFpwLgm_hx8jc-1">
           <mxGeometry x="515" y="322.5" width="80" height="35" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="04 - mongoose" id="jwxtJQhKxP_DBXZkOSsZ">
+    <mxGraphModel dx="812" dy="399" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="fnk6x1kiTWEbs_Xt-zJx-0" />
+        <mxCell id="fnk6x1kiTWEbs_Xt-zJx-1" parent="fnk6x1kiTWEbs_Xt-zJx-0" />
+        <mxCell id="fnk6x1kiTWEbs_Xt-zJx-2" value="index.ts" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0;fontSize=19;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="fnk6x1kiTWEbs_Xt-zJx-1">
+          <mxGeometry x="330" y="420" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fnk6x1kiTWEbs_Xt-zJx-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="fnk6x1kiTWEbs_Xt-zJx-1" source="fnk6x1kiTWEbs_Xt-zJx-7" target="fnk6x1kiTWEbs_Xt-zJx-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fnk6x1kiTWEbs_Xt-zJx-7" value="TicketCreated Route Handler" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0;fontSize=19;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="fnk6x1kiTWEbs_Xt-zJx-1">
+          <mxGeometry x="620" y="420" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fnk6x1kiTWEbs_Xt-zJx-8" value="&lt;i&gt;Can import &#39;mongoose&#39; and use it to issue queries to Mongo.&amp;nbsp; No initialization needed!&amp;nbsp; It was already done in index.ts&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0;fontSize=14;" vertex="1" parent="fnk6x1kiTWEbs_Xt-zJx-1">
+          <mxGeometry x="620" y="470" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="fnk6x1kiTWEbs_Xt-zJx-9" value="&lt;i style=&quot;font-size: 14px&quot;&gt;Code to tell Mongoose to connect to a specific Mongo DB.&amp;nbsp; We can &#39;await&#39; for that connection to be established&lt;br&gt;&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0;fontSize=14;" vertex="1" parent="fnk6x1kiTWEbs_Xt-zJx-1">
+          <mxGeometry x="330" y="470" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="fnk6x1kiTWEbs_Xt-zJx-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="fnk6x1kiTWEbs_Xt-zJx-1" source="fnk6x1kiTWEbs_Xt-zJx-12" target="fnk6x1kiTWEbs_Xt-zJx-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fnk6x1kiTWEbs_Xt-zJx-12" value="app.ts" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0;fontSize=19;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="fnk6x1kiTWEbs_Xt-zJx-1">
+          <mxGeometry x="520" y="430" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fnk6x1kiTWEbs_Xt-zJx-13" value="mongoose" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0;fontSize=19;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="fnk6x1kiTWEbs_Xt-zJx-1">
+          <mxGeometry x="425" y="210" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fnk6x1kiTWEbs_Xt-zJx-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="fnk6x1kiTWEbs_Xt-zJx-1" source="fnk6x1kiTWEbs_Xt-zJx-16" target="fnk6x1kiTWEbs_Xt-zJx-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fnk6x1kiTWEbs_Xt-zJx-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="fnk6x1kiTWEbs_Xt-zJx-1" source="fnk6x1kiTWEbs_Xt-zJx-16" target="fnk6x1kiTWEbs_Xt-zJx-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fnk6x1kiTWEbs_Xt-zJx-16" value="" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0;fontSize=14;" vertex="1" parent="fnk6x1kiTWEbs_Xt-zJx-1">
+          <mxGeometry x="425" y="250" width="260" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="fnk6x1kiTWEbs_Xt-zJx-17" value="Class Mongoose" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0;fontSize=19;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="fnk6x1kiTWEbs_Xt-zJx-1">
+          <mxGeometry x="445" y="260" width="220" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="fnk6x1kiTWEbs_Xt-zJx-18" value="connections" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0;fontSize=14;" vertex="1" parent="fnk6x1kiTWEbs_Xt-zJx-1">
+          <mxGeometry x="445" y="295" width="110" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="fnk6x1kiTWEbs_Xt-zJx-19" value="Connection" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0;fontSize=14;" vertex="1" parent="fnk6x1kiTWEbs_Xt-zJx-1">
+          <mxGeometry x="555" y="295" width="110" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="fnk6x1kiTWEbs_Xt-zJx-20" value="export new Mongoose()" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0;fontSize=15;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="fnk6x1kiTWEbs_Xt-zJx-1">
+          <mxGeometry x="445" y="350" width="220" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
