@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-04-16T16:23:08.811Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="S0c7QgbhywPJC4ZxpLEl" version="12.9.12" type="github" pages="16">
+<mxfile host="www.draw.io" modified="2020-04-16T16:41:03.943Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="WDT4pCJEP5mjqre38V-z" version="12.9.12" type="github" pages="18">
   <diagram id="rf5psd9XERPzHZyowU_2" name="01 - client">
     <mxGraphModel dx="715" dy="352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -891,7 +891,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DNMongm6LV1M612OrI5R-10" value="Initialized NATS Client" style="rounded=0;whiteSpace=wrap;html=1;fontSize=21;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" vertex="1" parent="DNMongm6LV1M612OrI5R-1">
-          <mxGeometry x="1170" y="450" width="190" height="60" as="geometry" />
+          <mxGeometry x="1170" y="440" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DNMongm6LV1M612OrI5R-14" value="When Running Our App" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=21;fontColor=#000000;fontStyle=1" vertex="1" parent="DNMongm6LV1M612OrI5R-1">
           <mxGeometry x="960" y="320" width="240" height="20" as="geometry" />
@@ -929,7 +929,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AGYWJTh7euKO6qBndhii-10" value="UnInitialized!! NATS Client" style="rounded=0;whiteSpace=wrap;html=1;fontSize=21;align=center;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" parent="AGYWJTh7euKO6qBndhii-1">
-          <mxGeometry x="1170" y="450" width="190" height="60" as="geometry" />
+          <mxGeometry x="1170" y="440" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="AGYWJTh7euKO6qBndhii-11" value="When &lt;i&gt;Testing&lt;/i&gt; Our App" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=21;fontColor=#000000;fontStyle=1" vertex="1" parent="AGYWJTh7euKO6qBndhii-1">
           <mxGeometry x="960" y="320" width="240" height="20" as="geometry" />
@@ -986,6 +986,70 @@
         </mxCell>
         <mxCell id="m-FDm3e33sUj5zleIrh6-16" value="Jest" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fontColor=#333333;align=center;fontStyle=1;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="m-FDm3e33sUj5zleIrh6-1">
           <mxGeometry x="1120" y="415" width="100" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="6VYg3lWQIe4TUKlxoWgk" name="17 - mock">
+    <mxGraphModel dx="669" dy="334" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="rctQxArLxkGdf80btclx-0" />
+        <mxCell id="rctQxArLxkGdf80btclx-1" parent="rctQxArLxkGdf80btclx-0" />
+        <mxCell id="rctQxArLxkGdf80btclx-2" value="Find the file that we want to &#39;fake&#39;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontColor=#000000;align=center;" vertex="1" parent="rctQxArLxkGdf80btclx-1">
+          <mxGeometry x="550" y="260" width="450" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rctQxArLxkGdf80btclx-4" value="" style="endArrow=classic;html=1;strokeWidth=1;fontSize=22;fontColor=#000000;" edge="1" parent="rctQxArLxkGdf80btclx-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="260" as="sourcePoint" />
+            <mxPoint x="540" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rctQxArLxkGdf80btclx-5" value="Mocking (Faking) Imports with Jest" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;fontColor=#000000;fontStyle=1" vertex="1" parent="rctQxArLxkGdf80btclx-1">
+          <mxGeometry x="580" y="230" width="390" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rctQxArLxkGdf80btclx-6" value="In the same directory, create a folder called &#39;__mocks__&#39;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontColor=#000000;align=center;" vertex="1" parent="rctQxArLxkGdf80btclx-1">
+          <mxGeometry x="550" y="310" width="450" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rctQxArLxkGdf80btclx-7" value="In that folder, create a file with an identical name to the file we want to fake" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontColor=#000000;align=center;" vertex="1" parent="rctQxArLxkGdf80btclx-1">
+          <mxGeometry x="550" y="360" width="450" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rctQxArLxkGdf80btclx-8" value="Write a fake implementation" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontColor=#000000;align=center;" vertex="1" parent="rctQxArLxkGdf80btclx-1">
+          <mxGeometry x="550" y="410" width="450" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rctQxArLxkGdf80btclx-9" value="Tell jest to use that fake file in our test file" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontColor=#000000;align=center;" vertex="1" parent="rctQxArLxkGdf80btclx-1">
+          <mxGeometry x="550" y="460" width="450" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="WYwr8PABvg3LiW82Hydl" name="18 - mocks">
+    <mxGraphModel dx="837" dy="418" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="etrAkEE1lJNhkuteuTH9-0" />
+        <mxCell id="etrAkEE1lJNhkuteuTH9-1" parent="etrAkEE1lJNhkuteuTH9-0" />
+        <mxCell id="FzG0IO1NpyqPl-fWwg97-0" value="New Ticket Route Handler" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="etrAkEE1lJNhkuteuTH9-1">
+          <mxGeometry x="870" y="350" width="300" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FzG0IO1NpyqPl-fWwg97-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="etrAkEE1lJNhkuteuTH9-1">
+          <mxGeometry x="870" y="400" width="300" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="FzG0IO1NpyqPl-fWwg97-2" value="TicketCreatedPublisher" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontColor=#333333;align=center;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1" vertex="1" parent="etrAkEE1lJNhkuteuTH9-1">
+          <mxGeometry x="880" y="410" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FzG0IO1NpyqPl-fWwg97-3" value="&lt;span style=&quot;font-weight: normal; font-size: 14px;&quot;&gt;client&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontColor=#333333;align=center;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1" vertex="1" parent="etrAkEE1lJNhkuteuTH9-1">
+          <mxGeometry x="1070" y="410" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FzG0IO1NpyqPl-fWwg97-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontColor=#333333;align=center;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1" vertex="1" parent="etrAkEE1lJNhkuteuTH9-1">
+          <mxGeometry x="1070" y="430" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FzG0IO1NpyqPl-fWwg97-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=1;fontSize=16;fontColor=#000000;" edge="1" parent="etrAkEE1lJNhkuteuTH9-1" source="FzG0IO1NpyqPl-fWwg97-5" target="FzG0IO1NpyqPl-fWwg97-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FzG0IO1NpyqPl-fWwg97-5" value="NatsWrapper" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="etrAkEE1lJNhkuteuTH9-1">
+          <mxGeometry x="1025" y="610" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FzG0IO1NpyqPl-fWwg97-7" value="{ _client: Stan, client: Stan, connect: () =&amp;gt; Promise }" style="rounded=0;whiteSpace=wrap;html=1;fontSize=21;align=center;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" parent="etrAkEE1lJNhkuteuTH9-1">
+          <mxGeometry x="1116" y="511" width="524" height="66" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
