@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-04-16T16:41:03.943Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="WDT4pCJEP5mjqre38V-z" version="12.9.12" type="github" pages="18">
+<mxfile host="www.draw.io" modified="2020-04-16T16:55:27.658Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="5EZZ4knRvL8gWHMB3LWO" version="12.9.12" type="github" pages="20">
   <diagram id="rf5psd9XERPzHZyowU_2" name="01 - client">
     <mxGraphModel dx="715" dy="352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -1050,6 +1050,75 @@
         </mxCell>
         <mxCell id="FzG0IO1NpyqPl-fWwg97-7" value="{ _client: Stan, client: Stan, connect: () =&amp;gt; Promise }" style="rounded=0;whiteSpace=wrap;html=1;fontSize=21;align=center;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" parent="etrAkEE1lJNhkuteuTH9-1">
           <mxGeometry x="1116" y="511" width="524" height="66" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="19 - mocks" id="m5ZkJLtkdLAFShB7-hUv">
+    <mxGraphModel dx="778" dy="388" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="5i61yS9CaPPTxLuHGKdW-0" />
+        <mxCell id="5i61yS9CaPPTxLuHGKdW-1" parent="5i61yS9CaPPTxLuHGKdW-0" />
+        <mxCell id="5i61yS9CaPPTxLuHGKdW-2" value="New Ticket Route Handler" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="5i61yS9CaPPTxLuHGKdW-1">
+          <mxGeometry x="870" y="320" width="300" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5i61yS9CaPPTxLuHGKdW-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="5i61yS9CaPPTxLuHGKdW-1">
+          <mxGeometry x="870" y="370" width="300" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="5i61yS9CaPPTxLuHGKdW-4" value="TicketCreatedPublisher" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontColor=#333333;align=center;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1" vertex="1" parent="5i61yS9CaPPTxLuHGKdW-1">
+          <mxGeometry x="880" y="486" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5i61yS9CaPPTxLuHGKdW-5" value="&lt;span style=&quot;font-weight: normal; font-size: 14px;&quot;&gt;client&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontColor=#333333;align=center;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1" vertex="1" parent="5i61yS9CaPPTxLuHGKdW-1">
+          <mxGeometry x="1070" y="526" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5i61yS9CaPPTxLuHGKdW-6" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontColor=#333333;align=center;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1" vertex="1" parent="5i61yS9CaPPTxLuHGKdW-1">
+          <mxGeometry x="1070" y="486" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5i61yS9CaPPTxLuHGKdW-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=1;fontSize=16;fontColor=#000000;" edge="1" parent="5i61yS9CaPPTxLuHGKdW-1" source="5i61yS9CaPPTxLuHGKdW-8" target="5i61yS9CaPPTxLuHGKdW-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5i61yS9CaPPTxLuHGKdW-8" value="NatsWrapper" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="5i61yS9CaPPTxLuHGKdW-1">
+          <mxGeometry x="1270" y="370" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5i61yS9CaPPTxLuHGKdW-9" value="client" style="rounded=0;whiteSpace=wrap;html=1;fontSize=21;align=center;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" parent="5i61yS9CaPPTxLuHGKdW-1">
+          <mxGeometry x="1020" y="430" width="120" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="5i61yS9CaPPTxLuHGKdW-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=1;fontSize=16;fontColor=#000000;" edge="1" parent="5i61yS9CaPPTxLuHGKdW-1" source="5i61yS9CaPPTxLuHGKdW-10" target="5i61yS9CaPPTxLuHGKdW-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1020" y="470" />
+              <mxPoint x="1115" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5i61yS9CaPPTxLuHGKdW-10" value="import NatsWrapper" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="5i61yS9CaPPTxLuHGKdW-1">
+          <mxGeometry x="930" y="380" width="180" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="20 - pub" id="qXkNusCVDijdmJtJRafV">
+    <mxGraphModel dx="697" dy="348" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="zlrv9sBzeBs5ZqOtDN_T-0" />
+        <mxCell id="zlrv9sBzeBs5ZqOtDN_T-1" parent="zlrv9sBzeBs5ZqOtDN_T-0" />
+        <mxCell id="zlrv9sBzeBs5ZqOtDN_T-2" value="&lt;span style=&quot;font-size: 23px ; font-weight: 700&quot;&gt;Base Publisher&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=23;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="zlrv9sBzeBs5ZqOtDN_T-1">
+          <mxGeometry x="870" y="320" width="490" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zlrv9sBzeBs5ZqOtDN_T-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="zlrv9sBzeBs5ZqOtDN_T-1">
+          <mxGeometry x="870" y="370" width="490" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="IqHyTKo81Uw9x-ejbIW1-0" value="client" style="rounded=0;whiteSpace=wrap;html=1;fontSize=21;align=center;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" parent="zlrv9sBzeBs5ZqOtDN_T-1">
+          <mxGeometry x="890" y="390" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IqHyTKo81Uw9x-ejbIW1-1" value="publish" style="rounded=0;whiteSpace=wrap;html=1;fontSize=21;align=center;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" parent="zlrv9sBzeBs5ZqOtDN_T-1">
+          <mxGeometry x="890" y="440" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IqHyTKo81Uw9x-ejbIW1-2" value="this.client.publish(subject, data, callback)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=21;align=center;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" parent="zlrv9sBzeBs5ZqOtDN_T-1">
+          <mxGeometry x="910" y="470" width="430" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IqHyTKo81Uw9x-ejbIW1-3" value="The BasePublisher expects to be given a &lt;i&gt;client&lt;/i&gt;&amp;nbsp;that has a &#39;publish&#39; function" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=23;fontColor=#000000;" vertex="1" parent="zlrv9sBzeBs5ZqOtDN_T-1">
+          <mxGeometry x="962.5" y="570" width="305" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
