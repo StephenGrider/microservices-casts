@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-04-16T16:55:27.658Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="5EZZ4knRvL8gWHMB3LWO" version="12.9.12" type="github" pages="20">
+<mxfile host="www.draw.io" modified="2020-04-16T17:33:01.165Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="yCIjHT_rnEfmsissdyO6" version="12.9.12" type="github" pages="20">
   <diagram id="rf5psd9XERPzHZyowU_2" name="01 - client">
     <mxGraphModel dx="715" dy="352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -1048,8 +1048,8 @@
         <mxCell id="FzG0IO1NpyqPl-fWwg97-5" value="NatsWrapper" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="etrAkEE1lJNhkuteuTH9-1">
           <mxGeometry x="1025" y="610" width="180" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="FzG0IO1NpyqPl-fWwg97-7" value="{ _client: Stan, client: Stan, connect: () =&amp;gt; Promise }" style="rounded=0;whiteSpace=wrap;html=1;fontSize=21;align=center;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" parent="etrAkEE1lJNhkuteuTH9-1">
-          <mxGeometry x="1116" y="511" width="524" height="66" as="geometry" />
+        <mxCell id="FzG0IO1NpyqPl-fWwg97-7" value="{ client: Stan }" style="rounded=0;whiteSpace=wrap;html=1;fontSize=21;align=center;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" parent="etrAkEE1lJNhkuteuTH9-1">
+          <mxGeometry x="1116" y="511" width="224" height="66" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
