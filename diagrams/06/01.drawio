@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-04-17T17:42:35.075Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="ojmB92WyDy6HsZKAciCx" version="12.9.13" type="github" pages="9">
+<mxfile host="www.draw.io" modified="2020-04-17T17:42:54.609Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="jDxTXM69aihPlLwpoPUY" version="12.9.13" type="github" pages="9">
   <diagram id="f7oTSV5RSklJo06XtWqi" name="01 - orders">
     <mxGraphModel dx="778" dy="388" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -606,7 +606,7 @@
         <mxCell id="1xx2lgo8oNt5MedIMH36-15" value="{ &lt;b&gt;id: &#39;ASDF&#39;&lt;/b&gt;, price: 12, title: &#39;concert&#39; }" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fontStyle=0" vertex="1" parent="1xx2lgo8oNt5MedIMH36-1">
           <mxGeometry x="660" y="490" width="245" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="1xx2lgo8oNt5MedIMH36-16" value="Option #1 - Querying is just a bit challenging" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=2" vertex="1" parent="1xx2lgo8oNt5MedIMH36-1">
+        <mxCell id="1xx2lgo8oNt5MedIMH36-16" value="Option #1 - Where do we put an unreserved ticket?" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=2" vertex="1" parent="1xx2lgo8oNt5MedIMH36-1">
           <mxGeometry x="170" y="180" width="200" height="60" as="geometry" />
         </mxCell>
       </root>
