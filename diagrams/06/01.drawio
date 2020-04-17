@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-04-17T17:35:31.087Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="C37-sJvI67Ak0-C4Ju-l" version="12.9.13" type="github" pages="6">
+<mxfile host="www.draw.io" modified="2020-04-17T17:37:22.342Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="oaNiG9QEsJL5W0U0CB6v" version="12.9.13" type="github" pages="7">
   <diagram id="f7oTSV5RSklJo06XtWqi" name="01 - orders">
     <mxGraphModel dx="778" dy="388" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -458,6 +458,47 @@
         </mxCell>
         <mxCell id="jQZB-lLl5XDUkkSOhvAQ-4" value="There are two primary ways to do this with MongoDB/mongoose" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;" vertex="1" parent="TakV36yjP-tz_5-7pm3F-1">
           <mxGeometry x="570" y="420" width="350" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ltWhhco4U17ivq6xlQ46" name="07 - assoc">
+    <mxGraphModel dx="601" dy="296" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="NqmnPNrCba_1GbAtkdWO-0" />
+        <mxCell id="NqmnPNrCba_1GbAtkdWO-1" parent="NqmnPNrCba_1GbAtkdWO-0" />
+        <mxCell id="ijwarirVHNVhtmynuF8h-0" value="Order" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="NqmnPNrCba_1GbAtkdWO-1">
+          <mxGeometry x="690" y="220" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ijwarirVHNVhtmynuF8h-1" value="Prop" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=2" vertex="1" parent="NqmnPNrCba_1GbAtkdWO-1">
+          <mxGeometry x="690" y="250" width="95" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ijwarirVHNVhtmynuF8h-2" value="Value" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=2" vertex="1" parent="NqmnPNrCba_1GbAtkdWO-1">
+          <mxGeometry x="785" y="250" width="245" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ijwarirVHNVhtmynuF8h-3" value="userId" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=0" vertex="1" parent="NqmnPNrCba_1GbAtkdWO-1">
+          <mxGeometry x="690" y="270" width="95" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ijwarirVHNVhtmynuF8h-4" value="&#39;abc&#39;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fontStyle=0" vertex="1" parent="NqmnPNrCba_1GbAtkdWO-1">
+          <mxGeometry x="785" y="270" width="245" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ijwarirVHNVhtmynuF8h-5" value="status" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=0" vertex="1" parent="NqmnPNrCba_1GbAtkdWO-1">
+          <mxGeometry x="690" y="310" width="95" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ijwarirVHNVhtmynuF8h-6" value="&#39;pending&#39;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fontStyle=0" vertex="1" parent="NqmnPNrCba_1GbAtkdWO-1">
+          <mxGeometry x="785" y="310" width="245" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ijwarirVHNVhtmynuF8h-7" value="expiresAt" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=0" vertex="1" parent="NqmnPNrCba_1GbAtkdWO-1">
+          <mxGeometry x="690" y="350" width="95" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ijwarirVHNVhtmynuF8h-8" value="1-January" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fontStyle=0" vertex="1" parent="NqmnPNrCba_1GbAtkdWO-1">
+          <mxGeometry x="785" y="350" width="245" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ijwarirVHNVhtmynuF8h-9" value="ticket" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=0" vertex="1" parent="NqmnPNrCba_1GbAtkdWO-1">
+          <mxGeometry x="690" y="390" width="95" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ijwarirVHNVhtmynuF8h-10" value="{ id: &#39;asdf&#39;, price: 12, title: &#39;concert&#39; }" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fontStyle=0" vertex="1" parent="NqmnPNrCba_1GbAtkdWO-1">
+          <mxGeometry x="785" y="390" width="245" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
