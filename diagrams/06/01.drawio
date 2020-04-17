@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-04-17T19:53:10.225Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="ERQmVDMiHWSIR-Q5Uih2" version="12.9.13" type="github" pages="15">
+<mxfile host="www.draw.io" modified="2020-04-17T21:44:38.290Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="RRpg-KVmucCbT5DFlIKG" version="12.9.13" type="github" pages="15">
   <diagram id="f7oTSV5RSklJo06XtWqi" name="01 - orders">
     <mxGraphModel dx="699" dy="344" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -723,6 +723,12 @@
         <mxCell id="fsfBSbi7Xj9_Xh1HyQwQ-1" value="{ id: &#39;ASDF&#39;, status: &#39;pending&#39; }" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="hlyFzMU17W37DRJlxSZr-1">
           <mxGeometry x="730" y="280" width="180" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="WWzVpC7TdGB9xotKzQ5n-0" value="order:created" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" parent="hlyFzMU17W37DRJlxSZr-1">
+          <mxGeometry x="690" y="540" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WWzVpC7TdGB9xotKzQ5n-1" value="{ id: &#39;ASDF&#39;, status: &#39;pending&#39; }" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="hlyFzMU17W37DRJlxSZr-1">
+          <mxGeometry x="690" y="570" width="180" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -800,10 +806,10 @@
         <mxCell id="Im54KpIa1DukzyW6QZNd-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=15;" edge="1" parent="xrNhIMKUUZK64nC5NGxO-1" source="Im54KpIa1DukzyW6QZNd-0" target="Im54KpIa1DukzyW6QZNd-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Im54KpIa1DukzyW6QZNd-0" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="xrNhIMKUUZK64nC5NGxO-1">
+        <mxCell id="Im54KpIa1DukzyW6QZNd-0" value="Look in the DB, find the order with the ID from the event data" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="xrNhIMKUUZK64nC5NGxO-1">
           <mxGeometry x="510" y="285" width="170" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Im54KpIa1DukzyW6QZNd-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="xrNhIMKUUZK64nC5NGxO-1">
+        <mxCell id="Im54KpIa1DukzyW6QZNd-1" value="Update the status of the order to &#39;no_payment&#39;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="xrNhIMKUUZK64nC5NGxO-1">
           <mxGeometry x="510" y="360" width="170" height="50" as="geometry" />
         </mxCell>
       </root>
