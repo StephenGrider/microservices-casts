@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-04-17T17:30:00.797Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="deDGnaY2PyWqncdE-AV-" version="12.9.13" type="github" pages="5">
+<mxfile host="www.draw.io" modified="2020-04-17T17:35:31.087Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="C37-sJvI67Ak0-C4Ju-l" version="12.9.13" type="github" pages="6">
   <diagram id="f7oTSV5RSklJo06XtWqi" name="01 - orders">
     <mxGraphModel dx="778" dy="388" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -438,6 +438,26 @@
         </mxCell>
         <mxCell id="MLtiX0BvSkhahL_EjZKH-25" value="Cancel the order" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=center;" vertex="1" parent="MLtiX0BvSkhahL_EjZKH-1">
           <mxGeometry x="800" y="447" width="190" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="yi2ZDmguZ-zX4ZPhyaYA" name="06 - assoc">
+    <mxGraphModel dx="858" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="TakV36yjP-tz_5-7pm3F-0" />
+        <mxCell id="TakV36yjP-tz_5-7pm3F-1" parent="TakV36yjP-tz_5-7pm3F-0" />
+        <mxCell id="jQZB-lLl5XDUkkSOhvAQ-1" value="Order Document" style="rounded=0;whiteSpace=wrap;html=1;fontSize=21;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="TakV36yjP-tz_5-7pm3F-1">
+          <mxGeometry x="770" y="300" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jQZB-lLl5XDUkkSOhvAQ-2" value="Ticket Document" style="rounded=0;whiteSpace=wrap;html=1;fontSize=21;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" vertex="1" parent="TakV36yjP-tz_5-7pm3F-1">
+          <mxGeometry x="490" y="300" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jQZB-lLl5XDUkkSOhvAQ-3" value="We need to somehow associate Tickets and Orders together" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;" vertex="1" parent="TakV36yjP-tz_5-7pm3F-1">
+          <mxGeometry x="570" y="240" width="350" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jQZB-lLl5XDUkkSOhvAQ-4" value="There are two primary ways to do this with MongoDB/mongoose" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;" vertex="1" parent="TakV36yjP-tz_5-7pm3F-1">
+          <mxGeometry x="570" y="420" width="350" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
