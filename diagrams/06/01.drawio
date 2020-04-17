@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-04-17T16:28:24.179Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="zg7vRuXjByNWGBKz7yWs" version="12.9.13" type="github" pages="4">
+<mxfile host="www.draw.io" modified="2020-04-17T16:30:19.269Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="wwMPecf4WpI6Szzpy0Mo" version="12.9.13" type="github" pages="4">
   <diagram id="f7oTSV5RSklJo06XtWqi" name="01 - orders">
     <mxGraphModel dx="778" dy="388" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -337,10 +337,73 @@
     </mxGraphModel>
   </diagram>
   <diagram id="mdM_hN6prqQI3FLeWGcH" name="04 - routes">
-    <mxGraphModel dx="1502" dy="739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="791" dy="389" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="MLtiX0BvSkhahL_EjZKH-0" />
         <mxCell id="MLtiX0BvSkhahL_EjZKH-1" parent="MLtiX0BvSkhahL_EjZKH-0" />
+        <mxCell id="MLtiX0BvSkhahL_EjZKH-2" value="orders" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="MLtiX0BvSkhahL_EjZKH-1">
+          <mxGeometry x="330" y="240" width="660" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MLtiX0BvSkhahL_EjZKH-3" value="GET" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;align=center;" vertex="1" parent="MLtiX0BvSkhahL_EjZKH-1">
+          <mxGeometry x="500" y="297" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MLtiX0BvSkhahL_EjZKH-4" value="/api/orders" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;" vertex="1" parent="MLtiX0BvSkhahL_EjZKH-1">
+          <mxGeometry x="330" y="297" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MLtiX0BvSkhahL_EjZKH-5" value="-" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;align=center;" vertex="1" parent="MLtiX0BvSkhahL_EjZKH-1">
+          <mxGeometry x="620" y="297" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MLtiX0BvSkhahL_EjZKH-6" value="Retrieve all active orders for the given user making the request" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=center;" vertex="1" parent="MLtiX0BvSkhahL_EjZKH-1">
+          <mxGeometry x="800" y="297" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MLtiX0BvSkhahL_EjZKH-7" value="Method" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="MLtiX0BvSkhahL_EjZKH-1">
+          <mxGeometry x="500" y="270" width="110" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="MLtiX0BvSkhahL_EjZKH-8" value="Route" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="MLtiX0BvSkhahL_EjZKH-1">
+          <mxGeometry x="330" y="270" width="160" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="MLtiX0BvSkhahL_EjZKH-9" value="Body" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="MLtiX0BvSkhahL_EjZKH-1">
+          <mxGeometry x="620" y="270" width="170" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="MLtiX0BvSkhahL_EjZKH-10" value="Purpose" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="MLtiX0BvSkhahL_EjZKH-1">
+          <mxGeometry x="800" y="270" width="190" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="MLtiX0BvSkhahL_EjZKH-11" value="GET" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;align=center;" vertex="1" parent="MLtiX0BvSkhahL_EjZKH-1">
+          <mxGeometry x="500" y="347" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MLtiX0BvSkhahL_EjZKH-12" value="/api/orders/:id" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;" vertex="1" parent="MLtiX0BvSkhahL_EjZKH-1">
+          <mxGeometry x="330" y="347" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MLtiX0BvSkhahL_EjZKH-13" value="-" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;align=center;" vertex="1" parent="MLtiX0BvSkhahL_EjZKH-1">
+          <mxGeometry x="620" y="347" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MLtiX0BvSkhahL_EjZKH-15" value="POST" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;align=center;" vertex="1" parent="MLtiX0BvSkhahL_EjZKH-1">
+          <mxGeometry x="500" y="397" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MLtiX0BvSkhahL_EjZKH-16" value="/api/orders" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;" vertex="1" parent="MLtiX0BvSkhahL_EjZKH-1">
+          <mxGeometry x="330" y="397" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MLtiX0BvSkhahL_EjZKH-17" value="{ ticketId: string }" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;align=center;" vertex="1" parent="MLtiX0BvSkhahL_EjZKH-1">
+          <mxGeometry x="620" y="397" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MLtiX0BvSkhahL_EjZKH-19" value="DELETE" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;align=center;" vertex="1" parent="MLtiX0BvSkhahL_EjZKH-1">
+          <mxGeometry x="500" y="447" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MLtiX0BvSkhahL_EjZKH-20" value="/api/orders/:id" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;" vertex="1" parent="MLtiX0BvSkhahL_EjZKH-1">
+          <mxGeometry x="330" y="447" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MLtiX0BvSkhahL_EjZKH-21" value="-" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;align=center;" vertex="1" parent="MLtiX0BvSkhahL_EjZKH-1">
+          <mxGeometry x="620" y="447" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MLtiX0BvSkhahL_EjZKH-23" value="Get details about a specific order" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=center;" vertex="1" parent="MLtiX0BvSkhahL_EjZKH-1">
+          <mxGeometry x="800" y="347" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MLtiX0BvSkhahL_EjZKH-24" value="Create an order to purchase the specified ticket" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=center;" vertex="1" parent="MLtiX0BvSkhahL_EjZKH-1">
+          <mxGeometry x="800" y="397" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MLtiX0BvSkhahL_EjZKH-25" value="Cancel the order" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=center;" vertex="1" parent="MLtiX0BvSkhahL_EjZKH-1">
+          <mxGeometry x="800" y="447" width="190" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
