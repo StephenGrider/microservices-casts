@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-04-17T17:37:22.342Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="oaNiG9QEsJL5W0U0CB6v" version="12.9.13" type="github" pages="7">
+<mxfile host="www.draw.io" modified="2020-04-17T17:37:53.831Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="6EHwVD-becV_fYSIwita" version="12.9.13" type="github" pages="7">
   <diagram id="f7oTSV5RSklJo06XtWqi" name="01 - orders">
     <mxGraphModel dx="778" dy="388" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -499,6 +499,9 @@
         </mxCell>
         <mxCell id="ijwarirVHNVhtmynuF8h-10" value="{ id: &#39;asdf&#39;, price: 12, title: &#39;concert&#39; }" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fontStyle=0" vertex="1" parent="NqmnPNrCba_1GbAtkdWO-1">
           <mxGeometry x="785" y="390" width="245" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Wo2p1_g-iJbKKBja4Qw6-0" value="Option #1 - Embedding" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=2" vertex="1" parent="NqmnPNrCba_1GbAtkdWO-1">
+          <mxGeometry x="550" y="180" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
