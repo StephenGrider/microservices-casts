@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-04-18T19:39:43.089Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="mXIzH7jHleFSo272xRil" version="12.9.14" type="github" pages="2">
+<mxfile host="www.draw.io" modified="2020-04-18T19:47:28.677Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="7_h7Af27WOEpLtOt_flI" version="12.9.14" type="github" pages="4">
   <diagram id="AV256bevUI5EWaATaRx7" name="01 - orders">
     <mxGraphModel dx="613" dy="302" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -75,8 +75,105 @@
         <mxCell id="rhGmNkleLrm6X3akT24k-10" value="Think about each feature flow + use case we need to implement" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="rhGmNkleLrm6X3akT24k-1">
           <mxGeometry x="970" y="390" width="270" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="rhGmNkleLrm6X3akT24k-12" value="Think about how to wire together the events from #1 to achieve the features in #2" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="rhGmNkleLrm6X3akT24k-1">
+        <mxCell id="rhGmNkleLrm6X3akT24k-12" value="Think about how to get each service to &lt;b&gt;listen + process&lt;/b&gt;&amp;nbsp;the events from #1 to achieve the features in #2" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="rhGmNkleLrm6X3akT24k-1">
           <mxGeometry x="970" y="490" width="270" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="03 - frame" id="4f-9WFNrgF0ZCgJFvgx1">
+    <mxGraphModel dx="770" dy="379" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="n0xEMgE52QRChpXdMRCJ-0" />
+        <mxCell id="n0xEMgE52QRChpXdMRCJ-1" parent="n0xEMgE52QRChpXdMRCJ-0" />
+        <mxCell id="n0xEMgE52QRChpXdMRCJ-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=22;" edge="1" parent="n0xEMgE52QRChpXdMRCJ-1" source="n0xEMgE52QRChpXdMRCJ-3" target="n0xEMgE52QRChpXdMRCJ-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n0xEMgE52QRChpXdMRCJ-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=15;" edge="1" parent="n0xEMgE52QRChpXdMRCJ-1" source="n0xEMgE52QRChpXdMRCJ-5" target="n0xEMgE52QRChpXdMRCJ-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n0xEMgE52QRChpXdMRCJ-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="n0xEMgE52QRChpXdMRCJ-1" source="n0xEMgE52QRChpXdMRCJ-9" target="n0xEMgE52QRChpXdMRCJ-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n0xEMgE52QRChpXdMRCJ-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=15;" edge="1" parent="n0xEMgE52QRChpXdMRCJ-1" source="n0xEMgE52QRChpXdMRCJ-12" target="n0xEMgE52QRChpXdMRCJ-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n0xEMgE52QRChpXdMRCJ-3" value="Feature we need to implement" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="n0xEMgE52QRChpXdMRCJ-1">
+          <mxGeometry x="610" y="290" width="270" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="n0xEMgE52QRChpXdMRCJ-5" value="Events we have access to" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="n0xEMgE52QRChpXdMRCJ-1">
+          <mxGeometry x="970" y="290" width="270" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="n0xEMgE52QRChpXdMRCJ-6" value="Instead of this..." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;fontStyle=1" vertex="1" parent="n0xEMgE52QRChpXdMRCJ-1">
+          <mxGeometry x="646.25" y="260" width="197.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="n0xEMgE52QRChpXdMRCJ-7" value="Try this..." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;fontStyle=1" vertex="1" parent="n0xEMgE52QRChpXdMRCJ-1">
+          <mxGeometry x="1042.5" y="260" width="125" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="n0xEMgE52QRChpXdMRCJ-9" value="Events we need to implement a feature" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="n0xEMgE52QRChpXdMRCJ-1">
+          <mxGeometry x="610" y="390" width="270" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="n0xEMgE52QRChpXdMRCJ-10" value="Get each service to &lt;b style=&quot;font-size: 18px;&quot;&gt;publish&lt;/b&gt; each event" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="n0xEMgE52QRChpXdMRCJ-1">
+          <mxGeometry x="610" y="490" width="270" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="n0xEMgE52QRChpXdMRCJ-12" value="Feature we need to implement" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="n0xEMgE52QRChpXdMRCJ-1">
+          <mxGeometry x="970" y="390" width="270" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="n0xEMgE52QRChpXdMRCJ-13" value="Get each service to &lt;b style=&quot;font-size: 18px;&quot;&gt;listen&lt;/b&gt;&amp;nbsp;to each event" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="n0xEMgE52QRChpXdMRCJ-1">
+          <mxGeometry x="970" y="490" width="270" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="VMc5x8YieCaR4XyA2pq3" name="04 - expire">
+    <mxGraphModel dx="715" dy="352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="Wxu4qXCtwD0ERx7psmGC-0" />
+        <mxCell id="Wxu4qXCtwD0ERx7psmGC-1" parent="Wxu4qXCtwD0ERx7psmGC-0" />
+        <mxCell id="IiU1w2tuhiEk2mEDZ2L--0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=22;" edge="1" parent="Wxu4qXCtwD0ERx7psmGC-1" source="IiU1w2tuhiEk2mEDZ2L--2" target="IiU1w2tuhiEk2mEDZ2L--3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IiU1w2tuhiEk2mEDZ2L--1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="Wxu4qXCtwD0ERx7psmGC-1" source="IiU1w2tuhiEk2mEDZ2L--3" target="IiU1w2tuhiEk2mEDZ2L--4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IiU1w2tuhiEk2mEDZ2L--2" value="After an order is created, it should be marked as cancelled if we don&#39;t receive a payment in 15 minutes" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="Wxu4qXCtwD0ERx7psmGC-1">
+          <mxGeometry x="610" y="290" width="380" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IiU1w2tuhiEk2mEDZ2L--3" value="Events we need:&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="Wxu4qXCtwD0ERx7psmGC-1">
+          <mxGeometry x="610" y="390" width="380" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IiU1w2tuhiEk2mEDZ2L--4" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="Wxu4qXCtwD0ERx7psmGC-1">
+          <mxGeometry x="610" y="490" width="380" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="IiU1w2tuhiEk2mEDZ2L--5" value="order:created" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="Wxu4qXCtwD0ERx7psmGC-1">
+          <mxGeometry x="640" y="430" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IiU1w2tuhiEk2mEDZ2L--6" value="order:expired" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="Wxu4qXCtwD0ERx7psmGC-1">
+          <mxGeometry x="830" y="430" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IiU1w2tuhiEk2mEDZ2L--14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=18;" edge="1" parent="Wxu4qXCtwD0ERx7psmGC-1" source="IiU1w2tuhiEk2mEDZ2L--7" target="IiU1w2tuhiEk2mEDZ2L--13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IiU1w2tuhiEk2mEDZ2L--7" value="order:created" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="Wxu4qXCtwD0ERx7psmGC-1">
+          <mxGeometry x="640" y="550" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IiU1w2tuhiEk2mEDZ2L--8" value="Which service emits which event" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="Wxu4qXCtwD0ERx7psmGC-1">
+          <mxGeometry x="480" y="530" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IiU1w2tuhiEk2mEDZ2L--10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=18;" edge="1" parent="Wxu4qXCtwD0ERx7psmGC-1" source="IiU1w2tuhiEk2mEDZ2L--9" target="IiU1w2tuhiEk2mEDZ2L--7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IiU1w2tuhiEk2mEDZ2L--9" value="Orders" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="Wxu4qXCtwD0ERx7psmGC-1">
+          <mxGeometry x="640" y="500" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IiU1w2tuhiEk2mEDZ2L--11" value="order:expired" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="Wxu4qXCtwD0ERx7psmGC-1">
+          <mxGeometry x="830" y="550" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IiU1w2tuhiEk2mEDZ2L--12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=18;" edge="1" parent="Wxu4qXCtwD0ERx7psmGC-1" source="IiU1w2tuhiEk2mEDZ2L--13" target="IiU1w2tuhiEk2mEDZ2L--11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IiU1w2tuhiEk2mEDZ2L--13" value="Expiration" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="Wxu4qXCtwD0ERx7psmGC-1">
+          <mxGeometry x="830" y="500" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
