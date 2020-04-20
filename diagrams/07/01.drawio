@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-04-20T15:45:15.191Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="i74zLIBD6qocRejRnV5g" version="12.9.14" type="github" pages="5">
+<mxfile host="www.draw.io" modified="2020-04-20T15:49:57.880Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="say_-7zbirVY9MaKc3uG" version="12.9.14" type="github" pages="6">
   <diagram id="AV256bevUI5EWaATaRx7" name="01 - orders">
     <mxGraphModel dx="613" dy="302" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -77,6 +77,32 @@
         </mxCell>
         <mxCell id="rhGmNkleLrm6X3akT24k-12" value="Think about how to get each service to &lt;b&gt;listen + process&lt;/b&gt;&amp;nbsp;the events from #1 to achieve the features in #2" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="rhGmNkleLrm6X3akT24k-1">
           <mxGeometry x="970" y="490" width="270" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ONZ7xfHbnaqmnskwTCZ8" name="06 - cause">
+    <mxGraphModel dx="601" dy="296" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="ygDAiZI7zOp5I2Wa9JdT-0" />
+        <mxCell id="ygDAiZI7zOp5I2Wa9JdT-1" parent="ygDAiZI7zOp5I2Wa9JdT-0" />
+        <mxCell id="ygDAiZI7zOp5I2Wa9JdT-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="ygDAiZI7zOp5I2Wa9JdT-1" source="ygDAiZI7zOp5I2Wa9JdT-2" target="ygDAiZI7zOp5I2Wa9JdT-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ygDAiZI7zOp5I2Wa9JdT-2" value="Cause" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;align=center;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1" vertex="1" parent="ygDAiZI7zOp5I2Wa9JdT-1">
+          <mxGeometry x="620" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ygDAiZI7zOp5I2Wa9JdT-3" value="Effect" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="ygDAiZI7zOp5I2Wa9JdT-1">
+          <mxGeometry x="790" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ygDAiZI7zOp5I2Wa9JdT-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="ygDAiZI7zOp5I2Wa9JdT-1" source="ygDAiZI7zOp5I2Wa9JdT-6" target="ygDAiZI7zOp5I2Wa9JdT-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ygDAiZI7zOp5I2Wa9JdT-6" value="Something happens in our app" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;align=center;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1" vertex="1" parent="ygDAiZI7zOp5I2Wa9JdT-1">
+          <mxGeometry x="550" y="370" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ygDAiZI7zOp5I2Wa9JdT-7" value="We can emit an event" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="ygDAiZI7zOp5I2Wa9JdT-1">
+          <mxGeometry x="790" y="370" width="190" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
