@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-04-21T20:44:14.254Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="2RdmVUcGvHOvAQooN8pb" version="13.0.0" type="github" pages="15">
+<mxfile host="www.draw.io" modified="2020-04-21T20:44:30.889Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="KAcxFdzaPuFYQLg4QSB7" version="13.0.0" type="github" pages="15">
   <diagram id="zc2JyozHEqRpT-gC6uIP" name="01 - flow">
     <mxGraphModel dx="527" dy="259" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -525,7 +525,7 @@
         <mxCell id="nBsVzfsCoDJfUNaghlDf-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=23;" edge="1" parent="nBsVzfsCoDJfUNaghlDf-1" source="nBsVzfsCoDJfUNaghlDf-17" target="nBsVzfsCoDJfUNaghlDf-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nBsVzfsCoDJfUNaghlDf-17" value="&lt;b&gt;ticket:updated&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="nBsVzfsCoDJfUNaghlDf-1">
+        <mxCell id="nBsVzfsCoDJfUNaghlDf-17" value="&lt;span&gt;ticket:updated&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=0" vertex="1" parent="nBsVzfsCoDJfUNaghlDf-1">
           <mxGeometry x="715" y="360" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="nBsVzfsCoDJfUNaghlDf-18" value="Events Published by Each Service" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" vertex="1" parent="nBsVzfsCoDJfUNaghlDf-1">
@@ -620,7 +620,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="order:cancelled" id="AP15blwhLuR43c5g7SAs">
-    <mxGraphModel dx="834" dy="411" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="910" dy="448" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="ivzruJvGXnL_ElyHbdAM-0" />
         <mxCell id="ivzruJvGXnL_ElyHbdAM-1" parent="ivzruJvGXnL_ElyHbdAM-0" />
