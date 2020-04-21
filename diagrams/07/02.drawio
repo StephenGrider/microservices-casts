@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-04-21T20:34:18.043Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="-BkRTLgAalz1wH7Dqiat" version="13.0.0" type="github" pages="10">
+<mxfile host="www.draw.io" modified="2020-04-21T20:41:21.120Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="ApoCmyyn-umCjJKeHxJm" version="13.0.0" type="github" pages="12">
   <diagram id="zc2JyozHEqRpT-gC6uIP" name="01 - flow">
     <mxGraphModel dx="527" dy="259" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -410,84 +410,211 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram name="09 - repl" id="xMu3XDwab-Y5fNdn4WUS">
+  <diagram name="ticket:created" id="wyz9dUnX1pMat82Xb2a4">
     <mxGraphModel dx="834" dy="411" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
-        <mxCell id="4Az-8e4zmSWTnFv5kLbl-0" />
-        <mxCell id="4Az-8e4zmSWTnFv5kLbl-1" parent="4Az-8e4zmSWTnFv5kLbl-0" />
-        <mxCell id="4Az-8e4zmSWTnFv5kLbl-2" value="Tickets Service" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1" vertex="1" parent="4Az-8e4zmSWTnFv5kLbl-1">
+        <mxCell id="JV3dai9hfGRf0m7YUMMa-0" />
+        <mxCell id="JV3dai9hfGRf0m7YUMMa-1" parent="JV3dai9hfGRf0m7YUMMa-0" />
+        <mxCell id="JV3dai9hfGRf0m7YUMMa-2" value="Tickets Service" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1" vertex="1" parent="JV3dai9hfGRf0m7YUMMa-1">
           <mxGeometry x="700" y="180" width="180" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="MeD2VSqJFeZkm7f5NO53-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="4Az-8e4zmSWTnFv5kLbl-1" source="4Az-8e4zmSWTnFv5kLbl-4" target="MeD2VSqJFeZkm7f5NO53-5">
+        <mxCell id="JV3dai9hfGRf0m7YUMMa-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=19;" edge="1" parent="JV3dai9hfGRf0m7YUMMa-1" source="JV3dai9hfGRf0m7YUMMa-4" target="JV3dai9hfGRf0m7YUMMa-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4Az-8e4zmSWTnFv5kLbl-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1" vertex="1" parent="4Az-8e4zmSWTnFv5kLbl-1">
+        <mxCell id="JV3dai9hfGRf0m7YUMMa-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1" vertex="1" parent="JV3dai9hfGRf0m7YUMMa-1">
           <mxGeometry x="700" y="205" width="180" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="4Az-8e4zmSWTnFv5kLbl-5" value="Orders Service" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1" vertex="1" parent="4Az-8e4zmSWTnFv5kLbl-1">
+        <mxCell id="JV3dai9hfGRf0m7YUMMa-5" value="Orders Service" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1" vertex="1" parent="JV3dai9hfGRf0m7YUMMa-1">
           <mxGeometry x="910" y="180" width="180" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="4Az-8e4zmSWTnFv5kLbl-7" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1" vertex="1" parent="4Az-8e4zmSWTnFv5kLbl-1">
+        <mxCell id="JV3dai9hfGRf0m7YUMMa-7" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1" vertex="1" parent="JV3dai9hfGRf0m7YUMMa-1">
           <mxGeometry x="910" y="205" width="180" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="4Az-8e4zmSWTnFv5kLbl-8" value="Expiration Service" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1" vertex="1" parent="4Az-8e4zmSWTnFv5kLbl-1">
+        <mxCell id="JV3dai9hfGRf0m7YUMMa-8" value="Expiration Service" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1" vertex="1" parent="JV3dai9hfGRf0m7YUMMa-1">
           <mxGeometry x="1340" y="180" width="180" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="4Az-8e4zmSWTnFv5kLbl-9" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1" vertex="1" parent="4Az-8e4zmSWTnFv5kLbl-1">
+        <mxCell id="JV3dai9hfGRf0m7YUMMa-10" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1" vertex="1" parent="JV3dai9hfGRf0m7YUMMa-1">
           <mxGeometry x="1340" y="205" width="180" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="4Az-8e4zmSWTnFv5kLbl-10" value="Payments Service" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1" vertex="1" parent="4Az-8e4zmSWTnFv5kLbl-1">
+        <mxCell id="JV3dai9hfGRf0m7YUMMa-11" value="Payments Service" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1" vertex="1" parent="JV3dai9hfGRf0m7YUMMa-1">
           <mxGeometry x="1130" y="180" width="180" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="4Az-8e4zmSWTnFv5kLbl-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=17;" edge="1" parent="4Az-8e4zmSWTnFv5kLbl-1" target="4Az-8e4zmSWTnFv5kLbl-23">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1430" y="335" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="4Az-8e4zmSWTnFv5kLbl-12" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1" vertex="1" parent="4Az-8e4zmSWTnFv5kLbl-1">
+        <mxCell id="JV3dai9hfGRf0m7YUMMa-13" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1" vertex="1" parent="JV3dai9hfGRf0m7YUMMa-1">
           <mxGeometry x="1130" y="205" width="180" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="4Az-8e4zmSWTnFv5kLbl-13" value="tickets" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="4Az-8e4zmSWTnFv5kLbl-1">
+        <mxCell id="JV3dai9hfGRf0m7YUMMa-14" value="tickets" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="JV3dai9hfGRf0m7YUMMa-1">
           <mxGeometry x="730" y="220" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="4Az-8e4zmSWTnFv5kLbl-14" value="orders" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="4Az-8e4zmSWTnFv5kLbl-1">
+        <mxCell id="JV3dai9hfGRf0m7YUMMa-15" value="orders" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="JV3dai9hfGRf0m7YUMMa-1">
           <mxGeometry x="940" y="220" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="4Az-8e4zmSWTnFv5kLbl-15" value="tickets" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="4Az-8e4zmSWTnFv5kLbl-1">
+        <mxCell id="JV3dai9hfGRf0m7YUMMa-16" value="tickets" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="JV3dai9hfGRf0m7YUMMa-1">
           <mxGeometry x="940" y="270" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="4Az-8e4zmSWTnFv5kLbl-16" value="charges" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="4Az-8e4zmSWTnFv5kLbl-1">
+        <mxCell id="JV3dai9hfGRf0m7YUMMa-17" value="charges" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="JV3dai9hfGRf0m7YUMMa-1">
           <mxGeometry x="1160" y="220" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="4Az-8e4zmSWTnFv5kLbl-17" value="orders" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="4Az-8e4zmSWTnFv5kLbl-1">
+        <mxCell id="JV3dai9hfGRf0m7YUMMa-18" value="orders" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="JV3dai9hfGRf0m7YUMMa-1">
           <mxGeometry x="1160" y="270" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="4Az-8e4zmSWTnFv5kLbl-23" value="expiration:complete" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="4Az-8e4zmSWTnFv5kLbl-1">
-          <mxGeometry x="1355" y="360" width="150" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="4Az-8e4zmSWTnFv5kLbl-24" value="Events emitted due to other events being processed" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" vertex="1" parent="4Az-8e4zmSWTnFv5kLbl-1">
-          <mxGeometry x="950" y="60" width="300" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="_VTRT4ztrAY7PoUfKptu-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="4Az-8e4zmSWTnFv5kLbl-1" source="_VTRT4ztrAY7PoUfKptu-0" target="4Az-8e4zmSWTnFv5kLbl-8">
+        <mxCell id="JV3dai9hfGRf0m7YUMMa-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=23;" edge="1" parent="JV3dai9hfGRf0m7YUMMa-1" source="JV3dai9hfGRf0m7YUMMa-19" target="JV3dai9hfGRf0m7YUMMa-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_VTRT4ztrAY7PoUfKptu-0" value="order:created" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="4Az-8e4zmSWTnFv5kLbl-1">
-          <mxGeometry x="1355" y="110" width="150" height="40" as="geometry" />
+        <mxCell id="JV3dai9hfGRf0m7YUMMa-19" value="ticket:created" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="JV3dai9hfGRf0m7YUMMa-1">
+          <mxGeometry x="715" y="360" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="MeD2VSqJFeZkm7f5NO53-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="4Az-8e4zmSWTnFv5kLbl-1" source="MeD2VSqJFeZkm7f5NO53-0" target="4Az-8e4zmSWTnFv5kLbl-2">
+        <mxCell id="JV3dai9hfGRf0m7YUMMa-24" value="Events Published by Each Service" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" vertex="1" parent="JV3dai9hfGRf0m7YUMMa-1">
+          <mxGeometry x="925" y="140" width="360" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="JV3dai9hfGRf0m7YUMMa-28" value="Orders needs to know the valid tickets that can be purchased" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="JV3dai9hfGRf0m7YUMMa-1">
+          <mxGeometry x="910" y="380" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JV3dai9hfGRf0m7YUMMa-29" value="Orders needs to know the price of each ticket" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="JV3dai9hfGRf0m7YUMMa-1">
+          <mxGeometry x="910" y="420" width="280" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="ticket:updated" id="0vyOk3rLx0NceL3abarB">
+    <mxGraphModel dx="834" dy="411" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="nBsVzfsCoDJfUNaghlDf-0" />
+        <mxCell id="nBsVzfsCoDJfUNaghlDf-1" parent="nBsVzfsCoDJfUNaghlDf-0" />
+        <mxCell id="nBsVzfsCoDJfUNaghlDf-2" value="Tickets Service" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1" vertex="1" parent="nBsVzfsCoDJfUNaghlDf-1">
+          <mxGeometry x="700" y="180" width="180" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="nBsVzfsCoDJfUNaghlDf-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=19;" edge="1" parent="nBsVzfsCoDJfUNaghlDf-1" source="nBsVzfsCoDJfUNaghlDf-4" target="nBsVzfsCoDJfUNaghlDf-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MeD2VSqJFeZkm7f5NO53-0" value="order:created" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="4Az-8e4zmSWTnFv5kLbl-1">
-          <mxGeometry x="695" y="60" width="100" height="40" as="geometry" />
+        <mxCell id="nBsVzfsCoDJfUNaghlDf-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1" vertex="1" parent="nBsVzfsCoDJfUNaghlDf-1">
+          <mxGeometry x="700" y="205" width="180" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="MeD2VSqJFeZkm7f5NO53-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="4Az-8e4zmSWTnFv5kLbl-1" source="MeD2VSqJFeZkm7f5NO53-2" target="4Az-8e4zmSWTnFv5kLbl-2">
+        <mxCell id="nBsVzfsCoDJfUNaghlDf-5" value="Orders Service" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1" vertex="1" parent="nBsVzfsCoDJfUNaghlDf-1">
+          <mxGeometry x="910" y="180" width="180" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="nBsVzfsCoDJfUNaghlDf-6" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1" vertex="1" parent="nBsVzfsCoDJfUNaghlDf-1">
+          <mxGeometry x="910" y="205" width="180" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="nBsVzfsCoDJfUNaghlDf-7" value="Expiration Service" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1" vertex="1" parent="nBsVzfsCoDJfUNaghlDf-1">
+          <mxGeometry x="1340" y="180" width="180" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="nBsVzfsCoDJfUNaghlDf-8" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1" vertex="1" parent="nBsVzfsCoDJfUNaghlDf-1">
+          <mxGeometry x="1340" y="205" width="180" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="nBsVzfsCoDJfUNaghlDf-9" value="Payments Service" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1" vertex="1" parent="nBsVzfsCoDJfUNaghlDf-1">
+          <mxGeometry x="1130" y="180" width="180" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="nBsVzfsCoDJfUNaghlDf-10" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1" vertex="1" parent="nBsVzfsCoDJfUNaghlDf-1">
+          <mxGeometry x="1130" y="205" width="180" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="nBsVzfsCoDJfUNaghlDf-11" value="tickets" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="nBsVzfsCoDJfUNaghlDf-1">
+          <mxGeometry x="730" y="220" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nBsVzfsCoDJfUNaghlDf-12" value="orders" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="nBsVzfsCoDJfUNaghlDf-1">
+          <mxGeometry x="940" y="220" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nBsVzfsCoDJfUNaghlDf-13" value="tickets" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="nBsVzfsCoDJfUNaghlDf-1">
+          <mxGeometry x="940" y="270" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nBsVzfsCoDJfUNaghlDf-14" value="charges" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="nBsVzfsCoDJfUNaghlDf-1">
+          <mxGeometry x="1160" y="220" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nBsVzfsCoDJfUNaghlDf-15" value="orders" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="nBsVzfsCoDJfUNaghlDf-1">
+          <mxGeometry x="1160" y="270" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nBsVzfsCoDJfUNaghlDf-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=23;" edge="1" parent="nBsVzfsCoDJfUNaghlDf-1" source="nBsVzfsCoDJfUNaghlDf-17" target="nBsVzfsCoDJfUNaghlDf-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MeD2VSqJFeZkm7f5NO53-2" value="order:cancelled" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="4Az-8e4zmSWTnFv5kLbl-1">
-          <mxGeometry x="770" y="110" width="110" height="40" as="geometry" />
+        <mxCell id="nBsVzfsCoDJfUNaghlDf-17" value="&lt;b&gt;ticket:updated&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="nBsVzfsCoDJfUNaghlDf-1">
+          <mxGeometry x="715" y="360" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="MeD2VSqJFeZkm7f5NO53-5" value="ticket:updated" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="4Az-8e4zmSWTnFv5kLbl-1">
-          <mxGeometry x="730" y="360" width="120" height="40" as="geometry" />
+        <mxCell id="nBsVzfsCoDJfUNaghlDf-18" value="Events Published by Each Service" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" vertex="1" parent="nBsVzfsCoDJfUNaghlDf-1">
+          <mxGeometry x="925" y="140" width="360" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nBsVzfsCoDJfUNaghlDf-19" value="Orders service needs to know when the price of a ticket has changed" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="nBsVzfsCoDJfUNaghlDf-1">
+          <mxGeometry x="910" y="380" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nBsVzfsCoDJfUNaghlDf-20" value="Orders service needs to know when a ticket has successfully been reserved" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="nBsVzfsCoDJfUNaghlDf-1">
+          <mxGeometry x="910" y="420" width="280" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="order:created" id="wv0pKJde7Jya9Rob1PK5">
+    <mxGraphModel dx="910" dy="448" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="3u5cHUID9SENE1VYL8iP-0" />
+        <mxCell id="3u5cHUID9SENE1VYL8iP-1" parent="3u5cHUID9SENE1VYL8iP-0" />
+        <mxCell id="3u5cHUID9SENE1VYL8iP-2" value="Tickets Service" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1" vertex="1" parent="3u5cHUID9SENE1VYL8iP-1">
+          <mxGeometry x="700" y="180" width="180" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="3u5cHUID9SENE1VYL8iP-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1" vertex="1" parent="3u5cHUID9SENE1VYL8iP-1">
+          <mxGeometry x="700" y="205" width="180" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="3u5cHUID9SENE1VYL8iP-5" value="Orders Service" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1" vertex="1" parent="3u5cHUID9SENE1VYL8iP-1">
+          <mxGeometry x="910" y="180" width="180" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="3u5cHUID9SENE1VYL8iP-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=17;" edge="1" parent="3u5cHUID9SENE1VYL8iP-1" source="3u5cHUID9SENE1VYL8iP-7" target="3u5cHUID9SENE1VYL8iP-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3u5cHUID9SENE1VYL8iP-7" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1" vertex="1" parent="3u5cHUID9SENE1VYL8iP-1">
+          <mxGeometry x="910" y="205" width="180" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="3u5cHUID9SENE1VYL8iP-8" value="Expiration Service" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1" vertex="1" parent="3u5cHUID9SENE1VYL8iP-1">
+          <mxGeometry x="1340" y="180" width="180" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="3u5cHUID9SENE1VYL8iP-10" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1" vertex="1" parent="3u5cHUID9SENE1VYL8iP-1">
+          <mxGeometry x="1340" y="205" width="180" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="3u5cHUID9SENE1VYL8iP-11" value="Payments Service" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1" vertex="1" parent="3u5cHUID9SENE1VYL8iP-1">
+          <mxGeometry x="1130" y="180" width="180" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="3u5cHUID9SENE1VYL8iP-13" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1" vertex="1" parent="3u5cHUID9SENE1VYL8iP-1">
+          <mxGeometry x="1130" y="205" width="180" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="3u5cHUID9SENE1VYL8iP-14" value="tickets" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="3u5cHUID9SENE1VYL8iP-1">
+          <mxGeometry x="730" y="220" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3u5cHUID9SENE1VYL8iP-15" value="orders" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="3u5cHUID9SENE1VYL8iP-1">
+          <mxGeometry x="940" y="220" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3u5cHUID9SENE1VYL8iP-16" value="tickets" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="3u5cHUID9SENE1VYL8iP-1">
+          <mxGeometry x="940" y="270" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3u5cHUID9SENE1VYL8iP-17" value="charges" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="3u5cHUID9SENE1VYL8iP-1">
+          <mxGeometry x="1160" y="220" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3u5cHUID9SENE1VYL8iP-18" value="orders" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="3u5cHUID9SENE1VYL8iP-1">
+          <mxGeometry x="1160" y="270" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QL-yinFOZZvO3_ZusUWX-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="3u5cHUID9SENE1VYL8iP-1" source="3u5cHUID9SENE1VYL8iP-21" target="3u5cHUID9SENE1VYL8iP-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QL-yinFOZZvO3_ZusUWX-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="3u5cHUID9SENE1VYL8iP-1" source="3u5cHUID9SENE1VYL8iP-21" target="3u5cHUID9SENE1VYL8iP-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QL-yinFOZZvO3_ZusUWX-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="3u5cHUID9SENE1VYL8iP-1" source="3u5cHUID9SENE1VYL8iP-21" target="3u5cHUID9SENE1VYL8iP-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1037" y="480" />
+              <mxPoint x="1430" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3u5cHUID9SENE1VYL8iP-21" value="order:created" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="3u5cHUID9SENE1VYL8iP-1">
+          <mxGeometry x="925" y="360" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3u5cHUID9SENE1VYL8iP-24" value="Events Published by Each Service" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" vertex="1" parent="3u5cHUID9SENE1VYL8iP-1">
+          <mxGeometry x="925" y="140" width="360" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QL-yinFOZZvO3_ZusUWX-0" value="Tickets service needs to be told that one of its tickets has been reserved, and no further edits to that ticket should be allowed" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="3u5cHUID9SENE1VYL8iP-1">
+          <mxGeometry x="620" y="380" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QL-yinFOZZvO3_ZusUWX-1" value="Payments service needs to know there is a new order that a user might submit a payment for" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="3u5cHUID9SENE1VYL8iP-1">
+          <mxGeometry x="1100" y="380" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="QL-yinFOZZvO3_ZusUWX-5" value="Expiration service needs to start a 15 minute timer to eventually time out this order" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="3u5cHUID9SENE1VYL8iP-1">
+          <mxGeometry x="1080" y="480" width="200" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
