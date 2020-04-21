@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-04-21T15:21:47.765Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="lMesh9yhjcTUy9rKTDPP" version="12.9.14" type="github" pages="10">
+<mxfile host="www.draw.io" modified="2020-04-21T15:49:07.885Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="IzkV34sGvV294RQSVAFn" version="12.9.14" type="github" pages="11">
   <diagram id="AV256bevUI5EWaATaRx7" name="01 - orders">
     <mxGraphModel dx="1502" dy="739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -414,35 +414,6 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="7aUndFxSFzs6wgEqM5Cu" name="08 - cause">
-    <mxGraphModel dx="653" dy="321" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
-      <root>
-        <mxCell id="zqmSJn2PA6cuwa5AWZ26-0" />
-        <mxCell id="zqmSJn2PA6cuwa5AWZ26-1" parent="zqmSJn2PA6cuwa5AWZ26-0" />
-        <mxCell id="s1mZvosEnxEUKxNA3zqo-0" value="Three things that cause an event to be published" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" parent="zqmSJn2PA6cuwa5AWZ26-1" vertex="1">
-          <mxGeometry x="550" y="180" width="310" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="s1mZvosEnxEUKxNA3zqo-1" value="As the result of a request" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="zqmSJn2PA6cuwa5AWZ26-1" vertex="1">
-          <mxGeometry x="565" y="230" width="320" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="s1mZvosEnxEUKxNA3zqo-2" value="As the result of a timer or interval" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="zqmSJn2PA6cuwa5AWZ26-1" vertex="1">
-          <mxGeometry x="565" y="290" width="320" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="s1mZvosEnxEUKxNA3zqo-3" value="As the result of another event" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="zqmSJn2PA6cuwa5AWZ26-1" vertex="1">
-          <mxGeometry x="565" y="350" width="320" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="s1mZvosEnxEUKxNA3zqo-4" value="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" parent="zqmSJn2PA6cuwa5AWZ26-1" vertex="1">
-          <mxGeometry x="515" y="230" width="50" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="s1mZvosEnxEUKxNA3zqo-5" value="2" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" parent="zqmSJn2PA6cuwa5AWZ26-1" vertex="1">
-          <mxGeometry x="515" y="290" width="50" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="s1mZvosEnxEUKxNA3zqo-6" value="3" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" parent="zqmSJn2PA6cuwa5AWZ26-1" vertex="1">
-          <mxGeometry x="515" y="350" width="50" height="50" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
   <diagram id="hLtM3O9V2IHtcAZu5h6C" name="10 - ev">
     <mxGraphModel dx="639" dy="314" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -511,6 +482,49 @@
         </mxCell>
         <mxCell id="S-wpthIeKnp37A9sxKTo-19" value="order:cancelled&lt;br&gt;Event" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="S-wpthIeKnp37A9sxKTo-1">
           <mxGeometry x="950" y="390" width="100" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="hOE6sBIkpoT59gpZTJQy" name="11 - q">
+    <mxGraphModel dx="578" dy="284" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="BgxodBx4qOD83lJYOZB6-0" />
+        <mxCell id="BgxodBx4qOD83lJYOZB6-1" parent="BgxodBx4qOD83lJYOZB6-0" />
+        <mxCell id="eN6njg0KbFTK6P4ZvFIs-0" value="When should we emit an event?" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;" vertex="1" parent="BgxodBx4qOD83lJYOZB6-1">
+          <mxGeometry x="610" y="370" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eN6njg0KbFTK6P4ZvFIs-1" value="What data should be in an event?" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;" vertex="1" parent="BgxodBx4qOD83lJYOZB6-1">
+          <mxGeometry x="610" y="440" width="340" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="7aUndFxSFzs6wgEqM5Cu" name="08 - cause">
+    <mxGraphModel dx="653" dy="321" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="zqmSJn2PA6cuwa5AWZ26-0" />
+        <mxCell id="zqmSJn2PA6cuwa5AWZ26-1" parent="zqmSJn2PA6cuwa5AWZ26-0" />
+        <mxCell id="s1mZvosEnxEUKxNA3zqo-0" value="Three things that cause an event to be published" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" parent="zqmSJn2PA6cuwa5AWZ26-1" vertex="1">
+          <mxGeometry x="550" y="180" width="310" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="s1mZvosEnxEUKxNA3zqo-1" value="As the result of a request" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="zqmSJn2PA6cuwa5AWZ26-1" vertex="1">
+          <mxGeometry x="565" y="230" width="320" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="s1mZvosEnxEUKxNA3zqo-2" value="As the result of a timer or interval" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="zqmSJn2PA6cuwa5AWZ26-1" vertex="1">
+          <mxGeometry x="565" y="290" width="320" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="s1mZvosEnxEUKxNA3zqo-3" value="As the result of another event" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="zqmSJn2PA6cuwa5AWZ26-1" vertex="1">
+          <mxGeometry x="565" y="350" width="320" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="s1mZvosEnxEUKxNA3zqo-4" value="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" parent="zqmSJn2PA6cuwa5AWZ26-1" vertex="1">
+          <mxGeometry x="515" y="230" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="s1mZvosEnxEUKxNA3zqo-5" value="2" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" parent="zqmSJn2PA6cuwa5AWZ26-1" vertex="1">
+          <mxGeometry x="515" y="290" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="s1mZvosEnxEUKxNA3zqo-6" value="3" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" parent="zqmSJn2PA6cuwa5AWZ26-1" vertex="1">
+          <mxGeometry x="515" y="350" width="50" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
