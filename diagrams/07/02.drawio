@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-04-21T19:38:15.593Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="WddAKTHdnkUayLM32W3F" version="13.0.0" type="github">
+<mxfile host="www.draw.io" modified="2020-04-21T19:40:14.049Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="QlYhXehlsIApJR2F0NIX" version="13.0.0" type="github" pages="2">
   <diagram id="zc2JyozHEqRpT-gC6uIP" name="01 - flow">
     <mxGraphModel dx="527" dy="259" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -12,6 +12,35 @@
         </mxCell>
         <mxCell id="xYnWrMoKkDDk2mpb4D-v-3" value="What data should each event contain?" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=17;" vertex="1" parent="1">
           <mxGeometry x="560" y="260" width="370" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="nlcRY1AcKBIknHkFmP1X" name="02 - tricky">
+    <mxGraphModel dx="858" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="lvnMD7tP7u2Gr5IAh2oA-0" />
+        <mxCell id="lvnMD7tP7u2Gr5IAh2oA-1" parent="lvnMD7tP7u2Gr5IAh2oA-0" />
+        <mxCell id="lvnMD7tP7u2Gr5IAh2oA-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=22;" edge="1" parent="lvnMD7tP7u2Gr5IAh2oA-1" source="lvnMD7tP7u2Gr5IAh2oA-2" target="lvnMD7tP7u2Gr5IAh2oA-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lvnMD7tP7u2Gr5IAh2oA-2" value="Deciding on&amp;nbsp;&lt;i&gt;what&lt;/i&gt;&amp;nbsp;events to publish and what data they should contain is &lt;i&gt;tricky&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="lvnMD7tP7u2Gr5IAh2oA-1">
+          <mxGeometry x="600" y="260" width="450" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lvnMD7tP7u2Gr5IAh2oA-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=22;" edge="1" parent="lvnMD7tP7u2Gr5IAh2oA-1" source="lvnMD7tP7u2Gr5IAh2oA-3" target="lvnMD7tP7u2Gr5IAh2oA-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lvnMD7tP7u2Gr5IAh2oA-3" value="Depends on the purpose of your app and the features it implements" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="lvnMD7tP7u2Gr5IAh2oA-1">
+          <mxGeometry x="600" y="360" width="450" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lvnMD7tP7u2Gr5IAh2oA-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=22;" edge="1" parent="lvnMD7tP7u2Gr5IAh2oA-1" source="lvnMD7tP7u2Gr5IAh2oA-5" target="lvnMD7tP7u2Gr5IAh2oA-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lvnMD7tP7u2Gr5IAh2oA-5" value="Also involves thinking about concurrency issues!" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="lvnMD7tP7u2Gr5IAh2oA-1">
+          <mxGeometry x="600" y="460" width="450" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lvnMD7tP7u2Gr5IAh2oA-7" value="At best, I can give you some rules of thumb and show you how I applied them to this project" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="lvnMD7tP7u2Gr5IAh2oA-1">
+          <mxGeometry x="600" y="560" width="450" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
