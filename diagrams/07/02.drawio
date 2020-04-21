@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-04-21T19:45:27.795Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="7j94DUWdsGb6PSTvVFnc" version="13.0.0" type="github" pages="5">
+<mxfile host="www.draw.io" modified="2020-04-21T19:47:31.177Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="IHR3Lon-FlZ2y7MP54uQ" version="13.0.0" type="github" pages="5">
   <diagram id="zc2JyozHEqRpT-gC6uIP" name="01 - flow">
     <mxGraphModel dx="527" dy="259" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -71,7 +71,7 @@
         <mxCell id="fb3AtHmrDD0A9RMqXQ9R-7" value="{ id: &#39;asfd&#39;, content: &#39;Im a blog&#39; }" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="fb3AtHmrDD0A9RMqXQ9R-1">
           <mxGeometry x="930" y="270" width="240" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="fb3AtHmrDD0A9RMqXQ9R-9" value="Event" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" parent="fb3AtHmrDD0A9RMqXQ9R-1">
+        <mxCell id="fb3AtHmrDD0A9RMqXQ9R-9" value="Event, blog:created" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" parent="fb3AtHmrDD0A9RMqXQ9R-1">
           <mxGeometry x="930" y="240" width="240" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fb3AtHmrDD0A9RMqXQ9R-10" value="&lt;b&gt;Rule #1&lt;/b&gt; - Make &lt;i&gt;one &lt;/i&gt;service in charge of all aspects of a Resource.&amp;nbsp; Emit events whenever changing that data" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;" vertex="1" parent="fb3AtHmrDD0A9RMqXQ9R-1">
@@ -91,7 +91,7 @@
         <mxCell id="Qgxherks9i4188CqhPcJ-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=22;" edge="1" parent="Qgxherks9i4188CqhPcJ-1" source="Qgxherks9i4188CqhPcJ-3" target="Qgxherks9i4188CqhPcJ-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Qgxherks9i4188CqhPcJ-3" value="Request to create/edit/delete Resource XYZ" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="Qgxherks9i4188CqhPcJ-1">
+        <mxCell id="Qgxherks9i4188CqhPcJ-3" value="Create/Edit/Delete&lt;br&gt;Blog Post" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="Qgxherks9i4188CqhPcJ-1">
           <mxGeometry x="340" y="270" width="230" height="100" as="geometry" />
         </mxCell>
         <mxCell id="Qgxherks9i4188CqhPcJ-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=22;" edge="1" parent="Qgxherks9i4188CqhPcJ-1" source="Qgxherks9i4188CqhPcJ-6" target="Qgxherks9i4188CqhPcJ-7">
@@ -106,14 +106,14 @@
         <mxCell id="Qgxherks9i4188CqhPcJ-7" value="Database" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Qgxherks9i4188CqhPcJ-1">
           <mxGeometry x="630" y="410" width="240" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Qgxherks9i4188CqhPcJ-8" value="Every property of XYZ" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="Qgxherks9i4188CqhPcJ-1">
-          <mxGeometry x="930" y="270" width="240" height="100" as="geometry" />
+        <mxCell id="Qgxherks9i4188CqhPcJ-8" value="{ id: &#39;asfd&#39;, content: &#39;Im a blog&#39;, owner: { id: &#39;1j2&#39;, name: &#39;Alex&#39; } }" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="Qgxherks9i4188CqhPcJ-1">
+          <mxGeometry x="930" y="270" width="330" height="100" as="geometry" />
         </mxCell>
         <mxCell id="Qgxherks9i4188CqhPcJ-9" value="Event" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" parent="Qgxherks9i4188CqhPcJ-1">
-          <mxGeometry x="930" y="240" width="240" height="30" as="geometry" />
+          <mxGeometry x="930" y="240" width="330" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Qgxherks9i4188CqhPcJ-10" value="&lt;b&gt;Rule #2&lt;/b&gt;&amp;nbsp;- If you don&#39;t know how the event will be used, publish all available data about the resource" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;" vertex="1" parent="Qgxherks9i4188CqhPcJ-1">
-          <mxGeometry x="380" y="140" width="480" height="60" as="geometry" />
+          <mxGeometry x="560" y="150" width="480" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8H8skE2PdtktcQQ7PQDF-0" value="Request" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" vertex="1" parent="Qgxherks9i4188CqhPcJ-1">
           <mxGeometry x="340" y="240" width="230" height="30" as="geometry" />
@@ -126,32 +126,35 @@
       <root>
         <mxCell id="ZWxAOh7SIgB77R5UcuSt-0" />
         <mxCell id="ZWxAOh7SIgB77R5UcuSt-1" parent="ZWxAOh7SIgB77R5UcuSt-0" />
-        <mxCell id="ZWxAOh7SIgB77R5UcuSt-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=22;" edge="1" parent="ZWxAOh7SIgB77R5UcuSt-1" source="ZWxAOh7SIgB77R5UcuSt-3" target="ZWxAOh7SIgB77R5UcuSt-6">
+        <mxCell id="yHPPPvbZj8iBd604dS1X-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=22;" edge="1" parent="ZWxAOh7SIgB77R5UcuSt-1" source="yHPPPvbZj8iBd604dS1X-1" target="yHPPPvbZj8iBd604dS1X-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZWxAOh7SIgB77R5UcuSt-3" value="Request to create/edit/delete Resource XYZ" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="ZWxAOh7SIgB77R5UcuSt-1">
+        <mxCell id="yHPPPvbZj8iBd604dS1X-1" value="Create/Edit/Delete&lt;br&gt;Blog Post" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="ZWxAOh7SIgB77R5UcuSt-1">
           <mxGeometry x="340" y="270" width="230" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="ZWxAOh7SIgB77R5UcuSt-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=22;" edge="1" parent="ZWxAOh7SIgB77R5UcuSt-1" source="ZWxAOh7SIgB77R5UcuSt-6" target="ZWxAOh7SIgB77R5UcuSt-7">
+        <mxCell id="yHPPPvbZj8iBd604dS1X-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=22;" edge="1" parent="ZWxAOh7SIgB77R5UcuSt-1" source="yHPPPvbZj8iBd604dS1X-4" target="yHPPPvbZj8iBd604dS1X-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZWxAOh7SIgB77R5UcuSt-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=22;" edge="1" parent="ZWxAOh7SIgB77R5UcuSt-1" source="ZWxAOh7SIgB77R5UcuSt-6" target="ZWxAOh7SIgB77R5UcuSt-8">
+        <mxCell id="yHPPPvbZj8iBd604dS1X-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=22;" edge="1" parent="ZWxAOh7SIgB77R5UcuSt-1" source="yHPPPvbZj8iBd604dS1X-4" target="yHPPPvbZj8iBd604dS1X-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZWxAOh7SIgB77R5UcuSt-6" value="Service in 100% control of Resource XYZ" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="ZWxAOh7SIgB77R5UcuSt-1">
+        <mxCell id="yHPPPvbZj8iBd604dS1X-4" value="Service in 100% control of Resource XYZ" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="ZWxAOh7SIgB77R5UcuSt-1">
           <mxGeometry x="630" y="270" width="240" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="ZWxAOh7SIgB77R5UcuSt-7" value="Database" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="ZWxAOh7SIgB77R5UcuSt-1">
+        <mxCell id="yHPPPvbZj8iBd604dS1X-5" value="Database" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="ZWxAOh7SIgB77R5UcuSt-1">
           <mxGeometry x="630" y="410" width="240" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ZWxAOh7SIgB77R5UcuSt-8" value="Every property of XYZ" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="ZWxAOh7SIgB77R5UcuSt-1">
-          <mxGeometry x="930" y="270" width="240" height="100" as="geometry" />
+        <mxCell id="yHPPPvbZj8iBd604dS1X-6" value="{ id: &#39;asfd&#39;, content: &#39;Im a blog&#39; }" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="ZWxAOh7SIgB77R5UcuSt-1">
+          <mxGeometry x="930" y="270" width="330" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="ZWxAOh7SIgB77R5UcuSt-9" value="Event" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" parent="ZWxAOh7SIgB77R5UcuSt-1">
-          <mxGeometry x="930" y="240" width="240" height="30" as="geometry" />
+        <mxCell id="yHPPPvbZj8iBd604dS1X-7" value="Event" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" parent="ZWxAOh7SIgB77R5UcuSt-1">
+          <mxGeometry x="930" y="240" width="330" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ZWxAOh7SIgB77R5UcuSt-10" value="&lt;b&gt;Rule #3&lt;/b&gt;&amp;nbsp;- If you don&#39;t know how the event will be used, publish all available data about the resource" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;" vertex="1" parent="ZWxAOh7SIgB77R5UcuSt-1">
-          <mxGeometry x="380" y="140" width="480" height="60" as="geometry" />
+        <mxCell id="yHPPPvbZj8iBd604dS1X-8" value="&lt;b&gt;Rule #3&lt;/b&gt;&amp;nbsp;- If you &lt;i&gt;do &lt;/i&gt;know how the event will be consumed (and don&#39;t expect it to change soon), publish only the required info" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;" vertex="1" parent="ZWxAOh7SIgB77R5UcuSt-1">
+          <mxGeometry x="560" y="140" width="480" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yHPPPvbZj8iBd604dS1X-9" value="Request" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" vertex="1" parent="ZWxAOh7SIgB77R5UcuSt-1">
+          <mxGeometry x="340" y="240" width="230" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
