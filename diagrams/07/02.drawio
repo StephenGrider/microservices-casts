@@ -1,1 +1,19 @@
-<mxfile host="www.draw.io" modified="2020-04-21T19:37:04.193Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" version="13.0.0" etag="K6Mif0CKjcqvZv-gSzwK" type="github"><diagram id="zc2JyozHEqRpT-gC6uIP">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2020-04-21T19:38:15.593Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="WddAKTHdnkUayLM32W3F" version="13.0.0" type="github">
+  <diagram id="zc2JyozHEqRpT-gC6uIP" name="01 - flow">
+    <mxGraphModel dx="527" dy="259" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xYnWrMoKkDDk2mpb4D-v-1" value="How do we know what events to create?" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="560" y="190" width="370" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xYnWrMoKkDDk2mpb4D-v-2" value="Event Design" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="629.38" y="160" width="231.25" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xYnWrMoKkDDk2mpb4D-v-3" value="What data should each event contain?" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="560" y="260" width="370" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
