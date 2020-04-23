@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-04-23T20:36:52.151Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="0L0yRP2GdDqpVX9yuEmt" version="13.0.1" type="github" pages="11">
+<mxfile host="www.draw.io" modified="2020-04-23T20:40:31.223Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="3Mxi13MvcJy8IsCiOf6a" version="13.0.1" type="github" pages="11">
   <diagram id="xnCYhN0wcjJ44rRVsSE7" name="01 - listen">
     <mxGraphModel dx="858" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -554,21 +554,21 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Vs34sjiFl_de9pe0FEm2" name="10 - trans">
-    <mxGraphModel dx="589" dy="290" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="683" dy="336" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="ohpjeUfnrAzDa1KPJt9F-0" />
         <mxCell id="ohpjeUfnrAzDa1KPJt9F-1" parent="ohpjeUfnrAzDa1KPJt9F-0" />
         <mxCell id="ohpjeUfnrAzDa1KPJt9F-2" value="Database connection is down" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="ohpjeUfnrAzDa1KPJt9F-1">
           <mxGeometry x="655" y="270" width="260" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="ohpjeUfnrAzDa1KPJt9F-3" value="Transient Failures" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;fontStyle=1" vertex="1" parent="ohpjeUfnrAzDa1KPJt9F-1">
+        <mxCell id="ohpjeUfnrAzDa1KPJt9F-3" value="Transient Errors" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;fontStyle=1" vertex="1" parent="ohpjeUfnrAzDa1KPJt9F-1">
           <mxGeometry x="697.5" y="240" width="175" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="ohpjeUfnrAzDa1KPJt9F-5" value="Transient Failures" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;fontStyle=1" vertex="1" parent="ohpjeUfnrAzDa1KPJt9F-1">
-          <mxGeometry x="1022.5" y="240" width="175" height="20" as="geometry" />
+        <mxCell id="ohpjeUfnrAzDa1KPJt9F-5" value="Non-Transient Errors" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;fontStyle=1" vertex="1" parent="ohpjeUfnrAzDa1KPJt9F-1">
+          <mxGeometry x="1016.25" y="240" width="227.5" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="ohpjeUfnrAzDa1KPJt9F-6" value="Event data can&#39;t be processed" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;" vertex="1" parent="ohpjeUfnrAzDa1KPJt9F-1">
-          <mxGeometry x="980" y="270" width="260" height="50" as="geometry" />
+        <mxCell id="ohpjeUfnrAzDa1KPJt9F-6" value="Event data is invalid" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="ohpjeUfnrAzDa1KPJt9F-1">
+          <mxGeometry x="1000" y="270" width="260" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ohpjeUfnrAzDa1KPJt9F-7" value="Event is being processed out of order" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="ohpjeUfnrAzDa1KPJt9F-1">
           <mxGeometry x="655" y="330" width="260" height="50" as="geometry" />
@@ -576,11 +576,11 @@
         <mxCell id="ohpjeUfnrAzDa1KPJt9F-8" value="&lt;i&gt;These problems might go away if we try to reprocess the event in a few seconds&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="ohpjeUfnrAzDa1KPJt9F-1">
           <mxGeometry x="682.5" y="390" width="205" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ohpjeUfnrAzDa1KPJt9F-9" value="Event has already been processed" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;" vertex="1" parent="ohpjeUfnrAzDa1KPJt9F-1">
-          <mxGeometry x="980" y="330" width="260" height="50" as="geometry" />
+        <mxCell id="ohpjeUfnrAzDa1KPJt9F-9" value="Event has already been processed" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="ohpjeUfnrAzDa1KPJt9F-1">
+          <mxGeometry x="1000" y="330" width="260" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="iYNHLI-YVK0uyhqHlm64-0" value="Database connection is down" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;" vertex="1" parent="ohpjeUfnrAzDa1KPJt9F-1">
-          <mxGeometry x="980" y="390" width="260" height="50" as="geometry" />
+        <mxCell id="hJrOXMhbEGJU87O6PyM2-0" value="&lt;i&gt;No matter how many times we try to reprocess the event, this error won&#39;t go away&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="ohpjeUfnrAzDa1KPJt9F-1">
+          <mxGeometry x="1027.5" y="390" width="205" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
