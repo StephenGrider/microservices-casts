@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-04-23T20:23:38.794Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="ZNtxMzYEubafYHn-SqvC" version="13.0.1" type="github" pages="5">
+<mxfile host="www.draw.io" modified="2020-04-23T20:24:53.476Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="2MrTWUI77ridjWEdh3xI" version="13.0.1" type="github" pages="5">
   <diagram id="xnCYhN0wcjJ44rRVsSE7" name="01 - listen">
     <mxGraphModel dx="858" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -236,6 +236,12 @@
         </mxCell>
         <mxCell id="3JfAeRprQUmsi2VOOwtk-14" value="Mongoose validates the document" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="eVmINbMoolYITVErckgw-1">
           <mxGeometry x="855" y="355" width="230" height="42.5" as="geometry" />
+        </mxCell>
+        <mxCell id="3JfAeRprQUmsi2VOOwtk-17" value="&lt;b style=&quot;font-size: 23px&quot;&gt;We really care about these steps being executed successfully&lt;br style=&quot;font-size: 23px&quot;&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=23;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="eVmINbMoolYITVErckgw-1">
+          <mxGeometry x="1170" y="326.25" width="270" height="97.5" as="geometry" />
+        </mxCell>
+        <mxCell id="3JfAeRprQUmsi2VOOwtk-18" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=23;rotation=-180;" vertex="1" parent="eVmINbMoolYITVErckgw-1">
+          <mxGeometry x="1090" y="230" width="80" height="290" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
