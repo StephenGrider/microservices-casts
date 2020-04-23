@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-04-23T20:40:31.223Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="3Mxi13MvcJy8IsCiOf6a" version="13.0.1" type="github" pages="11">
+<mxfile host="www.draw.io" modified="2020-04-23T20:42:13.684Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="QIzm_CHG-4g_rywNiSwd" version="13.0.1" type="github" pages="12">
   <diagram id="xnCYhN0wcjJ44rRVsSE7" name="01 - listen">
     <mxGraphModel dx="858" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -581,6 +581,38 @@
         </mxCell>
         <mxCell id="hJrOXMhbEGJU87O6PyM2-0" value="&lt;i&gt;No matter how many times we try to reprocess the event, this error won&#39;t go away&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="ohpjeUfnrAzDa1KPJt9F-1">
           <mxGeometry x="1027.5" y="390" width="205" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="pUOx4hf2q5D1ciw5rZnj" name="12 - handling">
+    <mxGraphModel dx="653" dy="321" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0Cq7q5vF2DcF1YCMMOyG-0" />
+        <mxCell id="0Cq7q5vF2DcF1YCMMOyG-1" parent="0Cq7q5vF2DcF1YCMMOyG-0" />
+        <mxCell id="VjwWAsoYgkoIpQTcFZUf-0" value="Database connection is down" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="0Cq7q5vF2DcF1YCMMOyG-1">
+          <mxGeometry x="590" y="260" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VjwWAsoYgkoIpQTcFZUf-1" value="Event is being processed out of order" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="0Cq7q5vF2DcF1YCMMOyG-1">
+          <mxGeometry x="590" y="320" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ymgt9UJ469CE02uCDTo9-0" value="Event data is invalid" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="0Cq7q5vF2DcF1YCMMOyG-1">
+          <mxGeometry x="590" y="420" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ymgt9UJ469CE02uCDTo9-1" value="Event has already been processed" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="0Cq7q5vF2DcF1YCMMOyG-1">
+          <mxGeometry x="590" y="480" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ymgt9UJ469CE02uCDTo9-3" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=15;align=right;rotation=-180;" vertex="1" parent="0Cq7q5vF2DcF1YCMMOyG-1">
+          <mxGeometry x="860" y="260" width="30" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Ymgt9UJ469CE02uCDTo9-4" value="Don&#39;t ack the message!&amp;nbsp; It will timeout and NATS will redeliver it in the future" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="0Cq7q5vF2DcF1YCMMOyG-1">
+          <mxGeometry x="890" y="305" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ymgt9UJ469CE02uCDTo9-5" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=15;align=right;rotation=-180;" vertex="1" parent="0Cq7q5vF2DcF1YCMMOyG-1">
+          <mxGeometry x="860" y="420" width="30" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Ymgt9UJ469CE02uCDTo9-6" value="Case-by-case handling" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="0Cq7q5vF2DcF1YCMMOyG-1">
+          <mxGeometry x="890" y="465" width="180" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
