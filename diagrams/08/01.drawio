@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-04-23T21:54:26.198Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="Yx46anL5HYxqc2nQpidi" version="13.0.1" type="github" pages="13">
+<mxfile host="www.draw.io" modified="2020-04-23T21:57:03.552Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="VjBjK5b0bMvLWF9V8K0Y" version="13.0.1" type="github" pages="15">
   <diagram id="xnCYhN0wcjJ44rRVsSE7" name="01 - listen">
     <mxGraphModel dx="858" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -633,6 +633,88 @@
             <mxPoint x="690" y="420" as="sourcePoint" />
             <mxPoint x="690" y="620" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="qn4lFZ4tjYeIT45Lpq6f" name="14 - retry">
+    <mxGraphModel dx="699" dy="344" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="pC13pQdTqKJkeqphztyN-0" />
+        <mxCell id="pC13pQdTqKJkeqphztyN-1" parent="pC13pQdTqKJkeqphztyN-0" />
+        <mxCell id="0gLE2w10kxn-ciEGo5wB-0" value="Orders Service A" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1" vertex="1" parent="pC13pQdTqKJkeqphztyN-1">
+          <mxGeometry x="450" y="402.5" width="180" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="0gLE2w10kxn-ciEGo5wB-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1" vertex="1" parent="pC13pQdTqKJkeqphztyN-1">
+          <mxGeometry x="450" y="427.5" width="180" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="0gLE2w10kxn-ciEGo5wB-4" value="Tickets Service" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1" vertex="1" parent="pC13pQdTqKJkeqphztyN-1">
+          <mxGeometry x="450" y="190" width="180" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="0gLE2w10kxn-ciEGo5wB-5" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1" vertex="1" parent="pC13pQdTqKJkeqphztyN-1">
+          <mxGeometry x="450" y="215" width="180" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="0gLE2w10kxn-ciEGo5wB-6" value="NATS" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1" vertex="1" parent="pC13pQdTqKJkeqphztyN-1">
+          <mxGeometry x="840" y="190" width="180" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="0gLE2w10kxn-ciEGo5wB-7" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1" vertex="1" parent="pC13pQdTqKJkeqphztyN-1">
+          <mxGeometry x="840" y="215" width="180" height="275" as="geometry" />
+        </mxCell>
+        <mxCell id="0gLE2w10kxn-ciEGo5wB-9" value="Channel &#39;ticket:created&#39;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="pC13pQdTqKJkeqphztyN-1">
+          <mxGeometry x="850" y="237.5" width="160" height="32.5" as="geometry" />
+        </mxCell>
+        <mxCell id="0gLE2w10kxn-ciEGo5wB-10" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="pC13pQdTqKJkeqphztyN-1">
+          <mxGeometry x="850" y="270" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0gLE2w10kxn-ciEGo5wB-13" value="&lt;b style=&quot;font-size: 14px;&quot;&gt;Event&lt;/b&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;ticket:created" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="pC13pQdTqKJkeqphztyN-1">
+          <mxGeometry x="690" y="230" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0gLE2w10kxn-ciEGo5wB-14" value="&lt;span&gt;{ retries: 0 }&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=0" vertex="1" parent="pC13pQdTqKJkeqphztyN-1">
+          <mxGeometry x="690" y="270" width="110" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="15 - dead" id="8vHEh2qjHr6sBoFS3Ovk">
+    <mxGraphModel dx="613" dy="302" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="qCDFX-ofr25OW44eDPzP-0" />
+        <mxCell id="qCDFX-ofr25OW44eDPzP-1" parent="qCDFX-ofr25OW44eDPzP-0" />
+        <mxCell id="qCDFX-ofr25OW44eDPzP-2" value="Orders Service A" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1" vertex="1" parent="qCDFX-ofr25OW44eDPzP-1">
+          <mxGeometry x="450" y="402.5" width="180" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="qCDFX-ofr25OW44eDPzP-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1" vertex="1" parent="qCDFX-ofr25OW44eDPzP-1">
+          <mxGeometry x="450" y="427.5" width="180" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="qCDFX-ofr25OW44eDPzP-4" value="Tickets Service" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1" vertex="1" parent="qCDFX-ofr25OW44eDPzP-1">
+          <mxGeometry x="450" y="190" width="180" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="qCDFX-ofr25OW44eDPzP-5" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1" vertex="1" parent="qCDFX-ofr25OW44eDPzP-1">
+          <mxGeometry x="450" y="215" width="180" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="qCDFX-ofr25OW44eDPzP-6" value="NATS" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1" vertex="1" parent="qCDFX-ofr25OW44eDPzP-1">
+          <mxGeometry x="840" y="190" width="180" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="qCDFX-ofr25OW44eDPzP-7" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1" vertex="1" parent="qCDFX-ofr25OW44eDPzP-1">
+          <mxGeometry x="840" y="215" width="180" height="275" as="geometry" />
+        </mxCell>
+        <mxCell id="qCDFX-ofr25OW44eDPzP-8" value="Channel &#39;ticket:created&#39;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="qCDFX-ofr25OW44eDPzP-1">
+          <mxGeometry x="850" y="227.5" width="160" height="32.5" as="geometry" />
+        </mxCell>
+        <mxCell id="qCDFX-ofr25OW44eDPzP-9" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="qCDFX-ofr25OW44eDPzP-1">
+          <mxGeometry x="850" y="260" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qCDFX-ofr25OW44eDPzP-10" value="&lt;b style=&quot;font-size: 14px&quot;&gt;Event&lt;/b&gt;&lt;br style=&quot;font-size: 14px&quot;&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="qCDFX-ofr25OW44eDPzP-1">
+          <mxGeometry x="660" y="235" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qCDFX-ofr25OW44eDPzP-11" value="{ retries: 10, channel: &#39;ticket:created&#39;, event: event }" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=0" vertex="1" parent="qCDFX-ofr25OW44eDPzP-1">
+          <mxGeometry x="660" y="265" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="qCDFX-ofr25OW44eDPzP-12" value="Dead Letter Queue" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="qCDFX-ofr25OW44eDPzP-1">
+          <mxGeometry x="850" y="320" width="160" height="32.5" as="geometry" />
+        </mxCell>
+        <mxCell id="qCDFX-ofr25OW44eDPzP-13" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="qCDFX-ofr25OW44eDPzP-1">
+          <mxGeometry x="850" y="352.5" width="160" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
