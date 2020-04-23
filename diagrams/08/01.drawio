@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-04-23T20:58:24.382Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="D1GYQdmK2nU6Y2vp4fy7" version="13.0.1" type="github" pages="12">
+<mxfile host="www.draw.io" modified="2020-04-23T21:54:26.198Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="Yx46anL5HYxqc2nQpidi" version="13.0.1" type="github" pages="13">
   <diagram id="xnCYhN0wcjJ44rRVsSE7" name="01 - listen">
     <mxGraphModel dx="858" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -601,6 +601,38 @@
         </mxCell>
         <mxCell id="Ymgt9UJ469CE02uCDTo9-6" value="Case-by-case handling" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="0Cq7q5vF2DcF1YCMMOyG-1">
           <mxGeometry x="890" y="465" width="180" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="-Y_IPlJ-WDnwfKySUL8Q" name="13 - repeat">
+    <mxGraphModel dx="715" dy="352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="z1BWRPQotPS6az7DXUep-0" />
+        <mxCell id="z1BWRPQotPS6az7DXUep-1" parent="z1BWRPQotPS6az7DXUep-0" />
+        <mxCell id="kwMU2XVpdrd15yLf8iWI-0" value="Event data is invalid" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="z1BWRPQotPS6az7DXUep-1">
+          <mxGeometry x="940" y="560" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="B5_qASLSQZ8gIDEw6A45-0" value="Event is being processed out of order" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="z1BWRPQotPS6az7DXUep-1">
+          <mxGeometry x="940" y="440" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MXtV5_UHM9fDC9vLy4Os-0" value="&lt;b style=&quot;font-size: 15px&quot;&gt;Event&lt;br style=&quot;font-size: 15px&quot;&gt;ticket:updated&lt;br style=&quot;font-size: 15px&quot;&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="z1BWRPQotPS6az7DXUep-1">
+          <mxGeometry x="700" y="420" width="180" height="38.75" as="geometry" />
+        </mxCell>
+        <mxCell id="MXtV5_UHM9fDC9vLy4Os-1" value="&lt;span style=&quot;font-size: 15px&quot;&gt;&lt;span style=&quot;font-weight: 400&quot;&gt;{ id: &#39;XYZ&#39;, &lt;/span&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;title&lt;/span&gt;&lt;span style=&quot;font-weight: 400&quot;&gt;: &#39;concert&#39;, price: &lt;/span&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;40&lt;/span&gt;&lt;span style=&quot;font-weight: 400&quot;&gt; }&lt;/span&gt;&lt;br style=&quot;font-size: 15px&quot;&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" vertex="1" parent="z1BWRPQotPS6az7DXUep-1">
+          <mxGeometry x="700" y="458.75" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MXtV5_UHM9fDC9vLy4Os-3" value="&lt;b style=&quot;font-size: 15px;&quot;&gt;Event&lt;br style=&quot;font-size: 15px;&quot;&gt;ticket:created&lt;br style=&quot;font-size: 15px;&quot;&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="z1BWRPQotPS6az7DXUep-1">
+          <mxGeometry x="700" y="530" width="180" height="38.75" as="geometry" />
+        </mxCell>
+        <mxCell id="MXtV5_UHM9fDC9vLy4Os-4" value="&lt;span style=&quot;font-size: 15px&quot;&gt;&lt;span style=&quot;font-weight: 400&quot;&gt;{ id: &#39;XYZ&#39;, &lt;/span&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;title&lt;/span&gt;&lt;span style=&quot;font-weight: 400&quot;&gt;: &#39;concert&#39;, price: -20 }&lt;/span&gt;&lt;br style=&quot;font-size: 15px&quot;&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" parent="z1BWRPQotPS6az7DXUep-1">
+          <mxGeometry x="700" y="568.75" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MXtV5_UHM9fDC9vLy4Os-5" value="" style="endArrow=classic;html=1;fontSize=15;" edge="1" parent="z1BWRPQotPS6az7DXUep-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="420" as="sourcePoint" />
+            <mxPoint x="690" y="620" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
