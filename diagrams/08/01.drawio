@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-04-24T19:42:01.366Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="5Tw8briHKNvrYeGtHaVE" version="13.0.1" type="github" pages="16">
+<mxfile host="www.draw.io" modified="2020-04-24T19:52:42.952Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="BzrJbki4pJHwCjGboqgt" version="13.0.1" type="github" pages="17">
   <diagram id="xnCYhN0wcjJ44rRVsSE7" name="01 - listen">
     <mxGraphModel dx="858" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -519,6 +519,32 @@
         </mxCell>
         <mxCell id="hJrOXMhbEGJU87O6PyM2-0" value="&lt;i&gt;No matter how many times we try to reprocess the event, this error won&#39;t go away&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="ohpjeUfnrAzDa1KPJt9F-1">
           <mxGeometry x="1027.5" y="390" width="205" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="BC-pB5Pz51iQNOEc_fLI" name="17 - proc">
+    <mxGraphModel dx="567" dy="279" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="65n_KYHi1eyn-DCw6Hvb-0" />
+        <mxCell id="65n_KYHi1eyn-DCw6Hvb-1" parent="65n_KYHi1eyn-DCw6Hvb-0" />
+        <mxCell id="RA6dS0u_aF6hlL2W3OxO-0" value="Need to figure out how to detect that this kind of error has occured" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="65n_KYHi1eyn-DCw6Hvb-1">
+          <mxGeometry x="710" y="240" width="410" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="RA6dS0u_aF6hlL2W3OxO-1" value="" style="endArrow=classic;html=1;fontSize=15;" edge="1" parent="65n_KYHi1eyn-DCw6Hvb-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="700" y="240" as="sourcePoint" />
+            <mxPoint x="700" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RA6dS0u_aF6hlL2W3OxO-2" value="For Each Possible Error..." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=2" vertex="1" parent="65n_KYHi1eyn-DCw6Hvb-1">
+          <mxGeometry x="780" y="210" width="270" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RA6dS0u_aF6hlL2W3OxO-3" value="Need to decide what to do with the error (how to handle it)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="65n_KYHi1eyn-DCw6Hvb-1">
+          <mxGeometry x="710" y="300" width="410" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="RA6dS0u_aF6hlL2W3OxO-4" value="Write a test, make sure it all works!" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="65n_KYHi1eyn-DCw6Hvb-1">
+          <mxGeometry x="710" y="360" width="410" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
