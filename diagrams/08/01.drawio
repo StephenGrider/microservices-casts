@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-04-24T21:17:16.344Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="zLxRITK-PNUMzPkq7nDz" version="13.0.1" type="github" pages="18">
+<mxfile host="www.draw.io" modified="2020-04-24T21:29:30.841Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="u-rIJOmJmw1WOAjWpz_D" version="13.0.1" type="github" pages="18">
   <diagram id="xnCYhN0wcjJ44rRVsSE7" name="01 - listen">
     <mxGraphModel dx="858" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -604,29 +604,23 @@
       <root>
         <mxCell id="0Cq7q5vF2DcF1YCMMOyG-0" />
         <mxCell id="0Cq7q5vF2DcF1YCMMOyG-1" parent="0Cq7q5vF2DcF1YCMMOyG-0" />
-        <mxCell id="VjwWAsoYgkoIpQTcFZUf-0" value="Database connection is down" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="0Cq7q5vF2DcF1YCMMOyG-1">
-          <mxGeometry x="590" y="260" width="260" height="50" as="geometry" />
+        <mxCell id="FnFdD9QSDzf9gDq0xy96-0" value="If the service doesn&#39;t *own* the record, don&#39;t do any validation - all validation should be handled in the owning service" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;" vertex="1" parent="0Cq7q5vF2DcF1YCMMOyG-1">
+          <mxGeometry x="655" y="260" width="475" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="VjwWAsoYgkoIpQTcFZUf-1" value="Event is being processed out of order" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="0Cq7q5vF2DcF1YCMMOyG-1">
-          <mxGeometry x="590" y="320" width="260" height="50" as="geometry" />
+        <mxCell id="FnFdD9QSDzf9gDq0xy96-1" value="Even if the service doesn&#39;t own the record, it will have to apply some business logic to it eventually! Catch errors earlier by doing validation" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;" vertex="1" parent="0Cq7q5vF2DcF1YCMMOyG-1">
+          <mxGeometry x="655" y="390" width="475" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="Ymgt9UJ469CE02uCDTo9-0" value="Event data is invalid" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="0Cq7q5vF2DcF1YCMMOyG-1">
-          <mxGeometry x="590" y="420" width="260" height="50" as="geometry" />
+        <mxCell id="FnFdD9QSDzf9gDq0xy96-3" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;shadow=0;fontSize=20;align=center;" vertex="1" parent="0Cq7q5vF2DcF1YCMMOyG-1">
+          <mxGeometry x="630" y="260" width="20" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="Ymgt9UJ469CE02uCDTo9-1" value="Event has already been processed" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="0Cq7q5vF2DcF1YCMMOyG-1">
-          <mxGeometry x="590" y="480" width="260" height="50" as="geometry" />
+        <mxCell id="FnFdD9QSDzf9gDq0xy96-4" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;shadow=0;fontSize=20;align=center;" vertex="1" parent="0Cq7q5vF2DcF1YCMMOyG-1">
+          <mxGeometry x="630" y="390" width="20" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="Ymgt9UJ469CE02uCDTo9-3" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=15;align=right;rotation=-180;" vertex="1" parent="0Cq7q5vF2DcF1YCMMOyG-1">
-          <mxGeometry x="860" y="260" width="30" height="110" as="geometry" />
+        <mxCell id="FnFdD9QSDzf9gDq0xy96-5" value="Viewpoint #1" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=20;" vertex="1" parent="0Cq7q5vF2DcF1YCMMOyG-1">
+          <mxGeometry x="500" y="277.5" width="130" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="Ymgt9UJ469CE02uCDTo9-4" value="Don&#39;t ack the message!&amp;nbsp; It will timeout and NATS will redeliver it in the future" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="0Cq7q5vF2DcF1YCMMOyG-1">
-          <mxGeometry x="890" y="305" width="180" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="Ymgt9UJ469CE02uCDTo9-5" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=15;align=right;rotation=-180;" vertex="1" parent="0Cq7q5vF2DcF1YCMMOyG-1">
-          <mxGeometry x="860" y="420" width="30" height="110" as="geometry" />
-        </mxCell>
-        <mxCell id="Ymgt9UJ469CE02uCDTo9-6" value="Case-by-case handling" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="0Cq7q5vF2DcF1YCMMOyG-1">
-          <mxGeometry x="890" y="465" width="180" height="20" as="geometry" />
+        <mxCell id="FnFdD9QSDzf9gDq0xy96-6" value="Viewpoint #2" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=20;" vertex="1" parent="0Cq7q5vF2DcF1YCMMOyG-1">
+          <mxGeometry x="500" y="407.5" width="130" height="55" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
