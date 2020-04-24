@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-04-23T22:24:20.776Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="t4Lb4k9mhtDBEoB_lgBA" version="13.0.1" type="github" pages="15">
+<mxfile host="www.draw.io" modified="2020-04-24T17:11:02.559Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="06abs7FExHfo2Fz-hKy5" version="13.0.1" type="github" pages="16">
   <diagram id="xnCYhN0wcjJ44rRVsSE7" name="01 - listen">
     <mxGraphModel dx="858" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -189,6 +189,23 @@
         </mxCell>
         <mxCell id="TQhRVEbuMmKJUSV9UUEg-0" value="{ _&lt;b&gt;id&lt;/b&gt;: &#39;123&#39;, title: &#39;concert&#39; }" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="U5nnhxmkPqim0EIbUf6--1">
           <mxGeometry x="850" y="237.5" width="160" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="7tNUcpe0IkggBCJJXdSu" name="16 - test">
+    <mxGraphModel dx="626" dy="308" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="_iNnqu3TJ8HuzG7p6bF0-0" />
+        <mxCell id="_iNnqu3TJ8HuzG7p6bF0-1" parent="_iNnqu3TJ8HuzG7p6bF0-0" />
+        <mxCell id="plQz3gefobrAHz11dIZ3-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="_iNnqu3TJ8HuzG7p6bF0-1" source="plQz3gefobrAHz11dIZ3-0" target="plQz3gefobrAHz11dIZ3-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="plQz3gefobrAHz11dIZ3-0" value="Write a test to make sure TicketCreatedListener works as expected" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="_iNnqu3TJ8HuzG7p6bF0-1">
+          <mxGeometry x="620" y="330" width="430" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="plQz3gefobrAHz11dIZ3-1" value="Add tests to simulate different errors that the Listener will have to deal with" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="_iNnqu3TJ8HuzG7p6bF0-1">
+          <mxGeometry x="620" y="440" width="430" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
