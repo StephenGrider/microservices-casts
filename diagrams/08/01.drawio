@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-04-24T17:11:02.559Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="06abs7FExHfo2Fz-hKy5" version="13.0.1" type="github" pages="16">
+<mxfile host="www.draw.io" modified="2020-04-24T19:42:01.366Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="5Tw8briHKNvrYeGtHaVE" version="13.0.1" type="github" pages="16">
   <diagram id="xnCYhN0wcjJ44rRVsSE7" name="01 - listen">
     <mxGraphModel dx="858" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -421,7 +421,7 @@
         <mxCell id="IdWK6Ty2T2vlmvP6yRCW-16" value="&lt;b style=&quot;font-size: 15px&quot;&gt;Event didn&#39;t contain the &#39;title&#39; property! Validation failure&lt;br style=&quot;font-size: 15px&quot;&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="IdWK6Ty2T2vlmvP6yRCW-1">
           <mxGeometry x="1150" y="346.25" width="240" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="AIhYBkxz-8GCzW3V9l1l-0" value="&lt;span style=&quot;font-size: 15px&quot;&gt;&lt;span style=&quot;font-weight: 400&quot;&gt;{ id: &#39;XYZ&#39;, &lt;/span&gt;&lt;u&gt;name&lt;/u&gt;&lt;span style=&quot;font-weight: 400&quot;&gt;: &#39;concert&#39;, price: 20 }&lt;/span&gt;&lt;br style=&quot;font-size: 15px&quot;&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" parent="IdWK6Ty2T2vlmvP6yRCW-1">
+        <mxCell id="AIhYBkxz-8GCzW3V9l1l-0" value="&lt;span style=&quot;font-size: 15px&quot;&gt;&lt;span style=&quot;font-weight: 400&quot;&gt;{ id: &#39;XYZ&#39;, &lt;/span&gt;&lt;u&gt;name&lt;/u&gt;&lt;span style=&quot;font-weight: 400&quot;&gt;: &#39;concert&#39;, price: -5 }&lt;/span&gt;&lt;br style=&quot;font-size: 15px&quot;&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" parent="IdWK6Ty2T2vlmvP6yRCW-1">
           <mxGeometry x="590" y="260" width="210" height="50" as="geometry" />
         </mxCell>
         <mxCell id="46h-TZt38sPTCh5dletX-0" value="&lt;i&gt;Invalid data in event body&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="IdWK6Ty2T2vlmvP6yRCW-1">
@@ -477,13 +477,48 @@
           <mxGeometry x="1130" y="409.25" width="240" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nm6tZEYvctACgSB0CjVe-18" value="&lt;b style=&quot;font-size: 15px;&quot;&gt;Event&lt;br style=&quot;font-size: 15px;&quot;&gt;ticket:created&lt;br style=&quot;font-size: 15px;&quot;&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="nm6tZEYvctACgSB0CjVe-1">
-          <mxGeometry x="630" y="230" width="180" height="38.75" as="geometry" />
+          <mxGeometry x="640" y="230" width="180" height="38.75" as="geometry" />
         </mxCell>
         <mxCell id="nm6tZEYvctACgSB0CjVe-19" value="&lt;span style=&quot;font-size: 15px&quot;&gt;&lt;span style=&quot;font-weight: 400&quot;&gt;{ id: &#39;XYZ&#39;, &lt;/span&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;name&lt;/span&gt;&lt;span style=&quot;font-weight: 400&quot;&gt;: &#39;concert&#39;, price: 20 }&lt;/span&gt;&lt;br style=&quot;font-size: 15px&quot;&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" parent="nm6tZEYvctACgSB0CjVe-1">
-          <mxGeometry x="630" y="268.75" width="180" height="50" as="geometry" />
+          <mxGeometry x="640" y="268.75" width="180" height="50" as="geometry" />
         </mxCell>
         <mxCell id="PojPV8xZin3L-h7FyPAj-0" value="&lt;i&gt;Same event processed twice&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="nm6tZEYvctACgSB0CjVe-1">
-          <mxGeometry x="620" y="190" width="160" height="20" as="geometry" />
+          <mxGeometry x="540" y="195" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MLOrSga-N3eKUaO5Y7nd-0" value="&lt;b style=&quot;font-size: 15px;&quot;&gt;Event&lt;br style=&quot;font-size: 15px;&quot;&gt;ticket:created&lt;br style=&quot;font-size: 15px;&quot;&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="nm6tZEYvctACgSB0CjVe-1">
+          <mxGeometry x="1390" y="160.63" width="180" height="38.75" as="geometry" />
+        </mxCell>
+        <mxCell id="MLOrSga-N3eKUaO5Y7nd-1" value="&lt;span style=&quot;font-size: 15px&quot;&gt;&lt;span style=&quot;font-weight: 400&quot;&gt;{ id: &#39;XYZ&#39;, &lt;/span&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;name&lt;/span&gt;&lt;span style=&quot;font-weight: 400&quot;&gt;: &#39;concert&#39;, price: 20 }&lt;/span&gt;&lt;br style=&quot;font-size: 15px&quot;&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" parent="nm6tZEYvctACgSB0CjVe-1">
+          <mxGeometry x="1390" y="199.38" width="180" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Vs34sjiFl_de9pe0FEm2" name="10 - trans">
+    <mxGraphModel dx="683" dy="336" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="ohpjeUfnrAzDa1KPJt9F-0" />
+        <mxCell id="ohpjeUfnrAzDa1KPJt9F-1" parent="ohpjeUfnrAzDa1KPJt9F-0" />
+        <mxCell id="ohpjeUfnrAzDa1KPJt9F-2" value="Database connection is down" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="ohpjeUfnrAzDa1KPJt9F-1">
+          <mxGeometry x="655" y="270" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ohpjeUfnrAzDa1KPJt9F-3" value="Transient Errors" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;fontStyle=1" vertex="1" parent="ohpjeUfnrAzDa1KPJt9F-1">
+          <mxGeometry x="697.5" y="240" width="175" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ohpjeUfnrAzDa1KPJt9F-5" value="Non-Transient Errors" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;fontStyle=1" vertex="1" parent="ohpjeUfnrAzDa1KPJt9F-1">
+          <mxGeometry x="1016.25" y="240" width="227.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ohpjeUfnrAzDa1KPJt9F-6" value="Event data is invalid" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="ohpjeUfnrAzDa1KPJt9F-1">
+          <mxGeometry x="1000" y="270" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ohpjeUfnrAzDa1KPJt9F-8" value="&lt;i&gt;These problems might go away if we try to reprocess the event in a few seconds&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="ohpjeUfnrAzDa1KPJt9F-1">
+          <mxGeometry x="682.5" y="340" width="205" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ohpjeUfnrAzDa1KPJt9F-9" value="Event has already been processed" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="ohpjeUfnrAzDa1KPJt9F-1">
+          <mxGeometry x="1000" y="330" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hJrOXMhbEGJU87O6PyM2-0" value="&lt;i&gt;No matter how many times we try to reprocess the event, this error won&#39;t go away&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="ohpjeUfnrAzDa1KPJt9F-1">
+          <mxGeometry x="1027.5" y="390" width="205" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -554,38 +589,6 @@
         </mxCell>
         <mxCell id="cIFc45WKxbngex_T83bI-21" value="&lt;i&gt;Events received out of order&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="cIFc45WKxbngex_T83bI-1">
           <mxGeometry x="520" y="195" width="160" height="20" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="Vs34sjiFl_de9pe0FEm2" name="10 - trans">
-    <mxGraphModel dx="683" dy="336" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
-      <root>
-        <mxCell id="ohpjeUfnrAzDa1KPJt9F-0" />
-        <mxCell id="ohpjeUfnrAzDa1KPJt9F-1" parent="ohpjeUfnrAzDa1KPJt9F-0" />
-        <mxCell id="ohpjeUfnrAzDa1KPJt9F-2" value="Database connection is down" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="ohpjeUfnrAzDa1KPJt9F-1">
-          <mxGeometry x="655" y="270" width="260" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="ohpjeUfnrAzDa1KPJt9F-3" value="Transient Errors" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;fontStyle=1" vertex="1" parent="ohpjeUfnrAzDa1KPJt9F-1">
-          <mxGeometry x="697.5" y="240" width="175" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="ohpjeUfnrAzDa1KPJt9F-5" value="Non-Transient Errors" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;fontStyle=1" vertex="1" parent="ohpjeUfnrAzDa1KPJt9F-1">
-          <mxGeometry x="1016.25" y="240" width="227.5" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="ohpjeUfnrAzDa1KPJt9F-6" value="Event data is invalid" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="ohpjeUfnrAzDa1KPJt9F-1">
-          <mxGeometry x="1000" y="270" width="260" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="ohpjeUfnrAzDa1KPJt9F-7" value="Event is being processed out of order" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="ohpjeUfnrAzDa1KPJt9F-1">
-          <mxGeometry x="655" y="330" width="260" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="ohpjeUfnrAzDa1KPJt9F-8" value="&lt;i&gt;These problems might go away if we try to reprocess the event in a few seconds&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="ohpjeUfnrAzDa1KPJt9F-1">
-          <mxGeometry x="682.5" y="390" width="205" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ohpjeUfnrAzDa1KPJt9F-9" value="Event has already been processed" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="ohpjeUfnrAzDa1KPJt9F-1">
-          <mxGeometry x="1000" y="330" width="260" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="hJrOXMhbEGJU87O6PyM2-0" value="&lt;i&gt;No matter how many times we try to reprocess the event, this error won&#39;t go away&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="ohpjeUfnrAzDa1KPJt9F-1">
-          <mxGeometry x="1027.5" y="390" width="205" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
