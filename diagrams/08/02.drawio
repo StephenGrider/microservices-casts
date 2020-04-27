@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-04-27T20:08:16.808Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="Nq93xx7jVNbHr0xQJNdL" version="13.0.2" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2020-04-27T20:27:04.968Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="zlYNdKQVxm-AsaHkEegq" version="13.0.2" type="github" pages="9">
   <diagram id="NLPp2RANzj0yKCLvoB4-" name="01 - update">
     <mxGraphModel dx="858" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -242,7 +242,7 @@
         <mxCell id="qUrMpUMIDRMDb5-X3uD3-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="duq-pEWKDF7M9AKMIPE8-1" source="qUrMpUMIDRMDb5-X3uD3-14" target="qUrMpUMIDRMDb5-X3uD3-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qUrMpUMIDRMDb5-X3uD3-14" value="Tickets Collection" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" vertex="1" parent="duq-pEWKDF7M9AKMIPE8-1">
+        <mxCell id="qUrMpUMIDRMDb5-X3uD3-14" value="Orders Collection" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" vertex="1" parent="duq-pEWKDF7M9AKMIPE8-1">
           <mxGeometry x="960" y="300" width="200" height="150" as="geometry" />
         </mxCell>
         <mxCell id="qUrMpUMIDRMDb5-X3uD3-17" value="Ticket isn&#39;t reserved? Great!&amp;nbsp; Create a new order." style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="duq-pEWKDF7M9AKMIPE8-1">
@@ -393,6 +393,89 @@
         </mxCell>
         <mxCell id="cx-zm6Oqs-1qRs_huKF1-30" value="Wait..." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontStyle=2" vertex="1" parent="cx-zm6Oqs-1qRs_huKF1-1">
           <mxGeometry x="813" y="414" width="100" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Xx5ap4HsDcu5cxLGE85O" name="09 - listeners">
+    <mxGraphModel dx="834" dy="411" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0AzkZ_DEf5Xeuaw59CS6-0" />
+        <mxCell id="0AzkZ_DEf5Xeuaw59CS6-1" parent="0AzkZ_DEf5Xeuaw59CS6-0" />
+        <mxCell id="7LceukgZTSw0FFcxnIN4-0" value="Orders Service" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1" vertex="1" parent="0AzkZ_DEf5Xeuaw59CS6-1">
+          <mxGeometry x="680" y="200" width="220" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="7LceukgZTSw0FFcxnIN4-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1" vertex="1" parent="0AzkZ_DEf5Xeuaw59CS6-1">
+          <mxGeometry x="680" y="225" width="220" height="565" as="geometry" />
+        </mxCell>
+        <mxCell id="7LceukgZTSw0FFcxnIN4-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;" edge="1" parent="0AzkZ_DEf5Xeuaw59CS6-1" source="7LceukgZTSw0FFcxnIN4-3" target="7LceukgZTSw0FFcxnIN4-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7LceukgZTSw0FFcxnIN4-3" value="Request to create an order for ticket XYZ" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="0AzkZ_DEf5Xeuaw59CS6-1">
+          <mxGeometry x="490" y="240" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7LceukgZTSw0FFcxnIN4-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;" edge="1" parent="0AzkZ_DEf5Xeuaw59CS6-1" source="7LceukgZTSw0FFcxnIN4-7" target="7LceukgZTSw0FFcxnIN4-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7LceukgZTSw0FFcxnIN4-7" value="Is the ticket reserved?" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="0AzkZ_DEf5Xeuaw59CS6-1">
+          <mxGeometry x="690" y="240" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7LceukgZTSw0FFcxnIN4-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="0AzkZ_DEf5Xeuaw59CS6-1" source="7LceukgZTSw0FFcxnIN4-10" target="7LceukgZTSw0FFcxnIN4-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7LceukgZTSw0FFcxnIN4-10" value="Check to see if there is an order that references ticket XYZ and has a status that isn&#39;t &#39;cancelled&#39;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="0AzkZ_DEf5Xeuaw59CS6-1">
+          <mxGeometry x="690" y="300" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7LceukgZTSw0FFcxnIN4-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=15;" edge="1" parent="0AzkZ_DEf5Xeuaw59CS6-1" source="7LceukgZTSw0FFcxnIN4-13" target="7LceukgZTSw0FFcxnIN4-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7LceukgZTSw0FFcxnIN4-13" value="Ticket isn&#39;t reserved? Great!&amp;nbsp; Create a new &lt;b&gt;order with the status &#39;Created&#39;.&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="0AzkZ_DEf5Xeuaw59CS6-1">
+          <mxGeometry x="690" y="370" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7LceukgZTSw0FFcxnIN4-15" value="Emit an OrderCreated event" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="0AzkZ_DEf5Xeuaw59CS6-1">
+          <mxGeometry x="690" y="440" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7LceukgZTSw0FFcxnIN4-17" value="Tickets Service" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1" vertex="1" parent="0AzkZ_DEf5Xeuaw59CS6-1">
+          <mxGeometry x="940" y="200" width="220" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="7LceukgZTSw0FFcxnIN4-18" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1" vertex="1" parent="0AzkZ_DEf5Xeuaw59CS6-1">
+          <mxGeometry x="940" y="225" width="220" height="565" as="geometry" />
+        </mxCell>
+        <mxCell id="7LceukgZTSw0FFcxnIN4-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=15;" edge="1" parent="0AzkZ_DEf5Xeuaw59CS6-1" source="7LceukgZTSw0FFcxnIN4-19" target="7LceukgZTSw0FFcxnIN4-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7LceukgZTSw0FFcxnIN4-19" value="Look up the referenced Ticket, see if it is reserved" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="0AzkZ_DEf5Xeuaw59CS6-1">
+          <mxGeometry x="950" y="440" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7LceukgZTSw0FFcxnIN4-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=15;" edge="1" parent="0AzkZ_DEf5Xeuaw59CS6-1" source="7LceukgZTSw0FFcxnIN4-15" target="7LceukgZTSw0FFcxnIN4-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7LceukgZTSw0FFcxnIN4-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=15;" edge="1" parent="0AzkZ_DEf5Xeuaw59CS6-1" source="7LceukgZTSw0FFcxnIN4-21" target="7LceukgZTSw0FFcxnIN4-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7LceukgZTSw0FFcxnIN4-21" value="If it is not&amp;nbsp;reserved, save the orderId with the ticket" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="0AzkZ_DEf5Xeuaw59CS6-1">
+          <mxGeometry x="950" y="510" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7LceukgZTSw0FFcxnIN4-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=15;" edge="1" parent="0AzkZ_DEf5Xeuaw59CS6-1" source="7LceukgZTSw0FFcxnIN4-23" target="7LceukgZTSw0FFcxnIN4-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7LceukgZTSw0FFcxnIN4-23" value="Emit &lt;b&gt;TicketUpdated &lt;/b&gt;event" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="0AzkZ_DEf5Xeuaw59CS6-1">
+          <mxGeometry x="950" y="580" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7LceukgZTSw0FFcxnIN4-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=15;" edge="1" parent="0AzkZ_DEf5Xeuaw59CS6-1" source="7LceukgZTSw0FFcxnIN4-26" target="7LceukgZTSw0FFcxnIN4-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7LceukgZTSw0FFcxnIN4-26" value="Find ticket that was updated in DB." style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="0AzkZ_DEf5Xeuaw59CS6-1">
+          <mxGeometry x="690" y="580" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7LceukgZTSw0FFcxnIN4-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=15;" edge="1" parent="0AzkZ_DEf5Xeuaw59CS6-1" source="7LceukgZTSw0FFcxnIN4-28" target="7LceukgZTSw0FFcxnIN4-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7LceukgZTSw0FFcxnIN4-28" value="Update the ticket with info from event" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="0AzkZ_DEf5Xeuaw59CS6-1">
+          <mxGeometry x="690" y="650" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7LceukgZTSw0FFcxnIN4-30" value="&lt;i&gt;Find any other orders that reference this ticket and are in a &#39;Created&#39; state.&amp;nbsp; Update their status to &#39;Cancelled&#39;&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="0AzkZ_DEf5Xeuaw59CS6-1">
+          <mxGeometry x="690" y="720" width="200" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
