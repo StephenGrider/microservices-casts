@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-04-27T17:07:22.420Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="FjcSrZ94pJzD5LheHM7K" version="13.0.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2020-04-27T20:04:00.112Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="dfBZToujM9fNP-Zs1v9n" version="13.0.2" type="github" pages="5">
   <diagram id="NLPp2RANzj0yKCLvoB4-" name="01 - update">
     <mxGraphModel dx="858" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -125,11 +125,108 @@
         <mxCell id="EsY-7lRfMBMIzEp2uL8c-4" value="tickets" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="iHQCS6ixgauzAYLSUbZY-1">
           <mxGeometry x="760" y="465" width="120" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="EsY-7lRfMBMIzEp2uL8c-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=17;" edge="1" parent="iHQCS6ixgauzAYLSUbZY-1" source="EsY-7lRfMBMIzEp2uL8c-10" target="_GzqMNcqzfoMrPJSCGzO-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EsY-7lRfMBMIzEp2uL8c-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=17;" edge="1" parent="iHQCS6ixgauzAYLSUbZY-1" source="EsY-7lRfMBMIzEp2uL8c-10" target="EsY-7lRfMBMIzEp2uL8c-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="EsY-7lRfMBMIzEp2uL8c-10" value="Seller" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="iHQCS6ixgauzAYLSUbZY-1">
-          <mxGeometry x="490" y="260" width="120" height="60" as="geometry" />
+          <mxGeometry x="520" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EsY-7lRfMBMIzEp2uL8c-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=17;" edge="1" parent="iHQCS6ixgauzAYLSUbZY-1" source="EsY-7lRfMBMIzEp2uL8c-11" target="EsY-7lRfMBMIzEp2uL8c-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="EsY-7lRfMBMIzEp2uL8c-11" value="Buyer" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" vertex="1" parent="iHQCS6ixgauzAYLSUbZY-1">
-          <mxGeometry x="490" y="405" width="120" height="60" as="geometry" />
+          <mxGeometry x="520" y="405" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="04 - race" id="wWjlULPujiqGiv402T_2">
+    <mxGraphModel dx="834" dy="411" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="pQ5pyipGuvEB7tMVYSXN-0" />
+        <mxCell id="pQ5pyipGuvEB7tMVYSXN-1" parent="pQ5pyipGuvEB7tMVYSXN-0" />
+        <mxCell id="pQ5pyipGuvEB7tMVYSXN-2" value="Tickets Service" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1" vertex="1" parent="pQ5pyipGuvEB7tMVYSXN-1">
+          <mxGeometry x="730" y="210" width="180" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="pQ5pyipGuvEB7tMVYSXN-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1" vertex="1" parent="pQ5pyipGuvEB7tMVYSXN-1">
+          <mxGeometry x="730" y="235" width="180" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="pQ5pyipGuvEB7tMVYSXN-4" value="tickets" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="pQ5pyipGuvEB7tMVYSXN-1">
+          <mxGeometry x="760" y="250" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pQ5pyipGuvEB7tMVYSXN-5" value="Orders Service" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1" vertex="1" parent="pQ5pyipGuvEB7tMVYSXN-1">
+          <mxGeometry x="960" y="210" width="180" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="pQ5pyipGuvEB7tMVYSXN-6" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1" vertex="1" parent="pQ5pyipGuvEB7tMVYSXN-1">
+          <mxGeometry x="960" y="235" width="180" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="pQ5pyipGuvEB7tMVYSXN-7" value="orders" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="pQ5pyipGuvEB7tMVYSXN-1">
+          <mxGeometry x="990" y="250" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pQ5pyipGuvEB7tMVYSXN-8" value="tickets" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="pQ5pyipGuvEB7tMVYSXN-1">
+          <mxGeometry x="990" y="300" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PWTIB0P2LlGIKhvoODFG-0" value="Request to create an order for ticket XYZ" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="pQ5pyipGuvEB7tMVYSXN-1">
+          <mxGeometry x="970" y="380" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PWTIB0P2LlGIKhvoODFG-1" value="Request to create an order for ticket XYZ" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="pQ5pyipGuvEB7tMVYSXN-1">
+          <mxGeometry x="740" y="380" width="160" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="bldarbSIqXOkE7tWOWkD" name="05 - race">
+    <mxGraphModel dx="715" dy="352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="duq-pEWKDF7M9AKMIPE8-0" />
+        <mxCell id="duq-pEWKDF7M9AKMIPE8-1" parent="duq-pEWKDF7M9AKMIPE8-0" />
+        <mxCell id="qUrMpUMIDRMDb5-X3uD3-0" value="Orders Service" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1" vertex="1" parent="duq-pEWKDF7M9AKMIPE8-1">
+          <mxGeometry x="680" y="200" width="220" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="qUrMpUMIDRMDb5-X3uD3-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1" vertex="1" parent="duq-pEWKDF7M9AKMIPE8-1">
+          <mxGeometry x="680" y="225" width="220" height="275" as="geometry" />
+        </mxCell>
+        <mxCell id="qUrMpUMIDRMDb5-X3uD3-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;" edge="1" parent="duq-pEWKDF7M9AKMIPE8-1" source="qUrMpUMIDRMDb5-X3uD3-4" target="qUrMpUMIDRMDb5-X3uD3-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qUrMpUMIDRMDb5-X3uD3-4" value="Request to create an order for ticket XYZ" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="duq-pEWKDF7M9AKMIPE8-1">
+          <mxGeometry x="490" y="240" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qUrMpUMIDRMDb5-X3uD3-6" value="Mongo DB" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1" vertex="1" parent="duq-pEWKDF7M9AKMIPE8-1">
+          <mxGeometry x="950" y="200" width="220" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="qUrMpUMIDRMDb5-X3uD3-7" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1" vertex="1" parent="duq-pEWKDF7M9AKMIPE8-1">
+          <mxGeometry x="950" y="225" width="220" height="275" as="geometry" />
+        </mxCell>
+        <mxCell id="qUrMpUMIDRMDb5-X3uD3-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;" edge="1" parent="duq-pEWKDF7M9AKMIPE8-1" source="qUrMpUMIDRMDb5-X3uD3-8" target="qUrMpUMIDRMDb5-X3uD3-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qUrMpUMIDRMDb5-X3uD3-8" value="Is the ticket reserved?" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="duq-pEWKDF7M9AKMIPE8-1">
+          <mxGeometry x="690" y="240" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qUrMpUMIDRMDb5-X3uD3-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="duq-pEWKDF7M9AKMIPE8-1" source="qUrMpUMIDRMDb5-X3uD3-9" target="qUrMpUMIDRMDb5-X3uD3-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qUrMpUMIDRMDb5-X3uD3-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="duq-pEWKDF7M9AKMIPE8-1" source="qUrMpUMIDRMDb5-X3uD3-9" target="qUrMpUMIDRMDb5-X3uD3-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qUrMpUMIDRMDb5-X3uD3-9" value="Check to see if there is an order that references ticket XYZ and has a status that isn&#39;t &#39;cancelled&#39;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="duq-pEWKDF7M9AKMIPE8-1">
+          <mxGeometry x="690" y="300" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qUrMpUMIDRMDb5-X3uD3-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="duq-pEWKDF7M9AKMIPE8-1" source="qUrMpUMIDRMDb5-X3uD3-14" target="qUrMpUMIDRMDb5-X3uD3-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qUrMpUMIDRMDb5-X3uD3-14" value="Tickets Collection" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" vertex="1" parent="duq-pEWKDF7M9AKMIPE8-1">
+          <mxGeometry x="960" y="300" width="200" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="qUrMpUMIDRMDb5-X3uD3-17" value="Ticket isn&#39;t reserved? Great!&amp;nbsp; Create a new order." style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="duq-pEWKDF7M9AKMIPE8-1">
+          <mxGeometry x="690" y="400" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qUrMpUMIDRMDb5-X3uD3-20" value="Wait for query..." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=2" vertex="1" parent="duq-pEWKDF7M9AKMIPE8-1">
+          <mxGeometry x="790" y="355" width="110" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
