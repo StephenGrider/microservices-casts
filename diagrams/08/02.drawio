@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-04-27T20:06:41.298Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="iakLzECEakJ6wJrcyc56" version="13.0.2" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2020-04-27T20:08:16.808Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="Nq93xx7jVNbHr0xQJNdL" version="13.0.2" type="github" pages="8">
   <diagram id="NLPp2RANzj0yKCLvoB4-" name="01 - update">
     <mxGraphModel dx="858" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -174,6 +174,29 @@
         </mxCell>
         <mxCell id="PWTIB0P2LlGIKhvoODFG-1" value="Request to create an order for ticket XYZ" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="pQ5pyipGuvEB7tMVYSXN-1">
           <mxGeometry x="740" y="380" width="160" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="9RgLAYgRUPjVGuz0_Y6i" name="08 - notes">
+    <mxGraphModel dx="613" dy="302" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="GSbxUhkFhd-02AgeG37b-0" />
+        <mxCell id="GSbxUhkFhd-02AgeG37b-1" parent="GSbxUhkFhd-02AgeG37b-0" />
+        <mxCell id="GSbxUhkFhd-02AgeG37b-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=15;" edge="1" parent="GSbxUhkFhd-02AgeG37b-1" source="GSbxUhkFhd-02AgeG37b-2" target="GSbxUhkFhd-02AgeG37b-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GSbxUhkFhd-02AgeG37b-2" value="The issue we&#39;re about to look at &lt;i&gt;is not &lt;/i&gt;particular to microservices" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="GSbxUhkFhd-02AgeG37b-1">
+          <mxGeometry x="620" y="250" width="410" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GSbxUhkFhd-02AgeG37b-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=15;" edge="1" parent="GSbxUhkFhd-02AgeG37b-1" source="GSbxUhkFhd-02AgeG37b-3" target="GSbxUhkFhd-02AgeG37b-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GSbxUhkFhd-02AgeG37b-3" value="It is an issue that is &lt;i&gt;likely&lt;/i&gt; to happen in the app we are building" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="GSbxUhkFhd-02AgeG37b-1">
+          <mxGeometry x="620" y="345" width="410" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GSbxUhkFhd-02AgeG37b-5" value="Its important for you to understand how to fix this with a microservices approach" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="GSbxUhkFhd-02AgeG37b-1">
+          <mxGeometry x="620" y="440" width="410" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
