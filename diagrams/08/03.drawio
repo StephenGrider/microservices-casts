@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-04-27T21:10:34.943Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="N6yUYlAcgD4KkEd6Hv7B" version="13.0.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-04-27T23:03:54.389Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="tRvOvYwqmD_uq0vhdx9m" version="13.0.2" type="github" pages="2">
   <diagram id="XnMkDaOkkMK2pUcaQcO5" name="01 - listener">
     <mxGraphModel dx="715" dy="352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -84,7 +84,7 @@
         <mxCell id="HbcU3tZbMtFgkvGHTX_1-9" value="{ id: &#39;ABC&#39;, title: &#39;concert&#39;, price: 20 }" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="HbcU3tZbMtFgkvGHTX_1-1">
           <mxGeometry x="410" y="300" width="230" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="HbcU3tZbMtFgkvGHTX_1-10" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="HbcU3tZbMtFgkvGHTX_1-1">
+        <mxCell id="HbcU3tZbMtFgkvGHTX_1-10" value="{ title: &#39;concert&#39;, price: 20, id: &#39;ABC&#39; }" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="HbcU3tZbMtFgkvGHTX_1-1">
           <mxGeometry x="690" y="300" width="230" height="50" as="geometry" />
         </mxCell>
       </root>
