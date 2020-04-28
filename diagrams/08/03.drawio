@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-04-28T17:48:49.653Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36" etag="RyohQmDGPdO2jW7Hek-J" version="13.0.2" type="github" pages="16">
+<mxfile host="app.diagrams.net" modified="2020-04-28T19:47:51.134Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36" etag="SaAxKuwR4Q8DG6-B6Ovh" version="13.0.2" type="github" pages="19">
   <diagram id="XnMkDaOkkMK2pUcaQcO5" name="01 - listener">
     <mxGraphModel dx="715" dy="352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -284,7 +284,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="urmSixb9dXAp6geGqLEQ" name="06 - conc">
-    <mxGraphModel dx="683" dy="336" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="812" dy="399" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="XQrhH6ep52r7ac9gFww2-0" />
         <mxCell id="XQrhH6ep52r7ac9gFww2-1" parent="XQrhH6ep52r7ac9gFww2-0" />
@@ -394,10 +394,10 @@
           <mxGeometry x="720" y="285" width="60" height="45" as="geometry" />
         </mxCell>
         <mxCell id="XQrhH6ep52r7ac9gFww2-37" value="&lt;b&gt;ticket:updated&lt;/b&gt;&lt;br&gt;id: &#39;CZQ&#39;, price: 10, version: 2" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="XQrhH6ep52r7ac9gFww2-1">
-          <mxGeometry x="810" y="297.5" width="170" height="45" as="geometry" />
+          <mxGeometry x="730" y="585" width="170" height="45" as="geometry" />
         </mxCell>
         <mxCell id="XQrhH6ep52r7ac9gFww2-38" value="&lt;b&gt;ticket:updated&lt;/b&gt;&lt;br&gt;id: &#39;czq&#39;, price: 15, version: 3" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="XQrhH6ep52r7ac9gFww2-1">
-          <mxGeometry x="810" y="342.5" width="170" height="40" as="geometry" />
+          <mxGeometry x="780" y="460" width="170" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -780,6 +780,29 @@
       </root>
     </mxGraphModel>
   </diagram>
+  <diagram id="3sldYFGkxUjkxw5Z2qHm" name="15 - update">
+    <mxGraphModel dx="601" dy="296" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="RUCh0LFH7kD3ERi3b0j8-0" />
+        <mxCell id="RUCh0LFH7kD3ERi3b0j8-1" parent="RUCh0LFH7kD3ERi3b0j8-0" />
+        <mxCell id="RUCh0LFH7kD3ERi3b0j8-2" value="Updates the version number on records before they are saved" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="RUCh0LFH7kD3ERi3b0j8-1">
+          <mxGeometry x="620" y="240" width="410" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RUCh0LFH7kD3ERi3b0j8-3" value="mongoose-update-if-current" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1" vertex="1" parent="RUCh0LFH7kD3ERi3b0j8-1">
+          <mxGeometry x="690" y="210" width="252.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RUCh0LFH7kD3ERi3b0j8-4" value="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;align=center;" vertex="1" parent="RUCh0LFH7kD3ERi3b0j8-1">
+          <mxGeometry x="560" y="240" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RUCh0LFH7kD3ERi3b0j8-5" value="Customizes the find-and-update operation (save) to look for the correct version" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="RUCh0LFH7kD3ERi3b0j8-1">
+          <mxGeometry x="620" y="310" width="410" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RUCh0LFH7kD3ERi3b0j8-6" value="2" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;align=center;" vertex="1" parent="RUCh0LFH7kD3ERi3b0j8-1">
+          <mxGeometry x="560" y="310" width="60" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
   <diagram name="08 - v" id="cqergNn3I74Op0oue5hP">
     <mxGraphModel dx="812" dy="399" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -847,37 +870,14 @@
         <mxCell id="y00lBZFUo84cVpTOfWEo-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=15;" edge="1" parent="y00lBZFUo84cVpTOfWEo-1" source="y00lBZFUo84cVpTOfWEo-22" target="y00lBZFUo84cVpTOfWEo-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="y00lBZFUo84cVpTOfWEo-22" value="&lt;b&gt;Find the record with ID &#39;CZQ&#39;&lt;/b&gt;&amp;nbsp;&lt;b&gt;&lt;i&gt;and a&lt;/i&gt; &lt;i&gt;version of currentVersion - 1&amp;nbsp;&lt;/i&gt;&lt;/b&gt;and set its price to 10" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="y00lBZFUo84cVpTOfWEo-1">
-          <mxGeometry x="680" y="330" width="170" height="100" as="geometry" />
+        <mxCell id="y00lBZFUo84cVpTOfWEo-22" value="&lt;b&gt;Find the record with ID &#39;CZQ&#39;&lt;/b&gt;&amp;nbsp;&lt;b&gt;&lt;i&gt;and a&lt;/i&gt; &lt;i&gt;version of currentVersion - 1&amp;nbsp;&lt;/i&gt;&lt;/b&gt;and set its price to 10 and version to &lt;b&gt;&lt;i&gt;currentVersion&lt;/i&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="y00lBZFUo84cVpTOfWEo-1">
+          <mxGeometry x="680" y="320" width="170" height="120" as="geometry" />
         </mxCell>
         <mxCell id="qobM5Qc8nbF4JeLCe_gV-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=11;" edge="1" parent="y00lBZFUo84cVpTOfWEo-1" source="qobM5Qc8nbF4JeLCe_gV-0" target="y00lBZFUo84cVpTOfWEo-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qobM5Qc8nbF4JeLCe_gV-0" value="&lt;i&gt;Mongoose-update-if-current updates version to 1&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;align=center;" vertex="1" parent="y00lBZFUo84cVpTOfWEo-1">
           <mxGeometry x="395" y="440" width="230" height="40" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="3sldYFGkxUjkxw5Z2qHm" name="15 - update">
-    <mxGraphModel dx="601" dy="296" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
-      <root>
-        <mxCell id="RUCh0LFH7kD3ERi3b0j8-0" />
-        <mxCell id="RUCh0LFH7kD3ERi3b0j8-1" parent="RUCh0LFH7kD3ERi3b0j8-0" />
-        <mxCell id="RUCh0LFH7kD3ERi3b0j8-2" value="Updates the version number on records before they are saved" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="RUCh0LFH7kD3ERi3b0j8-1">
-          <mxGeometry x="620" y="240" width="410" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="RUCh0LFH7kD3ERi3b0j8-3" value="mongoose-update-if-current" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1" vertex="1" parent="RUCh0LFH7kD3ERi3b0j8-1">
-          <mxGeometry x="690" y="210" width="252.5" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="RUCh0LFH7kD3ERi3b0j8-4" value="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;align=center;" vertex="1" parent="RUCh0LFH7kD3ERi3b0j8-1">
-          <mxGeometry x="560" y="240" width="60" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="RUCh0LFH7kD3ERi3b0j8-5" value="Customizes the find-and-update operation (save) to look for the correct version" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="RUCh0LFH7kD3ERi3b0j8-1">
-          <mxGeometry x="620" y="310" width="410" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="RUCh0LFH7kD3ERi3b0j8-6" value="2" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;align=center;" vertex="1" parent="RUCh0LFH7kD3ERi3b0j8-1">
-          <mxGeometry x="560" y="310" width="60" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -931,11 +931,8 @@
         <mxCell id="fvVvkXAhbD8GWKQFga35-15" value="Record Updates &lt;i&gt;with mongoose-update-if-current&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=5" vertex="1" parent="fvVvkXAhbD8GWKQFga35-1">
           <mxGeometry x="890" y="190" width="270" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="fvVvkXAhbD8GWKQFga35-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=15;" edge="1" parent="fvVvkXAhbD8GWKQFga35-1" source="fvVvkXAhbD8GWKQFga35-17" target="fvVvkXAhbD8GWKQFga35-5">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="fvVvkXAhbD8GWKQFga35-17" value="&lt;b&gt;Find record with id &#39;CZQ&#39;, version = _ and update with price: 7.5, version =_&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="fvVvkXAhbD8GWKQFga35-1">
-          <mxGeometry x="1200" y="330" width="160" height="85" as="geometry" />
+        <mxCell id="fvVvkXAhbD8GWKQFga35-17" value="&lt;b style=&quot;font-size: 12px;&quot;&gt;Find record with id &#39;CZQ&#39; and&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="fvVvkXAhbD8GWKQFga35-1">
+          <mxGeometry x="1190" y="300" width="180" height="45" as="geometry" />
         </mxCell>
         <mxCell id="fvVvkXAhbD8GWKQFga35-18" value="Tickets Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;fontSize=16;" vertex="1" parent="fvVvkXAhbD8GWKQFga35-1">
           <mxGeometry x="460" y="230" width="220" height="30" as="geometry" />
@@ -948,9 +945,6 @@
         </mxCell>
         <mxCell id="fvVvkXAhbD8GWKQFga35-22" value="Ticket updated! Create event!" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;align=center;" vertex="1" parent="fvVvkXAhbD8GWKQFga35-1">
           <mxGeometry x="480" y="270" width="180" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="fvVvkXAhbD8GWKQFga35-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=11;" edge="1" parent="fvVvkXAhbD8GWKQFga35-1" source="fvVvkXAhbD8GWKQFga35-26" target="fvVvkXAhbD8GWKQFga35-17">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fvVvkXAhbD8GWKQFga35-26" value="&lt;span&gt;Save record&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;align=center;fontStyle=0" vertex="1" parent="fvVvkXAhbD8GWKQFga35-1">
           <mxGeometry x="915" y="450" width="230" height="40" as="geometry" />
@@ -970,8 +964,123 @@
         <mxCell id="fvVvkXAhbD8GWKQFga35-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=11;" edge="1" parent="fvVvkXAhbD8GWKQFga35-1" source="fvVvkXAhbD8GWKQFga35-32" target="fvVvkXAhbD8GWKQFga35-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="fvVvkXAhbD8GWKQFga35-32" value="&lt;span&gt;&lt;i&gt;mongoose-update-if-current applies update to version&lt;/i&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;align=center;fontStyle=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="fvVvkXAhbD8GWKQFga35-1">
+        <mxCell id="fvVvkXAhbD8GWKQFga35-32" value="&lt;span&gt;&lt;i&gt;mongoose-update-if-current applies update to version (0 + 1 = 1)&lt;/i&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;align=center;fontStyle=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="fvVvkXAhbD8GWKQFga35-1">
           <mxGeometry x="915" y="390" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8ZkoPtrH-pLl4_6QYcST-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="fvVvkXAhbD8GWKQFga35-1" source="8ZkoPtrH-pLl4_6QYcST-0" target="8ZkoPtrH-pLl4_6QYcST-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8ZkoPtrH-pLl4_6QYcST-0" value="&lt;b style=&quot;font-size: 12px;&quot;&gt;version = currentVersion - 1&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="fvVvkXAhbD8GWKQFga35-1">
+          <mxGeometry x="1190" y="345" width="180" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="8ZkoPtrH-pLl4_6QYcST-1" value="&lt;b&gt;update to price = 7.5 and&amp;nbsp;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="fvVvkXAhbD8GWKQFga35-1">
+          <mxGeometry x="1190" y="395" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8ZkoPtrH-pLl4_6QYcST-3" value="&lt;b&gt;version = currentVersion&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="fvVvkXAhbD8GWKQFga35-1">
+          <mxGeometry x="1190" y="425" width="180" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="14 - nope" id="qOgkcVIBjyWkwc1lVLH4">
+    <mxGraphModel dx="858" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="eSJScbIB-I8Ig2Aj1f4r-0" />
+        <mxCell id="eSJScbIB-I8Ig2Aj1f4r-1" parent="eSJScbIB-I8Ig2Aj1f4r-0" />
+        <mxCell id="eSJScbIB-I8Ig2Aj1f4r-2" value="Orders DB" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;fontSize=16;" vertex="1" parent="eSJScbIB-I8Ig2Aj1f4r-1">
+          <mxGeometry x="1410" y="230" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eSJScbIB-I8Ig2Aj1f4r-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="eSJScbIB-I8Ig2Aj1f4r-1">
+          <mxGeometry x="1410" y="260" width="260" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="eSJScbIB-I8Ig2Aj1f4r-4" value="TicketId" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="eSJScbIB-I8Ig2Aj1f4r-1">
+          <mxGeometry x="1420" y="270" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="eSJScbIB-I8Ig2Aj1f4r-5" value="CZQ" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;" vertex="1" parent="eSJScbIB-I8Ig2Aj1f4r-1">
+          <mxGeometry x="1420" y="290" width="60" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="eSJScbIB-I8Ig2Aj1f4r-6" value="Price" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="eSJScbIB-I8Ig2Aj1f4r-1">
+          <mxGeometry x="1480" y="270" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="eSJScbIB-I8Ig2Aj1f4r-7" value="Version" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="eSJScbIB-I8Ig2Aj1f4r-1">
+          <mxGeometry x="1580" y="270" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="eSJScbIB-I8Ig2Aj1f4r-8" value="0" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;" vertex="1" parent="eSJScbIB-I8Ig2Aj1f4r-1">
+          <mxGeometry x="1580" y="290" width="80" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="eSJScbIB-I8Ig2Aj1f4r-9" value="5" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;" vertex="1" parent="eSJScbIB-I8Ig2Aj1f4r-1">
+          <mxGeometry x="1480" y="290" width="100" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="eSJScbIB-I8Ig2Aj1f4r-10" value="Orders Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;fontSize=16;" vertex="1" parent="eSJScbIB-I8Ig2Aj1f4r-1">
+          <mxGeometry x="900" y="230" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eSJScbIB-I8Ig2Aj1f4r-11" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="eSJScbIB-I8Ig2Aj1f4r-1">
+          <mxGeometry x="900" y="260" width="260" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="eSJScbIB-I8Ig2Aj1f4r-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=11;" edge="1" parent="eSJScbIB-I8Ig2Aj1f4r-1" source="eSJScbIB-I8Ig2Aj1f4r-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1030" y="329.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eSJScbIB-I8Ig2Aj1f4r-13" value="Find document with id &#39;CZQ&#39;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;align=center;" vertex="1" parent="eSJScbIB-I8Ig2Aj1f4r-1">
+          <mxGeometry x="915" y="270" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eSJScbIB-I8Ig2Aj1f4r-14" value="Apply updates to document, price: 7.5" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;align=center;" vertex="1" parent="eSJScbIB-I8Ig2Aj1f4r-1">
+          <mxGeometry x="915" y="330" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eSJScbIB-I8Ig2Aj1f4r-15" value="Record Updates &lt;i&gt;with mongoose-update-if-current&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=5" vertex="1" parent="eSJScbIB-I8Ig2Aj1f4r-1">
+          <mxGeometry x="890" y="190" width="270" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="eSJScbIB-I8Ig2Aj1f4r-16" value="&lt;b style=&quot;font-size: 12px;&quot;&gt;Find record with id &#39;CZQ&#39; and&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="eSJScbIB-I8Ig2Aj1f4r-1">
+          <mxGeometry x="1190" y="300" width="180" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="eSJScbIB-I8Ig2Aj1f4r-17" value="Tickets Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;fontSize=16;" vertex="1" parent="eSJScbIB-I8Ig2Aj1f4r-1">
+          <mxGeometry x="460" y="230" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eSJScbIB-I8Ig2Aj1f4r-18" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="eSJScbIB-I8Ig2Aj1f4r-1">
+          <mxGeometry x="460" y="260" width="220" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="eSJScbIB-I8Ig2Aj1f4r-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=11;" edge="1" parent="eSJScbIB-I8Ig2Aj1f4r-1" source="eSJScbIB-I8Ig2Aj1f4r-20" target="eSJScbIB-I8Ig2Aj1f4r-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eSJScbIB-I8Ig2Aj1f4r-20" value="Ticket updated! Create event!" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;align=center;" vertex="1" parent="eSJScbIB-I8Ig2Aj1f4r-1">
+          <mxGeometry x="480" y="270" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eSJScbIB-I8Ig2Aj1f4r-21" value="&lt;span&gt;Save record&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;align=center;fontStyle=0" vertex="1" parent="eSJScbIB-I8Ig2Aj1f4r-1">
+          <mxGeometry x="915" y="450" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eSJScbIB-I8Ig2Aj1f4r-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=11;" edge="1" parent="eSJScbIB-I8Ig2Aj1f4r-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1029.6" y="370" as="sourcePoint" />
+            <mxPoint x="1029.6" y="389.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eSJScbIB-I8Ig2Aj1f4r-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=11;" edge="1" parent="eSJScbIB-I8Ig2Aj1f4r-1" source="eSJScbIB-I8Ig2Aj1f4r-24" target="eSJScbIB-I8Ig2Aj1f4r-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eSJScbIB-I8Ig2Aj1f4r-24" value="&lt;b&gt;ticket:updated&lt;/b&gt;&lt;br&gt;id: &#39;CZQ&#39;, price: 7.5, version: 2" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="eSJScbIB-I8Ig2Aj1f4r-1">
+          <mxGeometry x="710" y="270" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eSJScbIB-I8Ig2Aj1f4r-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=11;" edge="1" parent="eSJScbIB-I8Ig2Aj1f4r-1" source="eSJScbIB-I8Ig2Aj1f4r-26" target="eSJScbIB-I8Ig2Aj1f4r-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eSJScbIB-I8Ig2Aj1f4r-26" value="&lt;span&gt;&lt;i&gt;mongoose-update-if-current applies update to version (0 + 1 = 1)&lt;/i&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;align=center;fontStyle=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="eSJScbIB-I8Ig2Aj1f4r-1">
+          <mxGeometry x="915" y="390" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eSJScbIB-I8Ig2Aj1f4r-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="eSJScbIB-I8Ig2Aj1f4r-1" source="eSJScbIB-I8Ig2Aj1f4r-28" target="eSJScbIB-I8Ig2Aj1f4r-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eSJScbIB-I8Ig2Aj1f4r-28" value="&lt;b style=&quot;font-size: 12px;&quot;&gt;version = currentVersion - 1&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="eSJScbIB-I8Ig2Aj1f4r-1">
+          <mxGeometry x="1190" y="345" width="180" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="eSJScbIB-I8Ig2Aj1f4r-29" value="&lt;b&gt;update to price = 7.5 and&amp;nbsp;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="eSJScbIB-I8Ig2Aj1f4r-1">
+          <mxGeometry x="1190" y="395" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eSJScbIB-I8Ig2Aj1f4r-30" value="&lt;b&gt;version = currentVersion&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="eSJScbIB-I8Ig2Aj1f4r-1">
+          <mxGeometry x="1190" y="425" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eSJScbIB-I8Ig2Aj1f4r-32" value="&lt;b style=&quot;font-size: 15px;&quot;&gt;Out of order event!!!&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="eSJScbIB-I8Ig2Aj1f4r-1">
+          <mxGeometry x="710" y="230" width="150" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -1095,6 +1204,112 @@
         </mxCell>
         <mxCell id="yrr9L1YJdA7iYMpWfqAO-31" value="&lt;b&gt;ticket:updated&lt;/b&gt;&lt;br&gt;id: &#39;CZQ&#39;, price: 7.5, version: 1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="yrr9L1YJdA7iYMpWfqAO-1">
           <mxGeometry x="710" y="250" width="150" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="15 - outside" id="pPDR71DVdxdr_YfOLs2W">
+    <mxGraphModel dx="812" dy="399" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="zxcEBjWPBDQa_q81Q8xP-0" />
+        <mxCell id="zxcEBjWPBDQa_q81Q8xP-1" parent="zxcEBjWPBDQa_q81Q8xP-0" />
+        <mxCell id="zxcEBjWPBDQa_q81Q8xP-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="zxcEBjWPBDQa_q81Q8xP-1" source="zxcEBjWPBDQa_q81Q8xP-23" target="zxcEBjWPBDQa_q81Q8xP-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zxcEBjWPBDQa_q81Q8xP-23" value="Orders Srv (Listener) A" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;fontSize=16;" vertex="1" parent="zxcEBjWPBDQa_q81Q8xP-1">
+          <mxGeometry x="780" y="505" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zxcEBjWPBDQa_q81Q8xP-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=15;" edge="1" parent="zxcEBjWPBDQa_q81Q8xP-1" source="zxcEBjWPBDQa_q81Q8xP-25" target="zxcEBjWPBDQa_q81Q8xP-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zxcEBjWPBDQa_q81Q8xP-25" value="Orders Srv (Listener) B" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;fontSize=16;" vertex="1" parent="zxcEBjWPBDQa_q81Q8xP-1">
+          <mxGeometry x="780" y="565" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zxcEBjWPBDQa_q81Q8xP-26" value="Orders Database" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;fontSize=16;" vertex="1" parent="zxcEBjWPBDQa_q81Q8xP-1">
+          <mxGeometry x="460" y="420" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zxcEBjWPBDQa_q81Q8xP-27" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="zxcEBjWPBDQa_q81Q8xP-1">
+          <mxGeometry x="460" y="450" width="260" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="zxcEBjWPBDQa_q81Q8xP-28" value="TicketId" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="zxcEBjWPBDQa_q81Q8xP-1">
+          <mxGeometry x="470" y="460" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zxcEBjWPBDQa_q81Q8xP-29" value="CZQ" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;" vertex="1" parent="zxcEBjWPBDQa_q81Q8xP-1">
+          <mxGeometry x="470" y="480" width="60" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="zxcEBjWPBDQa_q81Q8xP-30" value="Price" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="zxcEBjWPBDQa_q81Q8xP-1">
+          <mxGeometry x="530" y="460" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zxcEBjWPBDQa_q81Q8xP-31" value="Version" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="zxcEBjWPBDQa_q81Q8xP-1">
+          <mxGeometry x="630" y="460" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zxcEBjWPBDQa_q81Q8xP-32" value="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;" vertex="1" parent="zxcEBjWPBDQa_q81Q8xP-1">
+          <mxGeometry x="630" y="480" width="80" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="zxcEBjWPBDQa_q81Q8xP-33" value="5" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;" vertex="1" parent="zxcEBjWPBDQa_q81Q8xP-1">
+          <mxGeometry x="530" y="480" width="100" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="zxcEBjWPBDQa_q81Q8xP-36" value="&lt;b&gt;ticket:updated&lt;/b&gt;&lt;br&gt;id: &#39;CZQ&#39;, price: 10, version: 200" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="zxcEBjWPBDQa_q81Q8xP-1">
+          <mxGeometry x="1050" y="530" width="220" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="zxcEBjWPBDQa_q81Q8xP-37" value="&lt;b&gt;ticket:updated&lt;/b&gt;&lt;br&gt;id: &#39;czq&#39;, price: 15, version: 300" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="zxcEBjWPBDQa_q81Q8xP-1">
+          <mxGeometry x="1050" y="575" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zxcEBjWPBDQa_q81Q8xP-40" value="&lt;b&gt;ticket:updated&lt;/b&gt;&lt;br&gt;id: &#39;CZQ&#39;, price: 10, version: 100" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="zxcEBjWPBDQa_q81Q8xP-1">
+          <mxGeometry x="1050" y="485" width="220" height="45" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="16 - out" id="dgfe8kh542C1OyKsW7Mn">
+    <mxGraphModel dx="858" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="rzLqu1HKmNaCtCAIJGJR-0" />
+        <mxCell id="rzLqu1HKmNaCtCAIJGJR-1" parent="rzLqu1HKmNaCtCAIJGJR-0" />
+        <mxCell id="rzLqu1HKmNaCtCAIJGJR-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="rzLqu1HKmNaCtCAIJGJR-1" source="rzLqu1HKmNaCtCAIJGJR-3" target="rzLqu1HKmNaCtCAIJGJR-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rzLqu1HKmNaCtCAIJGJR-3" value="Orders Srv (Listener) A" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;fontSize=16;" vertex="1" parent="rzLqu1HKmNaCtCAIJGJR-1">
+          <mxGeometry x="780" y="505" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rzLqu1HKmNaCtCAIJGJR-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=15;" edge="1" parent="rzLqu1HKmNaCtCAIJGJR-1" source="rzLqu1HKmNaCtCAIJGJR-5" target="rzLqu1HKmNaCtCAIJGJR-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rzLqu1HKmNaCtCAIJGJR-5" value="Orders Srv (Listener) B" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;fontSize=16;" vertex="1" parent="rzLqu1HKmNaCtCAIJGJR-1">
+          <mxGeometry x="780" y="565" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rzLqu1HKmNaCtCAIJGJR-6" value="Orders Database" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;fontSize=16;" vertex="1" parent="rzLqu1HKmNaCtCAIJGJR-1">
+          <mxGeometry x="460" y="420" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rzLqu1HKmNaCtCAIJGJR-7" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="rzLqu1HKmNaCtCAIJGJR-1">
+          <mxGeometry x="460" y="450" width="260" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="rzLqu1HKmNaCtCAIJGJR-8" value="TicketId" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="rzLqu1HKmNaCtCAIJGJR-1">
+          <mxGeometry x="470" y="460" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rzLqu1HKmNaCtCAIJGJR-9" value="CZQ" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;" vertex="1" parent="rzLqu1HKmNaCtCAIJGJR-1">
+          <mxGeometry x="470" y="480" width="60" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="rzLqu1HKmNaCtCAIJGJR-10" value="Price" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="rzLqu1HKmNaCtCAIJGJR-1">
+          <mxGeometry x="530" y="460" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rzLqu1HKmNaCtCAIJGJR-11" value="Version" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="rzLqu1HKmNaCtCAIJGJR-1">
+          <mxGeometry x="630" y="460" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rzLqu1HKmNaCtCAIJGJR-12" value="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;" vertex="1" parent="rzLqu1HKmNaCtCAIJGJR-1">
+          <mxGeometry x="630" y="480" width="80" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="rzLqu1HKmNaCtCAIJGJR-13" value="5" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;" vertex="1" parent="rzLqu1HKmNaCtCAIJGJR-1">
+          <mxGeometry x="530" y="480" width="100" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="rzLqu1HKmNaCtCAIJGJR-14" value="&lt;b&gt;ticket:updated&lt;/b&gt;&lt;br&gt;id: &#39;CZQ&#39;, price: 10, version: &#39;05-02-12:00&#39;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="rzLqu1HKmNaCtCAIJGJR-1">
+          <mxGeometry x="1050" y="530" width="250" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="rzLqu1HKmNaCtCAIJGJR-15" value="&lt;b&gt;ticket:updated&lt;/b&gt;&lt;br&gt;id: &#39;czq&#39;, price: 15, version: &#39;05-03-12:00&#39;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="rzLqu1HKmNaCtCAIJGJR-1">
+          <mxGeometry x="1050" y="575" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rzLqu1HKmNaCtCAIJGJR-16" value="&lt;b&gt;ticket:updated&lt;/b&gt;&lt;br&gt;id: &#39;CZQ&#39;, price: 10, version: &#39;05-01-12:00&#39;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="rzLqu1HKmNaCtCAIJGJR-1">
+          <mxGeometry x="1050" y="485" width="250" height="45" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
