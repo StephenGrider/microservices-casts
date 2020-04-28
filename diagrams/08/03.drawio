@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-04-28T17:43:05.252Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36" etag="qNxgy9zpPVAaXiq4PWvd" version="13.0.2" type="github" pages="16">
+<mxfile host="app.diagrams.net" modified="2020-04-28T17:48:07.439Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36" etag="R3Lk3t_sNgKwbmA9HrsX" version="13.0.2" type="github" pages="16">
   <diagram id="XnMkDaOkkMK2pUcaQcO5" name="01 - listener">
     <mxGraphModel dx="715" dy="352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -883,7 +883,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="13 - update" id="-PHVBaCkVv1oRyec3iFE">
-    <mxGraphModel dx="715" dy="352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="858" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="fvVvkXAhbD8GWKQFga35-0" />
         <mxCell id="fvVvkXAhbD8GWKQFga35-1" parent="fvVvkXAhbD8GWKQFga35-0" />
@@ -905,7 +905,7 @@
         <mxCell id="fvVvkXAhbD8GWKQFga35-7" value="Version" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="fvVvkXAhbD8GWKQFga35-1">
           <mxGeometry x="1580" y="270" width="80" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="fvVvkXAhbD8GWKQFga35-8" value="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;" vertex="1" parent="fvVvkXAhbD8GWKQFga35-1">
+        <mxCell id="fvVvkXAhbD8GWKQFga35-8" value="0" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;" vertex="1" parent="fvVvkXAhbD8GWKQFga35-1">
           <mxGeometry x="1580" y="290" width="80" height="55" as="geometry" />
         </mxCell>
         <mxCell id="fvVvkXAhbD8GWKQFga35-9" value="5" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;" vertex="1" parent="fvVvkXAhbD8GWKQFga35-1">
@@ -925,7 +925,7 @@
         <mxCell id="fvVvkXAhbD8GWKQFga35-13" value="Find document with id &#39;CZQ&#39;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;align=center;" vertex="1" parent="fvVvkXAhbD8GWKQFga35-1">
           <mxGeometry x="915" y="270" width="230" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="fvVvkXAhbD8GWKQFga35-14" value="Apply updates to document, price: 7.5, version: 1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;align=center;" vertex="1" parent="fvVvkXAhbD8GWKQFga35-1">
+        <mxCell id="fvVvkXAhbD8GWKQFga35-14" value="Apply updates to document, price: 7.5" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;align=center;" vertex="1" parent="fvVvkXAhbD8GWKQFga35-1">
           <mxGeometry x="915" y="330" width="230" height="40" as="geometry" />
         </mxCell>
         <mxCell id="fvVvkXAhbD8GWKQFga35-15" value="Record Updates &lt;i&gt;with mongoose-update-if-current&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=5" vertex="1" parent="fvVvkXAhbD8GWKQFga35-1">
@@ -934,7 +934,7 @@
         <mxCell id="fvVvkXAhbD8GWKQFga35-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=15;" edge="1" parent="fvVvkXAhbD8GWKQFga35-1" source="fvVvkXAhbD8GWKQFga35-17" target="fvVvkXAhbD8GWKQFga35-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="fvVvkXAhbD8GWKQFga35-17" value="&lt;b&gt;Find record with id &#39;CZQ&#39;, version = 1 and update with price: 7.5, version = 2&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="fvVvkXAhbD8GWKQFga35-1">
+        <mxCell id="fvVvkXAhbD8GWKQFga35-17" value="&lt;b&gt;Find record with id &#39;CZQ&#39;, version = _ and update with price: 7.5, version =_&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="fvVvkXAhbD8GWKQFga35-1">
           <mxGeometry x="1200" y="330" width="160" height="85" as="geometry" />
         </mxCell>
         <mxCell id="fvVvkXAhbD8GWKQFga35-18" value="Tickets Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;fontSize=16;" vertex="1" parent="fvVvkXAhbD8GWKQFga35-1">
