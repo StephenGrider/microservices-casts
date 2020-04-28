@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-04-28T17:39:46.090Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36" etag="5TjbkIE2IFZR-pRA7WRt" version="13.0.2" type="github" pages="14">
+<mxfile host="app.diagrams.net" modified="2020-04-28T17:41:21.880Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36" etag="o0a5RbTWrknohiK5s4B5" version="13.0.2" type="github" pages="15">
   <diagram id="XnMkDaOkkMK2pUcaQcO5" name="01 - listener">
     <mxGraphModel dx="715" dy="352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -855,6 +855,29 @@
         </mxCell>
         <mxCell id="ItlSob_qkKS64m9Yni76-0" value="&lt;b&gt;ticket:created&lt;/b&gt;&lt;br&gt;id: &#39;CZQ&#39;, price: 5, version: 0" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1eqFH4qOTV8bF1MXe4Dp-1">
           <mxGeometry x="730" y="270" width="150" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="3sldYFGkxUjkxw5Z2qHm" name="15 - update">
+    <mxGraphModel dx="601" dy="296" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="RUCh0LFH7kD3ERi3b0j8-0" />
+        <mxCell id="RUCh0LFH7kD3ERi3b0j8-1" parent="RUCh0LFH7kD3ERi3b0j8-0" />
+        <mxCell id="RUCh0LFH7kD3ERi3b0j8-2" value="Updates the version number on records before they are saved" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="RUCh0LFH7kD3ERi3b0j8-1">
+          <mxGeometry x="620" y="240" width="410" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RUCh0LFH7kD3ERi3b0j8-3" value="mongoose-update-if-current" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1" vertex="1" parent="RUCh0LFH7kD3ERi3b0j8-1">
+          <mxGeometry x="690" y="210" width="252.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RUCh0LFH7kD3ERi3b0j8-4" value="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;align=center;" vertex="1" parent="RUCh0LFH7kD3ERi3b0j8-1">
+          <mxGeometry x="560" y="240" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RUCh0LFH7kD3ERi3b0j8-5" value="Customizes the find-and-update operation (save) to look for the correct version" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="RUCh0LFH7kD3ERi3b0j8-1">
+          <mxGeometry x="620" y="310" width="410" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RUCh0LFH7kD3ERi3b0j8-6" value="2" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;align=center;" vertex="1" parent="RUCh0LFH7kD3ERi3b0j8-1">
+          <mxGeometry x="560" y="310" width="60" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
