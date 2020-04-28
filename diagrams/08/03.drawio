@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-04-28T15:39:53.404Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36" etag="cwP5-2P9dOYpIjXPeNFJ" version="13.0.2" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2020-04-28T15:47:44.992Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36" etag="eBwOoa4Nk3nNuBD_s0i0" version="13.0.2" type="github" pages="5">
   <diagram id="XnMkDaOkkMK2pUcaQcO5" name="01 - listener">
     <mxGraphModel dx="715" dy="352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -284,7 +284,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="urmSixb9dXAp6geGqLEQ" name="06 - conc">
-    <mxGraphModel dx="969" dy="477" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="683" dy="336" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="XQrhH6ep52r7ac9gFww2-0" />
         <mxCell id="XQrhH6ep52r7ac9gFww2-1" parent="XQrhH6ep52r7ac9gFww2-0" />
@@ -302,15 +302,6 @@
         </mxCell>
         <mxCell id="XQrhH6ep52r7ac9gFww2-6" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;rSize=0;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="XQrhH6ep52r7ac9gFww2-4">
           <mxGeometry x="130" y="60" width="250" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="OpyrW7nr2QBt47D5QSqD-0" value="&lt;b&gt;Create ticket with price 5&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="XQrhH6ep52r7ac9gFww2-4">
-          <mxGeometry x="80" y="120" width="170" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="OpyrW7nr2QBt47D5QSqD-1" value="&lt;b&gt;Update ticket with price 10&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="XQrhH6ep52r7ac9gFww2-4">
-          <mxGeometry x="80" y="160" width="170" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="OpyrW7nr2QBt47D5QSqD-2" value="&lt;b&gt;Update ticket with price 15&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="XQrhH6ep52r7ac9gFww2-4">
-          <mxGeometry x="80" y="200" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="XQrhH6ep52r7ac9gFww2-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="XQrhH6ep52r7ac9gFww2-1" source="XQrhH6ep52r7ac9gFww2-8" target="XQrhH6ep52r7ac9gFww2-3">
           <mxGeometry relative="1" as="geometry" />
@@ -336,7 +327,7 @@
         <mxCell id="XQrhH6ep52r7ac9gFww2-13" value="Price" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="XQrhH6ep52r7ac9gFww2-1">
           <mxGeometry x="630" y="265" width="90" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="XQrhH6ep52r7ac9gFww2-14" value="-" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;align=center;" vertex="1" parent="XQrhH6ep52r7ac9gFww2-1">
+        <mxCell id="XQrhH6ep52r7ac9gFww2-14" value="15" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;align=center;" vertex="1" parent="XQrhH6ep52r7ac9gFww2-1">
           <mxGeometry x="630" y="285" width="90" height="45" as="geometry" />
         </mxCell>
         <mxCell id="XQrhH6ep52r7ac9gFww2-15" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="XQrhH6ep52r7ac9gFww2-1">
@@ -390,26 +381,23 @@
         <mxCell id="XQrhH6ep52r7ac9gFww2-31" value="Version" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="XQrhH6ep52r7ac9gFww2-1">
           <mxGeometry x="630" y="460" width="80" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="XQrhH6ep52r7ac9gFww2-32" value="-" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;" vertex="1" parent="XQrhH6ep52r7ac9gFww2-1">
+        <mxCell id="XQrhH6ep52r7ac9gFww2-32" value="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;" vertex="1" parent="XQrhH6ep52r7ac9gFww2-1">
           <mxGeometry x="630" y="480" width="80" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="XQrhH6ep52r7ac9gFww2-33" value="-" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;" vertex="1" parent="XQrhH6ep52r7ac9gFww2-1">
+        <mxCell id="XQrhH6ep52r7ac9gFww2-33" value="5" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;" vertex="1" parent="XQrhH6ep52r7ac9gFww2-1">
           <mxGeometry x="530" y="480" width="100" height="55" as="geometry" />
         </mxCell>
         <mxCell id="XQrhH6ep52r7ac9gFww2-34" value="Version" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="XQrhH6ep52r7ac9gFww2-1">
           <mxGeometry x="720" y="265" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="XQrhH6ep52r7ac9gFww2-35" value="-" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;align=center;" vertex="1" parent="XQrhH6ep52r7ac9gFww2-1">
+        <mxCell id="XQrhH6ep52r7ac9gFww2-35" value="3" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;align=center;" vertex="1" parent="XQrhH6ep52r7ac9gFww2-1">
           <mxGeometry x="720" y="285" width="60" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="XQrhH6ep52r7ac9gFww2-36" value="&lt;b&gt;ticket:created&lt;/b&gt;&lt;br&gt;id: &#39;CZQ&#39;, price: 10, version: 1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="XQrhH6ep52r7ac9gFww2-1">
-          <mxGeometry x="830" y="37.5" width="170" height="45" as="geometry" />
+        <mxCell id="XQrhH6ep52r7ac9gFww2-37" value="&lt;b&gt;ticket:updated&lt;/b&gt;&lt;br&gt;id: &#39;CZQ&#39;, price: 10, version: 2" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="XQrhH6ep52r7ac9gFww2-1">
+          <mxGeometry x="810" y="297.5" width="170" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="XQrhH6ep52r7ac9gFww2-37" value="&lt;b&gt;ticket:updated&lt;/b&gt;&lt;br&gt;id: &#39;CZQ&#39;, price: 50, version: 2" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="XQrhH6ep52r7ac9gFww2-1">
-          <mxGeometry x="830" y="85" width="170" height="45" as="geometry" />
-        </mxCell>
-        <mxCell id="XQrhH6ep52r7ac9gFww2-38" value="&lt;b&gt;ticket:updated&lt;/b&gt;&lt;br&gt;id: &#39;czq&#39;, price: 100, version: 3" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="XQrhH6ep52r7ac9gFww2-1">
-          <mxGeometry x="830" y="130" width="170" height="40" as="geometry" />
+        <mxCell id="XQrhH6ep52r7ac9gFww2-38" value="&lt;b&gt;ticket:updated&lt;/b&gt;&lt;br&gt;id: &#39;czq&#39;, price: 15, version: 3" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="XQrhH6ep52r7ac9gFww2-1">
+          <mxGeometry x="810" y="342.5" width="170" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
