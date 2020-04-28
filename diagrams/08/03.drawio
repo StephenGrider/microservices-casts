@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-04-28T17:41:21.880Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36" etag="o0a5RbTWrknohiK5s4B5" version="13.0.2" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2020-04-28T17:43:05.252Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36" etag="qNxgy9zpPVAaXiq4PWvd" version="13.0.2" type="github" pages="16">
   <diagram id="XnMkDaOkkMK2pUcaQcO5" name="01 - listener">
     <mxGraphModel dx="715" dy="352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -953,7 +953,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fvVvkXAhbD8GWKQFga35-26" value="&lt;span&gt;Save record&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;align=center;fontStyle=0" vertex="1" parent="fvVvkXAhbD8GWKQFga35-1">
-          <mxGeometry x="915" y="460" width="230" height="40" as="geometry" />
+          <mxGeometry x="915" y="450" width="230" height="40" as="geometry" />
         </mxCell>
         <mxCell id="fvVvkXAhbD8GWKQFga35-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=11;" edge="1" parent="fvVvkXAhbD8GWKQFga35-1">
           <mxGeometry relative="1" as="geometry">
@@ -970,8 +970,34 @@
         <mxCell id="fvVvkXAhbD8GWKQFga35-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=11;" edge="1" parent="fvVvkXAhbD8GWKQFga35-1" source="fvVvkXAhbD8GWKQFga35-32" target="fvVvkXAhbD8GWKQFga35-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="fvVvkXAhbD8GWKQFga35-32" value="&lt;span&gt;&lt;i&gt;mongoose-update-if-current applies update to version number = 2&lt;/i&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;align=center;fontStyle=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="fvVvkXAhbD8GWKQFga35-1">
+        <mxCell id="fvVvkXAhbD8GWKQFga35-32" value="&lt;span&gt;&lt;i&gt;mongoose-update-if-current applies update to version&lt;/i&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;align=center;fontStyle=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="fvVvkXAhbD8GWKQFga35-1">
           <mxGeometry x="915" y="390" width="230" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="14 - mong" id="mheOkTHcpgzccc781hQm">
+    <mxGraphModel dx="683" dy="336" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="bHwXZsKC5-b0P8QvOE3i-0" />
+        <mxCell id="bHwXZsKC5-b0P8QvOE3i-1" parent="bHwXZsKC5-b0P8QvOE3i-0" />
+        <mxCell id="bHwXZsKC5-b0P8QvOE3i-2" value="Updates the version number on records before they are saved" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="bHwXZsKC5-b0P8QvOE3i-1">
+          <mxGeometry x="620" y="240" width="410" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bHwXZsKC5-b0P8QvOE3i-3" value="mongoose-update-if-current" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1" vertex="1" parent="bHwXZsKC5-b0P8QvOE3i-1">
+          <mxGeometry x="668.75" y="210" width="252.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bHwXZsKC5-b0P8QvOE3i-4" value="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;align=center;" vertex="1" parent="bHwXZsKC5-b0P8QvOE3i-1">
+          <mxGeometry x="560" y="240" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bHwXZsKC5-b0P8QvOE3i-5" value="Customizes the find-and-update operation (save) to look for the correct version" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="bHwXZsKC5-b0P8QvOE3i-1">
+          <mxGeometry x="620" y="310" width="410" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bHwXZsKC5-b0P8QvOE3i-6" value="2" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;align=center;" vertex="1" parent="bHwXZsKC5-b0P8QvOE3i-1">
+          <mxGeometry x="560" y="310" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bHwXZsKC5-b0P8QvOE3i-7" value="This is behavior we only want for the service that owns a record.&amp;nbsp; For dependent services, we are going to have to do this stuff ourselves" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="bHwXZsKC5-b0P8QvOE3i-1">
+          <mxGeometry x="560" y="400" width="470" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
