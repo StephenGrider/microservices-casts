@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-04-29T16:31:02.773Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36" etag="WH4LYxJE84VE827Y75J7" version="13.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-04-29T17:06:54.410Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36" etag="L6nG5fhKqj1eGMbqAqNo" version="13.0.3" type="github" pages="2">
   <diagram id="D9HyF8kl8oEwc6lbt_1n" name="01 - flow">
     <mxGraphModel dx="653" dy="321" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -27,6 +27,38 @@
         </mxCell>
         <mxCell id="s1J4qnB--0OpUWrlFj6R-9" value="Next Couple Videos" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="771.25" y="180" width="187.5" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="HKMVE8ienJL8nTPPCsES" name="02 - create">
+    <mxGraphModel dx="683" dy="336" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="8QbkFhcsRXDe_ZoQsyGt-0" />
+        <mxCell id="8QbkFhcsRXDe_ZoQsyGt-1" parent="8QbkFhcsRXDe_ZoQsyGt-0" />
+        <mxCell id="8QbkFhcsRXDe_ZoQsyGt-2" value="Run a query to find the ticket the user is trying to order" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="8QbkFhcsRXDe_ZoQsyGt-1">
+          <mxGeometry x="680" y="150" width="390" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8QbkFhcsRXDe_ZoQsyGt-3" value="Create Order Route Handler" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1" vertex="1" parent="8QbkFhcsRXDe_ZoQsyGt-1">
+          <mxGeometry x="640" y="110" width="470" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8QbkFhcsRXDe_ZoQsyGt-4" value="" style="endArrow=classic;html=1;fontSize=24;" edge="1" parent="8QbkFhcsRXDe_ZoQsyGt-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="670" y="150" as="sourcePoint" />
+            <mxPoint x="670" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8QbkFhcsRXDe_ZoQsyGt-5" value="Run a query to see if there is an un-cancelled order referencing this ticket" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="8QbkFhcsRXDe_ZoQsyGt-1">
+          <mxGeometry x="680" y="210" width="390" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8QbkFhcsRXDe_ZoQsyGt-7" value="Calculate expiration" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="8QbkFhcsRXDe_ZoQsyGt-1">
+          <mxGeometry x="680" y="270" width="390" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8QbkFhcsRXDe_ZoQsyGt-8" value="Build an order" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="8QbkFhcsRXDe_ZoQsyGt-1">
+          <mxGeometry x="680" y="330" width="390" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8QbkFhcsRXDe_ZoQsyGt-9" value="Save the order" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="8QbkFhcsRXDe_ZoQsyGt-1">
+          <mxGeometry x="680" y="390" width="390" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
