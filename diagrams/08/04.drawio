@@ -1,9 +1,33 @@
-<mxfile host="app.diagrams.net" modified="2020-04-29T16:28:03.129Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36" etag="JP7i7iwrddYC3dTN5zrN" version="13.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-04-29T16:31:02.773Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36" etag="WH4LYxJE84VE827Y75J7" version="13.0.3" type="github">
   <diagram id="D9HyF8kl8oEwc6lbt_1n" name="01 - flow">
-    <mxGraphModel dx="1502" dy="739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="653" dy="321" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="s1J4qnB--0OpUWrlFj6R-1" value="Add the &#39;mongoose-update-if-current&#39; module into the Orders model" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="210" width="350" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="s1J4qnB--0OpUWrlFj6R-2" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="210" as="sourcePoint" />
+            <mxPoint x="680" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s1J4qnB--0OpUWrlFj6R-3" value="Fix up some broken tests/route handlers" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="260" width="350" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="s1J4qnB--0OpUWrlFj6R-6" value="Put together a little test script to simulate our product being really busy (many people trying to order the same ticket)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="310" width="350" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="s1J4qnB--0OpUWrlFj6R-7" value="Revisit the relationship between orders - tickets" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="360" width="350" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="s1J4qnB--0OpUWrlFj6R-8" value="&lt;i&gt;Another&lt;/i&gt; round of changes to a few events + listeners" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="410" width="350" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="s1J4qnB--0OpUWrlFj6R-9" value="Next Couple Videos" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="771.25" y="180" width="187.5" height="20" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
