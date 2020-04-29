@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-04-29T19:37:52.160Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36" etag="ubTHheJA9wV60IfzwMBM" version="13.0.3" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2020-04-29T19:41:52.045Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36" etag="JZkROxYAbZB0xZ3ba9XE" version="13.0.3" type="github" pages="7">
   <diagram id="D9HyF8kl8oEwc6lbt_1n" name="01 - flow">
     <mxGraphModel dx="527" dy="259" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -246,7 +246,7 @@
       <root>
         <mxCell id="MelGRbkYQFQFAfYQGmcL-0" />
         <mxCell id="MelGRbkYQFQFAfYQGmcL-1" parent="MelGRbkYQFQFAfYQGmcL-0" />
-        <mxCell id="qLCfLcE0eBEQ5VS2SH1Z-0" value="Tickets Database" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;fontSize=16;" vertex="1" parent="MelGRbkYQFQFAfYQGmcL-1">
+        <mxCell id="qLCfLcE0eBEQ5VS2SH1Z-0" value="Tickets" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;fontSize=16;" vertex="1" parent="MelGRbkYQFQFAfYQGmcL-1">
           <mxGeometry x="760" y="300" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="qLCfLcE0eBEQ5VS2SH1Z-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="MelGRbkYQFQFAfYQGmcL-1">
@@ -266,6 +266,133 @@
         </mxCell>
         <mxCell id="qLCfLcE0eBEQ5VS2SH1Z-8" value="&lt;i&gt;Locking a Ticket to prevent editing&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="MelGRbkYQFQFAfYQGmcL-1">
           <mxGeometry x="750" y="440" width="200" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="06 - id" id="YqldKKeF-NBdjQdGpO5E">
+    <mxGraphModel dx="715" dy="352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="tXj_ZmlyB7Fi7Bm4LI1n-0" />
+        <mxCell id="tXj_ZmlyB7Fi7Bm4LI1n-1" parent="tXj_ZmlyB7Fi7Bm4LI1n-0" />
+        <mxCell id="tXj_ZmlyB7Fi7Bm4LI1n-2" value="Tickets" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;fontSize=16;" vertex="1" parent="tXj_ZmlyB7Fi7Bm4LI1n-1">
+          <mxGeometry x="750" y="300" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tXj_ZmlyB7Fi7Bm4LI1n-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="tXj_ZmlyB7Fi7Bm4LI1n-1">
+          <mxGeometry x="750" y="330" width="180" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="tXj_ZmlyB7Fi7Bm4LI1n-4" value="TicketId" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="tXj_ZmlyB7Fi7Bm4LI1n-1">
+          <mxGeometry x="765" y="340" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tXj_ZmlyB7Fi7Bm4LI1n-5" value="&#39;CZQ&#39;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;" vertex="1" parent="tXj_ZmlyB7Fi7Bm4LI1n-1">
+          <mxGeometry x="765" y="360" width="60" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="tXj_ZmlyB7Fi7Bm4LI1n-6" value="locked" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="tXj_ZmlyB7Fi7Bm4LI1n-1">
+          <mxGeometry x="825" y="340" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tXj_ZmlyB7Fi7Bm4LI1n-7" value="true" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;" vertex="1" parent="tXj_ZmlyB7Fi7Bm4LI1n-1">
+          <mxGeometry x="825" y="360" width="90" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="oroT9s-HlvWnLN3RPhdq-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;strokeWidth=1;fontSize=15;" edge="1" parent="tXj_ZmlyB7Fi7Bm4LI1n-1" source="tXj_ZmlyB7Fi7Bm4LI1n-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="750" y="392.28571428571433" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tXj_ZmlyB7Fi7Bm4LI1n-9" value="User who owns the ticket" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" vertex="1" parent="tXj_ZmlyB7Fi7Bm4LI1n-1">
+          <mxGeometry x="490" y="353" width="120" height="157" as="geometry" />
+        </mxCell>
+        <mxCell id="tXj_ZmlyB7Fi7Bm4LI1n-11" value="&lt;i style=&quot;font-size: 13px;&quot;&gt;Is someone buying my ticket?&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="tXj_ZmlyB7Fi7Bm4LI1n-1">
+          <mxGeometry x="620" y="367" width="112" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="oroT9s-HlvWnLN3RPhdq-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;strokeWidth=1;fontSize=15;" edge="1" parent="tXj_ZmlyB7Fi7Bm4LI1n-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="470" as="targetPoint" />
+            <mxPoint x="750" y="470.03571428571433" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oroT9s-HlvWnLN3RPhdq-5" value="&lt;i style=&quot;font-size: 13px&quot;&gt;Yes, but I don&#39;t know who or what the status of the order is&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="tXj_ZmlyB7Fi7Bm4LI1n-1">
+          <mxGeometry x="620" y="490" width="112" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="07 - tix" id="80RjVk7WHxt6PNYNY9n7">
+    <mxGraphModel dx="834" dy="411" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="pu91mSxBvjFOMebvG6wu-0" />
+        <mxCell id="pu91mSxBvjFOMebvG6wu-1" parent="pu91mSxBvjFOMebvG6wu-0" />
+        <mxCell id="pu91mSxBvjFOMebvG6wu-2" value="Tickets" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;fontSize=16;" vertex="1" parent="pu91mSxBvjFOMebvG6wu-1">
+          <mxGeometry x="750" y="340" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pu91mSxBvjFOMebvG6wu-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="pu91mSxBvjFOMebvG6wu-1">
+          <mxGeometry x="750" y="370" width="180" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="pu91mSxBvjFOMebvG6wu-4" value="TicketId" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="pu91mSxBvjFOMebvG6wu-1">
+          <mxGeometry x="765" y="380" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pu91mSxBvjFOMebvG6wu-5" value="&#39;CZQ&#39;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;" vertex="1" parent="pu91mSxBvjFOMebvG6wu-1">
+          <mxGeometry x="765" y="400" width="60" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="pu91mSxBvjFOMebvG6wu-6" value="orderId" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="pu91mSxBvjFOMebvG6wu-1">
+          <mxGeometry x="825" y="380" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pu91mSxBvjFOMebvG6wu-7" value="&#39;ADS&#39;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;" vertex="1" parent="pu91mSxBvjFOMebvG6wu-1">
+          <mxGeometry x="825" y="400" width="90" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="pu91mSxBvjFOMebvG6wu-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;strokeWidth=1;fontSize=15;" edge="1" parent="pu91mSxBvjFOMebvG6wu-1" source="pu91mSxBvjFOMebvG6wu-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="750" y="392.28571428571433" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="610" y="392" />
+              <mxPoint x="680" y="392" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pu91mSxBvjFOMebvG6wu-10" value="&lt;i style=&quot;font-size: 13px;&quot;&gt;Is someone buying my ticket?&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="pu91mSxBvjFOMebvG6wu-1">
+          <mxGeometry x="620" y="367" width="112" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pu91mSxBvjFOMebvG6wu-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;strokeWidth=1;fontSize=15;" edge="1" parent="pu91mSxBvjFOMebvG6wu-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="470" as="targetPoint" />
+            <mxPoint x="750" y="470.03571428571433" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pu91mSxBvjFOMebvG6wu-12" value="&lt;i style=&quot;font-size: 13px&quot;&gt;Yes, the order ID is ADS&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="pu91mSxBvjFOMebvG6wu-1">
+          <mxGeometry x="620" y="490" width="112" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pu91mSxBvjFOMebvG6wu-13" value="Orders" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;fontSize=16;" vertex="1" parent="pu91mSxBvjFOMebvG6wu-1">
+          <mxGeometry x="750" y="540" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pu91mSxBvjFOMebvG6wu-14" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="pu91mSxBvjFOMebvG6wu-1">
+          <mxGeometry x="750" y="570" width="250" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="pu91mSxBvjFOMebvG6wu-15" value="OrderId" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="pu91mSxBvjFOMebvG6wu-1">
+          <mxGeometry x="765" y="580" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pu91mSxBvjFOMebvG6wu-16" value="ADS" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;" vertex="1" parent="pu91mSxBvjFOMebvG6wu-1">
+          <mxGeometry x="765" y="600" width="60" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="pu91mSxBvjFOMebvG6wu-17" value="&lt;span style=&quot;font-weight: 400&quot;&gt;status&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="pu91mSxBvjFOMebvG6wu-1">
+          <mxGeometry x="825" y="580" width="165" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pu91mSxBvjFOMebvG6wu-18" value="AwaitingPayment" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;" vertex="1" parent="pu91mSxBvjFOMebvG6wu-1">
+          <mxGeometry x="825" y="600" width="165" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="pu91mSxBvjFOMebvG6wu-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;strokeWidth=1;fontSize=15;" edge="1" parent="pu91mSxBvjFOMebvG6wu-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="750" y="608.9057142857143" as="targetPoint" />
+            <mxPoint x="610.0000000000002" y="661.37" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="610" y="608.62" />
+              <mxPoint x="680" y="608.62" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pu91mSxBvjFOMebvG6wu-20" value="&lt;i style=&quot;font-size: 13px&quot;&gt;What&#39;s the status of order ADS?&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="pu91mSxBvjFOMebvG6wu-1">
+          <mxGeometry x="620" y="582.62" width="112" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pu91mSxBvjFOMebvG6wu-9" value="User who owns the ticket" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" vertex="1" parent="pu91mSxBvjFOMebvG6wu-1">
+          <mxGeometry x="490" y="353" width="120" height="367" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
