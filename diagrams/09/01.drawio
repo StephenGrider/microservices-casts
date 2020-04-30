@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-04-30T20:01:31.412Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36" etag="ZGI5V6ZilP4BtdwNPkeF" version="13.0.4" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2020-04-30T20:53:47.091Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36" etag="lPWhI1y9hyvpEuVoK_qQ" version="13.0.4" type="github" pages="8">
   <diagram id="_OgnPNasMEZivwnT4MXi" name="01 - expiration">
     <mxGraphModel dx="910" dy="448" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -311,6 +311,65 @@
         </mxCell>
         <mxCell id="i8iUlpXxZszlSF2NQSq2-17" value="Remind me to do something 15 minutes from now" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=0" vertex="1" parent="i8iUlpXxZszlSF2NQSq2-1">
           <mxGeometry x="780" y="300" width="160" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="PlDM5EWDJqwEHQiH9Tnh" name="08 - bull">
+    <mxGraphModel dx="715" dy="352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="_QhYIfwB6YVlgep662dy-0" />
+        <mxCell id="_QhYIfwB6YVlgep662dy-1" parent="_QhYIfwB6YVlgep662dy-0" />
+        <mxCell id="Kneu6ja-0vWfszQbRaiZ-0" value="Web Server" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1" vertex="1" parent="_QhYIfwB6YVlgep662dy-1">
+          <mxGeometry x="480" y="232.5" width="160" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="Kneu6ja-0vWfszQbRaiZ-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1" vertex="1" parent="_QhYIfwB6YVlgep662dy-1">
+          <mxGeometry x="480" y="257.5" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Kneu6ja-0vWfszQbRaiZ-2" value="Redis Server" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1" vertex="1" parent="_QhYIfwB6YVlgep662dy-1">
+          <mxGeometry x="710" y="232.5" width="170" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="Kneu6ja-0vWfszQbRaiZ-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="_QhYIfwB6YVlgep662dy-1" source="Kneu6ja-0vWfszQbRaiZ-3" target="Kneu6ja-0vWfszQbRaiZ-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kneu6ja-0vWfszQbRaiZ-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1" vertex="1" parent="_QhYIfwB6YVlgep662dy-1">
+          <mxGeometry x="710" y="257.5" width="170" height="112.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Kneu6ja-0vWfszQbRaiZ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="_QhYIfwB6YVlgep662dy-1" source="Kneu6ja-0vWfszQbRaiZ-6" target="Kneu6ja-0vWfszQbRaiZ-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kneu6ja-0vWfszQbRaiZ-6" value="Bull JS" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" vertex="1" parent="_QhYIfwB6YVlgep662dy-1">
+          <mxGeometry x="501.25" y="283.75" width="117.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Kneu6ja-0vWfszQbRaiZ-9" value="List of Jobs" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" vertex="1" parent="_QhYIfwB6YVlgep662dy-1">
+          <mxGeometry x="720" y="283.75" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Kneu6ja-0vWfszQbRaiZ-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=19;" edge="1" parent="_QhYIfwB6YVlgep662dy-1" source="Kneu6ja-0vWfszQbRaiZ-10" target="Kneu6ja-0vWfszQbRaiZ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kneu6ja-0vWfszQbRaiZ-10" value="Please convert this mp4 file into an MKV file" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=0" vertex="1" parent="_QhYIfwB6YVlgep662dy-1">
+          <mxGeometry x="250" y="261.88" width="200" height="103.75" as="geometry" />
+        </mxCell>
+        <mxCell id="Kneu6ja-0vWfszQbRaiZ-13" value="Request" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="_QhYIfwB6YVlgep662dy-1">
+          <mxGeometry x="250" y="236.88" width="200" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="Kneu6ja-0vWfszQbRaiZ-14" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=19;align=center;rotation=-90;" vertex="1" parent="_QhYIfwB6YVlgep662dy-1">
+          <mxGeometry x="335" y="285" width="30" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Kneu6ja-0vWfszQbRaiZ-15" value="Requires a lot of processing power!" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontStyle=2" vertex="1" parent="_QhYIfwB6YVlgep662dy-1">
+          <mxGeometry x="265" y="392" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kneu6ja-0vWfszQbRaiZ-16" value="Worker Server" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1" vertex="1" parent="_QhYIfwB6YVlgep662dy-1">
+          <mxGeometry x="710" y="480" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Kneu6ja-0vWfszQbRaiZ-17" value="Logic to convert a video file" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=2" vertex="1" parent="_QhYIfwB6YVlgep662dy-1">
+          <mxGeometry x="710" y="420" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Kneu6ja-0vWfszQbRaiZ-21" value="Job" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=0" vertex="1" parent="_QhYIfwB6YVlgep662dy-1">
+          <mxGeometry x="645" y="290" width="50" height="23.75" as="geometry" />
+        </mxCell>
+        <mxCell id="Kneu6ja-0vWfszQbRaiZ-22" value="Job" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=0" vertex="1" parent="_QhYIfwB6YVlgep662dy-1">
+          <mxGeometry x="795" y="380" width="50" height="23.75" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
