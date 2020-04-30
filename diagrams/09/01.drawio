@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-04-30T19:50:00.386Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36" etag="vVVMXb1-6LPVxvGG16K8" version="13.0.4" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2020-04-30T20:01:31.412Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36" etag="ZGI5V6ZilP4BtdwNPkeF" version="13.0.4" type="github" pages="7">
   <diagram id="_OgnPNasMEZivwnT4MXi" name="01 - expiration">
     <mxGraphModel dx="910" dy="448" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -259,7 +259,7 @@
         <mxCell id="ukEMuzQg67nxYYcgutNl-9" value="&lt;i&gt;Please don&#39;t publish this message for another 15 minutes&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="ukEMuzQg67nxYYcgutNl-1">
           <mxGeometry x="940" y="370" width="190" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ukEMuzQg67nxYYcgutNl-13" value="Message Broker" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1" vertex="1" parent="ukEMuzQg67nxYYcgutNl-1">
+        <mxCell id="ukEMuzQg67nxYYcgutNl-13" value="Event Bus (not nats)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1" vertex="1" parent="ukEMuzQg67nxYYcgutNl-1">
           <mxGeometry x="747.5" y="460" width="225" height="25" as="geometry" />
         </mxCell>
         <mxCell id="ukEMuzQg67nxYYcgutNl-14" value="&lt;i style=&quot;font-size: 14px;&quot;&gt;Broker waits 15 mins to publish message&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=0" vertex="1" parent="ukEMuzQg67nxYYcgutNl-1">
