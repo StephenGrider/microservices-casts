@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-04-29T20:06:18.882Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36" etag="YvjGm6blpJihNKcNzpKL" version="13.0.3" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2020-04-30T15:33:09.511Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36" etag="mcXEOcueIPqg54VAGl0G" version="13.0.3" type="github" pages="8">
   <diagram id="D9HyF8kl8oEwc6lbt_1n" name="01 - flow">
     <mxGraphModel dx="527" dy="259" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -393,6 +393,56 @@
         </mxCell>
         <mxCell id="pu91mSxBvjFOMebvG6wu-9" value="User who owns the ticket" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" vertex="1" parent="pu91mSxBvjFOMebvG6wu-1">
           <mxGeometry x="490" y="353" width="120" height="367" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="VV1cY8_oUTWGvHU5lJM7" name="08 - confirm">
+    <mxGraphModel dx="715" dy="352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="5YIi9FHMeylhzpsiHX5x-0" />
+        <mxCell id="5YIi9FHMeylhzpsiHX5x-1" parent="5YIi9FHMeylhzpsiHX5x-0" />
+        <mxCell id="y9dAD0OboRxPHN5k7Vha-0" value="Tickets" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;fontSize=16;" vertex="1" parent="5YIi9FHMeylhzpsiHX5x-1">
+          <mxGeometry x="670" y="260" width="450" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y9dAD0OboRxPHN5k7Vha-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="5YIi9FHMeylhzpsiHX5x-1">
+          <mxGeometry x="670" y="290" width="450" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="y9dAD0OboRxPHN5k7Vha-2" value="TicketId" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="5YIi9FHMeylhzpsiHX5x-1">
+          <mxGeometry x="685" y="300" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="y9dAD0OboRxPHN5k7Vha-3" value="&#39;CZQ&#39;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;" vertex="1" parent="5YIi9FHMeylhzpsiHX5x-1">
+          <mxGeometry x="685" y="320" width="60" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="y9dAD0OboRxPHN5k7Vha-4" value="version" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=0" vertex="1" parent="5YIi9FHMeylhzpsiHX5x-1">
+          <mxGeometry x="925" y="300" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="y9dAD0OboRxPHN5k7Vha-5" value="0" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;" vertex="1" parent="5YIi9FHMeylhzpsiHX5x-1">
+          <mxGeometry x="925" y="320" width="90" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="y9dAD0OboRxPHN5k7Vha-7" value="title" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=0" vertex="1" parent="5YIi9FHMeylhzpsiHX5x-1">
+          <mxGeometry x="745" y="300" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="y9dAD0OboRxPHN5k7Vha-8" value="concert" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;" vertex="1" parent="5YIi9FHMeylhzpsiHX5x-1">
+          <mxGeometry x="745" y="320" width="90" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="y9dAD0OboRxPHN5k7Vha-9" value="price" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=0" vertex="1" parent="5YIi9FHMeylhzpsiHX5x-1">
+          <mxGeometry x="835" y="300" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="y9dAD0OboRxPHN5k7Vha-10" value="20" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;" vertex="1" parent="5YIi9FHMeylhzpsiHX5x-1">
+          <mxGeometry x="835" y="320" width="90" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="y9dAD0OboRxPHN5k7Vha-11" value="orderId" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=0" vertex="1" parent="5YIi9FHMeylhzpsiHX5x-1">
+          <mxGeometry x="1015" y="300" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="y9dAD0OboRxPHN5k7Vha-12" value="&#39;ADS&#39;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;" vertex="1" parent="5YIi9FHMeylhzpsiHX5x-1">
+          <mxGeometry x="1015" y="320" width="90" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="y9dAD0OboRxPHN5k7Vha-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=1;fontSize=13;" edge="1" parent="5YIi9FHMeylhzpsiHX5x-1" source="y9dAD0OboRxPHN5k7Vha-13" target="y9dAD0OboRxPHN5k7Vha-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y9dAD0OboRxPHN5k7Vha-13" value="&lt;b&gt;order:created&lt;/b&gt;&lt;br&gt;id: &#39;ADS&#39;, ticketId: &#39;CZQ&#39;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="5YIi9FHMeylhzpsiHX5x-1">
+          <mxGeometry x="810" y="160" width="170" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
