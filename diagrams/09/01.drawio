@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-04-30T20:53:47.091Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36" etag="lPWhI1y9hyvpEuVoK_qQ" version="13.0.4" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2020-04-30T20:55:57.573Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36" etag="fIAm-Cn-2TMZD0WI6t9S" version="13.0.4" type="github" pages="9">
   <diagram id="_OgnPNasMEZivwnT4MXi" name="01 - expiration">
     <mxGraphModel dx="910" dy="448" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -370,6 +370,72 @@
         </mxCell>
         <mxCell id="Kneu6ja-0vWfszQbRaiZ-22" value="Job" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=0" vertex="1" parent="_QhYIfwB6YVlgep662dy-1">
           <mxGeometry x="795" y="380" width="50" height="23.75" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="09 - b" id="7n1atpuX02-FFQHGgaEn">
+    <mxGraphModel dx="639" dy="314" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="S1VmNlLIY-2KbvGSzFC6-0" />
+        <mxCell id="S1VmNlLIY-2KbvGSzFC6-1" parent="S1VmNlLIY-2KbvGSzFC6-0" />
+        <mxCell id="S1VmNlLIY-2KbvGSzFC6-2" value="Web Server" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1" vertex="1" parent="S1VmNlLIY-2KbvGSzFC6-1">
+          <mxGeometry x="480" y="232.5" width="160" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="S1VmNlLIY-2KbvGSzFC6-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1" vertex="1" parent="S1VmNlLIY-2KbvGSzFC6-1">
+          <mxGeometry x="480" y="257.5" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="S1VmNlLIY-2KbvGSzFC6-4" value="Redis Server" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1" vertex="1" parent="S1VmNlLIY-2KbvGSzFC6-1">
+          <mxGeometry x="710" y="232.5" width="170" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="S1VmNlLIY-2KbvGSzFC6-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="S1VmNlLIY-2KbvGSzFC6-1" source="S1VmNlLIY-2KbvGSzFC6-6" target="S1VmNlLIY-2KbvGSzFC6-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S1VmNlLIY-2KbvGSzFC6-6" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1" vertex="1" parent="S1VmNlLIY-2KbvGSzFC6-1">
+          <mxGeometry x="710" y="257.5" width="170" height="112.5" as="geometry" />
+        </mxCell>
+        <mxCell id="S1VmNlLIY-2KbvGSzFC6-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="S1VmNlLIY-2KbvGSzFC6-1" target="S1VmNlLIY-2KbvGSzFC6-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="618.75" y="313.75" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S1VmNlLIY-2KbvGSzFC6-9" value="List of Jobs" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" vertex="1" parent="S1VmNlLIY-2KbvGSzFC6-1">
+          <mxGeometry x="720" y="283.75" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S1VmNlLIY-2KbvGSzFC6-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=19;" edge="1" parent="S1VmNlLIY-2KbvGSzFC6-1" source="S1VmNlLIY-2KbvGSzFC6-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="501.25" y="313.755" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S1VmNlLIY-2KbvGSzFC6-11" value="Please convert this mp4 file into an MKV file" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=0" vertex="1" parent="S1VmNlLIY-2KbvGSzFC6-1">
+          <mxGeometry x="250" y="261.88" width="200" height="103.75" as="geometry" />
+        </mxCell>
+        <mxCell id="S1VmNlLIY-2KbvGSzFC6-12" value="Request" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="S1VmNlLIY-2KbvGSzFC6-1">
+          <mxGeometry x="250" y="236.88" width="200" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="S1VmNlLIY-2KbvGSzFC6-13" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=19;align=center;rotation=-90;" vertex="1" parent="S1VmNlLIY-2KbvGSzFC6-1">
+          <mxGeometry x="335" y="285" width="30" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="S1VmNlLIY-2KbvGSzFC6-14" value="Requires a lot of processing power!" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontStyle=2" vertex="1" parent="S1VmNlLIY-2KbvGSzFC6-1">
+          <mxGeometry x="265" y="392" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="S1VmNlLIY-2KbvGSzFC6-15" value="Worker Server" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1" vertex="1" parent="S1VmNlLIY-2KbvGSzFC6-1">
+          <mxGeometry x="710" y="480" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="S1VmNlLIY-2KbvGSzFC6-16" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=2" vertex="1" parent="S1VmNlLIY-2KbvGSzFC6-1">
+          <mxGeometry x="710" y="420" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S1VmNlLIY-2KbvGSzFC6-17" value="Job" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=0" vertex="1" parent="S1VmNlLIY-2KbvGSzFC6-1">
+          <mxGeometry x="645" y="290" width="50" height="23.75" as="geometry" />
+        </mxCell>
+        <mxCell id="S1VmNlLIY-2KbvGSzFC6-18" value="Job" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=0" vertex="1" parent="S1VmNlLIY-2KbvGSzFC6-1">
+          <mxGeometry x="795" y="380" width="50" height="23.75" as="geometry" />
+        </mxCell>
+        <mxCell id="S1VmNlLIY-2KbvGSzFC6-19" value="Queue" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;align=center;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1" vertex="1" parent="S1VmNlLIY-2KbvGSzFC6-1">
+          <mxGeometry x="735" y="425" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="S1VmNlLIY-2KbvGSzFC6-20" value="Add job to Queue" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;align=center;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1" vertex="1" parent="S1VmNlLIY-2KbvGSzFC6-1">
+          <mxGeometry x="500" y="287.5" width="120" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
