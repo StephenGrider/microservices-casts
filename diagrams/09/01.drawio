@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-04-30T20:57:33.901Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36" etag="q5p6IID_zmxBClS9rzcM" version="13.0.4" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2020-05-01T15:58:55.505Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36" etag="Taro2ifiDkWx1BXw3Rhd" version="13.0.4" type="github" pages="10">
   <diagram id="_OgnPNasMEZivwnT4MXi" name="01 - expiration">
     <mxGraphModel dx="910" dy="448" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -369,7 +369,28 @@
           <mxGeometry x="645" y="290" width="50" height="23.75" as="geometry" />
         </mxCell>
         <mxCell id="Kneu6ja-0vWfszQbRaiZ-22" value="Job" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=0" vertex="1" parent="_QhYIfwB6YVlgep662dy-1">
-          <mxGeometry x="795" y="380" width="50" height="23.75" as="geometry" />
+          <mxGeometry x="800" y="380" width="50" height="23.75" as="geometry" />
+        </mxCell>
+        <mxCell id="P_5s5s2D8WzB2mxUmeYb-0" value="Worker Server" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1" vertex="1" parent="_QhYIfwB6YVlgep662dy-1">
+          <mxGeometry x="900" y="480" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="P_5s5s2D8WzB2mxUmeYb-1" value="Logic to convert a video file" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=2" vertex="1" parent="_QhYIfwB6YVlgep662dy-1">
+          <mxGeometry x="900" y="420" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P_5s5s2D8WzB2mxUmeYb-2" value="Worker Server" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1" vertex="1" parent="_QhYIfwB6YVlgep662dy-1">
+          <mxGeometry x="530" y="480" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="P_5s5s2D8WzB2mxUmeYb-3" value="Logic to convert a video file" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=2" vertex="1" parent="_QhYIfwB6YVlgep662dy-1">
+          <mxGeometry x="530" y="420" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P_5s5s2D8WzB2mxUmeYb-4" value="Bull JS" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" vertex="1" parent="_QhYIfwB6YVlgep662dy-1">
+          <mxGeometry x="556.25" y="420" width="117.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P_5s5s2D8WzB2mxUmeYb-5" value="Bull JS" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" vertex="1" parent="_QhYIfwB6YVlgep662dy-1">
+          <mxGeometry x="732.5" y="420" width="117.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P_5s5s2D8WzB2mxUmeYb-6" value="Bull JS" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" vertex="1" parent="_QhYIfwB6YVlgep662dy-1">
+          <mxGeometry x="926.25" y="420" width="117.5" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -431,7 +452,7 @@
         <mxCell id="S1VmNlLIY-2KbvGSzFC6-18" value="Job" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=0" vertex="1" parent="S1VmNlLIY-2KbvGSzFC6-1">
           <mxGeometry x="795" y="380" width="50" height="23.75" as="geometry" />
         </mxCell>
-        <mxCell id="S1VmNlLIY-2KbvGSzFC6-19" value="Queue" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;align=center;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1" vertex="1" parent="S1VmNlLIY-2KbvGSzFC6-1">
+        <mxCell id="S1VmNlLIY-2KbvGSzFC6-19" value="Queue processing" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;align=center;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1" vertex="1" parent="S1VmNlLIY-2KbvGSzFC6-1">
           <mxGeometry x="735" y="425" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="S1VmNlLIY-2KbvGSzFC6-20" value="Add job to Queue" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;align=center;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1" vertex="1" parent="S1VmNlLIY-2KbvGSzFC6-1">
