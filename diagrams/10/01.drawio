@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-05-04T19:38:47.553Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36" etag="SCjvDW8iiCcr7fJ5Lifo" version="13.0.5" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2020-05-04T21:07:23.614Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36" etag="g6G1sBE4rFZo1KA1JcPe" version="13.0.5" type="github" pages="7">
   <diagram id="IAsZRB_BgFoqg9uK12g0" name="01 - payments">
     <mxGraphModel dx="751" dy="370" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -292,6 +292,32 @@
         </mxCell>
         <mxCell id="5pXz62aNdCphABZnlVwO-19" value="Create &#39;charge&#39; record to record successful payment" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="5pXz62aNdCphABZnlVwO-1">
           <mxGeometry x="740" y="540" width="260" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ZeU09BwAgvRN5x-b6IgO" name="07 - api">
+    <mxGraphModel dx="492" dy="242" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="lFrWHgx9AQk_WKHfXjc4-0" />
+        <mxCell id="lFrWHgx9AQk_WKHfXjc4-1" parent="lFrWHgx9AQk_WKHfXjc4-0" />
+        <mxCell id="9r5q-SJ5oI1ybL_c4iHp-0" value="Stripe API" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" parent="lFrWHgx9AQk_WKHfXjc4-1">
+          <mxGeometry x="890" y="390" width="110" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="9r5q-SJ5oI1ybL_c4iHp-2" value="Payments Service" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;fontColor=#333333;" vertex="1" parent="lFrWHgx9AQk_WKHfXjc4-1">
+          <mxGeometry x="550" y="390" width="110" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="9r5q-SJ5oI1ybL_c4iHp-3" value="token" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=2" vertex="1" parent="lFrWHgx9AQk_WKHfXjc4-1">
+          <mxGeometry x="770" y="456" width="75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9r5q-SJ5oI1ybL_c4iHp-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=11;" edge="1" parent="lFrWHgx9AQk_WKHfXjc4-1" source="9r5q-SJ5oI1ybL_c4iHp-4" target="9r5q-SJ5oI1ybL_c4iHp-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9r5q-SJ5oI1ybL_c4iHp-4" value="Node Stripe SDK" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;" vertex="1" parent="lFrWHgx9AQk_WKHfXjc4-1">
+          <mxGeometry x="660" y="435" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9r5q-SJ5oI1ybL_c4iHp-6" value="API Key" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=2" vertex="1" parent="lFrWHgx9AQk_WKHfXjc4-1">
+          <mxGeometry x="770" y="486" width="75" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
