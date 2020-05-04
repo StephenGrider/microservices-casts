@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-05-04T15:48:34.784Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36" etag="PyeNS7O16zTcBbGsAezm" version="13.0.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-05-04T15:48:42.451Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36" etag="-2F6-urHBKZ-vJe73OWD" version="13.0.5" type="github" pages="2">
   <diagram id="IAsZRB_BgFoqg9uK12g0" name="01 - payments">
     <mxGraphModel dx="751" dy="370" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -38,7 +38,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="RWAXCmwLYtjPQeQvjEfi" name="02 - payments">
-    <mxGraphModel dx="858" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="715" dy="352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="youZF4ZuXAlcFctao3AP-0" />
         <mxCell id="youZF4ZuXAlcFctao3AP-1" parent="youZF4ZuXAlcFctao3AP-0" />
