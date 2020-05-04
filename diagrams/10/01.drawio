@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-05-04T15:47:13.115Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36" etag="R1PGbC2e_QIKdDu-E4cU" version="13.0.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-05-04T15:48:34.784Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36" etag="PyeNS7O16zTcBbGsAezm" version="13.0.5" type="github" pages="2">
   <diagram id="IAsZRB_BgFoqg9uK12g0" name="01 - payments">
     <mxGraphModel dx="751" dy="370" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -33,6 +33,38 @@
         </mxCell>
         <mxCell id="G6AuaNTyR_ygwv2vs5e6-8" value="order:created" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="470" y="180" width="150" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="RWAXCmwLYtjPQeQvjEfi" name="02 - payments">
+    <mxGraphModel dx="858" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="youZF4ZuXAlcFctao3AP-0" />
+        <mxCell id="youZF4ZuXAlcFctao3AP-1" parent="youZF4ZuXAlcFctao3AP-0" />
+        <mxCell id="qWyI3RjNItqgJQFA7Gng-0" value="Payments Service" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1" vertex="1" parent="youZF4ZuXAlcFctao3AP-1">
+          <mxGeometry x="790" y="260" width="180" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="qWyI3RjNItqgJQFA7Gng-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=20;" edge="1" parent="youZF4ZuXAlcFctao3AP-1" source="qWyI3RjNItqgJQFA7Gng-1" target="qWyI3RjNItqgJQFA7Gng-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qWyI3RjNItqgJQFA7Gng-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1" vertex="1" parent="youZF4ZuXAlcFctao3AP-1">
+          <mxGeometry x="790" y="285" width="180" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="qWyI3RjNItqgJQFA7Gng-2" value="charges" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="youZF4ZuXAlcFctao3AP-1">
+          <mxGeometry x="820" y="300" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qWyI3RjNItqgJQFA7Gng-3" value="orders" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="youZF4ZuXAlcFctao3AP-1">
+          <mxGeometry x="820" y="350" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qWyI3RjNItqgJQFA7Gng-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=15;" edge="1" parent="youZF4ZuXAlcFctao3AP-1" source="qWyI3RjNItqgJQFA7Gng-4" target="qWyI3RjNItqgJQFA7Gng-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qWyI3RjNItqgJQFA7Gng-4" value="&lt;b&gt;Request &lt;/b&gt;&lt;br&gt;Create a &#39;charge&#39;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=15;" vertex="1" parent="youZF4ZuXAlcFctao3AP-1">
+          <mxGeometry x="560" y="320" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qWyI3RjNItqgJQFA7Gng-6" value="&lt;b style=&quot;font-size: 20px;&quot;&gt;Stripe API&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=20;" vertex="1" parent="youZF4ZuXAlcFctao3AP-1">
+          <mxGeometry x="1030" y="320" width="170" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
