@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-05-08T16:30:37.017Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="-TdmDDWOSi5bJLG2MRj0" version="13.0.9" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-05-08T16:39:55.338Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="8MN-Kwei0HUwocPTMe9A" version="13.0.9" type="github" pages="4">
   <diagram id="Hax9ONlGdCbRYYsvzQXx" name="01 - mocks">
-    <mxGraphModel dx="1252" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="858" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -315,34 +315,34 @@
         <mxCell id="hCUyVaXj-s0HFNm31AMT-3" value="Goal" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="hCUyVaXj-s0HFNm31AMT-1">
           <mxGeometry x="930" y="220" width="220" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="hCUyVaXj-s0HFNm31AMT-4" value="/auth/signup" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="hCUyVaXj-s0HFNm31AMT-1">
+        <mxCell id="hCUyVaXj-s0HFNm31AMT-4" value="/auth/signup" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="hCUyVaXj-s0HFNm31AMT-1">
           <mxGeometry x="490" y="310" width="220" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="hCUyVaXj-s0HFNm31AMT-5" value="Show sign up form" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="hCUyVaXj-s0HFNm31AMT-1">
+        <mxCell id="hCUyVaXj-s0HFNm31AMT-5" value="Show sign up form" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="hCUyVaXj-s0HFNm31AMT-1">
           <mxGeometry x="930" y="310" width="220" height="40" as="geometry" />
         </mxCell>
         <mxCell id="hCUyVaXj-s0HFNm31AMT-6" value="File in Pages Dir" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="hCUyVaXj-s0HFNm31AMT-1">
           <mxGeometry x="710" y="220" width="220" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="hCUyVaXj-s0HFNm31AMT-7" value="/auth/signup.js" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="hCUyVaXj-s0HFNm31AMT-1">
+        <mxCell id="hCUyVaXj-s0HFNm31AMT-7" value="/auth/signup.js" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="hCUyVaXj-s0HFNm31AMT-1">
           <mxGeometry x="710" y="310" width="220" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="hCUyVaXj-s0HFNm31AMT-8" value="/auth/signin" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="hCUyVaXj-s0HFNm31AMT-1">
+        <mxCell id="hCUyVaXj-s0HFNm31AMT-8" value="/auth/signin" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="hCUyVaXj-s0HFNm31AMT-1">
           <mxGeometry x="490" y="270" width="220" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="hCUyVaXj-s0HFNm31AMT-9" value="Show sign in form" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="hCUyVaXj-s0HFNm31AMT-1">
+        <mxCell id="hCUyVaXj-s0HFNm31AMT-9" value="Show sign in form" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="hCUyVaXj-s0HFNm31AMT-1">
           <mxGeometry x="930" y="270" width="220" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="hCUyVaXj-s0HFNm31AMT-10" value="/auth/signin.js" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="hCUyVaXj-s0HFNm31AMT-1">
+        <mxCell id="hCUyVaXj-s0HFNm31AMT-10" value="/auth/signin.js" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="hCUyVaXj-s0HFNm31AMT-1">
           <mxGeometry x="710" y="270" width="220" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="hCUyVaXj-s0HFNm31AMT-11" value="/auth/signout" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="hCUyVaXj-s0HFNm31AMT-1">
+        <mxCell id="hCUyVaXj-s0HFNm31AMT-11" value="/auth/signout" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="hCUyVaXj-s0HFNm31AMT-1">
           <mxGeometry x="490" y="350" width="220" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="hCUyVaXj-s0HFNm31AMT-12" value="Sign out" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="hCUyVaXj-s0HFNm31AMT-1">
+        <mxCell id="hCUyVaXj-s0HFNm31AMT-12" value="Sign out" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="hCUyVaXj-s0HFNm31AMT-1">
           <mxGeometry x="930" y="350" width="220" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="hCUyVaXj-s0HFNm31AMT-13" value="/auth/signout.js" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="hCUyVaXj-s0HFNm31AMT-1">
+        <mxCell id="hCUyVaXj-s0HFNm31AMT-13" value="/auth/signout.js" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="hCUyVaXj-s0HFNm31AMT-1">
           <mxGeometry x="710" y="350" width="220" height="40" as="geometry" />
         </mxCell>
         <mxCell id="hCUyVaXj-s0HFNm31AMT-14" value="/" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="hCUyVaXj-s0HFNm31AMT-1">
