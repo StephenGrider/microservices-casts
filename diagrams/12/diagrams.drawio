@@ -1,1 +1,39 @@
-<mxfile host="app.diagrams.net" modified="2020-05-11T19:32:32.666Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" version="13.1.0" etag="S2CclgMUCvkEfg6PusEh" type="github"><diagram id="_ShlFmsX2yYREbNZ5iUU">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-05-11T19:35:45.138Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="856ncLHV6GAnOuKbpDOq" version="13.1.0" type="github" pages="2">
+  <diagram id="_ShlFmsX2yYREbNZ5iUU" name="01 - k">
+    <mxGraphModel dx="601" dy="296" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0De4i5si7wRLfh8kBrNq-2" value="Continuous Integration and Continuous Deployment" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=23;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="590" y="290" width="340" height="110" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="s3LU48tYfjDM0hFMd4Xd" name="02 - cicd">
+    <mxGraphModel dx="715" dy="352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="gf-BMft5PmmeYiOlkT97-0" />
+        <mxCell id="gf-BMft5PmmeYiOlkT97-1" parent="gf-BMft5PmmeYiOlkT97-0" />
+        <mxCell id="gf-BMft5PmmeYiOlkT97-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=23;" edge="1" parent="gf-BMft5PmmeYiOlkT97-1" source="gf-BMft5PmmeYiOlkT97-2" target="gf-BMft5PmmeYiOlkT97-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gf-BMft5PmmeYiOlkT97-2" value="Continuous Integration" style="rounded=0;whiteSpace=wrap;html=1;fontSize=23;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="gf-BMft5PmmeYiOlkT97-1">
+          <mxGeometry x="490" y="280" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="gf-BMft5PmmeYiOlkT97-3" value="It should be really easy to merge in changes from multiple teams to our main codebase" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="gf-BMft5PmmeYiOlkT97-1">
+          <mxGeometry x="680" y="280" width="390" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="gf-BMft5PmmeYiOlkT97-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=23;" edge="1" parent="gf-BMft5PmmeYiOlkT97-1" source="gf-BMft5PmmeYiOlkT97-6" target="gf-BMft5PmmeYiOlkT97-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gf-BMft5PmmeYiOlkT97-6" value="Continuous Deployment" style="rounded=0;whiteSpace=wrap;html=1;fontSize=23;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="gf-BMft5PmmeYiOlkT97-1">
+          <mxGeometry x="490" y="370" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="gf-BMft5PmmeYiOlkT97-7" value="We should be able to deploy our changes very easily and in an automated style" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="gf-BMft5PmmeYiOlkT97-1">
+          <mxGeometry x="680" y="370" width="390" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
