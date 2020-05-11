@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-05-11T19:35:45.138Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="856ncLHV6GAnOuKbpDOq" version="13.1.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-05-11T20:05:49.744Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="Pkg_uXQiXB5SHeQeCreS" version="13.1.0" type="github" pages="4">
   <diagram id="_ShlFmsX2yYREbNZ5iUU" name="01 - k">
     <mxGraphModel dx="601" dy="296" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -32,6 +32,73 @@
         </mxCell>
         <mxCell id="gf-BMft5PmmeYiOlkT97-7" value="We should be able to deploy our changes very easily and in an automated style" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="gf-BMft5PmmeYiOlkT97-1">
           <mxGeometry x="680" y="370" width="390" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="psAAJa-nwGlDAfqwGDuT" name="03 - flow">
+    <mxGraphModel dx="715" dy="352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="PLMneomyuuvM4S9VTAHf-0" />
+        <mxCell id="PLMneomyuuvM4S9VTAHf-1" parent="PLMneomyuuvM4S9VTAHf-0" />
+        <mxCell id="PLMneomyuuvM4S9VTAHf-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=23;" edge="1" parent="PLMneomyuuvM4S9VTAHf-1" source="PLMneomyuuvM4S9VTAHf-2" target="PLMneomyuuvM4S9VTAHf-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PLMneomyuuvM4S9VTAHf-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=23;" edge="1" parent="PLMneomyuuvM4S9VTAHf-1" source="PLMneomyuuvM4S9VTAHf-2" target="PLMneomyuuvM4S9VTAHf-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PLMneomyuuvM4S9VTAHf-2" value="How do we organize our services with version control (git)?" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="PLMneomyuuvM4S9VTAHf-1">
+          <mxGeometry x="540" y="250" width="430" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="PLMneomyuuvM4S9VTAHf-3" value="Mono Repo" style="rounded=0;whiteSpace=wrap;html=1;fontSize=23;fontStyle=0" vertex="1" parent="PLMneomyuuvM4S9VTAHf-1">
+          <mxGeometry x="540" y="410" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PLMneomyuuvM4S9VTAHf-4" value="Repo-Per-Service" style="rounded=0;whiteSpace=wrap;html=1;fontSize=23;fontStyle=0" vertex="1" parent="PLMneomyuuvM4S9VTAHf-1">
+          <mxGeometry x="780" y="410" width="190" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="WplA7KGuBLmxYdvJw9bG" name="04 - mono">
+    <mxGraphModel dx="601" dy="296" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="fDopvZmIRapMc9shfOSc-0" />
+        <mxCell id="fDopvZmIRapMc9shfOSc-1" parent="fDopvZmIRapMc9shfOSc-0" />
+        <mxCell id="fDopvZmIRapMc9shfOSc-8" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="fDopvZmIRapMc9shfOSc-1">
+          <mxGeometry x="660" y="290" width="270" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="fDopvZmIRapMc9shfOSc-2" value="auth" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fontStyle=0;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="fDopvZmIRapMc9shfOSc-1">
+          <mxGeometry x="675" y="300" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fDopvZmIRapMc9shfOSc-3" value="client" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fontStyle=0;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="fDopvZmIRapMc9shfOSc-1">
+          <mxGeometry x="675" y="350" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fDopvZmIRapMc9shfOSc-4" value="expiration" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fontStyle=0;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="fDopvZmIRapMc9shfOSc-1">
+          <mxGeometry x="675" y="400" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fDopvZmIRapMc9shfOSc-5" value="orders" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fontStyle=0;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="fDopvZmIRapMc9shfOSc-1">
+          <mxGeometry x="805" y="400" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fDopvZmIRapMc9shfOSc-6" value="payments" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fontStyle=0;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="fDopvZmIRapMc9shfOSc-1">
+          <mxGeometry x="805" y="350" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fDopvZmIRapMc9shfOSc-7" value="tickets" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fontStyle=0;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="fDopvZmIRapMc9shfOSc-1">
+          <mxGeometry x="805" y="300" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fDopvZmIRapMc9shfOSc-9" value="&lt;b&gt;Single Git Repository&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="fDopvZmIRapMc9shfOSc-1">
+          <mxGeometry x="660" y="240" width="270" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fDopvZmIRapMc9shfOSc-10" value="Significantly easier to set up automated testing + deployment" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="fDopvZmIRapMc9shfOSc-1">
+          <mxGeometry x="1010" y="240" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fDopvZmIRapMc9shfOSc-11" value="&lt;i&gt;Mono Repo Approach&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="fDopvZmIRapMc9shfOSc-1">
+          <mxGeometry x="687.5" y="210" width="215" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fDopvZmIRapMc9shfOSc-12" value="Just one repo to worry about!" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="fDopvZmIRapMc9shfOSc-1">
+          <mxGeometry x="1010" y="280" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fDopvZmIRapMc9shfOSc-13" value="Slightly more challenging to setup automated testing + deployment" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="fDopvZmIRapMc9shfOSc-1">
+          <mxGeometry x="1010" y="330" width="240" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
