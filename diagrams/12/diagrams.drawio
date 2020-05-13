@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-05-13T20:39:35.333Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="ArOtZ0grPTZ-ei0m8606" version="13.1.0" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2020-05-13T21:38:18.912Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="DZtM6_ngokVNIT2LHZpR" version="13.1.0" type="github" pages="14">
   <diagram id="_ShlFmsX2yYREbNZ5iUU" name="01 - k">
     <mxGraphModel dx="601" dy="296" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -579,6 +579,32 @@
         </mxCell>
         <mxCell id="CNazd8F2MQIFPEwigOSN-9" value="Use a different context" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;fontStyle=1" vertex="1" parent="CNazd8F2MQIFPEwigOSN-1">
           <mxGeometry x="592.5" y="558" width="415" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="IPZ2XFOXK7Qxn5xJQuC5" name="14 - container">
+    <mxGraphModel dx="699" dy="344" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="SD3k7MseuTE_-p3VJbUQ-0" />
+        <mxCell id="SD3k7MseuTE_-p3VJbUQ-1" parent="SD3k7MseuTE_-p3VJbUQ-0" />
+        <mxCell id="SD3k7MseuTE_-p3VJbUQ-2" value="Github Container" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;fontStyle=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="SD3k7MseuTE_-p3VJbUQ-1">
+          <mxGeometry x="430" y="230" width="214" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SD3k7MseuTE_-p3VJbUQ-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;fontStyle=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="SD3k7MseuTE_-p3VJbUQ-1">
+          <mxGeometry x="430" y="260" width="215" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="SD3k7MseuTE_-p3VJbUQ-4" value="kubectl" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="SD3k7MseuTE_-p3VJbUQ-1">
+          <mxGeometry x="505" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SD3k7MseuTE_-p3VJbUQ-5" value="Digital Ocean" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;fontStyle=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="SD3k7MseuTE_-p3VJbUQ-1">
+          <mxGeometry x="800" y="230" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SD3k7MseuTE_-p3VJbUQ-6" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;fontStyle=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="SD3k7MseuTE_-p3VJbUQ-1">
+          <mxGeometry x="800" y="260" width="210" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="SD3k7MseuTE_-p3VJbUQ-7" value="Our Cluster" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="SD3k7MseuTE_-p3VJbUQ-1">
+          <mxGeometry x="845" y="325" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
