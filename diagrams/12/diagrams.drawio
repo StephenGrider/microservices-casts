@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-05-13T16:41:26.498Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="-wCdQA3goPjrh_XbLFUz" version="13.1.0" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2020-05-13T16:52:23.309Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="20KScAd-FWjedkekVItp" version="13.1.0" type="github" pages="7">
   <diagram id="_ShlFmsX2yYREbNZ5iUU" name="01 - k">
     <mxGraphModel dx="601" dy="296" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -91,7 +91,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="06 - branch" id="c6HWxRq8sJ11rEYk5pmH">
-    <mxGraphModel dx="1502" dy="739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="715" dy="352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="efef7s39hfVOoQ_E5dqr-0" />
         <mxCell id="efef7s39hfVOoQ_E5dqr-1" parent="efef7s39hfVOoQ_E5dqr-0" />
@@ -151,29 +151,6 @@
         </mxCell>
         <mxCell id="efef7s39hfVOoQ_E5dqr-37" value="Because master branch has changed, github builds and deploys" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="efef7s39hfVOoQ_E5dqr-1">
           <mxGeometry x="760" y="870" width="240" height="80" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="psAAJa-nwGlDAfqwGDuT" name="03 - flow">
-    <mxGraphModel dx="715" dy="352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
-      <root>
-        <mxCell id="PLMneomyuuvM4S9VTAHf-0" />
-        <mxCell id="PLMneomyuuvM4S9VTAHf-1" parent="PLMneomyuuvM4S9VTAHf-0" />
-        <mxCell id="PLMneomyuuvM4S9VTAHf-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=23;" edge="1" parent="PLMneomyuuvM4S9VTAHf-1" source="PLMneomyuuvM4S9VTAHf-2" target="PLMneomyuuvM4S9VTAHf-3">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="PLMneomyuuvM4S9VTAHf-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=23;" edge="1" parent="PLMneomyuuvM4S9VTAHf-1" source="PLMneomyuuvM4S9VTAHf-2" target="PLMneomyuuvM4S9VTAHf-4">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="PLMneomyuuvM4S9VTAHf-2" value="How do we organize our services with version control (git)?" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="PLMneomyuuvM4S9VTAHf-1">
-          <mxGeometry x="540" y="250" width="430" height="110" as="geometry" />
-        </mxCell>
-        <mxCell id="PLMneomyuuvM4S9VTAHf-3" value="Mono Repo" style="rounded=0;whiteSpace=wrap;html=1;fontSize=23;fontStyle=0" vertex="1" parent="PLMneomyuuvM4S9VTAHf-1">
-          <mxGeometry x="540" y="410" width="190" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="PLMneomyuuvM4S9VTAHf-4" value="Repo-Per-Service" style="rounded=0;whiteSpace=wrap;html=1;fontSize=23;fontStyle=0" vertex="1" parent="PLMneomyuuvM4S9VTAHf-1">
-          <mxGeometry x="780" y="410" width="190" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -274,6 +251,29 @@
         </mxCell>
         <mxCell id="xyrkN9s91xBhvWWTPoDW-8" value="tickets" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fontStyle=0;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="xyrkN9s91xBhvWWTPoDW-1">
           <mxGeometry x="760" y="280" width="110" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="psAAJa-nwGlDAfqwGDuT" name="03 - flow">
+    <mxGraphModel dx="715" dy="352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="PLMneomyuuvM4S9VTAHf-0" />
+        <mxCell id="PLMneomyuuvM4S9VTAHf-1" parent="PLMneomyuuvM4S9VTAHf-0" />
+        <mxCell id="PLMneomyuuvM4S9VTAHf-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=23;" edge="1" parent="PLMneomyuuvM4S9VTAHf-1" source="PLMneomyuuvM4S9VTAHf-2" target="PLMneomyuuvM4S9VTAHf-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PLMneomyuuvM4S9VTAHf-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=23;" edge="1" parent="PLMneomyuuvM4S9VTAHf-1" source="PLMneomyuuvM4S9VTAHf-2" target="PLMneomyuuvM4S9VTAHf-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PLMneomyuuvM4S9VTAHf-2" value="How do we organize our services with version control (git)?" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="PLMneomyuuvM4S9VTAHf-1">
+          <mxGeometry x="540" y="250" width="430" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="PLMneomyuuvM4S9VTAHf-3" value="Mono Repo" style="rounded=0;whiteSpace=wrap;html=1;fontSize=23;fontStyle=0" vertex="1" parent="PLMneomyuuvM4S9VTAHf-1">
+          <mxGeometry x="540" y="410" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PLMneomyuuvM4S9VTAHf-4" value="Repo-Per-Service" style="rounded=0;whiteSpace=wrap;html=1;fontSize=23;fontStyle=0" vertex="1" parent="PLMneomyuuvM4S9VTAHf-1">
+          <mxGeometry x="780" y="410" width="190" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
