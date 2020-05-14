@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-05-14T17:28:57.491Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="n1pDweDQv-zuEojgKwzR" version="13.1.1" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2020-05-14T17:29:07.668Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="uSVi7zvqTi8asnoSJAuo" version="13.1.1" type="github" pages="15">
   <diagram id="_ShlFmsX2yYREbNZ5iUU" name="01 - k">
     <mxGraphModel dx="1502" dy="739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -1210,6 +1210,15 @@
         </mxCell>
         <mxCell id="6xFn6Fst8IlOmxMCrw3W-6" value="Node 3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="zxTWonX81qnd23f6hEx2-1">
           <mxGeometry x="1020" y="395" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6xFn6Fst8IlOmxMCrw3W-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;" edge="1" parent="zxTWonX81qnd23f6hEx2-1" source="6xFn6Fst8IlOmxMCrw3W-7" target="6xFn6Fst8IlOmxMCrw3W-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6xFn6Fst8IlOmxMCrw3W-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;" edge="1" parent="zxTWonX81qnd23f6hEx2-1" source="6xFn6Fst8IlOmxMCrw3W-7" target="6xFn6Fst8IlOmxMCrw3W-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6xFn6Fst8IlOmxMCrw3W-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;" edge="1" parent="zxTWonX81qnd23f6hEx2-1" source="6xFn6Fst8IlOmxMCrw3W-7" target="6xFn6Fst8IlOmxMCrw3W-6">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6xFn6Fst8IlOmxMCrw3W-7" value="Load Balancer" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=18;" vertex="1" parent="zxTWonX81qnd23f6hEx2-1">
           <mxGeometry x="830" y="340" width="120" height="60" as="geometry" />
